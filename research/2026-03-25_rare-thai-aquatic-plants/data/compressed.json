@@ -1,0 +1,64 @@
+{
+  "concept": "Export rare Thai aquatic plants (TC format) to global planted aquarium hobbyists. Position as trust/logistics company, not plant shop.",
+  "luca_vibe_score": 9,
+  "gut_check_score": 8,
+  "market": { "size_usd": "$900M", "hobbyists": "2-3M high-intent", "cagr": "5-8%", "trend_note": "Nano Tank trend lowering entry, raising rare plant demand" },
+  "price_gaps": [
+    { "species": "Bucephalandra Ghost 2011", "th_price": "฿200 ($6)", "export_price": "$25-80", "multiplier": "4x-13x" },
+    { "species": "Ludwigia sp. White", "th_price": "฿150 ($4.50)", "export_price": "$30-50", "multiplier": "8x-12x" },
+    { "species": "Eriocaulon Quinquangulare", "th_price": "฿350 ($10)", "export_price": "$60+", "multiplier": "6x-8x" },
+    { "species": "Cryptocoryne Bullosa", "th_price": "est $15", "export_price": "$50-120", "multiplier": "3x-8x" },
+    { "species": "Variegated Staurogyne Repens", "th_price": "$5 TC", "export_price": "$25-40", "multiplier": "5x-8x" }
+  ],
+  "competitors": [
+    { "name": "Buce Plant (USA)", "weakness": "No Thailand sourcing advantage", "revenue_est": "$3M-7M ARR" },
+    { "name": "GlassGrown Aquatics", "weakness": "Limited volume", "revenue_est": "$250k-500k ARR" },
+    { "name": "APC Thailand", "weakness": "Weak CS, language barrier, poor docs", "revenue_est": "Unknown" }
+  ],
+  "communities": [
+    { "name": "r/PlantedTank", "platform": "Reddit", "size": "580k", "note": "Content hub" },
+    { "name": "r/Aquaswap", "platform": "Reddit", "size": "92k", "note": "Transaction hub — first sale in <24hr" },
+    { "name": "r/Aquascape", "platform": "Reddit", "size": "210k" },
+    { "name": "International Bucephalandra Collectors", "platform": "Facebook", "size": "15k+" },
+    { "name": "Scapers Collective", "platform": "Discord", "size": "unknown" }
+  ],
+  "logistics": {
+    "best_format": "TC cups (sterile, 99% customs clearance)",
+    "carrier": "DHL Express — ฿1,400-1,800 for 1kg, 2-4 days to USA",
+    "phyto_cert_cost": "฿1,800-2,600 total per shipment",
+    "us_tariff": "19% reciprocal (Aug 2025)",
+    "cites": "Most aquarium plants NOT listed. Need Certificate of Unlisted Aquatic Species from Thai Fisheries. Crinum thaianum = banned."
+  },
+  "sourcing": {
+    "hubs": ["Ratchaburi", "Nakhon Pathom"],
+    "markets": ["Chatuchak Plant Zone (Wed/Thu)", "Facebook: ตลาดกลางพรรณไม้น้ำ"]
+  },
+  "unit_economics": {
+    "batch_size": 50,
+    "total_cost_usd": 403,
+    "cost_per_plant_landed": 8.06,
+    "sell_price": 35,
+    "gross_profit_per_batch": 1347,
+    "margin_pct": 77,
+    "batches_for_5k_mo": 4
+  },
+  "revenue_ceilings": {
+    "direct_from_th": "$2k-4k/mo",
+    "with_us_transshipper": "$10k/mo",
+    "wholesale_model": "$50k/mo"
+  },
+  "kill_shot_objection": "Paying $50 for a plant that melts in 3 days grown emersed",
+  "kill_shot_preempt": "TC only. Market as 100% snail-free, algae-free, lab-grown.",
+  "moat": "7-day survival guarantee. No Thai exporter offers this. Bake into 77% margin.",
+  "red_flags": [
+    "Customs seizure from snail/soil contamination",
+    "Western TC labs (Tropica, Buce Plant) scaling replication of Thai rarities",
+    "19% US tariff increasing landed cost",
+    "Direct-to-hobbyist caps without transshipper"
+  ],
+  "implementation": {
+    "week1": ["Apply USDA PPQ 587 free 24hr permit", "Join ตลาดกลางพรรณไม้น้ำ Facebook", "Set up rehab tank"],
+    "month1": ["Test batch 10-15 TC cups", "Instagram arrival videos", "r/Aquaswap first listing"],
+    "month6": ["US/EU transshipper deal", "Shopify limited Friday drops", "TC lab evaluation"]
+  }
+}
