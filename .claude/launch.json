@@ -1,0 +1,13 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "forge-dashboard",
+      "runtimeExecutable": "/opt/homebrew/bin/node",
+      "env": { "PATH": "/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin" },
+      "runtimeArgs": ["/opt/homebrew/bin/npm", "run", "dev"],
+      "cwd": "/Users/jamesperenchio/Desktop/claude schedule/forge-dashboard",
+      "port": 3000
+    }
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "version": "1.0",
+  "description": "Curated catalog of free public APIs for idea generation. All confirmed free tier available.",
+  "meta_directories": [
+    {
+      "name": "public-apis GitHub",
+      "url": "https://github.com/public-apis/public-apis",
+      "notes": "50+ categories, community maintained"
+    },
+    {
+      "name": "APIs.guru",
+      "url": "https://apis.guru/",
+      "notes": "2,529 APIs in OpenAPI 3.0, machine-readable, weekly updated"
+    },
+    {
+      "name": "RapidAPI Marketplace",
+      "url": "https://rapidapi.com/",
+      "notes": "Thematic collections, many free tiers, SE Asia coverage"
+    },
+    {
+      "name": "Thailand Open Government Data",
+      "url": "https://data.go.th/",
+      "notes": "11,000+ Thai government datasets — air, water, floods, accidents, agriculture, health"
+    }
+  ],
+  "apis": {
+    "thailand_southeast_asia": [
+      {
+        "name": "Thailand Open Government Data (CKAN)",
+        "base_url": "https://opend.data.go.th/api/3/action/",
+        "key_endpoints": [
+          "datastore_search?resource_id={id}&limit=100",
+          "package_search?q={keyword}",
+          "resource_show?id={id}"
+        ],
+        "auth": "api_key",
+        "auth_notes": "Free registration at data.go.th — generates API key",
+        "cost": "free",
+        "tags": ["thailand", "government", "environment", "health", "agriculture", "infrastructure", "water", "air", "transport"],
+        "notable_datasets": [
+          "Air quality by province (PM2.5, PM10)",
+          "Flood risk zone maps",
+          "Agricultural land use by region",
+          "Hospital locations and capacity",
+          "Road accident blackspot coordinates",
+          "Water quality monitoring stations",
+          "Fishing license registrations",
+          "Street food vendor registrations by province",
+          "Rubber production statistics by province",
+          "Dengue case counts by district"
+        ],
+        "sample_call": "GET https://opend.data.go.th/api/3/action/package_search?q=water+quality&rows=5"
+      },
+      {
+        "name": "Thailand Meteorological Department (TMD)",
+        "base_url": "https://data.tmd.go.th/api/",
+        "key_endpoints": [
+          "WeatherForecast7Days/v1/?uid={uid}&ukey={key}&domain=tmd.go.th&province={province}",
+          "DailySeaSurfaceTemperature/v1/?uid={uid}&ukey={key}",
+          "HourlyWeatherObservation/v1/?uid={uid}&ukey={key}&stationid={id}"
+        ],
+        "auth": "api_key",
+        "auth_notes": "Free registration at opendata.tmd.go.th",
+        "cost": "free",
+        "tags": ["thailand", "weather", "climate", "rainfall", "temperature", "humidity", "sea"],
+        "notable_datasets": [
+          "7-day provincial forecasts",
+          "Hourly weather station observations",
+          "Daily sea surface temperature (Gulf + Andaman)",
+          "Extreme weather alerts",
+          "Historical weather records"
+        ]
+      },
+      {
+        "name": "GrabMaps SE Asia",
+        "base_url": "https://api.grab.com/maps/",
+        "key_endpoints": [
+          "geocode/json?address={addr}&key={key}",
+          "directions/json?origin={lat,lng}&destination={lat,lng}&key={key}"
+        ],
+        "auth": "oauth2",
+        "auth_notes": "Developer account at grab.com/grabkit — free tier available",
+        "cost": "freemium",
+        "tags": ["maps", "routing", "geocoding", "thailand", "southeast_asia", "geospatial"],
+        "notable_datasets": [
+          "SE Asia street-level maps (TH, VN, ID, MY, PH, SG, MM, KH)",
+          "Real-time routing",
+          "Points of interest SE Asia",
+          "Reverse geocoding"
+        ]
+      },
+      {
+        "name": "Pollution Control Department Thailand",
+        "base_url": "http://air4thai.pcd.go.th/services/",
+        "key_endpoints": [
+          "getAQI_hist.php?stationID={id}&type=AQI&range=hr&min={datetime}&max={datetime}",
+          "getAllLastestAirQuality.php"
+        ],
+        "auth": "none",
+        "cost": "free",
+        "tags": ["thailand", "air_quality", "pollution", "PM25", "PM10", "environment"],
+        "notable_datasets": [
+          "Real-time AQI for 68 monitoring stations across Thailand",
+          "PM2.5, PM10, O3, NO2, CO, SO2 readings",
+          "Historical air quality data",
+          "Bangkok district-level readings"
+        ],
+        "sample_call": "GET http://air4thai.pcd.go.th/services/getAllLastestAirQuality.php"
+      }
+    ],
+    "environment_science": [
+      {
+        "name": "NASA Earthdata / EONET",
+        "base_url": "https://eonet.gsfc.nasa.gov/api/v3/",
+        "key_endpoints": [
+          "events?status=open&days=7",
+          "events?category=wildfires&status=open",
+          "events?category=floods&bbox={minLon},{minLat},{maxLon},{maxLat}"
+        ],
+        "auth": "none",
+        "cost": "free",
+        "tags": ["satellite", "environment", "disasters", "wildfires", "floods", "storms", "volcanoes"],
+        "notable_datasets": [
+          "Active natural events worldwide (wildfires, floods, volcanoes, storms)",
+          "GeoJSON polygons for event areas",
+          "Historical event data"
+        ],
+        "sample_call": "GET https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=7&bbox=97,5,106,21"
+      },
+      {
+        "name": "NASA FIRMS (Fire Information for Resource Management)",
+        "base_url": "https://firms.modaps.eosdis.nasa.gov/api/",
+        "key_endpoints": [
+          "area/csv/{key}/VIIRS_SNPP_NRT/{area}/{days}",
+          "country/csv/{key}/VIIRS_SNPP_NRT/THA/7"
+        ],
+        "auth": "api_key",
+        "auth_notes": "Free key at https://firms.modaps.eosdis.nasa.gov/api/area/",
+        "cost": "free",
+        "tags": ["fire", "hotspots", "deforestation", "haze", "satellite", "thailand", "southeast_asia"],
+        "notable_datasets": [
+          "Active fire/hotspot coordinates updated every 3 hours",
+          "VIIRS 375m resolution",
+          "Thailand, SE Asia, worldwide coverage",
+          "FRP (Fire Radiative Power) measurements"
+        ],
+        "sample_call": "GET https://firms.modaps.eosdis.nasa.gov/api/country/csv/{key}/VIIRS_SNPP_NRT/THA/7"
+      },
+      {
+        "name": "OpenAQ",
+        "base_url": "https://api.openaq.org/v2/",
+        "key_endpoints": [
+          "locations?country=TH&limit=100",
+          "measurements?country=TH&parameter=pm25&limit=1000&date_from={date}",
+          "latest?country=TH&parameter=pm25"
+        ],
+        "auth": "none",
+        "cost": "free",
+        "tags": ["air_quality", "pm25", "pm10", "pollution", "thailand", "global", "realtime"],
+        "notable_datasets": [
+          "Real-time PM2.5, PM10, NO2, O3, SO2, CO readings",
+          "Thailand: 100+ monitoring stations",
+          "Global coverage: 100+ countries",
+          "Historical data going back years"
+        ],
+        "sample_call": "GET https://api.openaq.org/v2/latest?country=TH&parameter=pm25&limit=50"
+      },
+      {
+        "name": "NOAA Coral Reef Watch",
+        "base_url": "https://coralreefwatch.noaa.gov/product/vs/data/",
+        "key_endpoints": [
+          "thailand.txt",
+          "gulf_of_thailand.txt",
+          "andaman_sea.txt"
+        ],
+        "auth": "none",
+        "cost": "free",
+        "tags": ["coral", "reef", "ocean", "sea_temperature", "bleaching", "thailand", "diving"],
+        "notable_datasets": [
+          "Bleaching Alert Levels (0-4) by region",
+          "Degree Heating Weeks (DHW)",
+          "Sea surface temperature anomalies",
+          "Thailand Gulf + Andaman Sea coverage"
+        ],
+        "sample_call": "GET https://coralreefwatch.noaa.gov/product/vs/data/thailand.txt"
+      },
+      {
+        "name": "NOAA Climate Data Online",
+        "base_url": "https://www.ncdc.noaa.gov/cdo-web/api/v2/",
+        "key_endpoints": [
+          "data?datasetid=GHCND&stationid={id}&startdate={date}&enddate={date}",
+          "stations?locationid=FIPS:TH&limit=100",
+          "data?datasetid=PRECIP_HLY&stationid={id}"
+        ],
+        "auth": "token",
+        "auth_notes": "Free token at https://www.ncdc.noaa.gov/cdo-web/token",
+        "cost": "free",
+        "tags": ["climate", "weather", "historical", "rainfall", "temperature", "global"],
+        "notable_datasets": [
+          "Daily weather records (GHCND) — Thailand stations",
+          "Hourly precipitation",
+          "Monthly climate summaries"
+        ]
+      },
+      {
+        "name": "IUCN Red List API",
+        "base_url": "https://apiv3.iucnredlist.org/api/v3/",
+        "key_endpoints": [
+          "country/getspecies/TH?token={token}",
+          "species/{name}?token={token}",
+          "species/category/CR?token={token}"
+        ],
+        "auth": "token",
+        "auth_notes": "Free token at https://apiv3.iucnredlist.org/api/v3/token",
+        "cost": "free",
+        "tags": ["wildlife", "conservation", "biodiversity", "endangered", "thailand", "species"],
+        "notable_datasets": [
+          "Threatened species list for Thailand",
+          "Species habitat and distribution data",
+          "Conservation status (CR, EN, VU, etc.)",
+          "Population trend data"
+        ],
+        "sample_call": "GET https://apiv3.iucnredlist.org/api/v3/country/getspecies/TH?token={token}"
+      },
+      {
+        "name": "Global Fishing Watch",
+        "base_url": "https://gateway.api.globalfishingwatch.org/v2/",
+        "key_endpoints": [
+          "events?vessels={vesselId}&types=fishing&start-date={date}&end-date={date}",
+          "4wings/report?spatial-resolution=low&temporal-resolution=monthly&group-by=gearType&datasets[0]=public-global-fishing-effort:v20231026&date-range={start},{end}&region={geojson}"
+        ],
+        "auth": "api_key",
+        "auth_notes": "Free key at https://globalfishingwatch.org/our-apis/",
+        "cost": "free",
+        "tags": ["fishing", "ocean", "vessels", "illegal_fishing", "thailand", "ais", "maritime"],
+        "notable_datasets": [
+          "AIS vessel tracking data",
+          "Fishing activity heatmaps by gear type",
+          "Vessel presence in protected areas",
+          "Gulf of Thailand + Andaman Sea coverage"
+        ]
+      },
+      {
+        "name": "USGS Earthquake Hazards",
+        "base_url": "https://earthquake.usgs.gov/fdsnws/event/1/",
+        "key_endpoints": [
+          "query?format=geojson&minmagnitude=4&minlatitude=5&maxlatitude=21&minlongitude=97&maxlongitude=106&orderby=time",
+          "query?format=geojson&minmagnitude=3&starttime={date}&endtime={date}"
+        ],
+        "auth": "none",
+        "cost": "free",
+        "tags": ["earthquakes", "seismic", "disaster", "thailand", "southeast_asia", "realtime"],
+        "notable_datasets": [
+          "Real-time earthquake data worldwide",
+          "Magnitude, depth, location, time",
+          "Historical seismic records"
+        ],
+        "sample_call": "GET https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&minmagnitude=4&minlatitude=5&maxlatitude=21&minlongitude=97&maxlongitude=106&orderby=time&limit=20"
+      },
+      {
+        "name": "Movebank Animal Tracking",
+        "base_url": "https://www.movebank.org/movebank/service/direct-read",
+        "key_endpoints": [
+          "?entity_type=study&tag_local_identifier={id}",
+          "?entity_type=event&study_id={id}&individual_local_identifier={id}"
+        ],
+        "auth": "basic_auth",
+        "auth_notes": "Free account at movebank.org",
+        "cost": "free",
+        "tags": ["wildlife", "migration", "gps_tracking", "animals", "birds", "elephants"],
+        "notable_datasets": [
+          "GPS tracking data for 1000s of animal species",
+          "Migration routes and stopover locations",
+          "Elephants, birds, marine mammals, fish"
+        ]
+      },
+      {
+        "name": "FishWatch NOAA",
+        "base_url": "https://www.fishwatch.gov/api/species",
+        "key_endpoints": [
+          "",
+          "/{common_name}"
+        ],
+        "auth": "none",
+        "cost": "free",
+        "tags": ["fishing", "sustainability", "seafood", "species", "ocean"],
+        "notable_datasets": [
+          "Sustainability ratings for 100+ US fish species",
+          "Fishing method info",
+          "Habitat impact data",
+          "Population status"
+        ],
+        "sample_call": "GET https://www.fishwatch.gov/api/species"
+      }
+    ],
+    "health_food": [
+      {
+        "name": "openFDA",
+        "base_url": "https://api.fda.gov/",
+        "key_endpoints": [
+          "food/enforcement.json?search=country:Thailand&limit=50",
+          "food/event.json?search=products.industry_name:seafood&limit=50",
+          "drug/recall.json?search=reason_for_recall:{keyword}&limit=50"
+        ],
+        "auth": "api_key",
+        "auth_notes": "Free key at https://open.fda.gov/apis/authentication/",
+        "cost": "free",
+        "tags": ["food_safety", "recalls", "pharmaceuticals", "adverse_events", "health"],
+        "notable_datasets": [
+          "Food recall enforcement reports (US + imported)",
+          "Food adverse event reports",
+          "Drug recall data",
+          "Medical device events"
+        ],
+        "sample_call": "GET https://api.fda.gov/food/enforcement.json?search=reason_for_recall:contamination&limit=10"
+      },
+      {
+        "name": "FoodData Central (USDA)",
+        "base_url": "https://api.nal.usda.gov/fdc/v1/",
+        "key_endpoints": [
+          "foods/search?query={food}&api_key={key}",
+          "food/{fdcId}?api_key={key}"
+        ],
+        "auth": "api_key",
+        "auth_notes": "Free key at https://fdc.nal.usda.gov/api-key-signup.html",
+        "cost": "free",
+        "tags": ["nutrition", "food", "ingredients", "calories", "micronutrients"],
+        "notable_datasets": [
+          "380,000+ food items with full nutritional profiles",
+          "Thai dishes included in branded foods",
+          "Ingredient-level nutrient data"
+        ]
+      },
+      {
+        "name": "Disease.sh",
+        "base_url": "https://disease.sh/v3/",
+        "key_endpoints": [
+          "covid-19/countries/Thailand",
+          "covid-19/historical/Thailand?lastdays=365",
+          "covid-19/vaccine/coverage/countries/Thailand?lastdays=365"
+        ],
+        "auth": "none",
+        "cost": "free",
+        "tags": ["disease", "covid", "outbreak", "health", "thailand", "global"],
+        "notable_datasets": [
+          "COVID-19 case/death/recovery by country",
+          "Historical outbreak trends",
+          "Vaccination coverage data"
+        ],
+        "sample_call": "GET https://disease.sh/v3/covid-19/countries/Thailand"
+      },
+      {
+        "name": "WHO GHO (Global Health Observatory)",
+        "base_url": "https://ghoapi.azureedge.net/api/",
+        "key_endpoints": [
+          "Indicator?$filter=contains(IndicatorName,'Thailand')",
+          "WHOSIS_000002?$filter=SpatialDim eq 'THA'",
+          "WHS6_102?$filter=SpatialDim eq 'THA'"
+        ],
+        "auth": "none",
+        "cost": "free",
+        "tags": ["health", "water", "sanitation", "mortality", "disease", "thailand", "global"],
+        "notable_datasets": [
+          "Access to safe drinking water by country",
+          "Mortality rates by cause",
+          "Malaria/dengue incidence",
+          "Health system capacity"
+        ],
+        "sample_call": "GET https://ghoapi.azureedge.net/api/WHOSIS_000002?$filter=SpatialDim eq 'THA'"
+      }
+    ],
+    "defense_conflict": [
+      {
+        "name": "ACLED (Armed Conflict Location & Event Data)",
+        "base_url": "https://api.acleddata.com/acled/read",
+        "key_endpoints": [
+          "?key={key}&email={email}&country=Thailand&limit=1000&fields=event_date|event_type|location|latitude|longitude|notes",
+          "?key={key}&email={email}&region=11&event_type=Explosions/Remote+violence&limit=500",
+          "?key={key}&email={email}&country=Iran&event_type=Battles&limit=200&year=2025"
+        ],
+        "auth": "api_key",
+        "auth_notes": "Free key at https://developer.acleddata.com/",
+        "cost": "free",
+        "tags": ["conflict", "violence", "protests", "explosions", "drones", "thailand", "global", "iran", "myanmar"],
+        "notable_datasets": [
+          "All armed conflict events globally since 1997",
+          "Thailand southern insurgency events",
+          "Drone/UAV strike events in conflict zones",
+          "Protest and riot data",
+          "Battle locations with coordinates"
+        ],
+        "sample_call": "GET https://api.acleddata.com/acled/read?key={key}&email={email}&country=Thailand&event_type=Explosions%2FRemote+violence&limit=100"
+      },
+      {
+        "name": "FBI Crime Data Explorer (CDE)",
+        "base_url": "https://api.usa.gov/crime/fbi/cde/",
+        "key_endpoints": [
+          "arrest/national/all-offenses/count/run?API_KEY={key}",
+          "crime/hc/by-bias/national/count/run?API_KEY={key}",
+          "estimate/national/count/run?year_from=2015&year_to=2023&API_KEY={key}"
+        ],
+        "auth": "api_key",
+        "auth_notes": "Free key at https://api.data.gov/signup/",
+        "cost": "free",
+        "tags": ["crime", "law_enforcement", "usa", "statistics"],
+        "notable_datasets": [
+          "National crime estimates by type",
+          "Hate crime statistics",
+          "Arrest data by offense",
+          "Agency-level crime data"
+        ]
+      }
+    ],
+    "space_science": [
+      {
+        "name": "NASA APIs",
+        "base_url": "https://api.nasa.gov/",
+        "key_endpoints": [
+          "planetary/apod?api_key={key}",
+          "neo/rest/v1/feed?start_date={date}&api_key={key}",
+          "DONKI/notifications?startDate={date}&endDate={date}&type=all&api_key={key}"
+        ],
+        "auth": "api_key",
+        "auth_notes": "Free key at https://api.nasa.gov/",
+        "cost": "free",
+        "tags": ["space", "astronomy", "satellites", "solar", "asteroids", "science"],
+        "notable_datasets": [
+          "Astronomy Picture of the Day",
+          "Near Earth Objects / asteroid approaches",
+          "Space weather notifications (solar flares, CMEs)",
+          "Mars rover photos",
+          "Earth imagery from satellites"
+        ]
+      },
+      {
+        "name": "SpaceX API (r/SpaceX community)",
+        "base_url": "https://api.spacexdata.com/v4/",
+        "key_endpoints": [
+          "launches/upcoming",
+          "launches/latest",
+          "starlink"
+        ],
+        "auth": "none",
+        "cost": "free",
+        "tags": ["space", "rockets", "launches", "starlink", "satellites"],
+        "notable_datasets": [
+          "Launch schedules and history",
+          "Rocket and payload data",
+          "Starlink satellite positions"
+        ],
+        "sample_call": "GET https://api.spacexdata.com/v4/launches/upcoming"
+      }
+    ],
+    "general_utility": [
+      {
+        "name": "REST Countries",
+        "base_url": "https://restcountries.com/v3.1/",
+        "key_endpoints": [
+          "all?fields=name,capital,population,languages,currencies,flags",
+          "name/{name}",
+          "region/asia"
+        ],
+        "auth": "none",
+        "cost": "free",
+        "tags": ["countries", "geography", "demographics", "languages", "currencies"],
+        "notable_datasets": [
+          "Country data: population, languages, currencies, flags",
+          "Regional groupings",
+          "Neighboring countries"
+        ],
+        "sample_call": "GET https://restcountries.com/v3.1/name/thailand"
+      },
+      {
+        "name": "Open-Meteo",
+        "base_url": "https://api.open-meteo.com/v1/",
+        "key_endpoints": [
+          "forecast?latitude={lat}&longitude={lon}&hourly=temperature_2m,precipitation,windspeed_10m&timezone=Asia/Bangkok",
+          "forecast?latitude=13.75&longitude=100.52&hourly=precipitation&timezone=Asia/Bangkok&past_days=7"
+        ],
+        "auth": "none",
+        "cost": "free",
+        "tags": ["weather", "forecast", "precipitation", "temperature", "thailand", "global"],
+        "notable_datasets": [
+          "Free weather forecasts globally with no API key",
+          "Hourly temperature, precipitation, wind",
+          "Historical weather data",
+          "Thailand + SE Asia coverage"
+        ],
+        "sample_call": "GET https://api.open-meteo.com/v1/forecast?latitude=13.75&longitude=100.52&hourly=precipitation,temperature_2m&timezone=Asia%2FBangkok&past_days=3&forecast_days=7"
+      },
+      {
+        "name": "World Bank Open Data",
+        "base_url": "https://api.worldbank.org/v2/",
+        "key_endpoints": [
+          "country/TH/indicator/EG.ELC.ACCS.ZS?format=json",
+          "country/TH/indicator/SH.H2O.SMDW.ZS?format=json",
+          "country/TH/indicator/EN.ATM.PM25.MC.M3?format=json"
+        ],
+        "auth": "none",
+        "cost": "free",
+        "tags": ["development", "economics", "thailand", "infrastructure", "health", "education", "environment"],
+        "notable_datasets": [
+          "Thailand electricity access rate",
+          "Safe drinking water access %",
+          "PM2.5 annual mean by country",
+          "GDP, poverty, education, health indicators"
+        ],
+        "sample_call": "GET https://api.worldbank.org/v2/country/TH/indicator/EN.ATM.PM25.MC.M3?format=json&mrv=10"
+      },
+      {
+        "name": "OpenStreetMap Overpass API",
+        "base_url": "https://overpass-api.de/api/interpreter",
+        "key_endpoints": [
+          "?data=[out:json];node[amenity=hospital](5,97,21,106);out body;",
+          "?data=[out:json];node[amenity=temple](13.5,100,14.0,101);out body;",
+          "?data=[out:json];way[waterway=river](5,97,21,106);out body;"
+        ],
+        "auth": "none",
+        "cost": "free",
+        "tags": ["maps", "osm", "pois", "geography", "thailand", "global"],
+        "notable_datasets": [
+          "All OpenStreetMap features (hospitals, temples, rivers, roads)",
+          "Thailand: temples, markets, waterways, government buildings",
+          "Overpass query language for complex spatial queries"
+        ],
+        "sample_call": "GET https://overpass-api.de/api/interpreter?data=[out:json];node[amenity=hospital](13.5,100.3,14.0,100.9);out body;"
+      },
+      {
+        "name": "ExchangeRate-API",
+        "base_url": "https://open.er-api.com/v6/",
+        "key_endpoints": [
+          "latest/THB",
+          "latest/USD"
+        ],
+        "auth": "none",
+        "cost": "free",
+        "tags": ["currency", "exchange_rate", "finance", "thai_baht", "economics"],
+        "notable_datasets": [
+          "Real-time exchange rates for THB and all major currencies",
+          "Updated every 24 hours on free tier",
+          "1500+ currency pairs"
+        ],
+        "sample_call": "GET https://open.er-api.com/v6/latest/THB"
+      }
+    ]
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "version": "1.0",
+  "description": "15 industries × ~10 sub-industries = ~150 unique idea slots before rotation",
+  "industries": {
+    "agriculture_farming": {
+      "display": "Agriculture & Farming",
+      "sub_industries": [
+        "aquaculture",
+        "rice_farming",
+        "rubber_tapping",
+        "pest_management",
+        "soil_health",
+        "livestock_disease",
+        "crop_insurance",
+        "irrigation_optimization",
+        "organic_certification",
+        "vertical_farming"
+      ]
+    },
+    "health_medical": {
+      "display": "Health & Medical",
+      "sub_industries": [
+        "tropical_diseases",
+        "medical_tourism",
+        "dengue_risk_mapping",
+        "water_safety",
+        "air_quality_health",
+        "food_poisoning_tracking",
+        "mosquito_borne_illness",
+        "traditional_medicine",
+        "pharmacy_inventory",
+        "mental_health_sea"
+      ]
+    },
+    "environment_ecology": {
+      "display": "Environment & Ecology",
+      "sub_industries": [
+        "coral_reef",
+        "mangrove_mapping",
+        "plastic_pollution",
+        "river_pollution",
+        "deforestation",
+        "wildlife_poaching",
+        "invasive_species",
+        "soil_contamination",
+        "noise_pollution",
+        "light_pollution"
+      ]
+    },
+    "transportation_mobility": {
+      "display": "Transportation & Mobility",
+      "sub_industries": [
+        "tuk_tuk_routing",
+        "motorbike_taxi",
+        "flood_route_avoidance",
+        "pothole_mapping",
+        "elephant_crossing_alerts",
+        "border_crossing_times",
+        "ferry_schedules",
+        "traffic_heatmaps",
+        "road_accident_blackspots",
+        "songthaew_tracking"
+      ]
+    },
+    "food_beverage": {
+      "display": "Food & Beverage",
+      "sub_industries": [
+        "street_food_safety",
+        "durian_ripeness",
+        "fermented_foods",
+        "fish_sauce_quality",
+        "halal_tracking",
+        "street_vendor_maps",
+        "hygiene_scores",
+        "food_allergen_alerts",
+        "spice_sourcing",
+        "local_market_inventory"
+      ]
+    },
+    "defense_security": {
+      "display": "Defense & Security",
+      "sub_industries": [
+        "drone_identification",
+        "landmine_mapping",
+        "conflict_zone_monitoring",
+        "arms_trade_tracking",
+        "cybersecurity_threats",
+        "border_security",
+        "uxo_thailand",
+        "piracy_routes",
+        "protest_mapping",
+        "satellite_surveillance"
+      ]
+    },
+    "real_estate_urban": {
+      "display": "Real Estate & Urban",
+      "sub_industries": [
+        "flood_zone_property_risk",
+        "neighborhood_noise",
+        "air_pollution_by_block",
+        "expat_neighborhood_guides",
+        "illegal_construction",
+        "bangkok_sinking_zones",
+        "ghost_buildings",
+        "land_title_disputes",
+        "rental_scam_detection",
+        "condo_inspection"
+      ]
+    },
+    "ocean_maritime": {
+      "display": "Ocean & Maritime",
+      "sub_industries": [
+        "illegal_fishing_detection",
+        "fish_migration",
+        "coral_bleaching",
+        "tsunami_warning",
+        "ocean_plastic",
+        "dive_site_conditions",
+        "sea_surface_temp",
+        "mangrove_health",
+        "aquaculture_disease",
+        "maritime_routing"
+      ]
+    },
+    "finance_economics": {
+      "display": "Finance & Economics",
+      "sub_industries": [
+        "informal_economy_mapping",
+        "remittance_rates",
+        "crypto_adoption_sea",
+        "street_market_price_tracking",
+        "commodity_prices_farmers",
+        "microfinance_access",
+        "currency_volatility",
+        "land_price_speculation",
+        "tourism_revenue_by_region",
+        "tax_compliance"
+      ]
+    },
+    "culture_religion": {
+      "display": "Culture & Religion",
+      "sub_industries": [
+        "temple_event_tracking",
+        "merit_making_guides",
+        "buddhist_calendar",
+        "traditional_festival_maps",
+        "spirit_house_directories",
+        "monk_schedules",
+        "astrology_tools",
+        "auspicious_date_planning",
+        "cultural_taboo_guides",
+        "religious_site_accessibility"
+      ]
+    },
+    "tourism_travel": {
+      "display": "Tourism & Travel",
+      "sub_industries": [
+        "visa_run_planning",
+        "island_crowding_levels",
+        "tourist_scam_detection",
+        "off_season_tools",
+        "national_park_capacity",
+        "elephant_sanctuary_vetting",
+        "wellness_retreat_verification",
+        "expat_relocation",
+        "dark_tourism_sites",
+        "adventure_risk_scoring"
+      ]
+    },
+    "wildlife_biodiversity": {
+      "display": "Wildlife & Biodiversity",
+      "sub_industries": [
+        "elephant_population_tracking",
+        "tiger_territory_maps",
+        "bird_migration_alerts",
+        "snake_identification",
+        "invasive_species_reporting",
+        "wildlife_trade_monitoring",
+        "poaching_hotspots",
+        "habitat_fragmentation",
+        "pollinator_health",
+        "nocturnal_activity"
+      ]
+    },
+    "labor_work": {
+      "display": "Labor & Work",
+      "sub_industries": [
+        "migrant_worker_rights",
+        "fishing_crew_safety",
+        "construction_site_safety",
+        "agricultural_wage_tracking",
+        "work_permit_tools",
+        "gig_economy_sea",
+        "domestic_worker_protections",
+        "factory_conditions",
+        "labor_dispute_tracking",
+        "child_labor_reporting"
+      ]
+    },
+    "energy_utilities": {
+      "display": "Energy & Utilities",
+      "sub_industries": [
+        "solar_potential_by_region",
+        "power_outage_mapping",
+        "fuel_price_tracker",
+        "dam_water_level",
+        "electricity_theft",
+        "cooking_fuel_access",
+        "energy_poverty_mapping",
+        "ev_charging_sea",
+        "carbon_credits_farmers",
+        "biomass_sources"
+      ]
+    },
+    "disaster_emergency": {
+      "display": "Disaster & Emergency",
+      "sub_industries": [
+        "flood_prediction_local",
+        "landslide_risk_zones",
+        "drought_early_warning",
+        "haze_pollution_alerts",
+        "earthquake_prep",
+        "cyclone_tracking",
+        "wildfire_risk",
+        "chemical_spill_tracking",
+        "hospital_capacity_disaster",
+        "evacuation_route_tools"
+      ]
+    }
+  }
+}
