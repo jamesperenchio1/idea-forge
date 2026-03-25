@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 2,
+  "total_ideas": 3,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -24,22 +24,35 @@
       "geography": "thailand",
       "concept_hash": "rubber-tapping-optimal-time+southern-thailand+smallholder-tappers",
       "apis_used": ["Open-Meteo Weather API", "World Bank Open Data"]
+    },
+    {
+      "id": "highland-burn-window-northern-thailand-corn-farmers-2026-03-25",
+      "title": "BurnClear — Field Burn Safety Checker for Northern Thailand Highland Corn Farmers",
+      "file": "2026-03-25_highland-burn-window-northern-thailand-corn-farmers.md",
+      "created_at": "2026-03-25T13:19:00+07:00",
+      "industry": "disaster_emergency",
+      "sub_industry": "wildfire_risk",
+      "geography": "thailand",
+      "concept_hash": "field-burning-window+northern-thailand+highland-corn-farmers",
+      "apis_used": ["Open-Meteo Air Quality API", "Open-Meteo Weather API"]
     }
   ],
   "concept_hashes_used": [
     "air-quality-by-address+bangkok-districts+renters-and-buyers",
-    "rubber-tapping-optimal-time+southern-thailand+smallholder-tappers"
+    "rubber-tapping-optimal-time+southern-thailand+smallholder-tappers",
+    "field-burning-window+northern-thailand+highland-corn-farmers"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block"],
-    "agriculture_farming": ["rubber_tapping"]
+    "agriculture_farming": ["rubber_tapping"],
+    "disaster_emergency": ["wildfire_risk"]
   },
-  "last_updated": "2026-03-24T22:27:00+07:00",
+  "last_updated": "2026-03-25T13:19:00+07:00",
   "rotation_state": {
-    "last_industry": "agriculture_farming",
-    "last_sub_industry": "rubber_tapping",
+    "last_industry": "disaster_emergency",
+    "last_sub_industry": "wildfire_risk",
     "last_geography": "thailand",
-    "last_3_industries": ["real_estate_urban", "agriculture_farming"],
-    "last_3_geographies": ["thailand", "thailand"]
+    "last_3_industries": ["real_estate_urban", "agriculture_farming", "disaster_emergency"],
+    "last_3_geographies": ["thailand", "thailand", "thailand"]
   }
 }
