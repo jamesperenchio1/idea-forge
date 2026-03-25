@@ -1,164 +1,264 @@
 #!/bin/bash
-# forge — idea pipeline: batch generate → analyze → build MVP
+# forge — multi-agent idea pipeline
+# Agents: Research → Product → Finance → Marketing → Manager → Build
 set -e
 
 REPO=/home/james/idea-forge
-CANDIDATES_DIR=$REPO/candidates
 TODAY=$(TZ=Asia/Bangkok date +%Y-%m-%d)
+AGENTS_DIR=$REPO/prompts/agents
+CONTEXT_DIR=$REPO/data
 
-mkdir -p "$CANDIDATES_DIR"
+# ── Auth ──────────────────────────────────────────────────────────────────────
+[ -f ~/.bashrc ] && source ~/.bashrc 2>/dev/null || true
+if [ -z "$GEMINI_API_KEY" ]; then
+  echo "❌ GEMINI_API_KEY not set."
+  echo "   Run: echo 'export GEMINI_API_KEY=\"your-key\"' >> ~/.bashrc && source ~/.bashrc"
+  exit 1
+fi
 
-usage() {
-  echo "forge — app idea pipeline"
-  echo ""
-  echo "  forge batch [N=5]       Generate N idea seeds via Gemini"
-  echo "  forge list              Show today's candidates"
-  echo "  forge show <N|file>     Print a candidate's full JSON"
-  echo "  forge build <N|file>    Build MVP for a candidate (runs Claude headlessly)"
-  echo ""
-  echo "Typical flow:"
-  echo "  forge batch 8           # Gemini generates 8 seeds"
-  echo "  forge list              # See what was generated"
-  echo "  forge build 3           # Build MVP for candidate #3"
+# ── Helpers ───────────────────────────────────────────────────────────────────
+gemini_agent() {
+  local label=$1
+  local prompt_file=$2
+  shift 2
+  local input_files=("$@")
+
+  echo "  [${label}] running..."
+  local prompt
+  prompt=$(cat "$prompt_file")
+
+  # Pipe context files into gemini
+  cat "${input_files[@]}" | GEMINI_API_KEY="$GEMINI_API_KEY" gemini -p "$prompt"
+}
+
+strip_fences() {
+  # Remove ```json ... ``` wrappers Gemini sometimes adds
+  sed 's/^```json$//' | sed 's/^```$//' | grep -v '^```'
 }
 
 find_candidate() {
   local target=$1
+  local seeds_dir=$2
   if [[ "$target" =~ ^[0-9]+$ ]]; then
-    ls "$CANDIDATES_DIR/${TODAY}_$(printf '%03d' "$target")_"*.json 2>/dev/null | head -1
+    ls "${seeds_dir}/${TODAY}_$(printf '%03d' "$target")_"*.json 2>/dev/null | head -1
   elif [ -f "$target" ]; then
     echo "$target"
-  else
-    echo ""
   fi
 }
 
-case ${1:-help} in
+usage() {
+  cat <<'EOF'
+forge — multi-agent app idea pipeline
 
-  batch)
-    N=${2:-5}
-    echo "⚡ Asking Gemini to generate $N idea seeds..."
-    echo "   Reading: registry.json + industry-taxonomy.json + api-knowledge-base.json"
-    echo ""
+COMMANDS
+  forge batch [N=5]     Run full pipeline: Research → Product → Finance → Marketing → Manager
+  forge report          Show today's manager report
+  forge list            List today's ranked candidates
+  forge show <N|file>   Print a candidate's full JSON
+  forge build <N|file>  Build MVP for candidate (runs Claude headlessly)
 
-    PROMPT=$(sed "s/{{N}}/$N/g; s/{{DATE}}/$TODAY/g" "$REPO/prompts/gemini-seed.md")
-    RAW=$(cat "$REPO/data/registry.json" \
-              "$REPO/data/industry-taxonomy.json" \
-              "$REPO/data/api-knowledge-base.json" \
-         | gemini -p "$PROMPT")
+PIPELINE
+  Each "batch" run creates: candidates/YYYY-MM-DD/
+    step1_research.json    ← Research Agent (Gemini)
+    step2_product.json     ← Product Agent (Gemini)
+    step3_finance.json     ← Finance Agent (Gemini)
+    step4_marketing.json   ← Marketing Agent (Gemini)
+    report.md              ← Manager Agent (Gemini) — ranked report
+    seeds/XXX_slug.json    ← Individual candidate files
 
-    export TODAY CANDIDATES_DIR
-    printf '%s' "$RAW" | python3 - <<'PYEOF'
+TYPICAL FLOW
+  forge batch 5           # Generate + analyze 5 ideas
+  forge report            # Read the manager's ranking
+  forge build 2           # Build MVP for idea #2
+EOF
+}
+
+# ── Commands ──────────────────────────────────────────────────────────────────
+
+cmd_batch() {
+  local N=${1:-5}
+  local RUN_DIR="$REPO/candidates/$TODAY"
+  mkdir -p "$RUN_DIR/seeds"
+
+  echo "⚡ forge batch — running $N ideas through 5 agents"
+  echo "   Output: $RUN_DIR"
+  echo ""
+
+  # ── 1. Research Agent ──────────────────────────────────────────────────────
+  local research_file="$RUN_DIR/step1_research.json"
+  local research_prompt
+  research_prompt=$(sed "s/{{N}}/$N/g; s/{{DATE}}/$TODAY/g" "$AGENTS_DIR/research.md")
+
+  echo "  [1/5] Research Agent — identifying niches..."
+  cat "$CONTEXT_DIR/registry.json" \
+      "$CONTEXT_DIR/industry-taxonomy.json" \
+      "$CONTEXT_DIR/api-knowledge-base.json" \
+    | GEMINI_API_KEY="$GEMINI_API_KEY" gemini -p "$research_prompt" \
+    | strip_fences > "$research_file"
+
+  local count
+  count=$(python3 -c "import json; print(len(json.load(open('$research_file'))))" 2>/dev/null || echo "?")
+  echo "     → $count research briefs saved"
+
+  # ── 2. Product Agent ───────────────────────────────────────────────────────
+  local product_file="$RUN_DIR/step2_product.json"
+  echo "  [2/5] Product Agent — building concepts..."
+  cat "$research_file" \
+    | GEMINI_API_KEY="$GEMINI_API_KEY" gemini -p "$(cat "$AGENTS_DIR/product.md")" \
+    | strip_fences > "$product_file"
+  echo "     → product seeds saved"
+
+  # ── 3. Finance Agent ───────────────────────────────────────────────────────
+  local finance_file="$RUN_DIR/step3_finance.json"
+  echo "  [3/5] Finance Agent — modeling monetization..."
+  cat "$product_file" \
+    | GEMINI_API_KEY="$GEMINI_API_KEY" gemini -p "$(cat "$AGENTS_DIR/finance.md")" \
+    | strip_fences > "$finance_file"
+  echo "     → finance models saved"
+
+  # ── 4. Marketing Agent ─────────────────────────────────────────────────────
+  local marketing_file="$RUN_DIR/step4_marketing.json"
+  echo "  [4/5] Marketing Agent — planning distribution..."
+  cat "$finance_file" \
+    | GEMINI_API_KEY="$GEMINI_API_KEY" gemini -p "$(cat "$AGENTS_DIR/marketing.md")" \
+    | strip_fences > "$marketing_file"
+  echo "     → marketing plans saved"
+
+  # ── 5. Manager Agent ───────────────────────────────────────────────────────
+  local report_file="$RUN_DIR/report.md"
+  echo "  [5/5] Manager Agent — scoring and ranking..."
+  local manager_prompt
+  manager_prompt=$(sed "s/{{DATE}}/$TODAY/g" "$AGENTS_DIR/manager.md")
+  cat "$marketing_file" \
+    | GEMINI_API_KEY="$GEMINI_API_KEY" gemini -p "$manager_prompt" \
+    > "$report_file"
+  echo "     → report saved"
+
+  # ── Split into individual seed files ───────────────────────────────────────
+  echo ""
+  echo "  Splitting into individual seed files..."
+  export RUN_DIR TODAY
+  python3 << 'PYEOF'
 import json, sys, os, re
 
-raw = sys.stdin.read().strip()
-# Strip markdown code fences if Gemini wraps the output
-raw = re.sub(r'^```(?:json)?\s*', '', raw)
-raw = re.sub(r'\s*```$', '', raw)
-
-try:
-    ideas = json.loads(raw)
-except json.JSONDecodeError as e:
-    print(f"❌ JSON parse error: {e}")
-    print(f"Raw output (first 800 chars):\n{raw[:800]}")
-    sys.exit(1)
-
+run_dir = os.environ['RUN_DIR']
 today = os.environ['TODAY']
-candidates_dir = os.environ['CANDIDATES_DIR']
+seeds_dir = f"{run_dir}/seeds"
+os.makedirs(seeds_dir, exist_ok=True)
 
-for i, idea in enumerate(ideas, 1):
-    slug = idea['slug']
-    idea['_num'] = i
-    fname = f"{candidates_dir}/{today}_{i:03d}_{slug}.json"
+with open(f"{run_dir}/step4_marketing.json") as f:
+    seeds = json.load(f)
+
+for i, seed in enumerate(seeds, 1):
+    seed['_num'] = i
+    slug = seed.get('slug', f'idea-{i:03d}')
+    fname = f"{seeds_dir}/{today}_{i:03d}_{slug}.json"
     with open(fname, 'w') as f:
-        json.dump(idea, f, indent=2, ensure_ascii=False)
-    apis = ', '.join(a['name'] for a in idea.get('apis', []))
-    print(f"  [{i:2d}] {idea['title']}")
-    print(f"       {idea['tagline']}")
-    print(f"       {idea['industry']}/{idea['sub_industry']} | {idea['geography']} | {idea['stack']}")
-    print(f"       APIs: {apis}")
-    print()
+        json.dump(seed, f, indent=2, ensure_ascii=False)
 
-print(f"✅ {len(ideas)} candidates → candidates/{today}_*.json")
-print(f"\nNext: run  forge list  or  forge build <N>")
+print(f"  {len(seeds)} seed files → {seeds_dir}/")
 PYEOF
-    ;;
 
-  list)
-    FILES=("$CANDIDATES_DIR/${TODAY}_"*.json)
-    if [ ! -f "${FILES[0]}" ]; then
-      echo "No candidates for $TODAY. Run: forge batch [N]"
-      exit 0
-    fi
-    echo "📋 Candidates for $TODAY:"
-    echo ""
-    for f in "${FILES[@]}"; do
-      python3 - "$f" <<'PYEOF'
-import json, sys, os
+  echo ""
+  echo "✅ Pipeline complete."
+  echo ""
+  echo "  forge report          ← read the manager's ranking"
+  echo "  forge build <N>       ← build MVP for idea N"
+}
 
-f = sys.argv[1]
-d = json.load(open(f))
-num = d.get('_num', os.path.basename(f).split('_')[2])
-print(f"  [{num:>2}] {d['title']}")
-print(f"       {d['tagline']}")
-print(f"       User: {d['target_user'][:110]}")
-print(f"       Stack: {d['stack']} | {d['geography']}")
+cmd_report() {
+  local report="$REPO/candidates/$TODAY/report.md"
+  if [ ! -f "$report" ]; then
+    echo "No report for $TODAY. Run: forge batch [N]"
+    exit 1
+  fi
+  cat "$report"
+}
+
+cmd_list() {
+  local seeds_dir="$REPO/candidates/$TODAY/seeds"
+  if [ ! -d "$seeds_dir" ]; then
+    echo "No candidates for $TODAY. Run: forge batch [N]"
+    exit 0
+  fi
+  echo "📋 Candidates for $TODAY:"
+  echo ""
+  for f in "$seeds_dir/${TODAY}_"*.json; do
+    [ -f "$f" ] || continue
+    python3 - "$f" <<'PYEOF'
+import json, sys
+d = json.load(open(sys.argv[1]))
+n = d.get('_num', '?')
+fin = d.get('finance', {})
+mkt = d.get('marketing', {})
+print(f"  [{n:>2}] {d.get('title','?')}")
+print(f"       {d.get('tagline','')}")
+print(f"       {d.get('industry','')}/{d.get('sub_industry','')} | {d.get('geography','')} | {d.get('stack','')}")
+print(f"       💰 {fin.get('model','?')} — {fin.get('price','?')}")
+hook = mkt.get('tiktok_hook','')
+if hook:
+    print(f"       📱 Hook: \"{hook[:80]}...\"" if len(hook)>80 else f"       📱 Hook: \"{hook}\"")
 print()
 PYEOF
-    done
-    ;;
+  done
+}
 
-  show)
-    TARGET=$2
-    FILE=$(find_candidate "$TARGET")
-    if [ -z "$FILE" ]; then
-      echo "Candidate '$TARGET' not found. Run: forge list"
-      exit 1
-    fi
-    cat "$FILE"
-    ;;
+cmd_show() {
+  local target=$1
+  local seeds_dir="$REPO/candidates/$TODAY/seeds"
+  local file
+  file=$(find_candidate "$target" "$seeds_dir")
+  if [ -z "$file" ]; then
+    echo "Candidate '$target' not found. Run: forge list"
+    exit 1
+  fi
+  cat "$file"
+}
 
-  build)
-    TARGET=$2
-    if [ -z "$TARGET" ]; then
-      echo "Usage: forge build <N|file>"
-      exit 1
-    fi
+cmd_build() {
+  local target=$1
+  if [ -z "$target" ]; then
+    echo "Usage: forge build <N|file>"
+    exit 1
+  fi
 
-    FILE=$(find_candidate "$TARGET")
-    if [ -z "$FILE" ]; then
-      echo "❌ Candidate '$TARGET' not found."
-      echo "   Run: forge list"
-      exit 1
-    fi
+  local seeds_dir="$REPO/candidates/$TODAY/seeds"
+  local file
+  file=$(find_candidate "$target" "$seeds_dir")
+  if [ -z "$file" ] || [ ! -f "$file" ]; then
+    echo "❌ Candidate '$target' not found."
+    echo "   Run: forge list"
+    exit 1
+  fi
 
-    IDEA=$(cat "$FILE")
-    SLUG=$(python3 -c "import json,sys; print(json.load(open(sys.argv[1]))['slug'])" "$FILE")
-    TITLE=$(python3 -c "import json,sys; print(json.load(open(sys.argv[1]))['title'])" "$FILE")
+  local idea slug title
+  idea=$(cat "$file")
+  slug=$(python3 -c "import json,sys; print(json.load(open(sys.argv[1])).get('slug','idea'))" "$file")
+  title=$(python3 -c "import json,sys; print(json.load(open(sys.argv[1])).get('title','Idea'))" "$file")
 
-    echo "🏗️  Building MVP: $TITLE"
-    echo "   Seed: $FILE"
-    echo "   Project will be created at: ~/projects/$SLUG/"
-    echo ""
+  echo "🏗️  Building MVP: $title"
+  echo "   Seed:    $file"
+  echo "   Project: ~/projects/$slug/"
+  echo ""
 
-    BUILD_PROMPT=$(cat "$REPO/prompts/claude-build.md")
-    FULL_PROMPT="${BUILD_PROMPT}
+  local build_prompt
+  build_prompt=$(cat "$REPO/prompts/claude-build.md")
+
+  claude --dangerously-skip-permissions -p "${build_prompt}
 
 \`\`\`json
-${IDEA}
+${idea}
 \`\`\`
 "
+}
 
-    claude --dangerously-skip-permissions -p "$FULL_PROMPT"
-    ;;
-
-  help|-h|--help)
-    usage
-    ;;
-
-  *)
-    echo "Unknown command: $1"
-    usage
-    exit 1
-    ;;
+# ── Router ────────────────────────────────────────────────────────────────────
+case ${1:-help} in
+  batch)   cmd_batch "${2:-5}" ;;
+  report)  cmd_report ;;
+  list)    cmd_list ;;
+  show)    cmd_show "$2" ;;
+  build)   cmd_build "$2" ;;
+  help|-h|--help) usage ;;
+  *) echo "Unknown: $1"; usage; exit 1 ;;
 esac
