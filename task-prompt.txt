@@ -1,0 +1,133 @@
+You are generating today's niche app idea. This is a daily automated task. Follow every step exactly — no skipping, no asking for confirmation.
+
+---
+
+## STEP 1 — READ THE REGISTRY
+
+Read the file at: /home/james/idea-forge/data/registry.json
+
+From it, identify:
+- Which industries and sub-industries have already been covered (in `industries_covered`)
+- The last 3 industries used (in `rotation_state.last_3_industries`) — pick something DIFFERENT
+- All concept hashes in `concept_hashes_used` — your new idea must NOT match any of these
+- The last geography used — try to vary it (Thailand 40% of the time, SE Asia or global the rest)
+
+---
+
+## STEP 2 — READ THE TAXONOMY
+
+Read: /home/james/idea-forge/data/industry-taxonomy.json
+
+Pick ONE industry and ONE sub-industry that:
+1. Has NOT been covered yet (or is least covered)
+2. Is different from the last 3 industries
+3. Is genuinely weird, niche, and non-corporate
+
+Do NOT pick: generic productivity, "Uber for X", social media, AI chatbots, or anything a McKinsey consultant would propose.
+
+---
+
+## STEP 3 — READ THE API KNOWLEDGE BASE
+
+Read: /home/james/idea-forge/data/api-knowledge-base.json
+
+Find 2-4 APIs relevant to the sub-industry you picked. Note their exact endpoints.
+
+---
+
+## STEP 4 — QUERY AT LEAST 2 REAL APIs
+
+Use Bash(curl) to call the actual API endpoints. Get REAL numbers, REAL statistics, REAL current data.
+
+This step is mandatory. The "Real Data Found" section of every idea must contain actual values retrieved today — not estimates, not placeholders, not "approximately."
+
+Examples of what to fetch depending on industry:
+- Air quality → Open-Meteo AQ API: https://air-quality-api.open-meteo.com/v1/air-quality?latitude={lat}&longitude={lon}&hourly=pm2_5,pm10&timezone=Asia/Bangkok&past_days=1&forecast_days=0
+- Earthquakes → USGS: https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&minmagnitude=4&minlatitude=5&maxlatitude=21&minlongitude=97&maxlongitude=106&orderby=time&limit=10
+- Weather/agriculture → Open-Meteo: https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&hourly=temperature_2m,relative_humidity_2m,precipitation&timezone=Asia/Bangkok&past_days=1&forecast_days=7
+- Wildlife → IUCN Red List: https://apiv3.iucnredlist.org/api/v3/country/getspecies/TH?token={token}
+- Ocean/fishing → FishWatch: https://www.fishwatch.gov/api/species
+- Health → WHO GHO: https://ghoapi.azureedge.net/api/WHOSIS_000002?$filter=SpatialDim eq 'THA'
+- Disease → Disease.sh: https://disease.sh/v3/covid-19/countries/Thailand
+- Food safety → openFDA: https://api.fda.gov/food/enforcement.json?search=country:Thailand&limit=10
+- Economics → World Bank: https://api.worldbank.org/v2/country/TH/indicator/NY.GDP.PCAP.CD?format=json&mrv=5
+- Countries → REST Countries: https://restcountries.com/v3.1/name/thailand
+- Exchange rates → Open Exchange: https://open.er-api.com/v6/latest/THB
+- Active fires → NASA FIRMS: https://firms.modaps.eosdis.nasa.gov/api/country/csv/DEMO_KEY/VIIRS_SNPP_NRT/THA/7
+
+If one API fails, try a different one. You must get at least 2 real data points with actual values.
+
+---
+
+## STEP 5 — READ THE TEMPLATE
+
+Read: /home/james/idea-forge/templates/idea-template.md
+
+This is the exact structure your output must follow.
+
+---
+
+## STEP 6 — GENERATE THE IDEA
+
+Write a complete app idea following the template exactly. Every section must be filled — no placeholders.
+
+Requirements:
+- **The problem must be weird, niche, and non-corporate.** Not "farmers" — "rubber tappers in Chumphon Province who tap before 9am." Not "travelers" — "Laotian migrant workers in Samut Sakhon fish processing plants checking if their employer is flagged for wage theft."
+- **Real Data Found section** must contain actual values from the APIs you called in Step 4, with the source and date.
+- **Target user** must be hyper-specific — job, location, daily behavior, income context if relevant.
+- **Stack is not fixed** — choose whatever fits the problem. Could be a LINE bot, a PWA, a static map, a CLI tool, a Telegram bot, a React Native app. Think about what the actual user would use, not what's most "impressive."
+- **Monetization must match reality** — if the idea only makes sense as a free/NGO tool, say so. Not every idea needs Stripe.
+- **Marketing must name real communities** — specific Facebook groups with member counts, specific subreddits, specific LINE groups, specific Thai-language forums.
+- **Concept hash** must be unique from all hashes in `concept_hashes_used`. Format: `core-subject+geographic-context+who-uses-it`
+
+---
+
+## STEP 7 — SAVE THE IDEA FILE
+
+Get today's date in Bangkok time (GMT+7): run `date -d "+7 hours" +%Y-%m-%d` or use `TZ=Asia/Bangkok date +%Y-%m-%d`.
+Generate a descriptive kebab-case slug (5-8 words, describes what the app does).
+
+Save the completed markdown to:
+/home/james/idea-forge/ideas/[YYYY-MM-DD]_[descriptive-slug].md
+
+---
+
+## STEP 8 — UPDATE THE REGISTRY
+
+Read the current registry.json, then write an updated version with:
+1. Increment `total_ideas` by 1
+2. Add new entry to `ideas` array with: id, title, file, created_at (ISO8601 Bangkok time), industry, sub_industry, geography, concept_hash, apis_used
+3. Add the new concept_hash to `concept_hashes_used`
+4. Update `industries_covered` — add the sub_industry to the array for this industry
+5. Update `last_updated` to today's datetime
+6. Update `rotation_state`: set last_industry, last_sub_industry, last_geography, and update last_3_industries and last_3_geographies arrays (keep last 3 only)
+
+Save back to: /home/james/idea-forge/data/registry.json
+
+---
+
+## STEP 9 — GIT COMMIT AND PUSH
+
+Run these commands:
+```
+cd /home/james/idea-forge
+git add ideas/ data/registry.json
+git commit -m "idea: $(TZ=Asia/Bangkok date +%Y-%m-%d) — [IDEA TITLE HERE]"
+git push origin main
+```
+
+Replace [IDEA TITLE HERE] with the actual title of the idea you generated.
+
+---
+
+## COMPLETION CHECK
+
+Before finishing, verify:
+- [ ] The idea file exists at the correct path in /home/james/idea-forge/ideas/
+- [ ] All template sections are filled (no "[placeholder]" text remaining)
+- [ ] Real Data Found section has actual numbers from actual API calls
+- [ ] concept_hash is not in concept_hashes_used from the registry
+- [ ] registry.json has been updated with the new idea
+- [ ] Git commit and push completed successfully
+
+Done. Do not ask for confirmation at any step. Just execute.
