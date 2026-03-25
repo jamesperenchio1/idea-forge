@@ -3,3 +3,6 @@
 .env.*
 *.log
 node_modules/
+candidates/
+logs/
+tmp_*.json

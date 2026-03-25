@@ -17,7 +17,7 @@ cd "$REPO" && git pull origin main >> "$LOGFILE" 2>&1
 
 # Run Claude Code headlessly with the task prompt
 echo 'Starting Claude...' >> "$LOGFILE"
-claude -p "$(cat $REPO/task-prompt.txt)" >> "$LOGFILE" 2>&1
+claude --dangerously-skip-permissions -p "$(cat $REPO/task-prompt.txt)" >> "$LOGFILE" 2>&1
 EXIT_CODE=$?
 
 echo "Claude exited with code: $EXIT_CODE" >> "$LOGFILE"
