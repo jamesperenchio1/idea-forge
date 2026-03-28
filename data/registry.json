@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 5,
+  "total_ideas": 6,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -57,6 +57,17 @@
       "geography": "cambodia",
       "concept_hash": "dengue-seasonal-risk-by-commune+rural-cambodia+village-health-volunteers",
       "apis_used": ["Open-Meteo Weather API", "WHO GHO", "World Bank Open Data"]
+    },
+    {
+      "id": "koh-tao-dive-site-swell-morning-briefing-2026-03-28",
+      "title": "TaoSwell — Koh Tao Dive Site Morning Briefing for Freelance Instructors",
+      "file": "2026-03-28_koh-tao-dive-site-swell-morning-briefing.md",
+      "created_at": "2026-03-28T08:01:36+07:00",
+      "industry": "ocean_maritime",
+      "sub_industry": "dive_site_conditions",
+      "geography": "thailand",
+      "concept_hash": "dive-site-suitability-by-swell+koh-tao-gulf-of-thailand+freelance-dive-instructors",
+      "apis_used": ["Open-Meteo Marine API", "Open-Meteo Weather API"]
     }
   ],
   "concept_hashes_used": [
@@ -64,21 +75,23 @@
     "rubber-tapping-optimal-time+southern-thailand+smallholder-tappers",
     "field-burning-window+northern-thailand+highland-corn-farmers",
     "remittance-parallel-rate+mae-sot-myawaddy-border+myanmar-migrant-workers",
-    "dengue-seasonal-risk-by-commune+rural-cambodia+village-health-volunteers"
+    "dengue-seasonal-risk-by-commune+rural-cambodia+village-health-volunteers",
+    "dive-site-suitability-by-swell+koh-tao-gulf-of-thailand+freelance-dive-instructors"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block"],
     "agriculture_farming": ["rubber_tapping"],
     "disaster_emergency": ["wildfire_risk"],
     "finance_economics": ["remittance_rates"],
-    "health_medical": ["dengue_risk_mapping"]
+    "health_medical": ["dengue_risk_mapping"],
+    "ocean_maritime": ["dive_site_conditions"]
   },
-  "last_updated": "2026-03-27T08:02:26+07:00",
+  "last_updated": "2026-03-28T08:01:36+07:00",
   "rotation_state": {
-    "last_industry": "health_medical",
-    "last_sub_industry": "dengue_risk_mapping",
-    "last_geography": "cambodia",
-    "last_3_industries": ["disaster_emergency", "finance_economics", "health_medical"],
-    "last_3_geographies": ["thailand", "myanmar_thailand_border", "cambodia"]
+    "last_industry": "ocean_maritime",
+    "last_sub_industry": "dive_site_conditions",
+    "last_geography": "thailand",
+    "last_3_industries": ["finance_economics", "health_medical", "ocean_maritime"],
+    "last_3_geographies": ["myanmar_thailand_border", "cambodia", "thailand"]
   }
 }
