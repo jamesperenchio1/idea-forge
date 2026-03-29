@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 6,
+  "total_ideas": 7,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -68,6 +68,17 @@
       "geography": "thailand",
       "concept_hash": "dive-site-suitability-by-swell+koh-tao-gulf-of-thailand+freelance-dive-instructors",
       "apis_used": ["Open-Meteo Marine API", "Open-Meteo Weather API"]
+    },
+    {
+      "id": "vietnam-fisher-safe-return-window-zalo-bot-2026-03-29",
+      "title": "SóngVề — Safe Return Window Bot for Squid Fishers on Vietnam's Central Coast",
+      "file": "2026-03-29_vietnam-fisher-safe-return-window-zalo-bot.md",
+      "created_at": "2026-03-29T08:01:30+07:00",
+      "industry": "labor_work",
+      "sub_industry": "fishing_crew_safety",
+      "geography": "vietnam",
+      "concept_hash": "safe-return-window+central-vietnam-south-china-sea+small-boat-squid-fishers",
+      "apis_used": ["Open-Meteo Marine API", "Open-Meteo Weather API", "World Bank Open Data"]
     }
   ],
   "concept_hashes_used": [
@@ -76,7 +87,8 @@
     "field-burning-window+northern-thailand+highland-corn-farmers",
     "remittance-parallel-rate+mae-sot-myawaddy-border+myanmar-migrant-workers",
     "dengue-seasonal-risk-by-commune+rural-cambodia+village-health-volunteers",
-    "dive-site-suitability-by-swell+koh-tao-gulf-of-thailand+freelance-dive-instructors"
+    "dive-site-suitability-by-swell+koh-tao-gulf-of-thailand+freelance-dive-instructors",
+    "safe-return-window+central-vietnam-south-china-sea+small-boat-squid-fishers"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block"],
@@ -84,14 +96,15 @@
     "disaster_emergency": ["wildfire_risk"],
     "finance_economics": ["remittance_rates"],
     "health_medical": ["dengue_risk_mapping"],
-    "ocean_maritime": ["dive_site_conditions"]
+    "ocean_maritime": ["dive_site_conditions"],
+    "labor_work": ["fishing_crew_safety"]
   },
-  "last_updated": "2026-03-28T08:01:36+07:00",
+  "last_updated": "2026-03-29T08:01:30+07:00",
   "rotation_state": {
-    "last_industry": "ocean_maritime",
-    "last_sub_industry": "dive_site_conditions",
-    "last_geography": "thailand",
-    "last_3_industries": ["finance_economics", "health_medical", "ocean_maritime"],
-    "last_3_geographies": ["myanmar_thailand_border", "cambodia", "thailand"]
+    "last_industry": "labor_work",
+    "last_sub_industry": "fishing_crew_safety",
+    "last_geography": "vietnam",
+    "last_3_industries": ["health_medical", "ocean_maritime", "labor_work"],
+    "last_3_geographies": ["cambodia", "thailand", "vietnam"]
   }
 }
