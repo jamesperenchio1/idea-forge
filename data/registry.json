@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 7,
+  "total_ideas": 8,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -79,6 +79,17 @@
       "geography": "vietnam",
       "concept_hash": "safe-return-window+central-vietnam-south-china-sea+small-boat-squid-fishers",
       "apis_used": ["Open-Meteo Marine API", "Open-Meteo Weather API", "World Bank Open Data"]
+    },
+    {
+      "id": "mekong-sandbank-flood-window-luang-prabang-farmers-2026-03-30",
+      "title": "HaatWatch — Mekong Sandbank Planting Window Tracker for Luang Prabang Dry-Season Farmers",
+      "file": "2026-03-30_mekong-sandbank-flood-window-luang-prabang-farmers.md",
+      "created_at": "2026-03-30T08:01:14+07:00",
+      "industry": "environment_ecology",
+      "sub_industry": "river_pollution",
+      "geography": "laos",
+      "concept_hash": "mekong-water-level-planting-window+luang-prabang-laos+mekong-sandbank-vegetable-farmers",
+      "apis_used": ["Open-Meteo Flood API", "Open-Meteo Weather API", "World Bank Open Data"]
     }
   ],
   "concept_hashes_used": [
@@ -88,7 +99,8 @@
     "remittance-parallel-rate+mae-sot-myawaddy-border+myanmar-migrant-workers",
     "dengue-seasonal-risk-by-commune+rural-cambodia+village-health-volunteers",
     "dive-site-suitability-by-swell+koh-tao-gulf-of-thailand+freelance-dive-instructors",
-    "safe-return-window+central-vietnam-south-china-sea+small-boat-squid-fishers"
+    "safe-return-window+central-vietnam-south-china-sea+small-boat-squid-fishers",
+    "mekong-water-level-planting-window+luang-prabang-laos+mekong-sandbank-vegetable-farmers"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block"],
@@ -97,14 +109,15 @@
     "finance_economics": ["remittance_rates"],
     "health_medical": ["dengue_risk_mapping"],
     "ocean_maritime": ["dive_site_conditions"],
-    "labor_work": ["fishing_crew_safety"]
+    "labor_work": ["fishing_crew_safety"],
+    "environment_ecology": ["river_pollution"]
   },
-  "last_updated": "2026-03-29T08:01:30+07:00",
+  "last_updated": "2026-03-30T08:01:14+07:00",
   "rotation_state": {
-    "last_industry": "labor_work",
-    "last_sub_industry": "fishing_crew_safety",
-    "last_geography": "vietnam",
-    "last_3_industries": ["health_medical", "ocean_maritime", "labor_work"],
-    "last_3_geographies": ["cambodia", "thailand", "vietnam"]
+    "last_industry": "environment_ecology",
+    "last_sub_industry": "river_pollution",
+    "last_geography": "laos",
+    "last_3_industries": ["ocean_maritime", "labor_work", "environment_ecology"],
+    "last_3_geographies": ["thailand", "vietnam", "laos"]
   }
 }
