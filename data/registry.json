@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 8,
+  "total_ideas": 9,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -90,6 +90,17 @@
       "geography": "laos",
       "concept_hash": "mekong-water-level-planting-window+luang-prabang-laos+mekong-sandbank-vegetable-farmers",
       "apis_used": ["Open-Meteo Flood API", "Open-Meteo Weather API", "World Bank Open Data"]
+    },
+    {
+      "id": "highway-304-elephant-crossing-alert-night-drivers-2026-04-01",
+      "title": "ChangWatch — Highway 304 Elephant Crossing Risk Alert for Night-Drive Truck Drivers",
+      "file": "2026-04-01_highway-304-elephant-crossing-alert-night-drivers.md",
+      "created_at": "2026-04-01T08:03:15+07:00",
+      "industry": "transportation_mobility",
+      "sub_industry": "elephant_crossing_alerts",
+      "geography": "thailand",
+      "concept_hash": "elephant-crossing-risk-window+highway-304-thailand+night-truck-drivers",
+      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Air Quality API", "World Bank Open Data"]
     }
   ],
   "concept_hashes_used": [
@@ -100,7 +111,8 @@
     "dengue-seasonal-risk-by-commune+rural-cambodia+village-health-volunteers",
     "dive-site-suitability-by-swell+koh-tao-gulf-of-thailand+freelance-dive-instructors",
     "safe-return-window+central-vietnam-south-china-sea+small-boat-squid-fishers",
-    "mekong-water-level-planting-window+luang-prabang-laos+mekong-sandbank-vegetable-farmers"
+    "mekong-water-level-planting-window+luang-prabang-laos+mekong-sandbank-vegetable-farmers",
+    "elephant-crossing-risk-window+highway-304-thailand+night-truck-drivers"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block"],
@@ -110,14 +122,15 @@
     "health_medical": ["dengue_risk_mapping"],
     "ocean_maritime": ["dive_site_conditions"],
     "labor_work": ["fishing_crew_safety"],
-    "environment_ecology": ["river_pollution"]
+    "environment_ecology": ["river_pollution"],
+    "transportation_mobility": ["elephant_crossing_alerts"]
   },
-  "last_updated": "2026-03-30T08:01:14+07:00",
+  "last_updated": "2026-04-01T08:03:15+07:00",
   "rotation_state": {
-    "last_industry": "environment_ecology",
-    "last_sub_industry": "river_pollution",
-    "last_geography": "laos",
-    "last_3_industries": ["ocean_maritime", "labor_work", "environment_ecology"],
-    "last_3_geographies": ["thailand", "vietnam", "laos"]
+    "last_industry": "transportation_mobility",
+    "last_sub_industry": "elephant_crossing_alerts",
+    "last_geography": "thailand",
+    "last_3_industries": ["labor_work", "environment_ecology", "transportation_mobility"],
+    "last_3_geographies": ["vietnam", "laos", "thailand"]
   }
 }
