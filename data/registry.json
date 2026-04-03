@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 10,
+  "total_ideas": 11,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -112,6 +112,17 @@
       "geography": "malaysia",
       "concept_hash": "belacan-drying-window-timing+penang-seberang-perai+small-scale-fermented-shrimp-producers",
       "apis_used": ["Open-Meteo Weather API", "World Bank Open Data"]
+    },
+    {
+      "id": "firefly-emergence-timing-abucay-bataan-2026-04-03",
+      "title": "FireflyWatch — Optimal Emergence Timing for Eco-Tourism Operators in Bataan",
+      "file": "2026-04-03_firefly-emergence-timing-abucay-bataan.md",
+      "created_at": "2026-04-03T13:45:00+08:00",
+      "industry": "wildlife_biodiversity",
+      "sub_industry": "nocturnal_activity",
+      "geography": "philippines",
+      "concept_hash": "firefly-emergence-timing+bataan-abucay-coastal+eco-tourism-operators-and-conservation-guides",
+      "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "USGS Earthquake Hazards API"]
     }
   ],
   "concept_hashes_used": [
@@ -124,7 +135,8 @@
     "safe-return-window+central-vietnam-south-china-sea+small-boat-squid-fishers",
     "mekong-water-level-planting-window+luang-prabang-laos+mekong-sandbank-vegetable-farmers",
     "elephant-crossing-risk-window+highway-304-thailand+night-truck-drivers",
-    "belacan-drying-window-timing+penang-seberang-perai+small-scale-fermented-shrimp-producers"
+    "belacan-drying-window-timing+penang-seberang-perai+small-scale-fermented-shrimp-producers",
+    "firefly-emergence-timing+bataan-abucay-coastal+eco-tourism-operators-and-conservation-guides"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block"],
@@ -136,14 +148,15 @@
     "labor_work": ["fishing_crew_safety"],
     "environment_ecology": ["river_pollution"],
     "transportation_mobility": ["elephant_crossing_alerts"],
-    "food_beverage": ["fermented_foods"]
+    "food_beverage": ["fermented_foods"],
+    "wildlife_biodiversity": ["nocturnal_activity"]
   },
-  "last_updated": "2026-04-02T09:02:14+08:00",
+  "last_updated": "2026-04-03T13:45:00+08:00",
   "rotation_state": {
-    "last_industry": "food_beverage",
-    "last_sub_industry": "fermented_foods",
-    "last_geography": "malaysia",
-    "last_3_industries": ["environment_ecology", "transportation_mobility", "food_beverage"],
-    "last_3_geographies": ["laos", "thailand", "malaysia"]
+    "last_industry": "wildlife_biodiversity",
+    "last_sub_industry": "nocturnal_activity",
+    "last_geography": "philippines",
+    "last_3_industries": ["transportation_mobility", "food_beverage", "wildlife_biodiversity"],
+    "last_3_geographies": ["thailand", "malaysia", "philippines"]
   }
 }
