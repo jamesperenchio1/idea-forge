@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 11,
+  "total_ideas": 12,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -123,6 +123,17 @@
       "geography": "philippines",
       "concept_hash": "firefly-emergence-timing+bataan-abucay-coastal+eco-tourism-operators-and-conservation-guides",
       "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "USGS Earthquake Hazards API"]
+    },
+    {
+      "id": "auspicious-construction-ceremony-yangon-2026-04-04",
+      "title": "PyiTha — Auspicious Ceremony Date Planner for Myanmar Construction Site Managers",
+      "file": "2026-04-04_auspicious-construction-ceremony-date-scheduler-yangon.md",
+      "created_at": "2026-04-04T16:30:00+06:30",
+      "industry": "culture_religion",
+      "sub_industry": "auspicious_date_planning",
+      "geography": "myanmar",
+      "concept_hash": "auspicious-date-scheduling+yangon-mandalay-construction+myanmar-site-managers-contractors",
+      "apis_used": ["Open-Meteo", "World Bank Open Data", "REST Countries"]
     }
   ],
   "concept_hashes_used": [
@@ -136,7 +147,8 @@
     "mekong-water-level-planting-window+luang-prabang-laos+mekong-sandbank-vegetable-farmers",
     "elephant-crossing-risk-window+highway-304-thailand+night-truck-drivers",
     "belacan-drying-window-timing+penang-seberang-perai+small-scale-fermented-shrimp-producers",
-    "firefly-emergence-timing+bataan-abucay-coastal+eco-tourism-operators-and-conservation-guides"
+    "firefly-emergence-timing+bataan-abucay-coastal+eco-tourism-operators-and-conservation-guides",
+    "auspicious-date-scheduling+yangon-mandalay-construction+myanmar-site-managers-contractors"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block"],
@@ -149,14 +161,15 @@
     "environment_ecology": ["river_pollution"],
     "transportation_mobility": ["elephant_crossing_alerts"],
     "food_beverage": ["fermented_foods"],
-    "wildlife_biodiversity": ["nocturnal_activity"]
+    "wildlife_biodiversity": ["nocturnal_activity"],
+    "culture_religion": ["auspicious_date_planning"]
   },
-  "last_updated": "2026-04-03T13:45:00+08:00",
+  "last_updated": "2026-04-04T08:03:35+07:00",
   "rotation_state": {
-    "last_industry": "wildlife_biodiversity",
-    "last_sub_industry": "nocturnal_activity",
-    "last_geography": "philippines",
-    "last_3_industries": ["transportation_mobility", "food_beverage", "wildlife_biodiversity"],
-    "last_3_geographies": ["thailand", "malaysia", "philippines"]
+    "last_industry": "culture_religion",
+    "last_sub_industry": "auspicious_date_planning",
+    "last_geography": "myanmar",
+    "last_3_industries": ["food_beverage", "wildlife_biodiversity", "culture_religion"],
+    "last_3_geographies": ["malaysia", "philippines", "myanmar"]
   }
 }
