@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 12,
+  "total_ideas": 13,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -134,6 +134,17 @@
       "geography": "myanmar",
       "concept_hash": "auspicious-date-scheduling+yangon-mandalay-construction+myanmar-site-managers-contractors",
       "apis_used": ["Open-Meteo", "World Bank Open Data", "REST Countries"]
+    },
+    {
+      "id": "reservoir-oxygen-crash-alert-cage-fish-farmers-khon-kaen-2026-04-05",
+      "title": "PlaRod — Dissolved Oxygen Crash Alert for Cage Tilapia Farmers on Thailand's Ubolratana Reservoir",
+      "file": "2026-04-05_reservoir-oxygen-crash-alert-cage-fish-farmers-khon-kaen.md",
+      "created_at": "2026-04-05T01:00:00+07:00",
+      "industry": "agriculture_farming",
+      "sub_industry": "aquaculture",
+      "geography": "thailand",
+      "concept_hash": "dissolved-oxygen-crash-prediction+ubolratana-reservoir-khon-kaen+cage-tilapia-farmers",
+      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Flood API", "World Bank Open Data"]
     }
   ],
   "concept_hashes_used": [
@@ -148,11 +159,12 @@
     "elephant-crossing-risk-window+highway-304-thailand+night-truck-drivers",
     "belacan-drying-window-timing+penang-seberang-perai+small-scale-fermented-shrimp-producers",
     "firefly-emergence-timing+bataan-abucay-coastal+eco-tourism-operators-and-conservation-guides",
-    "auspicious-date-scheduling+yangon-mandalay-construction+myanmar-site-managers-contractors"
+    "auspicious-date-scheduling+yangon-mandalay-construction+myanmar-site-managers-contractors",
+    "dissolved-oxygen-crash-prediction+ubolratana-reservoir-khon-kaen+cage-tilapia-farmers"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block"],
-    "agriculture_farming": ["rubber_tapping"],
+    "agriculture_farming": ["rubber_tapping", "aquaculture"],
     "disaster_emergency": ["wildfire_risk"],
     "finance_economics": ["remittance_rates"],
     "health_medical": ["dengue_risk_mapping"],
@@ -164,12 +176,12 @@
     "wildlife_biodiversity": ["nocturnal_activity"],
     "culture_religion": ["auspicious_date_planning"]
   },
-  "last_updated": "2026-04-04T08:03:35+07:00",
+  "last_updated": "2026-04-05T01:00:00+07:00",
   "rotation_state": {
-    "last_industry": "culture_religion",
-    "last_sub_industry": "auspicious_date_planning",
-    "last_geography": "myanmar",
-    "last_3_industries": ["food_beverage", "wildlife_biodiversity", "culture_religion"],
-    "last_3_geographies": ["malaysia", "philippines", "myanmar"]
+    "last_industry": "agriculture_farming",
+    "last_sub_industry": "aquaculture",
+    "last_geography": "thailand",
+    "last_3_industries": ["wildlife_biodiversity", "culture_religion", "agriculture_farming"],
+    "last_3_geographies": ["philippines", "myanmar", "thailand"]
   }
 }
