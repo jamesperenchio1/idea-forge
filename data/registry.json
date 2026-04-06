@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 13,
+  "total_ideas": 14,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -145,6 +145,17 @@
       "geography": "thailand",
       "concept_hash": "dissolved-oxygen-crash-prediction+ubolratana-reservoir-khon-kaen+cage-tilapia-farmers",
       "apis_used": ["Open-Meteo Weather API", "Open-Meteo Flood API", "World Bank Open Data"]
+    },
+    {
+      "id": "durian-ripeness-window-tracker-north-sumatra-2026-04-06",
+      "title": "DurianJatuh — Harvest Window Predictor for Deli Serdang Roadside Durian Sellers",
+      "file": "2026-04-06_durian-ripeness-window-tracker-north-sumatra.md",
+      "created_at": "2026-04-06T08:02:05+07:00",
+      "industry": "food_beverage",
+      "sub_industry": "durian_ripeness",
+      "geography": "indonesia",
+      "concept_hash": "durian-harvest-ripeness-window+north-sumatra-deli-serdang+roadside-stall-owners-and-orchard-collectors",
+      "apis_used": ["Open-Meteo Weather API", "World Bank Open Data"]
     }
   ],
   "concept_hashes_used": [
@@ -160,7 +171,8 @@
     "belacan-drying-window-timing+penang-seberang-perai+small-scale-fermented-shrimp-producers",
     "firefly-emergence-timing+bataan-abucay-coastal+eco-tourism-operators-and-conservation-guides",
     "auspicious-date-scheduling+yangon-mandalay-construction+myanmar-site-managers-contractors",
-    "dissolved-oxygen-crash-prediction+ubolratana-reservoir-khon-kaen+cage-tilapia-farmers"
+    "dissolved-oxygen-crash-prediction+ubolratana-reservoir-khon-kaen+cage-tilapia-farmers",
+    "durian-harvest-ripeness-window+north-sumatra-deli-serdang+roadside-stall-owners-and-orchard-collectors"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block"],
@@ -172,16 +184,16 @@
     "labor_work": ["fishing_crew_safety"],
     "environment_ecology": ["river_pollution"],
     "transportation_mobility": ["elephant_crossing_alerts"],
-    "food_beverage": ["fermented_foods"],
+    "food_beverage": ["fermented_foods", "durian_ripeness"],
     "wildlife_biodiversity": ["nocturnal_activity"],
     "culture_religion": ["auspicious_date_planning"]
   },
-  "last_updated": "2026-04-05T01:00:00+07:00",
+  "last_updated": "2026-04-06T08:02:05+07:00",
   "rotation_state": {
-    "last_industry": "agriculture_farming",
-    "last_sub_industry": "aquaculture",
-    "last_geography": "thailand",
-    "last_3_industries": ["wildlife_biodiversity", "culture_religion", "agriculture_farming"],
-    "last_3_geographies": ["philippines", "myanmar", "thailand"]
+    "last_industry": "food_beverage",
+    "last_sub_industry": "durian_ripeness",
+    "last_geography": "indonesia",
+    "last_3_industries": ["culture_religion", "agriculture_farming", "food_beverage"],
+    "last_3_geographies": ["myanmar", "thailand", "indonesia"]
   }
 }
