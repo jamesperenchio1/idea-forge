@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 14,
+  "total_ideas": 15,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -156,6 +156,17 @@
       "geography": "indonesia",
       "concept_hash": "durian-harvest-ripeness-window+north-sumatra-deli-serdang+roadside-stall-owners-and-orchard-collectors",
       "apis_used": ["Open-Meteo Weather API", "World Bank Open Data"]
+    },
+    {
+      "id": "plot-level-mine-clearance-checker-battambang-cassava-2026-04-08",
+      "title": "ChamkarSafe — Plot-Level Mine Clearance Status Checker for Battambang Cassava Farmers",
+      "file": "2026-04-08_plot-level-mine-clearance-checker-battambang-cassava.md",
+      "created_at": "2026-04-08T08:00:00+07:00",
+      "industry": "defense_security",
+      "sub_industry": "landmine_mapping",
+      "geography": "cambodia",
+      "concept_hash": "landmine-clearance-status-by-plot+battambang-cambodia+smallholder-cassava-farmers",
+      "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "REST Countries"]
     }
   ],
   "concept_hashes_used": [
@@ -172,7 +183,8 @@
     "firefly-emergence-timing+bataan-abucay-coastal+eco-tourism-operators-and-conservation-guides",
     "auspicious-date-scheduling+yangon-mandalay-construction+myanmar-site-managers-contractors",
     "dissolved-oxygen-crash-prediction+ubolratana-reservoir-khon-kaen+cage-tilapia-farmers",
-    "durian-harvest-ripeness-window+north-sumatra-deli-serdang+roadside-stall-owners-and-orchard-collectors"
+    "durian-harvest-ripeness-window+north-sumatra-deli-serdang+roadside-stall-owners-and-orchard-collectors",
+    "landmine-clearance-status-by-plot+battambang-cambodia+smallholder-cassava-farmers"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block"],
@@ -186,14 +198,15 @@
     "transportation_mobility": ["elephant_crossing_alerts"],
     "food_beverage": ["fermented_foods", "durian_ripeness"],
     "wildlife_biodiversity": ["nocturnal_activity"],
-    "culture_religion": ["auspicious_date_planning"]
+    "culture_religion": ["auspicious_date_planning"],
+    "defense_security": ["landmine_mapping"]
   },
-  "last_updated": "2026-04-06T08:02:05+07:00",
+  "last_updated": "2026-04-08T08:00:00+07:00",
   "rotation_state": {
-    "last_industry": "food_beverage",
-    "last_sub_industry": "durian_ripeness",
-    "last_geography": "indonesia",
-    "last_3_industries": ["culture_religion", "agriculture_farming", "food_beverage"],
-    "last_3_geographies": ["myanmar", "thailand", "indonesia"]
+    "last_industry": "defense_security",
+    "last_sub_industry": "landmine_mapping",
+    "last_geography": "cambodia",
+    "last_3_industries": ["agriculture_farming", "food_beverage", "defense_security"],
+    "last_3_geographies": ["thailand", "indonesia", "cambodia"]
   }
 }
