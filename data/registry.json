@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 18,
+  "total_ideas": 19,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -200,6 +200,17 @@
       "geography": "thailand",
       "concept_hash": "landslide-risk-early-warning+doi-chang-chiang-rai-thailand+hill-tribe-arabica-coffee-farmers",
       "apis_used": ["Open-Meteo Weather API", "Open-Meteo Air Quality API", "USGS Earthquake Hazards", "World Bank Open Data"]
+    },
+    {
+      "id": "stingless-bee-forage-bloom-forecast-terengganu-2026-04-12",
+      "title": "LebahBunga — Flowering Forage Forecast for Kelulut Stingless Bee Keepers in Terengganu",
+      "file": "2026-04-12_stingless-bee-forage-bloom-forecast-terengganu.md",
+      "created_at": "2026-04-12T08:00:00+07:00",
+      "industry": "wildlife_biodiversity",
+      "sub_industry": "pollinator_health",
+      "geography": "malaysia",
+      "concept_hash": "stingless-bee-bloom-forecast+terengganu-east-coast-malaysia+kelulut-honey-smallholders",
+      "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
     }
   ],
   "concept_hashes_used": [
@@ -220,7 +231,8 @@
     "landmine-clearance-status-by-plot+battambang-cambodia+smallholder-cassava-farmers",
     "dam-water-release-alerts+bulacan-angat-watershed-philippines+smallholder-rice-paddy-farmers",
     "mountain-pass-road-risk-briefing+ha-giang-loop-vietnam+freelance-motorbike-tour-guides",
-    "landslide-risk-early-warning+doi-chang-chiang-rai-thailand+hill-tribe-arabica-coffee-farmers"
+    "landslide-risk-early-warning+doi-chang-chiang-rai-thailand+hill-tribe-arabica-coffee-farmers",
+    "stingless-bee-bloom-forecast+terengganu-east-coast-malaysia+kelulut-honey-smallholders"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block"],
@@ -233,18 +245,18 @@
     "environment_ecology": ["river_pollution"],
     "transportation_mobility": ["elephant_crossing_alerts"],
     "food_beverage": ["fermented_foods", "durian_ripeness"],
-    "wildlife_biodiversity": ["nocturnal_activity"],
+    "wildlife_biodiversity": ["nocturnal_activity", "pollinator_health"],
     "culture_religion": ["auspicious_date_planning"],
     "defense_security": ["landmine_mapping"],
     "energy_utilities": ["dam_water_level"],
     "tourism_travel": ["adventure_risk_scoring"]
   },
-  "last_updated": "2026-04-11T08:00:00+07:00",
+  "last_updated": "2026-04-12T08:00:00+07:00",
   "rotation_state": {
-    "last_industry": "disaster_emergency",
-    "last_sub_industry": "landslide_risk_zones",
-    "last_geography": "thailand",
-    "last_3_industries": ["energy_utilities", "tourism_travel", "disaster_emergency"],
-    "last_3_geographies": ["philippines", "vietnam", "thailand"]
+    "last_industry": "wildlife_biodiversity",
+    "last_sub_industry": "pollinator_health",
+    "last_geography": "malaysia",
+    "last_3_industries": ["tourism_travel", "disaster_emergency", "wildlife_biodiversity"],
+    "last_3_geographies": ["vietnam", "thailand", "malaysia"]
   }
 }
