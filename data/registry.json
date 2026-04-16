@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 22,
+  "total_ideas": 23,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -244,6 +244,17 @@
       "geography": "thailand",
       "concept_hash": "heat-stress-work-hour-alert+bangkok-construction-sites+isan-migrant-day-laborers",
       "apis_used": ["Open-Meteo Weather API", "Open-Meteo Air Quality API", "World Bank Open Data", "ExchangeRate-API"]
+    },
+    {
+      "id": "fish-sauce-barrel-fermentation-climate-tracker-2026-04-16",
+      "title": "MắmĐo — Fermentation Climate Tracker for Traditional Fish Sauce Barrel Houses on Phú Quốc Island",
+      "file": "2026-04-16_fish-sauce-barrel-fermentation-climate-tracker-phu-quoc.md",
+      "created_at": "2026-04-16T08:00:00+07:00",
+      "industry": "food_beverage",
+      "sub_industry": "fish_sauce_quality",
+      "geography": "vietnam",
+      "concept_hash": "fish-sauce-fermentation-climate+phu-quoc-vietnam+artisan-barrel-house-producers",
+      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Marine API", "World Bank Open Data", "ExchangeRate-API"]
     }
   ],
   "concept_hashes_used": [
@@ -268,7 +279,8 @@
     "stingless-bee-bloom-forecast+terengganu-east-coast-malaysia+kelulut-honey-smallholders",
     "mangrove-channel-health-scoring+mahakam-delta-east-kalimantan+mud-crab-fattening-operators",
     "ferry-sailing-probability-forecast+romblon-sibuyan-sea-philippines+island-commuters-and-cargo-operators",
-    "heat-stress-work-hour-alert+bangkok-construction-sites+isan-migrant-day-laborers"
+    "heat-stress-work-hour-alert+bangkok-construction-sites+isan-migrant-day-laborers",
+    "fish-sauce-fermentation-climate+phu-quoc-vietnam+artisan-barrel-house-producers"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block"],
@@ -280,19 +292,19 @@
     "labor_work": ["fishing_crew_safety", "construction_site_safety"],
     "environment_ecology": ["river_pollution", "mangrove_mapping"],
     "transportation_mobility": ["elephant_crossing_alerts", "ferry_schedules"],
-    "food_beverage": ["fermented_foods", "durian_ripeness"],
+    "food_beverage": ["fermented_foods", "durian_ripeness", "fish_sauce_quality"],
     "wildlife_biodiversity": ["nocturnal_activity", "pollinator_health"],
     "culture_religion": ["auspicious_date_planning"],
     "defense_security": ["landmine_mapping"],
     "energy_utilities": ["dam_water_level"],
     "tourism_travel": ["adventure_risk_scoring"]
   },
-  "last_updated": "2026-04-15T08:00:00+07:00",
+  "last_updated": "2026-04-16T08:00:00+07:00",
   "rotation_state": {
-    "last_industry": "labor_work",
-    "last_sub_industry": "construction_site_safety",
-    "last_geography": "thailand",
-    "last_3_industries": ["environment_ecology", "transportation_mobility", "labor_work"],
-    "last_3_geographies": ["indonesia", "philippines", "thailand"]
+    "last_industry": "food_beverage",
+    "last_sub_industry": "fish_sauce_quality",
+    "last_geography": "vietnam",
+    "last_3_industries": ["transportation_mobility", "labor_work", "food_beverage"],
+    "last_3_geographies": ["philippines", "thailand", "vietnam"]
   }
 }
