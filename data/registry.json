@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 24,
+  "total_ideas": 25,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -266,6 +266,17 @@
       "geography": "indonesia",
       "concept_hash": "brown-planthopper-outbreak-prediction+klaten-central-java-indonesia+smallholder-rice-paddy-farmers",
       "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
+    },
+    {
+      "id": "seaweed-heat-stress-alert-zamboanga-2026-04-18",
+      "title": "GusoPula — Sea Surface Temperature Stress Alert for Carrageenan Seaweed Farmers in Zamboanga Peninsula",
+      "file": "2026-04-18_seaweed-heat-stress-alert-zamboanga-farmers.md",
+      "created_at": "2026-04-18T08:00:00+08:00",
+      "industry": "ocean_maritime",
+      "sub_industry": "sea_surface_temp",
+      "geography": "philippines",
+      "concept_hash": "sea-surface-temp-seaweed-stress+zamboanga-peninsula-philippines+smallholder-carrageenan-seaweed-farmers",
+      "apis_used": ["Open-Meteo Marine API", "Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
     }
   ],
   "concept_hashes_used": [
@@ -292,7 +303,8 @@
     "ferry-sailing-probability-forecast+romblon-sibuyan-sea-philippines+island-commuters-and-cargo-operators",
     "heat-stress-work-hour-alert+bangkok-construction-sites+isan-migrant-day-laborers",
     "fish-sauce-fermentation-climate+phu-quoc-vietnam+artisan-barrel-house-producers",
-    "brown-planthopper-outbreak-prediction+klaten-central-java-indonesia+smallholder-rice-paddy-farmers"
+    "brown-planthopper-outbreak-prediction+klaten-central-java-indonesia+smallholder-rice-paddy-farmers",
+    "sea-surface-temp-seaweed-stress+zamboanga-peninsula-philippines+smallholder-carrageenan-seaweed-farmers"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block"],
@@ -300,7 +312,7 @@
     "disaster_emergency": ["wildfire_risk", "landslide_risk_zones"],
     "finance_economics": ["remittance_rates"],
     "health_medical": ["dengue_risk_mapping"],
-    "ocean_maritime": ["dive_site_conditions"],
+    "ocean_maritime": ["dive_site_conditions", "sea_surface_temp"],
     "labor_work": ["fishing_crew_safety", "construction_site_safety"],
     "environment_ecology": ["river_pollution", "mangrove_mapping"],
     "transportation_mobility": ["elephant_crossing_alerts", "ferry_schedules"],
@@ -311,12 +323,12 @@
     "energy_utilities": ["dam_water_level"],
     "tourism_travel": ["adventure_risk_scoring"]
   },
-  "last_updated": "2026-04-17T08:00:00+07:00",
+  "last_updated": "2026-04-18T08:00:00+08:00",
   "rotation_state": {
-    "last_industry": "agriculture_farming",
-    "last_sub_industry": "pest_management",
-    "last_geography": "indonesia",
-    "last_3_industries": ["labor_work", "food_beverage", "agriculture_farming"],
-    "last_3_geographies": ["thailand", "vietnam", "indonesia"]
+    "last_industry": "ocean_maritime",
+    "last_sub_industry": "sea_surface_temp",
+    "last_geography": "philippines",
+    "last_3_industries": ["food_beverage", "agriculture_farming", "ocean_maritime"],
+    "last_3_geographies": ["vietnam", "indonesia", "philippines"]
   }
 }
