@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 25,
+  "total_ideas": 26,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -277,6 +277,17 @@
       "geography": "philippines",
       "concept_hash": "sea-surface-temp-seaweed-stress+zamboanga-peninsula-philippines+smallholder-carrageenan-seaweed-farmers",
       "apis_used": ["Open-Meteo Marine API", "Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
+    },
+    {
+      "id": "raw-fish-feast-bacterial-risk-scorer-isan-2026-04-19",
+      "title": "KoiCheck — Raw Fish Dish Bacterial Risk Scorer for Isan Village Feast Preparers",
+      "file": "2026-04-19_raw-fish-feast-bacterial-risk-scorer-isan.md",
+      "created_at": "2026-04-19T08:00:00+07:00",
+      "industry": "health_medical",
+      "sub_industry": "food_poisoning_tracking",
+      "geography": "thailand",
+      "concept_hash": "raw-fish-bacterial-risk-scoring+isan-northeastern-thailand+village-feast-food-preparers",
+      "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "WHO GHO", "ExchangeRate-API"]
     }
   ],
   "concept_hashes_used": [
@@ -304,14 +315,15 @@
     "heat-stress-work-hour-alert+bangkok-construction-sites+isan-migrant-day-laborers",
     "fish-sauce-fermentation-climate+phu-quoc-vietnam+artisan-barrel-house-producers",
     "brown-planthopper-outbreak-prediction+klaten-central-java-indonesia+smallholder-rice-paddy-farmers",
-    "sea-surface-temp-seaweed-stress+zamboanga-peninsula-philippines+smallholder-carrageenan-seaweed-farmers"
+    "sea-surface-temp-seaweed-stress+zamboanga-peninsula-philippines+smallholder-carrageenan-seaweed-farmers",
+    "raw-fish-bacterial-risk-scoring+isan-northeastern-thailand+village-feast-food-preparers"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block"],
     "agriculture_farming": ["rubber_tapping", "aquaculture", "pest_management"],
     "disaster_emergency": ["wildfire_risk", "landslide_risk_zones"],
     "finance_economics": ["remittance_rates"],
-    "health_medical": ["dengue_risk_mapping"],
+    "health_medical": ["dengue_risk_mapping", "food_poisoning_tracking"],
     "ocean_maritime": ["dive_site_conditions", "sea_surface_temp"],
     "labor_work": ["fishing_crew_safety", "construction_site_safety"],
     "environment_ecology": ["river_pollution", "mangrove_mapping"],
@@ -323,12 +335,12 @@
     "energy_utilities": ["dam_water_level"],
     "tourism_travel": ["adventure_risk_scoring"]
   },
-  "last_updated": "2026-04-18T08:00:00+08:00",
+  "last_updated": "2026-04-19T08:00:00+07:00",
   "rotation_state": {
-    "last_industry": "ocean_maritime",
-    "last_sub_industry": "sea_surface_temp",
-    "last_geography": "philippines",
-    "last_3_industries": ["food_beverage", "agriculture_farming", "ocean_maritime"],
-    "last_3_geographies": ["vietnam", "indonesia", "philippines"]
+    "last_industry": "health_medical",
+    "last_sub_industry": "food_poisoning_tracking",
+    "last_geography": "thailand",
+    "last_3_industries": ["agriculture_farming", "ocean_maritime", "health_medical"],
+    "last_3_geographies": ["indonesia", "philippines", "thailand"]
   }
 }
