@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 28,
+  "total_ideas": 29,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -310,6 +310,17 @@
       "geography": "cambodia",
       "concept_hash": "power-outage-risk-prediction+kampong-cham-mekong-cambodia+small-ice-factory-operators",
       "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
+    },
+    {
+      "id": "cheow-lan-longtail-boat-crossing-briefing-khao-sok-2026-04-22",
+      "title": "ChiewLanGo — Morning Boat-Crossing Go/No-Go Briefing for Cheow Lan Lake Longtail Operators in Khao Sok",
+      "file": "2026-04-22_cheow-lan-longtail-boat-crossing-briefing-khao-sok.md",
+      "created_at": "2026-04-22T08:02:09+07:00",
+      "industry": "tourism_travel",
+      "sub_industry": "national_park_capacity",
+      "geography": "thailand",
+      "concept_hash": "boat-crossing-risk-briefing+cheow-lan-lake-khao-sok-thailand+longtail-boat-operators",
+      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Flood API", "World Bank Open Data", "ExchangeRate-API"]
     }
   ],
   "concept_hashes_used": [
@@ -340,7 +351,8 @@
     "sea-surface-temp-seaweed-stress+zamboanga-peninsula-philippines+smallholder-carrageenan-seaweed-farmers",
     "raw-fish-bacterial-risk-scoring+isan-northeastern-thailand+village-feast-food-preparers",
     "coffee-farmgate-price-checker+bolaven-plateau-laos+smallholder-arabica-growers",
-    "power-outage-risk-prediction+kampong-cham-mekong-cambodia+small-ice-factory-operators"
+    "power-outage-risk-prediction+kampong-cham-mekong-cambodia+small-ice-factory-operators",
+    "boat-crossing-risk-briefing+cheow-lan-lake-khao-sok-thailand+longtail-boat-operators"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block"],
@@ -357,14 +369,14 @@
     "culture_religion": ["auspicious_date_planning"],
     "defense_security": ["landmine_mapping"],
     "energy_utilities": ["dam_water_level", "power_outage_mapping"],
-    "tourism_travel": ["adventure_risk_scoring"]
+    "tourism_travel": ["adventure_risk_scoring", "national_park_capacity"]
   },
-  "last_updated": "2026-04-21T08:00:00+07:00",
+  "last_updated": "2026-04-22T08:02:09+07:00",
   "rotation_state": {
-    "last_industry": "energy_utilities",
-    "last_sub_industry": "power_outage_mapping",
-    "last_geography": "cambodia",
-    "last_3_industries": ["health_medical", "finance_economics", "energy_utilities"],
-    "last_3_geographies": ["thailand", "laos", "cambodia"]
+    "last_industry": "tourism_travel",
+    "last_sub_industry": "national_park_capacity",
+    "last_geography": "thailand",
+    "last_3_industries": ["finance_economics", "energy_utilities", "tourism_travel"],
+    "last_3_geographies": ["laos", "cambodia", "thailand"]
   }
 }
