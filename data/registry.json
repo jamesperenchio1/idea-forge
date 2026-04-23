@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 29,
+  "total_ideas": 30,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -321,6 +321,17 @@
       "geography": "thailand",
       "concept_hash": "boat-crossing-risk-briefing+cheow-lan-lake-khao-sok-thailand+longtail-boat-operators",
       "apis_used": ["Open-Meteo Weather API", "Open-Meteo Flood API", "World Bank Open Data", "ExchangeRate-API"]
+    },
+    {
+      "id": "amblesjkt-north-jakarta-sinking-zone-kampung-home-buyer-checker-2026-04-23",
+      "title": "AmblesJkt — Ground Subsidence & Flood Risk Checker for North Jakarta Kampung Home Buyers",
+      "file": "2026-04-23_north-jakarta-sinking-zone-kampung-home-buyer-checker.md",
+      "created_at": "2026-04-23T08:02:42+07:00",
+      "industry": "real_estate_urban",
+      "sub_industry": "flood_zone_property_risk",
+      "geography": "indonesia",
+      "concept_hash": "jakarta-ground-subsidence-flood-risk-property-checker+north-jakarta-pluit-muara-baru-indonesia+kampung-home-buyers",
+      "apis_used": ["Open-Meteo Flood API", "Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API", "USGS Earthquake Hazards"]
     }
   ],
   "concept_hashes_used": [
@@ -352,10 +363,11 @@
     "raw-fish-bacterial-risk-scoring+isan-northeastern-thailand+village-feast-food-preparers",
     "coffee-farmgate-price-checker+bolaven-plateau-laos+smallholder-arabica-growers",
     "power-outage-risk-prediction+kampong-cham-mekong-cambodia+small-ice-factory-operators",
-    "boat-crossing-risk-briefing+cheow-lan-lake-khao-sok-thailand+longtail-boat-operators"
+    "boat-crossing-risk-briefing+cheow-lan-lake-khao-sok-thailand+longtail-boat-operators",
+    "jakarta-ground-subsidence-flood-risk-property-checker+north-jakarta-pluit-muara-baru-indonesia+kampung-home-buyers"
   ],
   "industries_covered": {
-    "real_estate_urban": ["air_pollution_by_block"],
+    "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk"],
     "agriculture_farming": ["rubber_tapping", "aquaculture", "pest_management"],
     "disaster_emergency": ["wildfire_risk", "landslide_risk_zones"],
     "finance_economics": ["remittance_rates", "commodity_prices_farmers"],
@@ -371,12 +383,12 @@
     "energy_utilities": ["dam_water_level", "power_outage_mapping"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity"]
   },
-  "last_updated": "2026-04-22T08:02:09+07:00",
+  "last_updated": "2026-04-23T08:02:42+07:00",
   "rotation_state": {
-    "last_industry": "tourism_travel",
-    "last_sub_industry": "national_park_capacity",
-    "last_geography": "thailand",
-    "last_3_industries": ["finance_economics", "energy_utilities", "tourism_travel"],
-    "last_3_geographies": ["laos", "cambodia", "thailand"]
+    "last_industry": "real_estate_urban",
+    "last_sub_industry": "flood_zone_property_risk",
+    "last_geography": "indonesia",
+    "last_3_industries": ["energy_utilities", "tourism_travel", "real_estate_urban"],
+    "last_3_geographies": ["cambodia", "thailand", "indonesia"]
   }
 }
