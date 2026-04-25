@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 31,
+  "total_ideas": 32,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -343,6 +343,17 @@
       "geography": "thailand",
       "concept_hash": "snake-bite-dawn-activity-and-antivenin-finder+pak-thong-chai-cassava-isan-thailand+smallholder-dawn-field-workers",
       "apis_used": ["Open-Meteo Weather API", "OpenStreetMap Overpass", "World Bank Open Data", "REST Countries", "ExchangeRate-API"]
+    },
+    {
+      "id": "bonarun-phnom-penh-pre-dawn-merit-circuit-2026-04-25",
+      "title": "BonArun — Pre-Dawn Merit-Making Pagoda Circuit Briefing for Elderly Phnom Penh Buddhist Women in Heat-Smog Season",
+      "file": "2026-04-25_pre-dawn-merit-pagoda-circuit-briefing-phnom-penh.md",
+      "created_at": "2026-04-25T08:00:00+07:00",
+      "industry": "culture_religion",
+      "sub_industry": "merit_making_guides",
+      "geography": "cambodia",
+      "concept_hash": "pre-dawn-merit-pagoda-circuit-briefing+phnom-penh-cambodia+elderly-sino-khmer-buddhist-women",
+      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Air Quality API", "World Bank Open Data", "ExchangeRate-API", "OpenStreetMap Overpass"]
     }
   ],
   "concept_hashes_used": [
@@ -376,7 +387,8 @@
     "power-outage-risk-prediction+kampong-cham-mekong-cambodia+small-ice-factory-operators",
     "boat-crossing-risk-briefing+cheow-lan-lake-khao-sok-thailand+longtail-boat-operators",
     "jakarta-ground-subsidence-flood-risk-property-checker+north-jakarta-pluit-muara-baru-indonesia+kampung-home-buyers",
-    "snake-bite-dawn-activity-and-antivenin-finder+pak-thong-chai-cassava-isan-thailand+smallholder-dawn-field-workers"
+    "snake-bite-dawn-activity-and-antivenin-finder+pak-thong-chai-cassava-isan-thailand+smallholder-dawn-field-workers",
+    "pre-dawn-merit-pagoda-circuit-briefing+phnom-penh-cambodia+elderly-sino-khmer-buddhist-women"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk"],
@@ -390,17 +402,17 @@
     "transportation_mobility": ["elephant_crossing_alerts", "ferry_schedules"],
     "food_beverage": ["fermented_foods", "durian_ripeness", "fish_sauce_quality"],
     "wildlife_biodiversity": ["nocturnal_activity", "pollinator_health", "snake_identification"],
-    "culture_religion": ["auspicious_date_planning"],
+    "culture_religion": ["auspicious_date_planning", "merit_making_guides"],
     "defense_security": ["landmine_mapping"],
     "energy_utilities": ["dam_water_level", "power_outage_mapping"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity"]
   },
-  "last_updated": "2026-04-24T08:00:00+07:00",
+  "last_updated": "2026-04-25T08:00:00+07:00",
   "rotation_state": {
-    "last_industry": "wildlife_biodiversity",
-    "last_sub_industry": "snake_identification",
-    "last_geography": "thailand",
-    "last_3_industries": ["tourism_travel", "real_estate_urban", "wildlife_biodiversity"],
-    "last_3_geographies": ["thailand", "indonesia", "thailand"]
+    "last_industry": "culture_religion",
+    "last_sub_industry": "merit_making_guides",
+    "last_geography": "cambodia",
+    "last_3_industries": ["real_estate_urban", "wildlife_biodiversity", "culture_religion"],
+    "last_3_geographies": ["indonesia", "thailand", "cambodia"]
   }
 }
