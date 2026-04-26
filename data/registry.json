@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 32,
+  "total_ideas": 33,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -354,6 +354,17 @@
       "geography": "cambodia",
       "concept_hash": "pre-dawn-merit-pagoda-circuit-briefing+phnom-penh-cambodia+elderly-sino-khmer-buddhist-women",
       "apis_used": ["Open-Meteo Weather API", "Open-Meteo Air Quality API", "World Bank Open Data", "ExchangeRate-API", "OpenStreetMap Overpass"]
+    },
+    {
+      "id": "hnamyay-magway-dry-zone-sesame-drought-window-tracker-2026-04-26",
+      "title": "HnamYay — Sesame Sowing-Window & Irrigation-Trigger Tracker for Magway Dry Zone Smallholders",
+      "file": "2026-04-26_magway-dry-zone-sesame-drought-window-tracker.md",
+      "created_at": "2026-04-26T08:00:00+06:30",
+      "industry": "disaster_emergency",
+      "sub_industry": "drought_early_warning",
+      "geography": "myanmar",
+      "concept_hash": "drought-sowing-irrigation-window+magway-dry-zone-myanmar+smallholder-sesame-farmers",
+      "apis_used": ["Open-Meteo Forecast API", "Open-Meteo Soil Moisture API", "World Bank Open Data", "ExchangeRate-API"]
     }
   ],
   "concept_hashes_used": [
@@ -388,12 +399,13 @@
     "boat-crossing-risk-briefing+cheow-lan-lake-khao-sok-thailand+longtail-boat-operators",
     "jakarta-ground-subsidence-flood-risk-property-checker+north-jakarta-pluit-muara-baru-indonesia+kampung-home-buyers",
     "snake-bite-dawn-activity-and-antivenin-finder+pak-thong-chai-cassava-isan-thailand+smallholder-dawn-field-workers",
-    "pre-dawn-merit-pagoda-circuit-briefing+phnom-penh-cambodia+elderly-sino-khmer-buddhist-women"
+    "pre-dawn-merit-pagoda-circuit-briefing+phnom-penh-cambodia+elderly-sino-khmer-buddhist-women",
+    "drought-sowing-irrigation-window+magway-dry-zone-myanmar+smallholder-sesame-farmers"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk"],
     "agriculture_farming": ["rubber_tapping", "aquaculture", "pest_management"],
-    "disaster_emergency": ["wildfire_risk", "landslide_risk_zones"],
+    "disaster_emergency": ["wildfire_risk", "landslide_risk_zones", "drought_early_warning"],
     "finance_economics": ["remittance_rates", "commodity_prices_farmers"],
     "health_medical": ["dengue_risk_mapping", "food_poisoning_tracking"],
     "ocean_maritime": ["dive_site_conditions", "sea_surface_temp"],
@@ -407,12 +419,12 @@
     "energy_utilities": ["dam_water_level", "power_outage_mapping"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity"]
   },
-  "last_updated": "2026-04-25T08:00:00+07:00",
+  "last_updated": "2026-04-26T08:00:00+06:30",
   "rotation_state": {
-    "last_industry": "culture_religion",
-    "last_sub_industry": "merit_making_guides",
-    "last_geography": "cambodia",
-    "last_3_industries": ["real_estate_urban", "wildlife_biodiversity", "culture_religion"],
-    "last_3_geographies": ["indonesia", "thailand", "cambodia"]
+    "last_industry": "disaster_emergency",
+    "last_sub_industry": "drought_early_warning",
+    "last_geography": "myanmar",
+    "last_3_industries": ["wildlife_biodiversity", "culture_religion", "disaster_emergency"],
+    "last_3_geographies": ["thailand", "cambodia", "myanmar"]
   }
 }
