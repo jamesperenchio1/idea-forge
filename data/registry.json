@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 35,
+  "total_ideas": 36,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -387,6 +387,17 @@
       "geography": "vietnam",
       "concept_hash": "asf-pig-disease-risk-scoring+red-river-delta-vietnam+backyard-smallholder-pig-farmers",
       "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
+    },
+    {
+      "id": "tubbataha-reef-bleaching-thermal-stress-liveaboard-briefer-2026-04-29",
+      "title": "TubbaTemp — Tubbataha Reef Thermal Stress & Trip-Go Briefer for Palawan Liveaboard Operators",
+      "file": "2026-04-29_tubbataha-reef-bleaching-thermal-stress-liveaboard-briefer.md",
+      "created_at": "2026-04-29T09:04:29+08:00",
+      "industry": "ocean_maritime",
+      "sub_industry": "coral_bleaching",
+      "geography": "philippines",
+      "concept_hash": "coral-bleaching-thermal-stress-briefing+tubbataha-reef-sulu-sea-philippines+liveaboard-dive-operators",
+      "apis_used": ["Open-Meteo Marine API", "Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
     }
   ],
   "concept_hashes_used": [
@@ -424,7 +435,8 @@
     "pre-dawn-merit-pagoda-circuit-briefing+phnom-penh-cambodia+elderly-sino-khmer-buddhist-women",
     "drought-sowing-irrigation-window+magway-dry-zone-myanmar+smallholder-sesame-farmers",
     "sea-turtle-hatchling-dark-sky-release-window+cherating-beach-pahang-malaysia+volunteer-turtle-conservation-rangers",
-    "asf-pig-disease-risk-scoring+red-river-delta-vietnam+backyard-smallholder-pig-farmers"
+    "asf-pig-disease-risk-scoring+red-river-delta-vietnam+backyard-smallholder-pig-farmers",
+    "coral-bleaching-thermal-stress-briefing+tubbataha-reef-sulu-sea-philippines+liveaboard-dive-operators"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk"],
@@ -432,7 +444,7 @@
     "disaster_emergency": ["wildfire_risk", "landslide_risk_zones", "drought_early_warning"],
     "finance_economics": ["remittance_rates", "commodity_prices_farmers"],
     "health_medical": ["dengue_risk_mapping", "food_poisoning_tracking"],
-    "ocean_maritime": ["dive_site_conditions", "sea_surface_temp"],
+    "ocean_maritime": ["dive_site_conditions", "sea_surface_temp", "coral_bleaching"],
     "labor_work": ["fishing_crew_safety", "construction_site_safety"],
     "environment_ecology": ["river_pollution", "mangrove_mapping", "light_pollution"],
     "transportation_mobility": ["elephant_crossing_alerts", "ferry_schedules"],
@@ -443,12 +455,12 @@
     "energy_utilities": ["dam_water_level", "power_outage_mapping"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity"]
   },
-  "last_updated": "2026-04-28T08:02:27+07:00",
+  "last_updated": "2026-04-29T09:04:29+08:00",
   "rotation_state": {
-    "last_industry": "agriculture_farming",
-    "last_sub_industry": "livestock_disease",
-    "last_geography": "vietnam",
-    "last_3_industries": ["disaster_emergency", "environment_ecology", "agriculture_farming"],
-    "last_3_geographies": ["myanmar", "malaysia", "vietnam"]
+    "last_industry": "ocean_maritime",
+    "last_sub_industry": "coral_bleaching",
+    "last_geography": "philippines",
+    "last_3_industries": ["environment_ecology", "agriculture_farming", "ocean_maritime"],
+    "last_3_geographies": ["malaysia", "vietnam", "philippines"]
   }
 }
