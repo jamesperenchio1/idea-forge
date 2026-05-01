@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 37,
+  "total_ideas": 38,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -409,6 +409,17 @@
       "geography": "thailand",
       "concept_hash": "wage-deduction-compliance-checker+kanchanaburi-sugarcane-thailand+burmese-migrant-piece-rate-cutters",
       "apis_used": ["ExchangeRate-API", "Open-Meteo Weather API", "World Bank Open Data"]
+    },
+    {
+      "id": "kei-islands-solar-cold-storage-roi-checker-2026-05-01",
+      "title": "SuryaEs — Solar-to-Ice Break-Even Checker for Remote Maluku Fish Cooperative Cold Storage",
+      "file": "2026-05-01_kei-islands-solar-cold-storage-roi-checker.md",
+      "created_at": "2026-05-01T08:02:43+07:00",
+      "industry": "energy_utilities",
+      "sub_industry": "solar_potential_by_region",
+      "geography": "indonesia",
+      "concept_hash": "solar-cold-storage-roi-checker+kei-islands-maluku-indonesia+fishing-cooperative-heads",
+      "apis_used": ["Open-Meteo Forecast API", "Open-Meteo Daily Solar API", "World Bank Open Data", "ExchangeRate-API"]
     }
   ],
   "concept_hashes_used": [
@@ -448,7 +459,8 @@
     "sea-turtle-hatchling-dark-sky-release-window+cherating-beach-pahang-malaysia+volunteer-turtle-conservation-rangers",
     "asf-pig-disease-risk-scoring+red-river-delta-vietnam+backyard-smallholder-pig-farmers",
     "coral-bleaching-thermal-stress-briefing+tubbataha-reef-sulu-sea-philippines+liveaboard-dive-operators",
-    "wage-deduction-compliance-checker+kanchanaburi-sugarcane-thailand+burmese-migrant-piece-rate-cutters"
+    "wage-deduction-compliance-checker+kanchanaburi-sugarcane-thailand+burmese-migrant-piece-rate-cutters",
+    "solar-cold-storage-roi-checker+kei-islands-maluku-indonesia+fishing-cooperative-heads"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk"],
@@ -464,15 +476,15 @@
     "wildlife_biodiversity": ["nocturnal_activity", "pollinator_health", "snake_identification"],
     "culture_religion": ["auspicious_date_planning", "merit_making_guides"],
     "defense_security": ["landmine_mapping"],
-    "energy_utilities": ["dam_water_level", "power_outage_mapping"],
+    "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity"]
   },
-  "last_updated": "2026-04-30T08:02:08+07:00",
+  "last_updated": "2026-05-01T08:02:43+07:00",
   "rotation_state": {
-    "last_industry": "labor_work",
-    "last_sub_industry": "agricultural_wage_tracking",
-    "last_geography": "thailand",
-    "last_3_industries": ["agriculture_farming", "ocean_maritime", "labor_work"],
-    "last_3_geographies": ["vietnam", "philippines", "thailand"]
+    "last_industry": "energy_utilities",
+    "last_sub_industry": "solar_potential_by_region",
+    "last_geography": "indonesia",
+    "last_3_industries": ["ocean_maritime", "labor_work", "energy_utilities"],
+    "last_3_geographies": ["philippines", "thailand", "indonesia"]
   }
 }
