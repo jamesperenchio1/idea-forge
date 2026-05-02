@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 38,
+  "total_ideas": 39,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -420,6 +420,17 @@
       "geography": "indonesia",
       "concept_hash": "solar-cold-storage-roi-checker+kei-islands-maluku-indonesia+fishing-cooperative-heads",
       "apis_used": ["Open-Meteo Forecast API", "Open-Meteo Daily Solar API", "World Bank Open Data", "ExchangeRate-API"]
+    },
+    {
+      "id": "kandal-arsenic-well-risk-estimator-cambodia-2026-05-02",
+      "title": "TikSaat — Tube Well Arsenic Risk Estimator for Kandal Province Mekong Floodplain Families",
+      "file": "2026-05-02_kandal-arsenic-well-risk-estimator-cambodia.md",
+      "created_at": "2026-05-02T08:02:56+07:00",
+      "industry": "health_medical",
+      "sub_industry": "water_safety",
+      "geography": "cambodia",
+      "concept_hash": "groundwater-arsenic-risk-scoring+kandal-prey-veng-mekong-floodplain-cambodia+rural-tube-well-drinking-families",
+      "apis_used": ["World Bank Open Data", "WHO GHO", "Open-Meteo Flood API"]
     }
   ],
   "concept_hashes_used": [
@@ -460,14 +471,15 @@
     "asf-pig-disease-risk-scoring+red-river-delta-vietnam+backyard-smallholder-pig-farmers",
     "coral-bleaching-thermal-stress-briefing+tubbataha-reef-sulu-sea-philippines+liveaboard-dive-operators",
     "wage-deduction-compliance-checker+kanchanaburi-sugarcane-thailand+burmese-migrant-piece-rate-cutters",
-    "solar-cold-storage-roi-checker+kei-islands-maluku-indonesia+fishing-cooperative-heads"
+    "solar-cold-storage-roi-checker+kei-islands-maluku-indonesia+fishing-cooperative-heads",
+    "groundwater-arsenic-risk-scoring+kandal-prey-veng-mekong-floodplain-cambodia+rural-tube-well-drinking-families"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk"],
     "agriculture_farming": ["rubber_tapping", "aquaculture", "pest_management", "livestock_disease"],
     "disaster_emergency": ["wildfire_risk", "landslide_risk_zones", "drought_early_warning"],
     "finance_economics": ["remittance_rates", "commodity_prices_farmers"],
-    "health_medical": ["dengue_risk_mapping", "food_poisoning_tracking"],
+    "health_medical": ["dengue_risk_mapping", "food_poisoning_tracking", "water_safety"],
     "ocean_maritime": ["dive_site_conditions", "sea_surface_temp", "coral_bleaching"],
     "labor_work": ["fishing_crew_safety", "construction_site_safety", "agricultural_wage_tracking"],
     "environment_ecology": ["river_pollution", "mangrove_mapping", "light_pollution"],
@@ -479,12 +491,12 @@
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity"]
   },
-  "last_updated": "2026-05-01T08:02:43+07:00",
+  "last_updated": "2026-05-02T08:02:56+07:00",
   "rotation_state": {
-    "last_industry": "energy_utilities",
-    "last_sub_industry": "solar_potential_by_region",
-    "last_geography": "indonesia",
-    "last_3_industries": ["ocean_maritime", "labor_work", "energy_utilities"],
-    "last_3_geographies": ["philippines", "thailand", "indonesia"]
+    "last_industry": "health_medical",
+    "last_sub_industry": "water_safety",
+    "last_geography": "cambodia",
+    "last_3_industries": ["labor_work", "energy_utilities", "health_medical"],
+    "last_3_geographies": ["thailand", "indonesia", "cambodia"]
   }
 }
