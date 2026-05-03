@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 39,
+  "total_ideas": 40,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -431,6 +431,17 @@
       "geography": "cambodia",
       "concept_hash": "groundwater-arsenic-risk-scoring+kandal-prey-veng-mekong-floodplain-cambodia+rural-tube-well-drinking-families",
       "apis_used": ["World Bank Open Data", "WHO GHO", "Open-Meteo Flood API"]
+    },
+    {
+      "id": "xieng-khouang-uxo-soil-saturation-risk-briefer-2026-05-03",
+      "title": "ThongPod — Soil-Saturation & UXO Surface-Risk Briefer for Xieng Khouang Farmers Clearing Uncertified Land",
+      "file": "2026-05-03_xieng-khouang-uxo-soil-saturation-risk-briefer.md",
+      "created_at": "2026-05-03T08:02:40+07:00",
+      "industry": "defense_security",
+      "sub_industry": "uxo_thailand",
+      "geography": "laos",
+      "concept_hash": "uxo-clearance-status-and-soil-risk-score+xieng-khouang-plain-of-jars-laos+smallholder-farmers-plowing-uncertified-land",
+      "apis_used": ["Open-Meteo Forecast API", "USGS Earthquake Hazards", "World Bank Open Data", "ExchangeRate-API"]
     }
   ],
   "concept_hashes_used": [
@@ -472,7 +483,8 @@
     "coral-bleaching-thermal-stress-briefing+tubbataha-reef-sulu-sea-philippines+liveaboard-dive-operators",
     "wage-deduction-compliance-checker+kanchanaburi-sugarcane-thailand+burmese-migrant-piece-rate-cutters",
     "solar-cold-storage-roi-checker+kei-islands-maluku-indonesia+fishing-cooperative-heads",
-    "groundwater-arsenic-risk-scoring+kandal-prey-veng-mekong-floodplain-cambodia+rural-tube-well-drinking-families"
+    "groundwater-arsenic-risk-scoring+kandal-prey-veng-mekong-floodplain-cambodia+rural-tube-well-drinking-families",
+    "uxo-clearance-status-and-soil-risk-score+xieng-khouang-plain-of-jars-laos+smallholder-farmers-plowing-uncertified-land"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk"],
@@ -487,16 +499,16 @@
     "food_beverage": ["fermented_foods", "durian_ripeness", "fish_sauce_quality"],
     "wildlife_biodiversity": ["nocturnal_activity", "pollinator_health", "snake_identification"],
     "culture_religion": ["auspicious_date_planning", "merit_making_guides"],
-    "defense_security": ["landmine_mapping"],
+    "defense_security": ["landmine_mapping", "uxo_thailand"],
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity"]
   },
-  "last_updated": "2026-05-02T08:02:56+07:00",
+  "last_updated": "2026-05-03T08:02:40+07:00",
   "rotation_state": {
-    "last_industry": "health_medical",
-    "last_sub_industry": "water_safety",
-    "last_geography": "cambodia",
-    "last_3_industries": ["labor_work", "energy_utilities", "health_medical"],
-    "last_3_geographies": ["thailand", "indonesia", "cambodia"]
+    "last_industry": "defense_security",
+    "last_sub_industry": "uxo_thailand",
+    "last_geography": "laos",
+    "last_3_industries": ["energy_utilities", "health_medical", "defense_security"],
+    "last_3_geographies": ["indonesia", "cambodia", "laos"]
   }
 }
