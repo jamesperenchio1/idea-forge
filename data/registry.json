@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 40,
+  "total_ideas": 41,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -442,6 +442,17 @@
       "geography": "laos",
       "concept_hash": "uxo-clearance-status-and-soil-risk-score+xieng-khouang-plain-of-jars-laos+smallholder-farmers-plowing-uncertified-land",
       "apis_used": ["Open-Meteo Forecast API", "USGS Earthquake Hazards", "World Bank Open Data", "ExchangeRate-API"]
+    },
+    {
+      "id": "hue-flood-route-briefer-xe-om-riders-2026-05-04",
+      "title": "NgậpHuế — Flood Route Briefer for Hue City Motorbike Riders During Typhoon Season",
+      "file": "2026-05-04_hue-flood-route-briefer-xe-om-riders.md",
+      "created_at": "2026-05-04T08:00:00+07:00",
+      "industry": "transportation_mobility",
+      "sub_industry": "flood_route_avoidance",
+      "geography": "vietnam",
+      "concept_hash": "flood-route-avoidance+hue-city-huong-river-vietnam+xe-om-and-grab-bike-riders",
+      "apis_used": ["Open-Meteo Flood API", "Open-Meteo Weather API", "Open-Meteo Historical Archive", "ExchangeRate-API", "World Bank Open Data"]
     }
   ],
   "concept_hashes_used": [
@@ -484,7 +495,8 @@
     "wage-deduction-compliance-checker+kanchanaburi-sugarcane-thailand+burmese-migrant-piece-rate-cutters",
     "solar-cold-storage-roi-checker+kei-islands-maluku-indonesia+fishing-cooperative-heads",
     "groundwater-arsenic-risk-scoring+kandal-prey-veng-mekong-floodplain-cambodia+rural-tube-well-drinking-families",
-    "uxo-clearance-status-and-soil-risk-score+xieng-khouang-plain-of-jars-laos+smallholder-farmers-plowing-uncertified-land"
+    "uxo-clearance-status-and-soil-risk-score+xieng-khouang-plain-of-jars-laos+smallholder-farmers-plowing-uncertified-land",
+    "flood-route-avoidance+hue-city-huong-river-vietnam+xe-om-and-grab-bike-riders"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk"],
@@ -495,7 +507,7 @@
     "ocean_maritime": ["dive_site_conditions", "sea_surface_temp", "coral_bleaching"],
     "labor_work": ["fishing_crew_safety", "construction_site_safety", "agricultural_wage_tracking"],
     "environment_ecology": ["river_pollution", "mangrove_mapping", "light_pollution"],
-    "transportation_mobility": ["elephant_crossing_alerts", "ferry_schedules"],
+    "transportation_mobility": ["elephant_crossing_alerts", "ferry_schedules", "flood_route_avoidance"],
     "food_beverage": ["fermented_foods", "durian_ripeness", "fish_sauce_quality"],
     "wildlife_biodiversity": ["nocturnal_activity", "pollinator_health", "snake_identification"],
     "culture_religion": ["auspicious_date_planning", "merit_making_guides"],
@@ -503,12 +515,12 @@
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity"]
   },
-  "last_updated": "2026-05-03T08:02:40+07:00",
+  "last_updated": "2026-05-04T08:00:00+07:00",
   "rotation_state": {
-    "last_industry": "defense_security",
-    "last_sub_industry": "uxo_thailand",
-    "last_geography": "laos",
-    "last_3_industries": ["energy_utilities", "health_medical", "defense_security"],
-    "last_3_geographies": ["indonesia", "cambodia", "laos"]
+    "last_industry": "transportation_mobility",
+    "last_sub_industry": "flood_route_avoidance",
+    "last_geography": "vietnam",
+    "last_3_industries": ["health_medical", "defense_security", "transportation_mobility"],
+    "last_3_geographies": ["cambodia", "laos", "vietnam"]
   }
 }
