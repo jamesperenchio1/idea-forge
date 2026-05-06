@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 42,
+  "total_ideas": 43,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -455,6 +455,17 @@
       "apis_used": ["Open-Meteo Flood API", "Open-Meteo Weather API", "Open-Meteo Historical Archive", "ExchangeRate-API", "World Bank Open Data"]
     },
     {
+      "id": "khao-dinsor-raptor-migration-wind-score-birding-guides-2026-05-06",
+      "title": "HiaoLom — Raptor Migration Wind-Score Briefer for Khao Dinsor Birding Guides",
+      "file": "2026-05-06_khao-dinsor-raptor-migration-wind-score-birding-guides.md",
+      "created_at": "2026-05-06T08:03:21+07:00",
+      "industry": "wildlife_biodiversity",
+      "sub_industry": "bird_migration_alerts",
+      "geography": "thailand",
+      "concept_hash": "raptor-migration-wind-window+khao-dinsor-chumphon-thailand+freelance-birding-guide-operators",
+      "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
+    },
+    {
       "id": "irrawaddy-delta-cyclone-window-checker-longtail-fishers-2026-05-05",
       "title": "NagaNet — Bay of Bengal Cyclone-Window Checker for Irrawaddy Delta Small-Boat Fishers",
       "file": "2026-05-05_irrawaddy-delta-cyclone-window-checker-longtail-fishers.md",
@@ -508,7 +519,8 @@
     "groundwater-arsenic-risk-scoring+kandal-prey-veng-mekong-floodplain-cambodia+rural-tube-well-drinking-families",
     "uxo-clearance-status-and-soil-risk-score+xieng-khouang-plain-of-jars-laos+smallholder-farmers-plowing-uncertified-land",
     "flood-route-avoidance+hue-city-huong-river-vietnam+xe-om-and-grab-bike-riders",
-    "cyclone-departure-window-checker+irrawaddy-delta-bay-of-bengal-myanmar+small-boat-longtail-fishers"
+    "cyclone-departure-window-checker+irrawaddy-delta-bay-of-bengal-myanmar+small-boat-longtail-fishers",
+    "raptor-migration-wind-window+khao-dinsor-chumphon-thailand+freelance-birding-guide-operators"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk"],
@@ -521,18 +533,18 @@
     "environment_ecology": ["river_pollution", "mangrove_mapping", "light_pollution"],
     "transportation_mobility": ["elephant_crossing_alerts", "ferry_schedules", "flood_route_avoidance"],
     "food_beverage": ["fermented_foods", "durian_ripeness", "fish_sauce_quality"],
-    "wildlife_biodiversity": ["nocturnal_activity", "pollinator_health", "snake_identification"],
+    "wildlife_biodiversity": ["nocturnal_activity", "pollinator_health", "snake_identification", "bird_migration_alerts"],
     "culture_religion": ["auspicious_date_planning", "merit_making_guides"],
     "defense_security": ["landmine_mapping", "uxo_thailand"],
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity"]
   },
-  "last_updated": "2026-05-05T08:00:00+07:00",
+  "last_updated": "2026-05-06T08:03:21+07:00",
   "rotation_state": {
-    "last_industry": "disaster_emergency",
-    "last_sub_industry": "cyclone_tracking",
-    "last_geography": "myanmar",
-    "last_3_industries": ["defense_security", "transportation_mobility", "disaster_emergency"],
-    "last_3_geographies": ["laos", "vietnam", "myanmar"]
+    "last_industry": "wildlife_biodiversity",
+    "last_sub_industry": "bird_migration_alerts",
+    "last_geography": "thailand",
+    "last_3_industries": ["transportation_mobility", "disaster_emergency", "wildlife_biodiversity"],
+    "last_3_geographies": ["vietnam", "myanmar", "thailand"]
   }
 }
