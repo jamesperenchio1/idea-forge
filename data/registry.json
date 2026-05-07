@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 43,
+  "total_ideas": 44,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -475,9 +475,21 @@
       "geography": "myanmar",
       "concept_hash": "cyclone-departure-window-checker+irrawaddy-delta-bay-of-bengal-myanmar+small-boat-longtail-fishers",
       "apis_used": ["Open-Meteo Marine API", "Open-Meteo Forecast API", "NASA EONET", "World Bank Open Data"]
+    },
+    {
+      "id": "nueva-ecija-palay-warehouse-vent-humidity-briefer-2026-05-07",
+      "title": "HanginCheck — Warehouse Vent Timing Briefer for Nueva Ecija Palay Consolidators",
+      "file": "2026-05-07_nueva-ecija-palay-warehouse-vent-humidity-briefer.md",
+      "created_at": "2026-05-07T08:01:16+07:00",
+      "industry": "agriculture_farming",
+      "sub_industry": "rice_farming",
+      "geography": "philippines",
+      "concept_hash": "palay-storage-humidity-vent-window+nueva-ecija-central-luzon-philippines+smallholder-palay-consolidators",
+      "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
     }
   ],
   "concept_hashes_used": [
+    "palay-storage-humidity-vent-window+nueva-ecija-central-luzon-philippines+smallholder-palay-consolidators",
     "air-quality-by-address+bangkok-districts+renters-and-buyers",
     "rubber-tapping-optimal-time+southern-thailand+smallholder-tappers",
     "field-burning-window+northern-thailand+highland-corn-farmers",
@@ -524,7 +536,7 @@
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk"],
-    "agriculture_farming": ["rubber_tapping", "aquaculture", "pest_management", "livestock_disease"],
+    "agriculture_farming": ["rubber_tapping", "aquaculture", "pest_management", "livestock_disease", "rice_farming"],
     "disaster_emergency": ["wildfire_risk", "landslide_risk_zones", "drought_early_warning", "cyclone_tracking"],
     "finance_economics": ["remittance_rates", "commodity_prices_farmers"],
     "health_medical": ["dengue_risk_mapping", "food_poisoning_tracking", "water_safety"],
@@ -539,12 +551,12 @@
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity"]
   },
-  "last_updated": "2026-05-06T08:03:21+07:00",
+  "last_updated": "2026-05-07T08:01:16+07:00",
   "rotation_state": {
-    "last_industry": "wildlife_biodiversity",
-    "last_sub_industry": "bird_migration_alerts",
-    "last_geography": "thailand",
-    "last_3_industries": ["transportation_mobility", "disaster_emergency", "wildlife_biodiversity"],
-    "last_3_geographies": ["vietnam", "myanmar", "thailand"]
+    "last_industry": "agriculture_farming",
+    "last_sub_industry": "rice_farming",
+    "last_geography": "philippines",
+    "last_3_industries": ["disaster_emergency", "wildlife_biodiversity", "agriculture_farming"],
+    "last_3_geographies": ["myanmar", "thailand", "philippines"]
   }
 }
