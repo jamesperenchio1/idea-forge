@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 46,
+  "total_ideas": 47,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -508,6 +508,17 @@
       "geography": "malaysia",
       "concept_hash": "haze-break-drying-window+sarawak-serian-bau-borneo-malaysia+black-pepper-smallholder-farmers",
       "apis_used": ["Open-Meteo Air Quality API", "Open-Meteo Weather Forecast API", "World Bank Open Data"]
+    },
+    {
+      "id": "temple-fair-circuit-weather-planner-central-thailand-2026-05-10",
+      "title": "NgaanWat — Temple Fair Circuit Weather Planner for Traveling Stall Vendors in Central Thailand",
+      "file": "2026-05-10_temple-fair-circuit-weather-planner-central-thailand.md",
+      "created_at": "2026-05-10T08:02:26+07:00",
+      "industry": "culture_religion",
+      "sub_industry": "temple_event_tracking",
+      "geography": "thailand",
+      "concept_hash": "temple-fair-circuit-weather-planner+nakhon-pathom-central-thailand+traveling-market-vendor-ngaan-wat",
+      "apis_used": ["Open-Meteo Weather API", "OpenStreetMap Overpass API", "ExchangeRate-API", "World Bank Open Data"]
     }
   ],
   "concept_hashes_used": [
@@ -556,7 +567,8 @@
     "cyclone-departure-window-checker+irrawaddy-delta-bay-of-bengal-myanmar+small-boat-longtail-fishers",
     "raptor-migration-wind-window+khao-dinsor-chumphon-thailand+freelance-birding-guide-operators",
     "kampot-pepper-drying-window-hold-vs-sell+kampot-kep-province-cambodia+smallholder-pepper-growers",
-    "haze-break-drying-window+sarawak-serian-bau-borneo-malaysia+black-pepper-smallholder-farmers"
+    "haze-break-drying-window+sarawak-serian-bau-borneo-malaysia+black-pepper-smallholder-farmers",
+    "temple-fair-circuit-weather-planner+nakhon-pathom-central-thailand+traveling-market-vendor-ngaan-wat"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk"],
@@ -570,17 +582,17 @@
     "transportation_mobility": ["elephant_crossing_alerts", "ferry_schedules", "flood_route_avoidance"],
     "food_beverage": ["fermented_foods", "durian_ripeness", "fish_sauce_quality"],
     "wildlife_biodiversity": ["nocturnal_activity", "pollinator_health", "snake_identification", "bird_migration_alerts"],
-    "culture_religion": ["auspicious_date_planning", "merit_making_guides"],
+    "culture_religion": ["auspicious_date_planning", "merit_making_guides", "temple_event_tracking"],
     "defense_security": ["landmine_mapping", "uxo_thailand"],
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity"]
   },
-  "last_updated": "2026-05-09T08:02:01+07:00",
+  "last_updated": "2026-05-10T08:02:26+07:00",
   "rotation_state": {
-    "last_industry": "disaster_emergency",
-    "last_sub_industry": "haze_pollution_alerts",
-    "last_geography": "malaysia",
-    "last_3_industries": ["agriculture_farming", "finance_economics", "disaster_emergency"],
-    "last_3_geographies": ["philippines", "cambodia", "malaysia"]
+    "last_industry": "culture_religion",
+    "last_sub_industry": "temple_event_tracking",
+    "last_geography": "thailand",
+    "last_3_industries": ["finance_economics", "disaster_emergency", "culture_religion"],
+    "last_3_geographies": ["cambodia", "malaysia", "thailand"]
   }
 }
