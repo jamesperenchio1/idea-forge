@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 47,
+  "total_ideas": 48,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -519,6 +519,17 @@
       "geography": "thailand",
       "concept_hash": "temple-fair-circuit-weather-planner+nakhon-pathom-central-thailand+traveling-market-vendor-ngaan-wat",
       "apis_used": ["Open-Meteo Weather API", "OpenStreetMap Overpass API", "ExchangeRate-API", "World Bank Open Data"]
+    },
+    {
+      "id": "mekong-delta-golden-apple-snail-transplant-window-2026-05-11",
+      "title": "ÓcBướu — Golden Apple Snail Risk Window Briefer for Đồng Tháp Lúa-Cá Farmers",
+      "file": "2026-05-11_mekong-delta-golden-apple-snail-transplant-window.md",
+      "created_at": "2026-05-11T08:02:47+07:00",
+      "industry": "environment_ecology",
+      "sub_industry": "invasive_species",
+      "geography": "vietnam",
+      "concept_hash": "golden-apple-snail-activity-window+dong-thap-mekong-delta-vietnam+rice-fish-integrated-smallholder-farmers",
+      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Flood API", "World Bank Open Data", "ExchangeRate-API"]
     }
   ],
   "concept_hashes_used": [
@@ -568,7 +579,8 @@
     "raptor-migration-wind-window+khao-dinsor-chumphon-thailand+freelance-birding-guide-operators",
     "kampot-pepper-drying-window-hold-vs-sell+kampot-kep-province-cambodia+smallholder-pepper-growers",
     "haze-break-drying-window+sarawak-serian-bau-borneo-malaysia+black-pepper-smallholder-farmers",
-    "temple-fair-circuit-weather-planner+nakhon-pathom-central-thailand+traveling-market-vendor-ngaan-wat"
+    "temple-fair-circuit-weather-planner+nakhon-pathom-central-thailand+traveling-market-vendor-ngaan-wat",
+    "golden-apple-snail-activity-window+dong-thap-mekong-delta-vietnam+rice-fish-integrated-smallholder-farmers"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk"],
@@ -578,7 +590,7 @@
     "health_medical": ["dengue_risk_mapping", "food_poisoning_tracking", "water_safety"],
     "ocean_maritime": ["dive_site_conditions", "sea_surface_temp", "coral_bleaching"],
     "labor_work": ["fishing_crew_safety", "construction_site_safety", "agricultural_wage_tracking"],
-    "environment_ecology": ["river_pollution", "mangrove_mapping", "light_pollution"],
+    "environment_ecology": ["river_pollution", "mangrove_mapping", "light_pollution", "invasive_species"],
     "transportation_mobility": ["elephant_crossing_alerts", "ferry_schedules", "flood_route_avoidance"],
     "food_beverage": ["fermented_foods", "durian_ripeness", "fish_sauce_quality"],
     "wildlife_biodiversity": ["nocturnal_activity", "pollinator_health", "snake_identification", "bird_migration_alerts"],
@@ -587,12 +599,12 @@
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity"]
   },
-  "last_updated": "2026-05-10T08:02:26+07:00",
+  "last_updated": "2026-05-11T08:02:47+07:00",
   "rotation_state": {
-    "last_industry": "culture_religion",
-    "last_sub_industry": "temple_event_tracking",
-    "last_geography": "thailand",
-    "last_3_industries": ["finance_economics", "disaster_emergency", "culture_religion"],
-    "last_3_geographies": ["cambodia", "malaysia", "thailand"]
+    "last_industry": "environment_ecology",
+    "last_sub_industry": "invasive_species",
+    "last_geography": "vietnam",
+    "last_3_industries": ["disaster_emergency", "culture_religion", "environment_ecology"],
+    "last_3_geographies": ["malaysia", "thailand", "vietnam"]
   }
 }
