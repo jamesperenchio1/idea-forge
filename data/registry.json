@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 48,
+  "total_ideas": 49,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -530,6 +530,17 @@
       "geography": "vietnam",
       "concept_hash": "golden-apple-snail-activity-window+dong-thap-mekong-delta-vietnam+rice-fish-integrated-smallholder-farmers",
       "apis_used": ["Open-Meteo Weather API", "Open-Meteo Flood API", "World Bank Open Data", "ExchangeRate-API"]
+    },
+    {
+      "id": "banda-neira-nutmeg-drying-sell-window-app-2026-05-12",
+      "title": "PalaSaat — Nutmeg Drying-Window & Sell-Signal Briefer for Banda Neira Smallholder Pala Growers",
+      "file": "2026-05-12_banda-neira-nutmeg-drying-sell-window-app.md",
+      "created_at": "2026-05-12T08:00:00+07:00",
+      "industry": "food_beverage",
+      "sub_industry": "spice_sourcing",
+      "geography": "indonesia",
+      "concept_hash": "nutmeg-mace-drying-sell-window+banda-neira-maluku-indonesia+smallholder-pala-grove-owners",
+      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Hourly Humidity", "ExchangeRate-API", "World Bank Open Data"]
     }
   ],
   "concept_hashes_used": [
@@ -580,7 +591,8 @@
     "kampot-pepper-drying-window-hold-vs-sell+kampot-kep-province-cambodia+smallholder-pepper-growers",
     "haze-break-drying-window+sarawak-serian-bau-borneo-malaysia+black-pepper-smallholder-farmers",
     "temple-fair-circuit-weather-planner+nakhon-pathom-central-thailand+traveling-market-vendor-ngaan-wat",
-    "golden-apple-snail-activity-window+dong-thap-mekong-delta-vietnam+rice-fish-integrated-smallholder-farmers"
+    "golden-apple-snail-activity-window+dong-thap-mekong-delta-vietnam+rice-fish-integrated-smallholder-farmers",
+    "nutmeg-mace-drying-sell-window+banda-neira-maluku-indonesia+smallholder-pala-grove-owners"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk"],
@@ -592,19 +604,19 @@
     "labor_work": ["fishing_crew_safety", "construction_site_safety", "agricultural_wage_tracking"],
     "environment_ecology": ["river_pollution", "mangrove_mapping", "light_pollution", "invasive_species"],
     "transportation_mobility": ["elephant_crossing_alerts", "ferry_schedules", "flood_route_avoidance"],
-    "food_beverage": ["fermented_foods", "durian_ripeness", "fish_sauce_quality"],
+    "food_beverage": ["fermented_foods", "durian_ripeness", "fish_sauce_quality", "spice_sourcing"],
     "wildlife_biodiversity": ["nocturnal_activity", "pollinator_health", "snake_identification", "bird_migration_alerts"],
     "culture_religion": ["auspicious_date_planning", "merit_making_guides", "temple_event_tracking"],
     "defense_security": ["landmine_mapping", "uxo_thailand"],
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity"]
   },
-  "last_updated": "2026-05-11T08:02:47+07:00",
+  "last_updated": "2026-05-12T08:00:00+07:00",
   "rotation_state": {
-    "last_industry": "environment_ecology",
-    "last_sub_industry": "invasive_species",
-    "last_geography": "vietnam",
-    "last_3_industries": ["disaster_emergency", "culture_religion", "environment_ecology"],
-    "last_3_geographies": ["malaysia", "thailand", "vietnam"]
+    "last_industry": "food_beverage",
+    "last_sub_industry": "spice_sourcing",
+    "last_geography": "indonesia",
+    "last_3_industries": ["culture_religion", "environment_ecology", "food_beverage"],
+    "last_3_geographies": ["thailand", "vietnam", "indonesia"]
   }
 }
