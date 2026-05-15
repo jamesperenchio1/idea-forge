@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 51,
+  "total_ideas": 52,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -563,6 +563,17 @@
       "geography": "myanmar",
       "concept_hash": "earthquake-mine-slope-stability+hpakant-kachin-state-myanmar+informal-jade-scavenger-zaw-ga",
       "apis_used": ["USGS Earthquake Hazards", "Open-Meteo Weather API", "ExchangeRate-API", "World Bank Open Data"]
+    },
+    {
+      "id": "malaria-dusk-bite-risk-alert-tak-border-karen-workers-2026-05-15",
+      "title": "KhobKhai — Dusk Malaria Bite-Risk Alert for Karen Migrant Day-Laborers on the Tak Province Border Corridor",
+      "file": "2026-05-15_malaria-dusk-bite-risk-alert-tak-border-karen-workers.md",
+      "created_at": "2026-05-15T08:00:00+07:00",
+      "industry": "health_medical",
+      "sub_industry": "mosquito_borne_illness",
+      "geography": "thailand",
+      "concept_hash": "malaria-bite-risk-dusk-window+tak-province-myanmar-border+karen-migrant-day-laborers",
+      "apis_used": ["Open-Meteo Weather API", "World Bank Open Data"]
     }
   ],
   "concept_hashes_used": [
@@ -616,14 +627,15 @@
     "golden-apple-snail-activity-window+dong-thap-mekong-delta-vietnam+rice-fish-integrated-smallholder-farmers",
     "nutmeg-mace-drying-sell-window+banda-neira-maluku-indonesia+smallholder-pala-grove-owners",
     "bangus-fry-tide-window-briefer+lingayen-gulf-pangasinan-philippines+wade-net-fry-catchers",
-    "earthquake-mine-slope-stability+hpakant-kachin-state-myanmar+informal-jade-scavenger-zaw-ga"
+    "earthquake-mine-slope-stability+hpakant-kachin-state-myanmar+informal-jade-scavenger-zaw-ga",
+    "malaria-bite-risk-dusk-window+tak-province-myanmar-border+karen-migrant-day-laborers"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk"],
     "agriculture_farming": ["rubber_tapping", "aquaculture", "pest_management", "livestock_disease", "rice_farming"],
     "disaster_emergency": ["wildfire_risk", "landslide_risk_zones", "drought_early_warning", "cyclone_tracking", "haze_pollution_alerts", "earthquake_prep"],
     "finance_economics": ["remittance_rates", "commodity_prices_farmers", "street_market_price_tracking"],
-    "health_medical": ["dengue_risk_mapping", "food_poisoning_tracking", "water_safety"],
+    "health_medical": ["dengue_risk_mapping", "food_poisoning_tracking", "water_safety", "mosquito_borne_illness"],
     "ocean_maritime": ["dive_site_conditions", "sea_surface_temp", "coral_bleaching", "fish_migration"],
     "labor_work": ["fishing_crew_safety", "construction_site_safety", "agricultural_wage_tracking"],
     "environment_ecology": ["river_pollution", "mangrove_mapping", "light_pollution", "invasive_species"],
@@ -635,12 +647,12 @@
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity"]
   },
-  "last_updated": "2026-05-14T08:02:38+07:00",
+  "last_updated": "2026-05-15T08:00:00+07:00",
   "rotation_state": {
-    "last_industry": "disaster_emergency",
-    "last_sub_industry": "earthquake_prep",
-    "last_geography": "myanmar",
-    "last_3_industries": ["food_beverage", "ocean_maritime", "disaster_emergency"],
-    "last_3_geographies": ["indonesia", "philippines", "myanmar"]
+    "last_industry": "health_medical",
+    "last_sub_industry": "mosquito_borne_illness",
+    "last_geography": "thailand",
+    "last_3_industries": ["ocean_maritime", "disaster_emergency", "health_medical"],
+    "last_3_geographies": ["philippines", "myanmar", "thailand"]
   }
 }
