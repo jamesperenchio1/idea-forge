@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 54,
+  "total_ideas": 55,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -596,6 +596,17 @@
       "geography": "philippines",
       "concept_hash": "plastic-debris-current-forecast+coron-palawan-philippines+eco-boat-snorkeling-cleanup-operators",
       "apis_used": ["Open-Meteo Marine API", "Open-Meteo Weather API", "ExchangeRate-API", "World Bank Open Data"]
+    },
+    {
+      "id": "moc-bai-bavet-border-crossing-briefer-traders-2026-05-18",
+      "title": "QL22Check — Daily Border-Crossing Risk Briefer for Moc Bai–Bavet Informal Cross-Border Traders",
+      "file": "2026-05-18_moc-bai-bavet-border-crossing-briefer-traders.md",
+      "created_at": "2026-05-18T08:00:00+07:00",
+      "industry": "transportation_mobility",
+      "sub_industry": "border_crossing_times",
+      "geography": "vietnam",
+      "concept_hash": "border-crossing-weather-wait-time+moc-bai-bavet-highway-22-vietnam-cambodia+informal-cross-border-women-traders",
+      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Flood API", "ExchangeRate-API"]
     }
   ],
   "concept_hashes_used": [
@@ -652,7 +663,8 @@
     "earthquake-mine-slope-stability+hpakant-kachin-state-myanmar+informal-jade-scavenger-zaw-ga",
     "malaria-bite-risk-dusk-window+tak-province-myanmar-border+karen-migrant-day-laborers",
     "irrigation-cutoff-window+temanggung-central-java-indonesia+smallholder-virginia-tobacco-farmers",
-    "plastic-debris-current-forecast+coron-palawan-philippines+eco-boat-snorkeling-cleanup-operators"
+    "plastic-debris-current-forecast+coron-palawan-philippines+eco-boat-snorkeling-cleanup-operators",
+    "border-crossing-weather-wait-time+moc-bai-bavet-highway-22-vietnam-cambodia+informal-cross-border-women-traders"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk"],
@@ -663,7 +675,7 @@
     "ocean_maritime": ["dive_site_conditions", "sea_surface_temp", "coral_bleaching", "fish_migration"],
     "labor_work": ["fishing_crew_safety", "construction_site_safety", "agricultural_wage_tracking"],
     "environment_ecology": ["river_pollution", "mangrove_mapping", "light_pollution", "invasive_species", "plastic_pollution"],
-    "transportation_mobility": ["elephant_crossing_alerts", "ferry_schedules", "flood_route_avoidance"],
+    "transportation_mobility": ["elephant_crossing_alerts", "ferry_schedules", "flood_route_avoidance", "border_crossing_times"],
     "food_beverage": ["fermented_foods", "durian_ripeness", "fish_sauce_quality", "spice_sourcing"],
     "wildlife_biodiversity": ["nocturnal_activity", "pollinator_health", "snake_identification", "bird_migration_alerts"],
     "culture_religion": ["auspicious_date_planning", "merit_making_guides", "temple_event_tracking"],
@@ -671,12 +683,12 @@
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity"]
   },
-  "last_updated": "2026-05-17T08:03:16+07:00",
+  "last_updated": "2026-05-18T08:00:00+07:00",
   "rotation_state": {
-    "last_industry": "environment_ecology",
-    "last_sub_industry": "plastic_pollution",
-    "last_geography": "philippines",
-    "last_3_industries": ["health_medical", "agriculture_farming", "environment_ecology"],
-    "last_3_geographies": ["thailand", "indonesia", "philippines"]
+    "last_industry": "transportation_mobility",
+    "last_sub_industry": "border_crossing_times",
+    "last_geography": "vietnam",
+    "last_3_industries": ["agriculture_farming", "environment_ecology", "transportation_mobility"],
+    "last_3_geographies": ["indonesia", "philippines", "vietnam"]
   }
 }
