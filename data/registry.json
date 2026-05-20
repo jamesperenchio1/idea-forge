@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 56,
+  "total_ideas": 57,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -618,6 +618,17 @@
       "geography": "laos",
       "concept_hash": "lak-thb-daily-rate-margin-alert+savannakhet-phonthane-market-laos+informal-thai-goods-cross-border-merchants",
       "apis_used": ["ExchangeRate-API", "World Bank Open Data", "Open-Meteo Weather API"]
+    },
+    {
+      "id": "nias-lpg-ferry-crossing-window-tracker-warung-2026-05-20",
+      "title": "TabungTiba — LPG Ferry Crossing Window Tracker for Nias Island Warung Owners",
+      "file": "2026-05-20_nias-lpg-ferry-crossing-window-tracker-warung.md",
+      "created_at": "2026-05-20T08:02:24+07:00",
+      "industry": "energy_utilities",
+      "sub_industry": "cooking_fuel_access",
+      "geography": "indonesia",
+      "concept_hash": "lpg-cylinder-supply-ferry-crossing-window+nias-island-north-sumatra-indonesia+subsidized-warung-cylinder-buyers",
+      "apis_used": ["Open-Meteo Marine API", "Open-Meteo Weather API", "ExchangeRate-API", "World Bank Open Data"]
     }
   ],
   "concept_hashes_used": [
@@ -676,7 +687,8 @@
     "irrigation-cutoff-window+temanggung-central-java-indonesia+smallholder-virginia-tobacco-farmers",
     "plastic-debris-current-forecast+coron-palawan-philippines+eco-boat-snorkeling-cleanup-operators",
     "border-crossing-weather-wait-time+moc-bai-bavet-highway-22-vietnam-cambodia+informal-cross-border-women-traders",
-    "lak-thb-daily-rate-margin-alert+savannakhet-phonthane-market-laos+informal-thai-goods-cross-border-merchants"
+    "lak-thb-daily-rate-margin-alert+savannakhet-phonthane-market-laos+informal-thai-goods-cross-border-merchants",
+    "lpg-cylinder-supply-ferry-crossing-window+nias-island-north-sumatra-indonesia+subsidized-warung-cylinder-buyers"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk"],
@@ -692,15 +704,15 @@
     "wildlife_biodiversity": ["nocturnal_activity", "pollinator_health", "snake_identification", "bird_migration_alerts"],
     "culture_religion": ["auspicious_date_planning", "merit_making_guides", "temple_event_tracking"],
     "defense_security": ["landmine_mapping", "uxo_thailand"],
-    "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region"],
+    "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region", "cooking_fuel_access"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity"]
   },
-  "last_updated": "2026-05-19T08:00:00+07:00",
+  "last_updated": "2026-05-20T08:02:24+07:00",
   "rotation_state": {
-    "last_industry": "finance_economics",
-    "last_sub_industry": "currency_volatility",
-    "last_geography": "laos",
-    "last_3_industries": ["environment_ecology", "transportation_mobility", "finance_economics"],
-    "last_3_geographies": ["philippines", "vietnam", "laos"]
+    "last_industry": "energy_utilities",
+    "last_sub_industry": "cooking_fuel_access",
+    "last_geography": "indonesia",
+    "last_3_industries": ["transportation_mobility", "finance_economics", "energy_utilities"],
+    "last_3_geographies": ["vietnam", "laos", "indonesia"]
   }
 }
