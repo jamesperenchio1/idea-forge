@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 58,
+  "total_ideas": 59,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -631,6 +631,17 @@
       "apis_used": ["Open-Meteo Weather API", "WHO GHO", "World Bank Open Data", "ExchangeRate-API"]
     },
     {
+      "id": "garment-factory-heat-faint-risk-monitor-phnom-penh-2026-05-22",
+      "title": "RonDoul — Garment Factory Heat-Faint Risk Monitor for Phnom Penh SEZ Occupational Health Workers",
+      "file": "2026-05-22_garment-factory-heat-faint-risk-monitor-phnom-penh.md",
+      "created_at": "2026-05-22T08:00:55+07:00",
+      "industry": "labor_work",
+      "sub_industry": "factory_conditions",
+      "geography": "cambodia",
+      "concept_hash": "garment-factory-heat-faint-risk-score+phnom-penh-cambodia-sez+occupational-health-nurses-and-union-safety-reps",
+      "apis_used": ["Open-Meteo Forecast API", "World Bank Open Data", "ExchangeRate-API"]
+    },
+    {
       "id": "nias-lpg-ferry-crossing-window-tracker-warung-2026-05-20",
       "title": "TabungTiba — LPG Ferry Crossing Window Tracker for Nias Island Warung Owners",
       "file": "2026-05-20_nias-lpg-ferry-crossing-window-tracker-warung.md",
@@ -700,7 +711,8 @@
     "border-crossing-weather-wait-time+moc-bai-bavet-highway-22-vietnam-cambodia+informal-cross-border-women-traders",
     "lak-thb-daily-rate-margin-alert+savannakhet-phonthane-market-laos+informal-thai-goods-cross-border-merchants",
     "lpg-cylinder-supply-ferry-crossing-window+nias-island-north-sumatra-indonesia+subsidized-warung-cylinder-buyers",
-    "highland-herb-trail-arrival-forecast+chiang-mai-doi-inthanon-warorot-thailand+traditional-medicine-stall-vendors"
+    "highland-herb-trail-arrival-forecast+chiang-mai-doi-inthanon-warorot-thailand+traditional-medicine-stall-vendors",
+    "garment-factory-heat-faint-risk-score+phnom-penh-cambodia-sez+occupational-health-nurses-and-union-safety-reps"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk"],
@@ -709,7 +721,7 @@
     "finance_economics": ["remittance_rates", "commodity_prices_farmers", "street_market_price_tracking", "currency_volatility"],
     "health_medical": ["dengue_risk_mapping", "food_poisoning_tracking", "water_safety", "mosquito_borne_illness", "traditional_medicine"],
     "ocean_maritime": ["dive_site_conditions", "sea_surface_temp", "coral_bleaching", "fish_migration"],
-    "labor_work": ["fishing_crew_safety", "construction_site_safety", "agricultural_wage_tracking"],
+    "labor_work": ["fishing_crew_safety", "construction_site_safety", "agricultural_wage_tracking", "factory_conditions"],
     "environment_ecology": ["river_pollution", "mangrove_mapping", "light_pollution", "invasive_species", "plastic_pollution"],
     "transportation_mobility": ["elephant_crossing_alerts", "ferry_schedules", "flood_route_avoidance", "border_crossing_times"],
     "food_beverage": ["fermented_foods", "durian_ripeness", "fish_sauce_quality", "spice_sourcing"],
@@ -719,12 +731,12 @@
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region", "cooking_fuel_access"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity"]
   },
-  "last_updated": "2026-05-21T08:00:00+07:00",
+  "last_updated": "2026-05-22T08:00:55+07:00",
   "rotation_state": {
-    "last_industry": "health_medical",
-    "last_sub_industry": "traditional_medicine",
-    "last_geography": "thailand",
-    "last_3_industries": ["finance_economics", "energy_utilities", "health_medical"],
-    "last_3_geographies": ["laos", "indonesia", "thailand"]
+    "last_industry": "labor_work",
+    "last_sub_industry": "factory_conditions",
+    "last_geography": "cambodia",
+    "last_3_industries": ["energy_utilities", "health_medical", "labor_work"],
+    "last_3_geographies": ["indonesia", "thailand", "cambodia"]
   }
 }
