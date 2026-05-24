@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 60,
+  "total_ideas": 61,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -662,6 +662,17 @@
       "geography": "philippines",
       "concept_hash": "typhoon-season-clear-window-briefer+siargao-surigao-del-norte-philippines+small-surf-guesthouse-and-camp-owners",
       "apis_used": ["Open-Meteo Marine API", "Open-Meteo Weather Forecast API", "ExchangeRate-API", "World Bank Open Data"]
+    },
+    {
+      "id": "hutan-jaga-dayak-forest-fire-hotspot-alert-kalimantan-2026-05-24",
+      "title": "HutanJaga — Satellite Fire-Hotspot Boundary Alert Bot for Dayak Adat Forest Community Rangers in East Kalimantan",
+      "file": "2026-05-24_hutan-jaga-dayak-forest-fire-hotspot-alert-kalimantan.md",
+      "created_at": "2026-05-24T08:00:00+07:00",
+      "industry": "environment_ecology",
+      "sub_industry": "deforestation",
+      "geography": "indonesia",
+      "concept_hash": "satellite-fire-hotspot-boundary-alert+kutai-barat-mahakam-ulu-east-kalimantan+dayak-adat-community-forest-rangers",
+      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Air Quality API", "World Bank Open Data", "ExchangeRate-API", "NASA EONET"]
     }
   ],
   "concept_hashes_used": [
@@ -724,7 +735,8 @@
     "lpg-cylinder-supply-ferry-crossing-window+nias-island-north-sumatra-indonesia+subsidized-warung-cylinder-buyers",
     "highland-herb-trail-arrival-forecast+chiang-mai-doi-inthanon-warorot-thailand+traditional-medicine-stall-vendors",
     "garment-factory-heat-faint-risk-score+phnom-penh-cambodia-sez+occupational-health-nurses-and-union-safety-reps",
-    "typhoon-season-clear-window-briefer+siargao-surigao-del-norte-philippines+small-surf-guesthouse-and-camp-owners"
+    "typhoon-season-clear-window-briefer+siargao-surigao-del-norte-philippines+small-surf-guesthouse-and-camp-owners",
+    "satellite-fire-hotspot-boundary-alert+kutai-barat-mahakam-ulu-east-kalimantan+dayak-adat-community-forest-rangers"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk"],
@@ -734,7 +746,7 @@
     "health_medical": ["dengue_risk_mapping", "food_poisoning_tracking", "water_safety", "mosquito_borne_illness", "traditional_medicine"],
     "ocean_maritime": ["dive_site_conditions", "sea_surface_temp", "coral_bleaching", "fish_migration"],
     "labor_work": ["fishing_crew_safety", "construction_site_safety", "agricultural_wage_tracking", "factory_conditions"],
-    "environment_ecology": ["river_pollution", "mangrove_mapping", "light_pollution", "invasive_species", "plastic_pollution"],
+    "environment_ecology": ["river_pollution", "mangrove_mapping", "light_pollution", "invasive_species", "plastic_pollution", "deforestation"],
     "transportation_mobility": ["elephant_crossing_alerts", "ferry_schedules", "flood_route_avoidance", "border_crossing_times"],
     "food_beverage": ["fermented_foods", "durian_ripeness", "fish_sauce_quality", "spice_sourcing"],
     "wildlife_biodiversity": ["nocturnal_activity", "pollinator_health", "snake_identification", "bird_migration_alerts"],
@@ -743,12 +755,12 @@
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region", "cooking_fuel_access"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity", "off_season_tools"]
   },
-  "last_updated": "2026-05-23T08:02:37+07:00",
+  "last_updated": "2026-05-24T08:00:00+07:00",
   "rotation_state": {
-    "last_industry": "tourism_travel",
-    "last_sub_industry": "off_season_tools",
-    "last_geography": "philippines",
-    "last_3_industries": ["health_medical", "labor_work", "tourism_travel"],
-    "last_3_geographies": ["thailand", "cambodia", "philippines"]
+    "last_industry": "environment_ecology",
+    "last_sub_industry": "deforestation",
+    "last_geography": "indonesia",
+    "last_3_industries": ["labor_work", "tourism_travel", "environment_ecology"],
+    "last_3_geographies": ["cambodia", "philippines", "indonesia"]
   }
 }
