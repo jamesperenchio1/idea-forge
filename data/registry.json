@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 61,
+  "total_ideas": 62,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -673,6 +673,17 @@
       "geography": "indonesia",
       "concept_hash": "satellite-fire-hotspot-boundary-alert+kutai-barat-mahakam-ulu-east-kalimantan+dayak-adat-community-forest-rangers",
       "apis_used": ["Open-Meteo Weather API", "Open-Meteo Air Quality API", "World Bank Open Data", "ExchangeRate-API", "NASA EONET"]
+    },
+    {
+      "id": "dong-nai-factory-discharge-alert-cage-catfish-farmers-2026-05-27",
+      "title": "CáBáo — Pre-Monsoon Factory Discharge Risk Alerter for Đồng Nai River Cage Catfish Farmers",
+      "file": "2026-05-27_dong-nai-factory-discharge-alert-cage-catfish-farmers.md",
+      "created_at": "2026-05-27T08:03:15+07:00",
+      "industry": "disaster_emergency",
+      "sub_industry": "chemical_spill_tracking",
+      "geography": "vietnam",
+      "concept_hash": "industrial-discharge-risk-window+dong-nai-river-bien-hoa-vietnam+cage-catfish-pangasius-farmers",
+      "apis_used": ["Open-Meteo Flood API", "Open-Meteo Weather API", "Open-Meteo Air Quality API", "ExchangeRate-API", "World Bank Open Data"]
     }
   ],
   "concept_hashes_used": [
@@ -736,12 +747,13 @@
     "highland-herb-trail-arrival-forecast+chiang-mai-doi-inthanon-warorot-thailand+traditional-medicine-stall-vendors",
     "garment-factory-heat-faint-risk-score+phnom-penh-cambodia-sez+occupational-health-nurses-and-union-safety-reps",
     "typhoon-season-clear-window-briefer+siargao-surigao-del-norte-philippines+small-surf-guesthouse-and-camp-owners",
-    "satellite-fire-hotspot-boundary-alert+kutai-barat-mahakam-ulu-east-kalimantan+dayak-adat-community-forest-rangers"
+    "satellite-fire-hotspot-boundary-alert+kutai-barat-mahakam-ulu-east-kalimantan+dayak-adat-community-forest-rangers",
+    "industrial-discharge-risk-window+dong-nai-river-bien-hoa-vietnam+cage-catfish-pangasius-farmers"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk"],
     "agriculture_farming": ["rubber_tapping", "aquaculture", "pest_management", "livestock_disease", "rice_farming", "irrigation_optimization"],
-    "disaster_emergency": ["wildfire_risk", "landslide_risk_zones", "drought_early_warning", "cyclone_tracking", "haze_pollution_alerts", "earthquake_prep"],
+    "disaster_emergency": ["wildfire_risk", "landslide_risk_zones", "drought_early_warning", "cyclone_tracking", "haze_pollution_alerts", "earthquake_prep", "chemical_spill_tracking"],
     "finance_economics": ["remittance_rates", "commodity_prices_farmers", "street_market_price_tracking", "currency_volatility"],
     "health_medical": ["dengue_risk_mapping", "food_poisoning_tracking", "water_safety", "mosquito_borne_illness", "traditional_medicine"],
     "ocean_maritime": ["dive_site_conditions", "sea_surface_temp", "coral_bleaching", "fish_migration"],
@@ -755,12 +767,12 @@
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region", "cooking_fuel_access"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity", "off_season_tools"]
   },
-  "last_updated": "2026-05-24T08:00:00+07:00",
+  "last_updated": "2026-05-27T08:03:15+07:00",
   "rotation_state": {
-    "last_industry": "environment_ecology",
-    "last_sub_industry": "deforestation",
-    "last_geography": "indonesia",
-    "last_3_industries": ["labor_work", "tourism_travel", "environment_ecology"],
-    "last_3_geographies": ["cambodia", "philippines", "indonesia"]
+    "last_industry": "disaster_emergency",
+    "last_sub_industry": "chemical_spill_tracking",
+    "last_geography": "vietnam",
+    "last_3_industries": ["tourism_travel", "environment_ecology", "disaster_emergency"],
+    "last_3_geographies": ["philippines", "indonesia", "vietnam"]
   }
 }
