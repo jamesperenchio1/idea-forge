@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 63,
+  "total_ideas": 64,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -686,6 +686,17 @@
       "apis_used": ["Open-Meteo Flood API", "Open-Meteo Weather API", "ExchangeRate-API", "World Bank Open Data"]
     },
     {
+      "id": "vsla-kyat-inflation-guard-ayeyarwady-delta-myanmar-2026-06-04",
+      "title": "PonYin — VSLA Share-Value Inflation Guard for Ayeyarwady Delta Women's Rotating Savings Groups",
+      "file": "2026-06-04_vsla-kyat-inflation-guard-ayeyarwady-delta-myanmar.md",
+      "created_at": "2026-06-04T08:00:00+06:30",
+      "industry": "finance_economics",
+      "sub_industry": "microfinance_access",
+      "geography": "myanmar",
+      "concept_hash": "vsla-share-value-inflation-guard+ayeyarwady-delta-myanmar+women-rotating-savings-group-treasurers",
+      "apis_used": ["ExchangeRate-API", "World Bank Open Data", "Open-Meteo Weather API"]
+    },
+    {
       "id": "dong-nai-factory-discharge-alert-cage-catfish-farmers-2026-05-27",
       "title": "CáBáo — Pre-Monsoon Factory Discharge Risk Alerter for Đồng Nai River Cage Catfish Farmers",
       "file": "2026-05-27_dong-nai-factory-discharge-alert-cage-catfish-farmers.md",
@@ -760,13 +771,14 @@
     "typhoon-season-clear-window-briefer+siargao-surigao-del-norte-philippines+small-surf-guesthouse-and-camp-owners",
     "satellite-fire-hotspot-boundary-alert+kutai-barat-mahakam-ulu-east-kalimantan+dayak-adat-community-forest-rangers",
     "industrial-discharge-risk-window+dong-nai-river-bien-hoa-vietnam+cage-catfish-pangasius-farmers",
-    "river-salinity-intrusion-alert+bang-pakong-chachoengsao-thailand+riverside-vegetable-sugarcane-smallholders"
+    "river-salinity-intrusion-alert+bang-pakong-chachoengsao-thailand+riverside-vegetable-sugarcane-smallholders",
+    "vsla-share-value-inflation-guard+ayeyarwady-delta-myanmar+women-rotating-savings-group-treasurers"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk"],
     "agriculture_farming": ["rubber_tapping", "aquaculture", "pest_management", "livestock_disease", "rice_farming", "irrigation_optimization", "soil_health"],
     "disaster_emergency": ["wildfire_risk", "landslide_risk_zones", "drought_early_warning", "cyclone_tracking", "haze_pollution_alerts", "earthquake_prep", "chemical_spill_tracking"],
-    "finance_economics": ["remittance_rates", "commodity_prices_farmers", "street_market_price_tracking", "currency_volatility"],
+    "finance_economics": ["remittance_rates", "commodity_prices_farmers", "street_market_price_tracking", "currency_volatility", "microfinance_access"],
     "health_medical": ["dengue_risk_mapping", "food_poisoning_tracking", "water_safety", "mosquito_borne_illness", "traditional_medicine"],
     "ocean_maritime": ["dive_site_conditions", "sea_surface_temp", "coral_bleaching", "fish_migration"],
     "labor_work": ["fishing_crew_safety", "construction_site_safety", "agricultural_wage_tracking", "factory_conditions"],
@@ -779,12 +791,12 @@
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region", "cooking_fuel_access"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity", "off_season_tools"]
   },
-  "last_updated": "2026-06-03T08:00:00+07:00",
+  "last_updated": "2026-06-04T08:00:00+06:30",
   "rotation_state": {
-    "last_industry": "agriculture_farming",
-    "last_sub_industry": "soil_health",
-    "last_geography": "thailand",
-    "last_3_industries": ["environment_ecology", "disaster_emergency", "agriculture_farming"],
-    "last_3_geographies": ["indonesia", "vietnam", "thailand"]
+    "last_industry": "finance_economics",
+    "last_sub_industry": "microfinance_access",
+    "last_geography": "myanmar",
+    "last_3_industries": ["disaster_emergency", "agriculture_farming", "finance_economics"],
+    "last_3_geographies": ["vietnam", "thailand", "myanmar"]
   }
 }
