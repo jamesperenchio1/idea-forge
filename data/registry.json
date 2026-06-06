@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 65,
+  "total_ideas": 66,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -717,6 +717,17 @@
       "geography": "philippines",
       "concept_hash": "maritime-robbery-sea-state-risk+sulu-sea-tawi-tawi-philippines+cargo-pumpboat-operators",
       "apis_used": ["Open-Meteo Marine API", "Open-Meteo Weather API", "USGS Earthquake Hazards", "ExchangeRate-API"]
+    },
+    {
+      "id": "ca-mau-shrimp-pond-ems-disease-risk-zalo-briefer-2026-06-06",
+      "title": "TômAn — EMS & White Spot Daily Risk Briefer for Cà Mau Vannamei Shrimp Pond Farmers",
+      "file": "2026-06-06_ca-mau-shrimp-pond-ems-disease-risk-zalo-briefer.md",
+      "created_at": "2026-06-06T08:01:52+07:00",
+      "industry": "ocean_maritime",
+      "sub_industry": "aquaculture_disease",
+      "geography": "vietnam",
+      "concept_hash": "shrimp-pond-disease-risk-score+ca-mau-bac-lieu-mekong-delta-vietnam+vannamei-shrimp-smallholder-farmers",
+      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Marine API", "ExchangeRate-API", "World Bank Open Data"]
     }
   ],
   "concept_hashes_used": [
@@ -784,7 +795,8 @@
     "industrial-discharge-risk-window+dong-nai-river-bien-hoa-vietnam+cage-catfish-pangasius-farmers",
     "river-salinity-intrusion-alert+bang-pakong-chachoengsao-thailand+riverside-vegetable-sugarcane-smallholders",
     "vsla-share-value-inflation-guard+ayeyarwady-delta-myanmar+women-rotating-savings-group-treasurers",
-    "maritime-robbery-sea-state-risk+sulu-sea-tawi-tawi-philippines+cargo-pumpboat-operators"
+    "maritime-robbery-sea-state-risk+sulu-sea-tawi-tawi-philippines+cargo-pumpboat-operators",
+    "shrimp-pond-disease-risk-score+ca-mau-bac-lieu-mekong-delta-vietnam+vannamei-shrimp-smallholder-farmers"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk"],
@@ -792,7 +804,7 @@
     "disaster_emergency": ["wildfire_risk", "landslide_risk_zones", "drought_early_warning", "cyclone_tracking", "haze_pollution_alerts", "earthquake_prep", "chemical_spill_tracking"],
     "finance_economics": ["remittance_rates", "commodity_prices_farmers", "street_market_price_tracking", "currency_volatility", "microfinance_access"],
     "health_medical": ["dengue_risk_mapping", "food_poisoning_tracking", "water_safety", "mosquito_borne_illness", "traditional_medicine"],
-    "ocean_maritime": ["dive_site_conditions", "sea_surface_temp", "coral_bleaching", "fish_migration"],
+    "ocean_maritime": ["dive_site_conditions", "sea_surface_temp", "coral_bleaching", "fish_migration", "aquaculture_disease"],
     "labor_work": ["fishing_crew_safety", "construction_site_safety", "agricultural_wage_tracking", "factory_conditions"],
     "environment_ecology": ["river_pollution", "mangrove_mapping", "light_pollution", "invasive_species", "plastic_pollution", "deforestation"],
     "transportation_mobility": ["elephant_crossing_alerts", "ferry_schedules", "flood_route_avoidance", "border_crossing_times"],
@@ -803,12 +815,12 @@
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region", "cooking_fuel_access"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity", "off_season_tools"]
   },
-  "last_updated": "2026-06-05T09:01:49+08:00",
+  "last_updated": "2026-06-06T08:01:52+07:00",
   "rotation_state": {
-    "last_industry": "defense_security",
-    "last_sub_industry": "piracy_routes",
-    "last_geography": "philippines",
-    "last_3_industries": ["agriculture_farming", "finance_economics", "defense_security"],
-    "last_3_geographies": ["thailand", "myanmar", "philippines"]
+    "last_industry": "ocean_maritime",
+    "last_sub_industry": "aquaculture_disease",
+    "last_geography": "vietnam",
+    "last_3_industries": ["finance_economics", "defense_security", "ocean_maritime"],
+    "last_3_geographies": ["myanmar", "philippines", "vietnam"]
   }
 }
