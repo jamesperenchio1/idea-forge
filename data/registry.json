@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 66,
+  "total_ideas": 67,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -728,6 +728,17 @@
       "geography": "vietnam",
       "concept_hash": "shrimp-pond-disease-risk-score+ca-mau-bac-lieu-mekong-delta-vietnam+vannamei-shrimp-smallholder-farmers",
       "apis_used": ["Open-Meteo Weather API", "Open-Meteo Marine API", "ExchangeRate-API", "World Bank Open Data"]
+    },
+    {
+      "id": "doi-clear-highland-truck-dawn-fog-departure-briefer-2026-06-07",
+      "title": "DoiClear — Dawn Mountain Fog Departure Briefer for Chiang Mai Highland Produce Truck Drivers",
+      "file": "2026-06-07_doi-clear-highland-truck-dawn-fog-departure-briefer.md",
+      "created_at": "2026-06-07T08:00:00+07:00",
+      "industry": "transportation_mobility",
+      "sub_industry": "road_accident_blackspots",
+      "geography": "thailand",
+      "concept_hash": "dawn-fog-visibility-departure-window+doi-inthanon-highland-corridor-chiang-mai+highland-vegetable-produce-truck-drivers",
+      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Air Quality API", "World Bank Open Data"]
     }
   ],
   "concept_hashes_used": [
@@ -796,7 +807,8 @@
     "river-salinity-intrusion-alert+bang-pakong-chachoengsao-thailand+riverside-vegetable-sugarcane-smallholders",
     "vsla-share-value-inflation-guard+ayeyarwady-delta-myanmar+women-rotating-savings-group-treasurers",
     "maritime-robbery-sea-state-risk+sulu-sea-tawi-tawi-philippines+cargo-pumpboat-operators",
-    "shrimp-pond-disease-risk-score+ca-mau-bac-lieu-mekong-delta-vietnam+vannamei-shrimp-smallholder-farmers"
+    "shrimp-pond-disease-risk-score+ca-mau-bac-lieu-mekong-delta-vietnam+vannamei-shrimp-smallholder-farmers",
+    "dawn-fog-visibility-departure-window+doi-inthanon-highland-corridor-chiang-mai+highland-vegetable-produce-truck-drivers"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk"],
@@ -807,7 +819,7 @@
     "ocean_maritime": ["dive_site_conditions", "sea_surface_temp", "coral_bleaching", "fish_migration", "aquaculture_disease"],
     "labor_work": ["fishing_crew_safety", "construction_site_safety", "agricultural_wage_tracking", "factory_conditions"],
     "environment_ecology": ["river_pollution", "mangrove_mapping", "light_pollution", "invasive_species", "plastic_pollution", "deforestation"],
-    "transportation_mobility": ["elephant_crossing_alerts", "ferry_schedules", "flood_route_avoidance", "border_crossing_times"],
+    "transportation_mobility": ["elephant_crossing_alerts", "ferry_schedules", "flood_route_avoidance", "border_crossing_times", "road_accident_blackspots"],
     "food_beverage": ["fermented_foods", "durian_ripeness", "fish_sauce_quality", "spice_sourcing"],
     "wildlife_biodiversity": ["nocturnal_activity", "pollinator_health", "snake_identification", "bird_migration_alerts"],
     "culture_religion": ["auspicious_date_planning", "merit_making_guides", "temple_event_tracking"],
@@ -815,12 +827,12 @@
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region", "cooking_fuel_access"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity", "off_season_tools"]
   },
-  "last_updated": "2026-06-06T08:01:52+07:00",
+  "last_updated": "2026-06-07T08:00:00+07:00",
   "rotation_state": {
-    "last_industry": "ocean_maritime",
-    "last_sub_industry": "aquaculture_disease",
-    "last_geography": "vietnam",
-    "last_3_industries": ["finance_economics", "defense_security", "ocean_maritime"],
-    "last_3_geographies": ["myanmar", "philippines", "vietnam"]
+    "last_industry": "transportation_mobility",
+    "last_sub_industry": "road_accident_blackspots",
+    "last_geography": "thailand",
+    "last_3_industries": ["defense_security", "ocean_maritime", "transportation_mobility"],
+    "last_3_geographies": ["philippines", "vietnam", "thailand"]
   }
 }
