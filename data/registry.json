@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 68,
+  "total_ideas": 69,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -750,6 +750,17 @@
       "geography": "indonesia",
       "concept_hash": "raw-pork-blood-overnight-temp-spoilage+medan-north-sumatra-indonesia+bataknese-dawn-market-saksang-sellers",
       "apis_used": ["Open-Meteo Weather API", "ExchangeRate-API", "World Bank Open Data"]
+    },
+    {
+      "id": "nat-kadaw-shrine-circuit-travel-briefer-mandalay-2026-06-09",
+      "title": "NatYaung — Shrine-Circuit Travel Briefer for Mandalay Nat Kadaw Spirit Mediums",
+      "file": "2026-06-09_nat-kadaw-shrine-circuit-travel-briefer-mandalay.md",
+      "created_at": "2026-06-09T08:00:00+06:30",
+      "industry": "culture_religion",
+      "sub_industry": "spirit_house_directories",
+      "geography": "myanmar",
+      "concept_hash": "nat-shrine-circuit-travel-briefing+mandalay-sagaing-upper-myanmar+nat-kadaw-spirit-medium-practitioners",
+      "apis_used": ["Open-Meteo Weather API", "USGS Earthquake Hazards", "ExchangeRate-API"]
     }
   ],
   "concept_hashes_used": [
@@ -820,7 +831,8 @@
     "maritime-robbery-sea-state-risk+sulu-sea-tawi-tawi-philippines+cargo-pumpboat-operators",
     "shrimp-pond-disease-risk-score+ca-mau-bac-lieu-mekong-delta-vietnam+vannamei-shrimp-smallholder-farmers",
     "dawn-fog-visibility-departure-window+doi-inthanon-highland-corridor-chiang-mai+highland-vegetable-produce-truck-drivers",
-    "raw-pork-blood-overnight-temp-spoilage+medan-north-sumatra-indonesia+bataknese-dawn-market-saksang-sellers"
+    "raw-pork-blood-overnight-temp-spoilage+medan-north-sumatra-indonesia+bataknese-dawn-market-saksang-sellers",
+    "nat-shrine-circuit-travel-briefing+mandalay-sagaing-upper-myanmar+nat-kadaw-spirit-medium-practitioners"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk"],
@@ -834,17 +846,17 @@
     "transportation_mobility": ["elephant_crossing_alerts", "ferry_schedules", "flood_route_avoidance", "border_crossing_times", "road_accident_blackspots"],
     "food_beverage": ["fermented_foods", "durian_ripeness", "fish_sauce_quality", "spice_sourcing", "street_food_safety"],
     "wildlife_biodiversity": ["nocturnal_activity", "pollinator_health", "snake_identification", "bird_migration_alerts"],
-    "culture_religion": ["auspicious_date_planning", "merit_making_guides", "temple_event_tracking"],
+    "culture_religion": ["auspicious_date_planning", "merit_making_guides", "temple_event_tracking", "spirit_house_directories"],
     "defense_security": ["landmine_mapping", "uxo_thailand", "piracy_routes"],
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region", "cooking_fuel_access"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity", "off_season_tools"]
   },
-  "last_updated": "2026-06-08T08:02:06+07:00",
+  "last_updated": "2026-06-09T08:00:00+06:30",
   "rotation_state": {
-    "last_industry": "food_beverage",
-    "last_sub_industry": "street_food_safety",
-    "last_geography": "indonesia",
-    "last_3_industries": ["ocean_maritime", "transportation_mobility", "food_beverage"],
-    "last_3_geographies": ["vietnam", "thailand", "indonesia"]
+    "last_industry": "culture_religion",
+    "last_sub_industry": "spirit_house_directories",
+    "last_geography": "myanmar",
+    "last_3_industries": ["transportation_mobility", "food_beverage", "culture_religion"],
+    "last_3_geographies": ["thailand", "indonesia", "myanmar"]
   }
 }
