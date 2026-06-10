@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 69,
+  "total_ideas": 70,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -761,6 +761,17 @@
       "geography": "myanmar",
       "concept_hash": "nat-shrine-circuit-travel-briefing+mandalay-sagaing-upper-myanmar+nat-kadaw-spirit-medium-practitioners",
       "apis_used": ["Open-Meteo Weather API", "USGS Earthquake Hazards", "ExchangeRate-API"]
+    },
+    {
+      "id": "passport-hold-heat-rights-checker-sabah-bangladeshi-workers-2026-06-10",
+      "title": "PassporKu — Passport-Hold & Heat-Stress Rights Checker for Bangladeshi Palm Oil Estate Workers in Sabah",
+      "file": "2026-06-10_passport-hold-heat-rights-checker-sabah-bangladeshi-workers.md",
+      "created_at": "2026-06-10T08:00:00+08:00",
+      "industry": "labor_work",
+      "sub_industry": "migrant_worker_rights",
+      "geography": "malaysia",
+      "concept_hash": "passport-confiscation-heat-stress-rights+sabah-east-malaysia-palm-oil+bangladeshi-migrant-estate-workers",
+      "apis_used": ["Open-Meteo Weather API", "ExchangeRate-API", "World Bank Open Data"]
     }
   ],
   "concept_hashes_used": [
@@ -832,7 +843,8 @@
     "shrimp-pond-disease-risk-score+ca-mau-bac-lieu-mekong-delta-vietnam+vannamei-shrimp-smallholder-farmers",
     "dawn-fog-visibility-departure-window+doi-inthanon-highland-corridor-chiang-mai+highland-vegetable-produce-truck-drivers",
     "raw-pork-blood-overnight-temp-spoilage+medan-north-sumatra-indonesia+bataknese-dawn-market-saksang-sellers",
-    "nat-shrine-circuit-travel-briefing+mandalay-sagaing-upper-myanmar+nat-kadaw-spirit-medium-practitioners"
+    "nat-shrine-circuit-travel-briefing+mandalay-sagaing-upper-myanmar+nat-kadaw-spirit-medium-practitioners",
+    "passport-confiscation-heat-stress-rights+sabah-east-malaysia-palm-oil+bangladeshi-migrant-estate-workers"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk"],
@@ -841,7 +853,7 @@
     "finance_economics": ["remittance_rates", "commodity_prices_farmers", "street_market_price_tracking", "currency_volatility", "microfinance_access"],
     "health_medical": ["dengue_risk_mapping", "food_poisoning_tracking", "water_safety", "mosquito_borne_illness", "traditional_medicine"],
     "ocean_maritime": ["dive_site_conditions", "sea_surface_temp", "coral_bleaching", "fish_migration", "aquaculture_disease"],
-    "labor_work": ["fishing_crew_safety", "construction_site_safety", "agricultural_wage_tracking", "factory_conditions"],
+    "labor_work": ["fishing_crew_safety", "construction_site_safety", "agricultural_wage_tracking", "factory_conditions", "migrant_worker_rights"],
     "environment_ecology": ["river_pollution", "mangrove_mapping", "light_pollution", "invasive_species", "plastic_pollution", "deforestation"],
     "transportation_mobility": ["elephant_crossing_alerts", "ferry_schedules", "flood_route_avoidance", "border_crossing_times", "road_accident_blackspots"],
     "food_beverage": ["fermented_foods", "durian_ripeness", "fish_sauce_quality", "spice_sourcing", "street_food_safety"],
@@ -851,12 +863,12 @@
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region", "cooking_fuel_access"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity", "off_season_tools"]
   },
-  "last_updated": "2026-06-09T08:00:00+06:30",
+  "last_updated": "2026-06-10T08:00:00+08:00",
   "rotation_state": {
-    "last_industry": "culture_religion",
-    "last_sub_industry": "spirit_house_directories",
-    "last_geography": "myanmar",
-    "last_3_industries": ["transportation_mobility", "food_beverage", "culture_religion"],
-    "last_3_geographies": ["thailand", "indonesia", "myanmar"]
+    "last_industry": "labor_work",
+    "last_sub_industry": "migrant_worker_rights",
+    "last_geography": "malaysia",
+    "last_3_industries": ["food_beverage", "culture_religion", "labor_work"],
+    "last_3_geographies": ["indonesia", "myanmar", "malaysia"]
   }
 }
