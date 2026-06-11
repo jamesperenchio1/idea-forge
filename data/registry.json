@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 70,
+  "total_ideas": 71,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -763,6 +763,17 @@
       "apis_used": ["Open-Meteo Weather API", "USGS Earthquake Hazards", "ExchangeRate-API"]
     },
     {
+      "id": "baac-crop-insurance-trigger-tracker-surin-jasmine-rice-2026-06-11",
+      "title": "FonKrop — Rainfall Deficit & BAAC Insurance-Trigger Tracker for Surin Jasmine Rice Policyholders",
+      "file": "2026-06-11_baac-crop-insurance-trigger-tracker-surin-jasmine-rice.md",
+      "created_at": "2026-06-11T08:00:00+07:00",
+      "industry": "agriculture_farming",
+      "sub_industry": "crop_insurance",
+      "geography": "thailand",
+      "concept_hash": "weather-index-crop-insurance-trigger-checker+surin-si-sa-ket-isan-thailand+jasmine-rice-smallholder-baac-policyholders",
+      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Hourly Soil Moisture API", "World Bank Open Data", "ExchangeRate-API"]
+    },
+    {
       "id": "passport-hold-heat-rights-checker-sabah-bangladeshi-workers-2026-06-10",
       "title": "PassporKu — Passport-Hold & Heat-Stress Rights Checker for Bangladeshi Palm Oil Estate Workers in Sabah",
       "file": "2026-06-10_passport-hold-heat-rights-checker-sabah-bangladeshi-workers.md",
@@ -844,11 +855,12 @@
     "dawn-fog-visibility-departure-window+doi-inthanon-highland-corridor-chiang-mai+highland-vegetable-produce-truck-drivers",
     "raw-pork-blood-overnight-temp-spoilage+medan-north-sumatra-indonesia+bataknese-dawn-market-saksang-sellers",
     "nat-shrine-circuit-travel-briefing+mandalay-sagaing-upper-myanmar+nat-kadaw-spirit-medium-practitioners",
-    "passport-confiscation-heat-stress-rights+sabah-east-malaysia-palm-oil+bangladeshi-migrant-estate-workers"
+    "passport-confiscation-heat-stress-rights+sabah-east-malaysia-palm-oil+bangladeshi-migrant-estate-workers",
+    "weather-index-crop-insurance-trigger-checker+surin-si-sa-ket-isan-thailand+jasmine-rice-smallholder-baac-policyholders"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk"],
-    "agriculture_farming": ["rubber_tapping", "aquaculture", "pest_management", "livestock_disease", "rice_farming", "irrigation_optimization", "soil_health"],
+    "agriculture_farming": ["rubber_tapping", "aquaculture", "pest_management", "livestock_disease", "rice_farming", "irrigation_optimization", "soil_health", "crop_insurance"],
     "disaster_emergency": ["wildfire_risk", "landslide_risk_zones", "drought_early_warning", "cyclone_tracking", "haze_pollution_alerts", "earthquake_prep", "chemical_spill_tracking"],
     "finance_economics": ["remittance_rates", "commodity_prices_farmers", "street_market_price_tracking", "currency_volatility", "microfinance_access"],
     "health_medical": ["dengue_risk_mapping", "food_poisoning_tracking", "water_safety", "mosquito_borne_illness", "traditional_medicine"],
@@ -863,12 +875,12 @@
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region", "cooking_fuel_access"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity", "off_season_tools"]
   },
-  "last_updated": "2026-06-10T08:00:00+08:00",
+  "last_updated": "2026-06-11T08:00:00+07:00",
   "rotation_state": {
-    "last_industry": "labor_work",
-    "last_sub_industry": "migrant_worker_rights",
-    "last_geography": "malaysia",
-    "last_3_industries": ["food_beverage", "culture_religion", "labor_work"],
-    "last_3_geographies": ["indonesia", "myanmar", "malaysia"]
+    "last_industry": "agriculture_farming",
+    "last_sub_industry": "crop_insurance",
+    "last_geography": "thailand",
+    "last_3_industries": ["culture_religion", "labor_work", "agriculture_farming"],
+    "last_3_geographies": ["myanmar", "malaysia", "thailand"]
   }
 }
