@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 74,
+  "total_ideas": 75,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -816,6 +816,17 @@
       "geography": "philippines",
       "concept_hash": "road-washout-fog-risk-briefer+mindanao-highway-10-bukidnon-sayre+durian-cargo-truck-owner-operators",
       "apis_used": ["Open-Meteo Weather API", "Open-Meteo Flood API", "USGS Earthquake Hazards", "ExchangeRate-API"]
+    },
+    {
+      "id": "wildlife-trade-intercept-species-id-lang-son-border-2026-06-15",
+      "title": "NgheRừng — Wildlife Trade Tip & Species ID Bot for ENV Rapid Responders at Northern Vietnam Border Checkpoints",
+      "file": "2026-06-15_wildlife-trade-intercept-species-id-lang-son-border.md",
+      "created_at": "2026-06-15T08:00:00+07:00",
+      "industry": "wildlife_biodiversity",
+      "sub_industry": "wildlife_trade_monitoring",
+      "geography": "vietnam",
+      "concept_hash": "wildlife-trade-species-id-rescue-routing+lang-son-border-vietnam-china+env-ngo-volunteer-border-checkpoint-monitors",
+      "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
     }
   ],
   "concept_hashes_used": [
@@ -892,7 +903,8 @@
     "weather-index-crop-insurance-trigger-checker+surin-si-sa-ket-isan-thailand+jasmine-rice-smallholder-baac-policyholders",
     "ghost-tower-storm-debris-risk+sihanoukville-cambodia+cheap-renters-near-abandoned-chinese-casino-towers",
     "rambu-solo-ceremony-calendar-advance-notice+tana-toraja-sulawesi-indonesia+torajan-diaspora-jakarta-factory-workers",
-    "road-washout-fog-risk-briefer+mindanao-highway-10-bukidnon-sayre+durian-cargo-truck-owner-operators"
+    "road-washout-fog-risk-briefer+mindanao-highway-10-bukidnon-sayre+durian-cargo-truck-owner-operators",
+    "wildlife-trade-species-id-rescue-routing+lang-son-border-vietnam-china+env-ngo-volunteer-border-checkpoint-monitors"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk", "ghost_buildings"],
@@ -905,18 +917,18 @@
     "environment_ecology": ["river_pollution", "mangrove_mapping", "light_pollution", "invasive_species", "plastic_pollution", "deforestation"],
     "transportation_mobility": ["elephant_crossing_alerts", "ferry_schedules", "flood_route_avoidance", "border_crossing_times", "road_accident_blackspots", "pothole_mapping"],
     "food_beverage": ["fermented_foods", "durian_ripeness", "fish_sauce_quality", "spice_sourcing", "street_food_safety"],
-    "wildlife_biodiversity": ["nocturnal_activity", "pollinator_health", "snake_identification", "bird_migration_alerts"],
+    "wildlife_biodiversity": ["nocturnal_activity", "pollinator_health", "snake_identification", "bird_migration_alerts", "wildlife_trade_monitoring"],
     "culture_religion": ["auspicious_date_planning", "merit_making_guides", "temple_event_tracking", "spirit_house_directories", "traditional_festival_maps"],
     "defense_security": ["landmine_mapping", "uxo_thailand", "piracy_routes"],
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region", "cooking_fuel_access"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity", "off_season_tools"]
   },
-  "last_updated": "2026-06-14T08:03:14+07:00",
+  "last_updated": "2026-06-15T08:00:00+07:00",
   "rotation_state": {
-    "last_industry": "transportation_mobility",
-    "last_sub_industry": "pothole_mapping",
-    "last_geography": "philippines",
-    "last_3_industries": ["real_estate_urban", "culture_religion", "transportation_mobility"],
-    "last_3_geographies": ["cambodia", "indonesia", "philippines"]
+    "last_industry": "wildlife_biodiversity",
+    "last_sub_industry": "wildlife_trade_monitoring",
+    "last_geography": "vietnam",
+    "last_3_industries": ["culture_religion", "transportation_mobility", "wildlife_biodiversity"],
+    "last_3_geographies": ["indonesia", "philippines", "vietnam"]
   }
 }
