@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 75,
+  "total_ideas": 76,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -827,6 +827,17 @@
       "geography": "vietnam",
       "concept_hash": "wildlife-trade-species-id-rescue-routing+lang-son-border-vietnam-china+env-ngo-volunteer-border-checkpoint-monitors",
       "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
+    },
+    {
+      "id": "mun-river-rise-alert-riverside-market-vendors-ubon-2026-06-16",
+      "title": "KhunMun — Upstream Flood-Rise Alert for Ubon Ratchathani Mun River Night Market Vendors",
+      "file": "2026-06-16_mun-river-rise-alert-riverside-market-vendors-ubon.md",
+      "created_at": "2026-06-16T08:02:00+07:00",
+      "industry": "disaster_emergency",
+      "sub_industry": "flood_prediction_local",
+      "geography": "thailand",
+      "concept_hash": "mun-river-upstream-flood-rise-alert+ubon-ratchathani-mun-river-thailand+riverside-night-market-stall-vendors",
+      "apis_used": ["Open-Meteo Flood API", "Open-Meteo Weather API"]
     }
   ],
   "concept_hashes_used": [
@@ -904,12 +915,13 @@
     "ghost-tower-storm-debris-risk+sihanoukville-cambodia+cheap-renters-near-abandoned-chinese-casino-towers",
     "rambu-solo-ceremony-calendar-advance-notice+tana-toraja-sulawesi-indonesia+torajan-diaspora-jakarta-factory-workers",
     "road-washout-fog-risk-briefer+mindanao-highway-10-bukidnon-sayre+durian-cargo-truck-owner-operators",
-    "wildlife-trade-species-id-rescue-routing+lang-son-border-vietnam-china+env-ngo-volunteer-border-checkpoint-monitors"
+    "wildlife-trade-species-id-rescue-routing+lang-son-border-vietnam-china+env-ngo-volunteer-border-checkpoint-monitors",
+    "mun-river-upstream-flood-rise-alert+ubon-ratchathani-mun-river-thailand+riverside-night-market-stall-vendors"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk", "ghost_buildings"],
     "agriculture_farming": ["rubber_tapping", "aquaculture", "pest_management", "livestock_disease", "rice_farming", "irrigation_optimization", "soil_health", "crop_insurance"],
-    "disaster_emergency": ["wildfire_risk", "landslide_risk_zones", "drought_early_warning", "cyclone_tracking", "haze_pollution_alerts", "earthquake_prep", "chemical_spill_tracking"],
+    "disaster_emergency": ["wildfire_risk", "landslide_risk_zones", "drought_early_warning", "cyclone_tracking", "haze_pollution_alerts", "earthquake_prep", "chemical_spill_tracking", "flood_prediction_local"],
     "finance_economics": ["remittance_rates", "commodity_prices_farmers", "street_market_price_tracking", "currency_volatility", "microfinance_access"],
     "health_medical": ["dengue_risk_mapping", "food_poisoning_tracking", "water_safety", "mosquito_borne_illness", "traditional_medicine"],
     "ocean_maritime": ["dive_site_conditions", "sea_surface_temp", "coral_bleaching", "fish_migration", "aquaculture_disease"],
@@ -923,12 +935,12 @@
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region", "cooking_fuel_access"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity", "off_season_tools"]
   },
-  "last_updated": "2026-06-15T08:00:00+07:00",
+  "last_updated": "2026-06-16T08:02:00+07:00",
   "rotation_state": {
-    "last_industry": "wildlife_biodiversity",
-    "last_sub_industry": "wildlife_trade_monitoring",
-    "last_geography": "vietnam",
-    "last_3_industries": ["culture_religion", "transportation_mobility", "wildlife_biodiversity"],
-    "last_3_geographies": ["indonesia", "philippines", "vietnam"]
+    "last_industry": "disaster_emergency",
+    "last_sub_industry": "flood_prediction_local",
+    "last_geography": "thailand",
+    "last_3_industries": ["transportation_mobility", "wildlife_biodiversity", "disaster_emergency"],
+    "last_3_geographies": ["philippines", "vietnam", "thailand"]
   }
 }
