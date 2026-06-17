@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 76,
+  "total_ideas": 77,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -829,6 +829,17 @@
       "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
     },
     {
+      "id": "simeulue-seismic-departure-briefer-fishing-captains-2026-06-17",
+      "title": "SmongWatch — Pre-Dawn Seismic & Swell Departure Briefer for Simeulue Island Fishing Boat Captains",
+      "file": "2026-06-17_simeulue-seismic-departure-briefer-fishing-captains.md",
+      "created_at": "2026-06-17T08:03:36+07:00",
+      "industry": "ocean_maritime",
+      "sub_industry": "tsunami_warning",
+      "geography": "indonesia",
+      "concept_hash": "seismic-tsunami-departure-briefing+simeulue-island-aceh-indonesia+small-fishing-boat-captains",
+      "apis_used": ["USGS Earthquake Hazards", "Open-Meteo Marine API", "REST Countries"]
+    },
+    {
       "id": "mun-river-rise-alert-riverside-market-vendors-ubon-2026-06-16",
       "title": "KhunMun — Upstream Flood-Rise Alert for Ubon Ratchathani Mun River Night Market Vendors",
       "file": "2026-06-16_mun-river-rise-alert-riverside-market-vendors-ubon.md",
@@ -916,7 +927,8 @@
     "rambu-solo-ceremony-calendar-advance-notice+tana-toraja-sulawesi-indonesia+torajan-diaspora-jakarta-factory-workers",
     "road-washout-fog-risk-briefer+mindanao-highway-10-bukidnon-sayre+durian-cargo-truck-owner-operators",
     "wildlife-trade-species-id-rescue-routing+lang-son-border-vietnam-china+env-ngo-volunteer-border-checkpoint-monitors",
-    "mun-river-upstream-flood-rise-alert+ubon-ratchathani-mun-river-thailand+riverside-night-market-stall-vendors"
+    "mun-river-upstream-flood-rise-alert+ubon-ratchathani-mun-river-thailand+riverside-night-market-stall-vendors",
+    "seismic-tsunami-departure-briefing+simeulue-island-aceh-indonesia+small-fishing-boat-captains"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk", "ghost_buildings"],
@@ -924,7 +936,7 @@
     "disaster_emergency": ["wildfire_risk", "landslide_risk_zones", "drought_early_warning", "cyclone_tracking", "haze_pollution_alerts", "earthquake_prep", "chemical_spill_tracking", "flood_prediction_local"],
     "finance_economics": ["remittance_rates", "commodity_prices_farmers", "street_market_price_tracking", "currency_volatility", "microfinance_access"],
     "health_medical": ["dengue_risk_mapping", "food_poisoning_tracking", "water_safety", "mosquito_borne_illness", "traditional_medicine"],
-    "ocean_maritime": ["dive_site_conditions", "sea_surface_temp", "coral_bleaching", "fish_migration", "aquaculture_disease"],
+    "ocean_maritime": ["dive_site_conditions", "sea_surface_temp", "coral_bleaching", "fish_migration", "aquaculture_disease", "tsunami_warning"],
     "labor_work": ["fishing_crew_safety", "construction_site_safety", "agricultural_wage_tracking", "factory_conditions", "migrant_worker_rights"],
     "environment_ecology": ["river_pollution", "mangrove_mapping", "light_pollution", "invasive_species", "plastic_pollution", "deforestation"],
     "transportation_mobility": ["elephant_crossing_alerts", "ferry_schedules", "flood_route_avoidance", "border_crossing_times", "road_accident_blackspots", "pothole_mapping"],
@@ -935,12 +947,12 @@
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region", "cooking_fuel_access"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity", "off_season_tools"]
   },
-  "last_updated": "2026-06-16T08:02:00+07:00",
+  "last_updated": "2026-06-17T08:03:36+07:00",
   "rotation_state": {
-    "last_industry": "disaster_emergency",
-    "last_sub_industry": "flood_prediction_local",
-    "last_geography": "thailand",
-    "last_3_industries": ["transportation_mobility", "wildlife_biodiversity", "disaster_emergency"],
-    "last_3_geographies": ["philippines", "vietnam", "thailand"]
+    "last_industry": "ocean_maritime",
+    "last_sub_industry": "tsunami_warning",
+    "last_geography": "indonesia",
+    "last_3_industries": ["wildlife_biodiversity", "disaster_emergency", "ocean_maritime"],
+    "last_3_geographies": ["vietnam", "thailand", "indonesia"]
   }
 }
