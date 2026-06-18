@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 77,
+  "total_ideas": 78,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -849,6 +849,17 @@
       "geography": "thailand",
       "concept_hash": "mun-river-upstream-flood-rise-alert+ubon-ratchathani-mun-river-thailand+riverside-night-market-stall-vendors",
       "apis_used": ["Open-Meteo Flood API", "Open-Meteo Weather API"]
+    },
+    {
+      "id": "tabon-karbon-palawan-carbon-credit-fire-watch-2026-06-18",
+      "title": "TabonKarbon — REDD+ Fire-Watch & Payout Readiness Tracker for Southern Palawan Tagbanua Forest Guardians",
+      "file": "2026-06-18_tabon-karbon-palawan-carbon-credit-fire-watch.md",
+      "created_at": "2026-06-18T08:02:00+08:00",
+      "industry": "energy_utilities",
+      "sub_industry": "carbon_credits_farmers",
+      "geography": "philippines",
+      "concept_hash": "carbon-credit-fire-monitoring-payout-tracker+southern-palawan-philippines+tagbanua-palawano-indigenous-forest-guardians",
+      "apis_used": ["Open-Meteo Weather API", "ExchangeRate-API", "World Bank Open Data", "NASA EONET"]
     }
   ],
   "concept_hashes_used": [
@@ -928,7 +939,8 @@
     "road-washout-fog-risk-briefer+mindanao-highway-10-bukidnon-sayre+durian-cargo-truck-owner-operators",
     "wildlife-trade-species-id-rescue-routing+lang-son-border-vietnam-china+env-ngo-volunteer-border-checkpoint-monitors",
     "mun-river-upstream-flood-rise-alert+ubon-ratchathani-mun-river-thailand+riverside-night-market-stall-vendors",
-    "seismic-tsunami-departure-briefing+simeulue-island-aceh-indonesia+small-fishing-boat-captains"
+    "seismic-tsunami-departure-briefing+simeulue-island-aceh-indonesia+small-fishing-boat-captains",
+    "carbon-credit-fire-monitoring-payout-tracker+southern-palawan-philippines+tagbanua-palawano-indigenous-forest-guardians"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk", "ghost_buildings"],
@@ -944,15 +956,15 @@
     "wildlife_biodiversity": ["nocturnal_activity", "pollinator_health", "snake_identification", "bird_migration_alerts", "wildlife_trade_monitoring"],
     "culture_religion": ["auspicious_date_planning", "merit_making_guides", "temple_event_tracking", "spirit_house_directories", "traditional_festival_maps"],
     "defense_security": ["landmine_mapping", "uxo_thailand", "piracy_routes"],
-    "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region", "cooking_fuel_access"],
+    "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region", "cooking_fuel_access", "carbon_credits_farmers"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity", "off_season_tools"]
   },
-  "last_updated": "2026-06-17T08:03:36+07:00",
+  "last_updated": "2026-06-18T08:02:00+08:00",
   "rotation_state": {
-    "last_industry": "ocean_maritime",
-    "last_sub_industry": "tsunami_warning",
-    "last_geography": "indonesia",
-    "last_3_industries": ["wildlife_biodiversity", "disaster_emergency", "ocean_maritime"],
-    "last_3_geographies": ["vietnam", "thailand", "indonesia"]
+    "last_industry": "energy_utilities",
+    "last_sub_industry": "carbon_credits_farmers",
+    "last_geography": "philippines",
+    "last_3_industries": ["disaster_emergency", "ocean_maritime", "energy_utilities"],
+    "last_3_geographies": ["thailand", "indonesia", "philippines"]
   }
 }
