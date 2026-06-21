@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 80,
+  "total_ideas": 81,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -882,6 +882,17 @@
       "geography": "laos",
       "concept_hash": "flood-evacuation-route-trigger-alert+nam-theun-2-resettlement-villages-khammouane-laos+displaced-highland-families",
       "apis_used": ["Open-Meteo Flood API", "Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
+    },
+    {
+      "id": "sahhala-cicot-halal-ingredient-checker-hatyai-food-vendors-2026-06-21",
+      "title": "SahHalal — CICOT Ingredient Certification Validator for Hat Yai Muslim Food Stall Operators Serving Malaysian Cross-Border Tourists",
+      "file": "2026-06-21_sahhala-cicot-halal-ingredient-checker-hatyai-food-vendors.md",
+      "created_at": "2026-06-21T08:02:21+07:00",
+      "industry": "food_beverage",
+      "sub_industry": "halal_tracking",
+      "geography": "thailand",
+      "concept_hash": "halal-ingredient-certification-scanner-cicot+hat-yai-songkhla-thailand+muslim-night-market-food-stall-operators",
+      "apis_used": ["Open-Meteo Weather API", "ExchangeRate-API", "World Bank Open Data"]
     }
   ],
   "concept_hashes_used": [
@@ -964,7 +975,8 @@
     "seismic-tsunami-departure-briefing+simeulue-island-aceh-indonesia+small-fishing-boat-captains",
     "carbon-credit-fire-monitoring-payout-tracker+southern-palawan-philippines+tagbanua-palawano-indigenous-forest-guardians",
     "domestic-worker-rest-day-rights-tracker+klang-valley-selangor-malaysia+indonesian-live-in-domestic-workers",
-    "flood-evacuation-route-trigger-alert+nam-theun-2-resettlement-villages-khammouane-laos+displaced-highland-families"
+    "flood-evacuation-route-trigger-alert+nam-theun-2-resettlement-villages-khammouane-laos+displaced-highland-families",
+    "halal-ingredient-certification-scanner-cicot+hat-yai-songkhla-thailand+muslim-night-market-food-stall-operators"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk", "ghost_buildings"],
@@ -976,19 +988,19 @@
     "labor_work": ["fishing_crew_safety", "construction_site_safety", "agricultural_wage_tracking", "factory_conditions", "migrant_worker_rights", "domestic_worker_protections"],
     "environment_ecology": ["river_pollution", "mangrove_mapping", "light_pollution", "invasive_species", "plastic_pollution", "deforestation"],
     "transportation_mobility": ["elephant_crossing_alerts", "ferry_schedules", "flood_route_avoidance", "border_crossing_times", "road_accident_blackspots", "pothole_mapping"],
-    "food_beverage": ["fermented_foods", "durian_ripeness", "fish_sauce_quality", "spice_sourcing", "street_food_safety"],
+    "food_beverage": ["fermented_foods", "durian_ripeness", "fish_sauce_quality", "spice_sourcing", "street_food_safety", "halal_tracking"],
     "wildlife_biodiversity": ["nocturnal_activity", "pollinator_health", "snake_identification", "bird_migration_alerts", "wildlife_trade_monitoring"],
     "culture_religion": ["auspicious_date_planning", "merit_making_guides", "temple_event_tracking", "spirit_house_directories", "traditional_festival_maps"],
     "defense_security": ["landmine_mapping", "uxo_thailand", "piracy_routes"],
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region", "cooking_fuel_access", "carbon_credits_farmers"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity", "off_season_tools"]
   },
-  "last_updated": "2026-06-20T08:04:00+07:00",
+  "last_updated": "2026-06-21T08:02:21+07:00",
   "rotation_state": {
-    "last_industry": "disaster_emergency",
-    "last_sub_industry": "evacuation_route_tools",
-    "last_geography": "laos",
-    "last_3_industries": ["energy_utilities", "labor_work", "disaster_emergency"],
-    "last_3_geographies": ["philippines", "malaysia", "laos"]
+    "last_industry": "food_beverage",
+    "last_sub_industry": "halal_tracking",
+    "last_geography": "thailand",
+    "last_3_industries": ["labor_work", "disaster_emergency", "food_beverage"],
+    "last_3_geographies": ["malaysia", "laos", "thailand"]
   }
 }
