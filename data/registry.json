@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 81,
+  "total_ideas": 82,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -893,6 +893,17 @@
       "geography": "thailand",
       "concept_hash": "halal-ingredient-certification-scanner-cicot+hat-yai-songkhla-thailand+muslim-night-market-food-stall-operators",
       "apis_used": ["Open-Meteo Weather API", "ExchangeRate-API", "World Bank Open Data"]
+    },
+    {
+      "id": "nam-son-landfill-waste-picker-fume-exposure-planner-2026-06-22",
+      "title": "NhặtLành — Hourly Fume-Exposure Window Planner for Nam Sơn Landfill Waste Pickers",
+      "file": "2026-06-22_nam-son-landfill-waste-picker-fume-exposure-planner.md",
+      "created_at": "2026-06-22T08:03:47+07:00",
+      "industry": "health_medical",
+      "sub_industry": "air_quality_health",
+      "geography": "vietnam",
+      "concept_hash": "landfill-toxic-fume-shift-timing+nam-son-landfill-hanoi-vietnam+informal-waste-picker-women",
+      "apis_used": ["Open-Meteo Air Quality API", "Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
     }
   ],
   "concept_hashes_used": [
@@ -976,14 +987,15 @@
     "carbon-credit-fire-monitoring-payout-tracker+southern-palawan-philippines+tagbanua-palawano-indigenous-forest-guardians",
     "domestic-worker-rest-day-rights-tracker+klang-valley-selangor-malaysia+indonesian-live-in-domestic-workers",
     "flood-evacuation-route-trigger-alert+nam-theun-2-resettlement-villages-khammouane-laos+displaced-highland-families",
-    "halal-ingredient-certification-scanner-cicot+hat-yai-songkhla-thailand+muslim-night-market-food-stall-operators"
+    "halal-ingredient-certification-scanner-cicot+hat-yai-songkhla-thailand+muslim-night-market-food-stall-operators",
+    "landfill-toxic-fume-shift-timing+nam-son-landfill-hanoi-vietnam+informal-waste-picker-women"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk", "ghost_buildings"],
     "agriculture_farming": ["rubber_tapping", "aquaculture", "pest_management", "livestock_disease", "rice_farming", "irrigation_optimization", "soil_health", "crop_insurance"],
     "disaster_emergency": ["wildfire_risk", "landslide_risk_zones", "drought_early_warning", "cyclone_tracking", "haze_pollution_alerts", "earthquake_prep", "chemical_spill_tracking", "flood_prediction_local", "evacuation_route_tools"],
     "finance_economics": ["remittance_rates", "commodity_prices_farmers", "street_market_price_tracking", "currency_volatility", "microfinance_access"],
-    "health_medical": ["dengue_risk_mapping", "food_poisoning_tracking", "water_safety", "mosquito_borne_illness", "traditional_medicine"],
+    "health_medical": ["dengue_risk_mapping", "food_poisoning_tracking", "water_safety", "mosquito_borne_illness", "traditional_medicine", "air_quality_health"],
     "ocean_maritime": ["dive_site_conditions", "sea_surface_temp", "coral_bleaching", "fish_migration", "aquaculture_disease", "tsunami_warning"],
     "labor_work": ["fishing_crew_safety", "construction_site_safety", "agricultural_wage_tracking", "factory_conditions", "migrant_worker_rights", "domestic_worker_protections"],
     "environment_ecology": ["river_pollution", "mangrove_mapping", "light_pollution", "invasive_species", "plastic_pollution", "deforestation"],
@@ -995,12 +1007,12 @@
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region", "cooking_fuel_access", "carbon_credits_farmers"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity", "off_season_tools"]
   },
-  "last_updated": "2026-06-21T08:02:21+07:00",
+  "last_updated": "2026-06-22T08:03:47+07:00",
   "rotation_state": {
-    "last_industry": "food_beverage",
-    "last_sub_industry": "halal_tracking",
-    "last_geography": "thailand",
-    "last_3_industries": ["labor_work", "disaster_emergency", "food_beverage"],
-    "last_3_geographies": ["malaysia", "laos", "thailand"]
+    "last_industry": "health_medical",
+    "last_sub_industry": "air_quality_health",
+    "last_geography": "vietnam",
+    "last_3_industries": ["disaster_emergency", "food_beverage", "health_medical"],
+    "last_3_geographies": ["laos", "thailand", "vietnam"]
   }
 }
