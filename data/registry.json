@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 82,
+  "total_ideas": 83,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -904,6 +904,17 @@
       "geography": "vietnam",
       "concept_hash": "landfill-toxic-fume-shift-timing+nam-son-landfill-hanoi-vietnam+informal-waste-picker-women",
       "apis_used": ["Open-Meteo Air Quality API", "Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
+    },
+    {
+      "id": "palembang-ojol-post-rain-surge-window-alert-2026-06-23",
+      "title": "JedaHujan — Post-Rain Surge Window Alert for Palembang GoJek & Grab Food Delivery Riders",
+      "file": "2026-06-23_palembang-ojol-post-rain-surge-window-alert.md",
+      "created_at": "2026-06-23T08:02:00+07:00",
+      "industry": "labor_work",
+      "sub_industry": "gig_economy_sea",
+      "geography": "indonesia",
+      "concept_hash": "post-rain-surge-window-alert+palembang-south-sumatra-indonesia+gojek-grab-food-delivery-riders",
+      "apis_used": ["Open-Meteo Weather API", "ExchangeRate-API", "World Bank Open Data"]
     }
   ],
   "concept_hashes_used": [
@@ -988,7 +999,8 @@
     "domestic-worker-rest-day-rights-tracker+klang-valley-selangor-malaysia+indonesian-live-in-domestic-workers",
     "flood-evacuation-route-trigger-alert+nam-theun-2-resettlement-villages-khammouane-laos+displaced-highland-families",
     "halal-ingredient-certification-scanner-cicot+hat-yai-songkhla-thailand+muslim-night-market-food-stall-operators",
-    "landfill-toxic-fume-shift-timing+nam-son-landfill-hanoi-vietnam+informal-waste-picker-women"
+    "landfill-toxic-fume-shift-timing+nam-son-landfill-hanoi-vietnam+informal-waste-picker-women",
+    "post-rain-surge-window-alert+palembang-south-sumatra-indonesia+gojek-grab-food-delivery-riders"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk", "ghost_buildings"],
@@ -997,7 +1009,7 @@
     "finance_economics": ["remittance_rates", "commodity_prices_farmers", "street_market_price_tracking", "currency_volatility", "microfinance_access"],
     "health_medical": ["dengue_risk_mapping", "food_poisoning_tracking", "water_safety", "mosquito_borne_illness", "traditional_medicine", "air_quality_health"],
     "ocean_maritime": ["dive_site_conditions", "sea_surface_temp", "coral_bleaching", "fish_migration", "aquaculture_disease", "tsunami_warning"],
-    "labor_work": ["fishing_crew_safety", "construction_site_safety", "agricultural_wage_tracking", "factory_conditions", "migrant_worker_rights", "domestic_worker_protections"],
+    "labor_work": ["fishing_crew_safety", "construction_site_safety", "agricultural_wage_tracking", "factory_conditions", "migrant_worker_rights", "domestic_worker_protections", "gig_economy_sea"],
     "environment_ecology": ["river_pollution", "mangrove_mapping", "light_pollution", "invasive_species", "plastic_pollution", "deforestation"],
     "transportation_mobility": ["elephant_crossing_alerts", "ferry_schedules", "flood_route_avoidance", "border_crossing_times", "road_accident_blackspots", "pothole_mapping"],
     "food_beverage": ["fermented_foods", "durian_ripeness", "fish_sauce_quality", "spice_sourcing", "street_food_safety", "halal_tracking"],
@@ -1007,12 +1019,12 @@
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region", "cooking_fuel_access", "carbon_credits_farmers"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity", "off_season_tools"]
   },
-  "last_updated": "2026-06-22T08:03:47+07:00",
+  "last_updated": "2026-06-23T08:02:00+07:00",
   "rotation_state": {
-    "last_industry": "health_medical",
-    "last_sub_industry": "air_quality_health",
-    "last_geography": "vietnam",
-    "last_3_industries": ["disaster_emergency", "food_beverage", "health_medical"],
-    "last_3_geographies": ["laos", "thailand", "vietnam"]
+    "last_industry": "labor_work",
+    "last_sub_industry": "gig_economy_sea",
+    "last_geography": "indonesia",
+    "last_3_industries": ["food_beverage", "health_medical", "labor_work"],
+    "last_3_geographies": ["thailand", "vietnam", "indonesia"]
   }
 }
