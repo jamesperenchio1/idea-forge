@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 84,
+  "total_ideas": 85,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -926,6 +926,17 @@
       "geography": "philippines",
       "concept_hash": "mine-tailings-spill-risk-alert+agno-river-benguet-pangasinan-philippines+smallholder-rice-irrigators",
       "apis_used": ["Open-Meteo Weather API", "Open-Meteo Flood API", "USGS Earthquake Hazards", "World Bank Open Data"]
+    },
+    {
+      "id": "wan-phra-pork-demand-planner-isan-dawn-market-2026-06-25",
+      "title": "WanMoo — Buddhist Holy-Day Demand Planner for Isan Talat Naed Fresh Pork Stall Operators",
+      "file": "2026-06-25_wan-phra-pork-demand-planner-isan-dawn-market.md",
+      "created_at": "2026-06-25T08:02:00+07:00",
+      "industry": "culture_religion",
+      "sub_industry": "buddhist_calendar",
+      "geography": "thailand",
+      "concept_hash": "wan-phra-buddhist-calendar-demand-planner+roi-et-mahasarakham-isan-thailand+talat-naed-fresh-pork-stall-operators",
+      "apis_used": ["Open-Meteo Forecast API", "ExchangeRate-API", "World Bank Open Data"]
     }
   ],
   "concept_hashes_used": [
@@ -1012,7 +1023,8 @@
     "halal-ingredient-certification-scanner-cicot+hat-yai-songkhla-thailand+muslim-night-market-food-stall-operators",
     "landfill-toxic-fume-shift-timing+nam-son-landfill-hanoi-vietnam+informal-waste-picker-women",
     "post-rain-surge-window-alert+palembang-south-sumatra-indonesia+gojek-grab-food-delivery-riders",
-    "mine-tailings-spill-risk-alert+agno-river-benguet-pangasinan-philippines+smallholder-rice-irrigators"
+    "mine-tailings-spill-risk-alert+agno-river-benguet-pangasinan-philippines+smallholder-rice-irrigators",
+    "wan-phra-buddhist-calendar-demand-planner+roi-et-mahasarakham-isan-thailand+talat-naed-fresh-pork-stall-operators"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk", "ghost_buildings"],
@@ -1026,17 +1038,17 @@
     "transportation_mobility": ["elephant_crossing_alerts", "ferry_schedules", "flood_route_avoidance", "border_crossing_times", "road_accident_blackspots", "pothole_mapping"],
     "food_beverage": ["fermented_foods", "durian_ripeness", "fish_sauce_quality", "spice_sourcing", "street_food_safety", "halal_tracking"],
     "wildlife_biodiversity": ["nocturnal_activity", "pollinator_health", "snake_identification", "bird_migration_alerts", "wildlife_trade_monitoring"],
-    "culture_religion": ["auspicious_date_planning", "merit_making_guides", "temple_event_tracking", "spirit_house_directories", "traditional_festival_maps"],
+    "culture_religion": ["auspicious_date_planning", "merit_making_guides", "temple_event_tracking", "spirit_house_directories", "traditional_festival_maps", "buddhist_calendar"],
     "defense_security": ["landmine_mapping", "uxo_thailand", "piracy_routes"],
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region", "cooking_fuel_access", "carbon_credits_farmers"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity", "off_season_tools"]
   },
-  "last_updated": "2026-06-24T08:03:01+07:00",
+  "last_updated": "2026-06-25T08:02:00+07:00",
   "rotation_state": {
-    "last_industry": "environment_ecology",
-    "last_sub_industry": "soil_contamination",
-    "last_geography": "philippines",
-    "last_3_industries": ["health_medical", "labor_work", "environment_ecology"],
-    "last_3_geographies": ["vietnam", "indonesia", "philippines"]
+    "last_industry": "culture_religion",
+    "last_sub_industry": "buddhist_calendar",
+    "last_geography": "thailand",
+    "last_3_industries": ["labor_work", "environment_ecology", "culture_religion"],
+    "last_3_geographies": ["indonesia", "philippines", "thailand"]
   }
 }
