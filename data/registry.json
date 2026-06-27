@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 86,
+  "total_ideas": 87,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -948,6 +948,17 @@
       "geography": "vietnam",
       "concept_hash": "pesticide-drift-risk-window+da-lat-lam-dong-highland-vietnam+vietgap-certified-vegetable-flower-farmers",
       "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
+    },
+    {
+      "id": "kampong-thom-melioidosis-soil-exposure-risk-briefer-2026-06-27",
+      "title": "PrakDey — Monsoon Soil-Exposure Risk Briefer for Kampong Thom Barefoot Rice Farmers",
+      "file": "2026-06-27_kampong-thom-melioidosis-soil-exposure-risk-briefer.md",
+      "created_at": "2026-06-27T08:03:00+07:00",
+      "industry": "health_medical",
+      "sub_industry": "tropical_diseases",
+      "geography": "cambodia",
+      "concept_hash": "melioidosis-soil-wetness-exposure-risk+kampong-thom-stung-sen-basin-cambodia+barefoot-smallholder-rice-farmers-plowing-monsoon-paddies",
+      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Flood API", "World Bank Open Data", "WHO GHO"]
     }
   ],
   "concept_hashes_used": [
@@ -1036,14 +1047,15 @@
     "post-rain-surge-window-alert+palembang-south-sumatra-indonesia+gojek-grab-food-delivery-riders",
     "mine-tailings-spill-risk-alert+agno-river-benguet-pangasinan-philippines+smallholder-rice-irrigators",
     "wan-phra-buddhist-calendar-demand-planner+roi-et-mahasarakham-isan-thailand+talat-naed-fresh-pork-stall-operators",
-    "pesticide-drift-risk-window+da-lat-lam-dong-highland-vietnam+vietgap-certified-vegetable-flower-farmers"
+    "pesticide-drift-risk-window+da-lat-lam-dong-highland-vietnam+vietgap-certified-vegetable-flower-farmers",
+    "melioidosis-soil-wetness-exposure-risk+kampong-thom-stung-sen-basin-cambodia+barefoot-smallholder-rice-farmers-plowing-monsoon-paddies"
   ],
   "industries_covered": {
     "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk", "ghost_buildings"],
     "agriculture_farming": ["rubber_tapping", "aquaculture", "pest_management", "livestock_disease", "rice_farming", "irrigation_optimization", "soil_health", "crop_insurance", "organic_certification"],
     "disaster_emergency": ["wildfire_risk", "landslide_risk_zones", "drought_early_warning", "cyclone_tracking", "haze_pollution_alerts", "earthquake_prep", "chemical_spill_tracking", "flood_prediction_local", "evacuation_route_tools"],
     "finance_economics": ["remittance_rates", "commodity_prices_farmers", "street_market_price_tracking", "currency_volatility", "microfinance_access"],
-    "health_medical": ["dengue_risk_mapping", "food_poisoning_tracking", "water_safety", "mosquito_borne_illness", "traditional_medicine", "air_quality_health"],
+    "health_medical": ["dengue_risk_mapping", "food_poisoning_tracking", "water_safety", "mosquito_borne_illness", "traditional_medicine", "air_quality_health", "tropical_diseases"],
     "ocean_maritime": ["dive_site_conditions", "sea_surface_temp", "coral_bleaching", "fish_migration", "aquaculture_disease", "tsunami_warning"],
     "labor_work": ["fishing_crew_safety", "construction_site_safety", "agricultural_wage_tracking", "factory_conditions", "migrant_worker_rights", "domestic_worker_protections", "gig_economy_sea"],
     "environment_ecology": ["river_pollution", "mangrove_mapping", "light_pollution", "invasive_species", "plastic_pollution", "deforestation", "soil_contamination"],
@@ -1055,12 +1067,12 @@
     "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region", "cooking_fuel_access", "carbon_credits_farmers"],
     "tourism_travel": ["adventure_risk_scoring", "national_park_capacity", "off_season_tools"]
   },
-  "last_updated": "2026-06-26T08:02:00+07:00",
+  "last_updated": "2026-06-27T08:03:00+07:00",
   "rotation_state": {
-    "last_industry": "agriculture_farming",
-    "last_sub_industry": "organic_certification",
-    "last_geography": "vietnam",
-    "last_3_industries": ["environment_ecology", "culture_religion", "agriculture_farming"],
-    "last_3_geographies": ["philippines", "thailand", "vietnam"]
+    "last_industry": "health_medical",
+    "last_sub_industry": "tropical_diseases",
+    "last_geography": "cambodia",
+    "last_3_industries": ["culture_religion", "agriculture_farming", "health_medical"],
+    "last_3_geographies": ["thailand", "vietnam", "cambodia"]
   }
 }
