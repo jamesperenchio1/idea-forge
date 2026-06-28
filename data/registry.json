@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 87,
+  "total_ideas": 88,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -12,7 +12,11 @@
       "sub_industry": "air_pollution_by_block",
       "geography": "thailand",
       "concept_hash": "air-quality-by-address+bangkok-districts+renters-and-buyers",
-      "apis_used": ["Open-Meteo Air Quality API", "Open-Meteo Weather API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Air Quality API",
+        "Open-Meteo Weather API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "rubber-tapper-optimal-morning-window-surat-thani-2026-03-24",
@@ -23,7 +27,10 @@
       "sub_industry": "rubber_tapping",
       "geography": "thailand",
       "concept_hash": "rubber-tapping-optimal-time+southern-thailand+smallholder-tappers",
-      "apis_used": ["Open-Meteo Weather API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "highland-burn-window-northern-thailand-corn-farmers-2026-03-25",
@@ -34,7 +41,10 @@
       "sub_industry": "wildfire_risk",
       "geography": "thailand",
       "concept_hash": "field-burning-window+northern-thailand+highland-corn-farmers",
-      "apis_used": ["Open-Meteo Air Quality API", "Open-Meteo Weather API"]
+      "apis_used": [
+        "Open-Meteo Air Quality API",
+        "Open-Meteo Weather API"
+      ]
     },
     {
       "id": "kyatbridge-myanmar-remittance-rate-tracker-2026-03-26",
@@ -45,7 +55,10 @@
       "sub_industry": "remittance_rates",
       "geography": "myanmar_thailand_border",
       "concept_hash": "remittance-parallel-rate+mae-sot-myawaddy-border+myanmar-migrant-workers",
-      "apis_used": ["ExchangeRate-API", "World Bank Open Data"]
+      "apis_used": [
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "dengue-season-prep-tracker-cambodia-vhsg-2026-03-27",
@@ -56,7 +69,11 @@
       "sub_industry": "dengue_risk_mapping",
       "geography": "cambodia",
       "concept_hash": "dengue-seasonal-risk-by-commune+rural-cambodia+village-health-volunteers",
-      "apis_used": ["Open-Meteo Weather API", "WHO GHO", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "WHO GHO",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "koh-tao-dive-site-swell-morning-briefing-2026-03-28",
@@ -67,7 +84,10 @@
       "sub_industry": "dive_site_conditions",
       "geography": "thailand",
       "concept_hash": "dive-site-suitability-by-swell+koh-tao-gulf-of-thailand+freelance-dive-instructors",
-      "apis_used": ["Open-Meteo Marine API", "Open-Meteo Weather API"]
+      "apis_used": [
+        "Open-Meteo Marine API",
+        "Open-Meteo Weather API"
+      ]
     },
     {
       "id": "vietnam-fisher-safe-return-window-zalo-bot-2026-03-29",
@@ -78,7 +98,11 @@
       "sub_industry": "fishing_crew_safety",
       "geography": "vietnam",
       "concept_hash": "safe-return-window+central-vietnam-south-china-sea+small-boat-squid-fishers",
-      "apis_used": ["Open-Meteo Marine API", "Open-Meteo Weather API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Marine API",
+        "Open-Meteo Weather API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "mekong-sandbank-flood-window-luang-prabang-farmers-2026-03-30",
@@ -89,7 +113,11 @@
       "sub_industry": "river_pollution",
       "geography": "laos",
       "concept_hash": "mekong-water-level-planting-window+luang-prabang-laos+mekong-sandbank-vegetable-farmers",
-      "apis_used": ["Open-Meteo Flood API", "Open-Meteo Weather API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Flood API",
+        "Open-Meteo Weather API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "highway-304-elephant-crossing-alert-night-drivers-2026-04-01",
@@ -100,7 +128,11 @@
       "sub_industry": "elephant_crossing_alerts",
       "geography": "thailand",
       "concept_hash": "elephant-crossing-risk-window+highway-304-thailand+night-truck-drivers",
-      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Air Quality API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "Open-Meteo Air Quality API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "belacan-drying-window-tracker-penang-fermenters-2026-04-02",
@@ -111,7 +143,10 @@
       "sub_industry": "fermented_foods",
       "geography": "malaysia",
       "concept_hash": "belacan-drying-window-timing+penang-seberang-perai+small-scale-fermented-shrimp-producers",
-      "apis_used": ["Open-Meteo Weather API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "firefly-emergence-timing-abucay-bataan-2026-04-03",
@@ -122,7 +157,11 @@
       "sub_industry": "nocturnal_activity",
       "geography": "philippines",
       "concept_hash": "firefly-emergence-timing+bataan-abucay-coastal+eco-tourism-operators-and-conservation-guides",
-      "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "USGS Earthquake Hazards API"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "World Bank Open Data",
+        "USGS Earthquake Hazards API"
+      ]
     },
     {
       "id": "auspicious-construction-ceremony-yangon-2026-04-04",
@@ -133,7 +172,11 @@
       "sub_industry": "auspicious_date_planning",
       "geography": "myanmar",
       "concept_hash": "auspicious-date-scheduling+yangon-mandalay-construction+myanmar-site-managers-contractors",
-      "apis_used": ["Open-Meteo", "World Bank Open Data", "REST Countries"]
+      "apis_used": [
+        "Open-Meteo",
+        "World Bank Open Data",
+        "REST Countries"
+      ]
     },
     {
       "id": "reservoir-oxygen-crash-alert-cage-fish-farmers-khon-kaen-2026-04-05",
@@ -144,7 +187,11 @@
       "sub_industry": "aquaculture",
       "geography": "thailand",
       "concept_hash": "dissolved-oxygen-crash-prediction+ubolratana-reservoir-khon-kaen+cage-tilapia-farmers",
-      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Flood API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "Open-Meteo Flood API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "durian-ripeness-window-tracker-north-sumatra-2026-04-06",
@@ -155,7 +202,10 @@
       "sub_industry": "durian_ripeness",
       "geography": "indonesia",
       "concept_hash": "durian-harvest-ripeness-window+north-sumatra-deli-serdang+roadside-stall-owners-and-orchard-collectors",
-      "apis_used": ["Open-Meteo Weather API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "plot-level-mine-clearance-checker-battambang-cassava-2026-04-08",
@@ -166,7 +216,11 @@
       "sub_industry": "landmine_mapping",
       "geography": "cambodia",
       "concept_hash": "landmine-clearance-status-by-plot+battambang-cambodia+smallholder-cassava-farmers",
-      "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "REST Countries"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "World Bank Open Data",
+        "REST Countries"
+      ]
     },
     {
       "id": "angat-dam-release-alert-bulacan-rice-2026-04-09",
@@ -177,7 +231,11 @@
       "sub_industry": "dam_water_level",
       "geography": "philippines",
       "concept_hash": "dam-water-release-alerts+bulacan-angat-watershed-philippines+smallholder-rice-paddy-farmers",
-      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Flood API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "Open-Meteo Flood API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "ha-giang-loop-mountain-pass-road-risk-briefing-2026-04-10",
@@ -188,7 +246,11 @@
       "sub_industry": "adventure_risk_scoring",
       "geography": "vietnam",
       "concept_hash": "mountain-pass-road-risk-briefing+ha-giang-loop-vietnam+freelance-motorbike-tour-guides",
-      "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "highland-landslide-early-warning-chiang-rai-coffee-farmers-2026-04-11",
@@ -199,7 +261,12 @@
       "sub_industry": "landslide_risk_zones",
       "geography": "thailand",
       "concept_hash": "landslide-risk-early-warning+doi-chang-chiang-rai-thailand+hill-tribe-arabica-coffee-farmers",
-      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Air Quality API", "USGS Earthquake Hazards", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "Open-Meteo Air Quality API",
+        "USGS Earthquake Hazards",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "stingless-bee-forage-bloom-forecast-terengganu-2026-04-12",
@@ -210,7 +277,11 @@
       "sub_industry": "pollinator_health",
       "geography": "malaysia",
       "concept_hash": "stingless-bee-bloom-forecast+terengganu-east-coast-malaysia+kelulut-honey-smallholders",
-      "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "mangrove-channel-crab-fattening-health-tracker-2026-04-13",
@@ -221,7 +292,11 @@
       "sub_industry": "mangrove_mapping",
       "geography": "indonesia",
       "concept_hash": "mangrove-channel-health-scoring+mahakam-delta-east-kalimantan+mud-crab-fattening-operators",
-      "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "romblon-ferry-sailing-probability-forecast-2026-04-14",
@@ -232,7 +307,12 @@
       "sub_industry": "ferry_schedules",
       "geography": "philippines",
       "concept_hash": "ferry-sailing-probability-forecast+romblon-sibuyan-sea-philippines+island-commuters-and-cargo-operators",
-      "apis_used": ["Open-Meteo Marine API", "Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Marine API",
+        "Open-Meteo Weather API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "heat-danger-alert-bangkok-construction-day-laborers-2026-04-15",
@@ -243,7 +323,12 @@
       "sub_industry": "construction_site_safety",
       "geography": "thailand",
       "concept_hash": "heat-stress-work-hour-alert+bangkok-construction-sites+isan-migrant-day-laborers",
-      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Air Quality API", "World Bank Open Data", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "Open-Meteo Air Quality API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "fish-sauce-barrel-fermentation-climate-tracker-2026-04-16",
@@ -254,7 +339,12 @@
       "sub_industry": "fish_sauce_quality",
       "geography": "vietnam",
       "concept_hash": "fish-sauce-fermentation-climate+phu-quoc-vietnam+artisan-barrel-house-producers",
-      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Marine API", "World Bank Open Data", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "Open-Meteo Marine API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "wereng-waspada-brown-planthopper-outbreak-alert-2026-04-17",
@@ -265,7 +355,11 @@
       "sub_industry": "pest_management",
       "geography": "indonesia",
       "concept_hash": "brown-planthopper-outbreak-prediction+klaten-central-java-indonesia+smallholder-rice-paddy-farmers",
-      "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "seaweed-heat-stress-alert-zamboanga-2026-04-18",
@@ -276,7 +370,12 @@
       "sub_industry": "sea_surface_temp",
       "geography": "philippines",
       "concept_hash": "sea-surface-temp-seaweed-stress+zamboanga-peninsula-philippines+smallholder-carrageenan-seaweed-farmers",
-      "apis_used": ["Open-Meteo Marine API", "Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Marine API",
+        "Open-Meteo Weather API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "raw-fish-feast-bacterial-risk-scorer-isan-2026-04-19",
@@ -287,7 +386,12 @@
       "sub_industry": "food_poisoning_tracking",
       "geography": "thailand",
       "concept_hash": "raw-fish-bacterial-risk-scoring+isan-northeastern-thailand+village-feast-food-preparers",
-      "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "WHO GHO", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "World Bank Open Data",
+        "WHO GHO",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "bolaven-coffee-farmgate-price-transparency-checker-2026-04-20",
@@ -298,7 +402,11 @@
       "sub_industry": "commodity_prices_farmers",
       "geography": "laos",
       "concept_hash": "coffee-farmgate-price-checker+bolaven-plateau-laos+smallholder-arabica-growers",
-      "apis_used": ["Open-Meteo Weather API", "ExchangeRate-API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "ice-factory-power-outage-predictor-kampong-cham-2026-04-21",
@@ -309,7 +417,11 @@
       "sub_industry": "power_outage_mapping",
       "geography": "cambodia",
       "concept_hash": "power-outage-risk-prediction+kampong-cham-mekong-cambodia+small-ice-factory-operators",
-      "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "cheow-lan-longtail-boat-crossing-briefing-khao-sok-2026-04-22",
@@ -320,7 +432,12 @@
       "sub_industry": "national_park_capacity",
       "geography": "thailand",
       "concept_hash": "boat-crossing-risk-briefing+cheow-lan-lake-khao-sok-thailand+longtail-boat-operators",
-      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Flood API", "World Bank Open Data", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "Open-Meteo Flood API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "amblesjkt-north-jakarta-sinking-zone-kampung-home-buyer-checker-2026-04-23",
@@ -331,7 +448,13 @@
       "sub_industry": "flood_zone_property_risk",
       "geography": "indonesia",
       "concept_hash": "jakarta-ground-subsidence-flood-risk-property-checker+north-jakarta-pluit-muara-baru-indonesia+kampung-home-buyers",
-      "apis_used": ["Open-Meteo Flood API", "Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API", "USGS Earthquake Hazards"]
+      "apis_used": [
+        "Open-Meteo Flood API",
+        "Open-Meteo Weather API",
+        "World Bank Open Data",
+        "ExchangeRate-API",
+        "USGS Earthquake Hazards"
+      ]
     },
     {
       "id": "ngudoen-pak-thong-chai-snake-bite-risk-antivenin-finder-2026-04-24",
@@ -342,7 +465,13 @@
       "sub_industry": "snake_identification",
       "geography": "thailand",
       "concept_hash": "snake-bite-dawn-activity-and-antivenin-finder+pak-thong-chai-cassava-isan-thailand+smallholder-dawn-field-workers",
-      "apis_used": ["Open-Meteo Weather API", "OpenStreetMap Overpass", "World Bank Open Data", "REST Countries", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "OpenStreetMap Overpass",
+        "World Bank Open Data",
+        "REST Countries",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "bonarun-phnom-penh-pre-dawn-merit-circuit-2026-04-25",
@@ -353,7 +482,13 @@
       "sub_industry": "merit_making_guides",
       "geography": "cambodia",
       "concept_hash": "pre-dawn-merit-pagoda-circuit-briefing+phnom-penh-cambodia+elderly-sino-khmer-buddhist-women",
-      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Air Quality API", "World Bank Open Data", "ExchangeRate-API", "OpenStreetMap Overpass"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "Open-Meteo Air Quality API",
+        "World Bank Open Data",
+        "ExchangeRate-API",
+        "OpenStreetMap Overpass"
+      ]
     },
     {
       "id": "hnamyay-magway-dry-zone-sesame-drought-window-tracker-2026-04-26",
@@ -364,7 +499,12 @@
       "sub_industry": "drought_early_warning",
       "geography": "myanmar",
       "concept_hash": "drought-sowing-irrigation-window+magway-dry-zone-myanmar+smallholder-sesame-farmers",
-      "apis_used": ["Open-Meteo Forecast API", "Open-Meteo Soil Moisture API", "World Bank Open Data", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "Open-Meteo Soil Moisture API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "penyu-gelap-cherating-hatchling-light-disorientation-briefing-2026-04-27",
@@ -375,7 +515,13 @@
       "sub_industry": "light_pollution",
       "geography": "malaysia",
       "concept_hash": "sea-turtle-hatchling-dark-sky-release-window+cherating-beach-pahang-malaysia+volunteer-turtle-conservation-rangers",
-      "apis_used": ["Open-Meteo Forecast API", "Open-Meteo Marine API", "World Bank Open Data", "REST Countries", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "Open-Meteo Marine API",
+        "World Bank Open Data",
+        "REST Countries",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "asf-sell-signal-red-river-delta-pig-keepers-2026-04-28",
@@ -386,7 +532,11 @@
       "sub_industry": "livestock_disease",
       "geography": "vietnam",
       "concept_hash": "asf-pig-disease-risk-scoring+red-river-delta-vietnam+backyard-smallholder-pig-farmers",
-      "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "tubbataha-reef-bleaching-thermal-stress-liveaboard-briefer-2026-04-29",
@@ -397,7 +547,12 @@
       "sub_industry": "coral_bleaching",
       "geography": "philippines",
       "concept_hash": "coral-bleaching-thermal-stress-briefing+tubbataha-reef-sulu-sea-philippines+liveaboard-dive-operators",
-      "apis_used": ["Open-Meteo Marine API", "Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Marine API",
+        "Open-Meteo Weather API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "burmese-sugarcane-wage-deduction-checker-kanchanaburi-2026-04-30",
@@ -408,7 +563,11 @@
       "sub_industry": "agricultural_wage_tracking",
       "geography": "thailand",
       "concept_hash": "wage-deduction-compliance-checker+kanchanaburi-sugarcane-thailand+burmese-migrant-piece-rate-cutters",
-      "apis_used": ["ExchangeRate-API", "Open-Meteo Weather API", "World Bank Open Data"]
+      "apis_used": [
+        "ExchangeRate-API",
+        "Open-Meteo Weather API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "kei-islands-solar-cold-storage-roi-checker-2026-05-01",
@@ -419,7 +578,12 @@
       "sub_industry": "solar_potential_by_region",
       "geography": "indonesia",
       "concept_hash": "solar-cold-storage-roi-checker+kei-islands-maluku-indonesia+fishing-cooperative-heads",
-      "apis_used": ["Open-Meteo Forecast API", "Open-Meteo Daily Solar API", "World Bank Open Data", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "Open-Meteo Daily Solar API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "kandal-arsenic-well-risk-estimator-cambodia-2026-05-02",
@@ -430,7 +594,11 @@
       "sub_industry": "water_safety",
       "geography": "cambodia",
       "concept_hash": "groundwater-arsenic-risk-scoring+kandal-prey-veng-mekong-floodplain-cambodia+rural-tube-well-drinking-families",
-      "apis_used": ["World Bank Open Data", "WHO GHO", "Open-Meteo Flood API"]
+      "apis_used": [
+        "World Bank Open Data",
+        "WHO GHO",
+        "Open-Meteo Flood API"
+      ]
     },
     {
       "id": "xieng-khouang-uxo-soil-saturation-risk-briefer-2026-05-03",
@@ -441,7 +609,12 @@
       "sub_industry": "uxo_thailand",
       "geography": "laos",
       "concept_hash": "uxo-clearance-status-and-soil-risk-score+xieng-khouang-plain-of-jars-laos+smallholder-farmers-plowing-uncertified-land",
-      "apis_used": ["Open-Meteo Forecast API", "USGS Earthquake Hazards", "World Bank Open Data", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "USGS Earthquake Hazards",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "hue-flood-route-briefer-xe-om-riders-2026-05-04",
@@ -452,7 +625,13 @@
       "sub_industry": "flood_route_avoidance",
       "geography": "vietnam",
       "concept_hash": "flood-route-avoidance+hue-city-huong-river-vietnam+xe-om-and-grab-bike-riders",
-      "apis_used": ["Open-Meteo Flood API", "Open-Meteo Weather API", "Open-Meteo Historical Archive", "ExchangeRate-API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Flood API",
+        "Open-Meteo Weather API",
+        "Open-Meteo Historical Archive",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "khao-dinsor-raptor-migration-wind-score-birding-guides-2026-05-06",
@@ -463,7 +642,11 @@
       "sub_industry": "bird_migration_alerts",
       "geography": "thailand",
       "concept_hash": "raptor-migration-wind-window+khao-dinsor-chumphon-thailand+freelance-birding-guide-operators",
-      "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "irrawaddy-delta-cyclone-window-checker-longtail-fishers-2026-05-05",
@@ -474,7 +657,12 @@
       "sub_industry": "cyclone_tracking",
       "geography": "myanmar",
       "concept_hash": "cyclone-departure-window-checker+irrawaddy-delta-bay-of-bengal-myanmar+small-boat-longtail-fishers",
-      "apis_used": ["Open-Meteo Marine API", "Open-Meteo Forecast API", "NASA EONET", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Marine API",
+        "Open-Meteo Forecast API",
+        "NASA EONET",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "kampot-pepper-drying-window-hold-vs-sell-briefer-2026-05-08",
@@ -485,7 +673,11 @@
       "sub_industry": "street_market_price_tracking",
       "geography": "cambodia",
       "concept_hash": "kampot-pepper-drying-window-hold-vs-sell+kampot-kep-province-cambodia+smallholder-pepper-growers",
-      "apis_used": ["Open-Meteo Weather API", "ExchangeRate-API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "nueva-ecija-palay-warehouse-vent-humidity-briefer-2026-05-07",
@@ -496,7 +688,11 @@
       "sub_industry": "rice_farming",
       "geography": "philippines",
       "concept_hash": "palay-storage-humidity-vent-window+nueva-ecija-central-luzon-philippines+smallholder-palay-consolidators",
-      "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "sarawak-pepper-haze-break-drying-window-2026-05-09",
@@ -507,7 +703,11 @@
       "sub_industry": "haze_pollution_alerts",
       "geography": "malaysia",
       "concept_hash": "haze-break-drying-window+sarawak-serian-bau-borneo-malaysia+black-pepper-smallholder-farmers",
-      "apis_used": ["Open-Meteo Air Quality API", "Open-Meteo Weather Forecast API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Air Quality API",
+        "Open-Meteo Weather Forecast API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "temple-fair-circuit-weather-planner-central-thailand-2026-05-10",
@@ -518,7 +718,12 @@
       "sub_industry": "temple_event_tracking",
       "geography": "thailand",
       "concept_hash": "temple-fair-circuit-weather-planner+nakhon-pathom-central-thailand+traveling-market-vendor-ngaan-wat",
-      "apis_used": ["Open-Meteo Weather API", "OpenStreetMap Overpass API", "ExchangeRate-API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "OpenStreetMap Overpass API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "mekong-delta-golden-apple-snail-transplant-window-2026-05-11",
@@ -529,7 +734,12 @@
       "sub_industry": "invasive_species",
       "geography": "vietnam",
       "concept_hash": "golden-apple-snail-activity-window+dong-thap-mekong-delta-vietnam+rice-fish-integrated-smallholder-farmers",
-      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Flood API", "World Bank Open Data", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "Open-Meteo Flood API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "lingayen-gulf-bangus-fry-tide-window-briefer-2026-05-13",
@@ -540,7 +750,11 @@
       "sub_industry": "fish_migration",
       "geography": "philippines",
       "concept_hash": "bangus-fry-tide-window-briefer+lingayen-gulf-pangasinan-philippines+wade-net-fry-catchers",
-      "apis_used": ["Open-Meteo Marine API", "Open-Meteo Weather API", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Marine API",
+        "Open-Meteo Weather API",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "banda-neira-nutmeg-drying-sell-window-app-2026-05-12",
@@ -551,7 +765,12 @@
       "sub_industry": "spice_sourcing",
       "geography": "indonesia",
       "concept_hash": "nutmeg-mace-drying-sell-window+banda-neira-maluku-indonesia+smallholder-pala-grove-owners",
-      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Hourly Humidity", "ExchangeRate-API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "Open-Meteo Hourly Humidity",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "hpakant-jade-slope-seismic-safety-briefer-2026-05-14",
@@ -562,7 +781,12 @@
       "sub_industry": "earthquake_prep",
       "geography": "myanmar",
       "concept_hash": "earthquake-mine-slope-stability+hpakant-kachin-state-myanmar+informal-jade-scavenger-zaw-ga",
-      "apis_used": ["USGS Earthquake Hazards", "Open-Meteo Weather API", "ExchangeRate-API", "World Bank Open Data"]
+      "apis_used": [
+        "USGS Earthquake Hazards",
+        "Open-Meteo Weather API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "temanggung-tobacco-irrigation-cutoff-timer-2026-05-16",
@@ -573,7 +797,12 @@
       "sub_industry": "irrigation_optimization",
       "geography": "indonesia",
       "concept_hash": "irrigation-cutoff-window+temanggung-central-java-indonesia+smallholder-virginia-tobacco-farmers",
-      "apis_used": ["Open-Meteo Forecast API", "Open-Meteo Soil Moisture API", "ExchangeRate-API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "Open-Meteo Soil Moisture API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "malaria-dusk-bite-risk-alert-tak-border-karen-workers-2026-05-15",
@@ -584,7 +813,10 @@
       "sub_industry": "mosquito_borne_illness",
       "geography": "thailand",
       "concept_hash": "malaria-bite-risk-dusk-window+tak-province-myanmar-border+karen-migrant-day-laborers",
-      "apis_used": ["Open-Meteo Weather API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "coron-plastic-debris-current-briefer-eco-boat-2026-05-17",
@@ -595,7 +827,12 @@
       "sub_industry": "plastic_pollution",
       "geography": "philippines",
       "concept_hash": "plastic-debris-current-forecast+coron-palawan-philippines+eco-boat-snorkeling-cleanup-operators",
-      "apis_used": ["Open-Meteo Marine API", "Open-Meteo Weather API", "ExchangeRate-API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Marine API",
+        "Open-Meteo Weather API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "moc-bai-bavet-border-crossing-briefer-traders-2026-05-18",
@@ -606,7 +843,11 @@
       "sub_industry": "border_crossing_times",
       "geography": "vietnam",
       "concept_hash": "border-crossing-weather-wait-time+moc-bai-bavet-highway-22-vietnam-cambodia+informal-cross-border-women-traders",
-      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Flood API", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "Open-Meteo Flood API",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "savannakhet-kip-baht-margin-alert-cross-border-merchants-2026-05-19",
@@ -617,7 +858,11 @@
       "sub_industry": "currency_volatility",
       "geography": "laos",
       "concept_hash": "lak-thb-daily-rate-margin-alert+savannakhet-phonthane-market-laos+informal-thai-goods-cross-border-merchants",
-      "apis_used": ["ExchangeRate-API", "World Bank Open Data", "Open-Meteo Weather API"]
+      "apis_used": [
+        "ExchangeRate-API",
+        "World Bank Open Data",
+        "Open-Meteo Weather API"
+      ]
     },
     {
       "id": "chiang-mai-highland-herb-arrival-forecast-traditional-medicine-2026-05-21",
@@ -628,7 +873,12 @@
       "sub_industry": "traditional_medicine",
       "geography": "thailand",
       "concept_hash": "highland-herb-trail-arrival-forecast+chiang-mai-doi-inthanon-warorot-thailand+traditional-medicine-stall-vendors",
-      "apis_used": ["Open-Meteo Weather API", "WHO GHO", "World Bank Open Data", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "WHO GHO",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "garment-factory-heat-faint-risk-monitor-phnom-penh-2026-05-22",
@@ -639,7 +889,11 @@
       "sub_industry": "factory_conditions",
       "geography": "cambodia",
       "concept_hash": "garment-factory-heat-faint-risk-score+phnom-penh-cambodia-sez+occupational-health-nurses-and-union-safety-reps",
-      "apis_used": ["Open-Meteo Forecast API", "World Bank Open Data", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "nias-lpg-ferry-crossing-window-tracker-warung-2026-05-20",
@@ -650,7 +904,12 @@
       "sub_industry": "cooking_fuel_access",
       "geography": "indonesia",
       "concept_hash": "lpg-cylinder-supply-ferry-crossing-window+nias-island-north-sumatra-indonesia+subsidized-warung-cylinder-buyers",
-      "apis_used": ["Open-Meteo Marine API", "Open-Meteo Weather API", "ExchangeRate-API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Marine API",
+        "Open-Meteo Weather API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "siargao-typhoon-gap-window-briefer-surf-guesthouses-2026-05-23",
@@ -661,7 +920,12 @@
       "sub_industry": "off_season_tools",
       "geography": "philippines",
       "concept_hash": "typhoon-season-clear-window-briefer+siargao-surigao-del-norte-philippines+small-surf-guesthouse-and-camp-owners",
-      "apis_used": ["Open-Meteo Marine API", "Open-Meteo Weather Forecast API", "ExchangeRate-API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Marine API",
+        "Open-Meteo Weather Forecast API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "hutan-jaga-dayak-forest-fire-hotspot-alert-kalimantan-2026-05-24",
@@ -672,7 +936,13 @@
       "sub_industry": "deforestation",
       "geography": "indonesia",
       "concept_hash": "satellite-fire-hotspot-boundary-alert+kutai-barat-mahakam-ulu-east-kalimantan+dayak-adat-community-forest-rangers",
-      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Air Quality API", "World Bank Open Data", "ExchangeRate-API", "NASA EONET"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "Open-Meteo Air Quality API",
+        "World Bank Open Data",
+        "ExchangeRate-API",
+        "NASA EONET"
+      ]
     },
     {
       "id": "bang-pakong-salt-front-irrigation-warning-chachoengsao-2026-06-03",
@@ -683,7 +953,12 @@
       "sub_industry": "soil_health",
       "geography": "thailand",
       "concept_hash": "river-salinity-intrusion-alert+bang-pakong-chachoengsao-thailand+riverside-vegetable-sugarcane-smallholders",
-      "apis_used": ["Open-Meteo Flood API", "Open-Meteo Weather API", "ExchangeRate-API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Flood API",
+        "Open-Meteo Weather API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "vsla-kyat-inflation-guard-ayeyarwady-delta-myanmar-2026-06-04",
@@ -694,7 +969,11 @@
       "sub_industry": "microfinance_access",
       "geography": "myanmar",
       "concept_hash": "vsla-share-value-inflation-guard+ayeyarwady-delta-myanmar+women-rotating-savings-group-treasurers",
-      "apis_used": ["ExchangeRate-API", "World Bank Open Data", "Open-Meteo Weather API"]
+      "apis_used": [
+        "ExchangeRate-API",
+        "World Bank Open Data",
+        "Open-Meteo Weather API"
+      ]
     },
     {
       "id": "dong-nai-factory-discharge-alert-cage-catfish-farmers-2026-05-27",
@@ -705,7 +984,13 @@
       "sub_industry": "chemical_spill_tracking",
       "geography": "vietnam",
       "concept_hash": "industrial-discharge-risk-window+dong-nai-river-bien-hoa-vietnam+cage-catfish-pangasius-farmers",
-      "apis_used": ["Open-Meteo Flood API", "Open-Meteo Weather API", "Open-Meteo Air Quality API", "ExchangeRate-API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Flood API",
+        "Open-Meteo Weather API",
+        "Open-Meteo Air Quality API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "sulu-sea-piracy-risk-briefer-cargo-pumpboat-operators-2026-06-05",
@@ -716,7 +1001,12 @@
       "sub_industry": "piracy_routes",
       "geography": "philippines",
       "concept_hash": "maritime-robbery-sea-state-risk+sulu-sea-tawi-tawi-philippines+cargo-pumpboat-operators",
-      "apis_used": ["Open-Meteo Marine API", "Open-Meteo Weather API", "USGS Earthquake Hazards", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Marine API",
+        "Open-Meteo Weather API",
+        "USGS Earthquake Hazards",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "ca-mau-shrimp-pond-ems-disease-risk-zalo-briefer-2026-06-06",
@@ -727,7 +1017,12 @@
       "sub_industry": "aquaculture_disease",
       "geography": "vietnam",
       "concept_hash": "shrimp-pond-disease-risk-score+ca-mau-bac-lieu-mekong-delta-vietnam+vannamei-shrimp-smallholder-farmers",
-      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Marine API", "ExchangeRate-API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "Open-Meteo Marine API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "doi-clear-highland-truck-dawn-fog-departure-briefer-2026-06-07",
@@ -738,7 +1033,11 @@
       "sub_industry": "road_accident_blackspots",
       "geography": "thailand",
       "concept_hash": "dawn-fog-visibility-departure-window+doi-inthanon-highland-corridor-chiang-mai+highland-vegetable-produce-truck-drivers",
-      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Air Quality API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "Open-Meteo Air Quality API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "overnight-heat-spoilage-alert-medan-bataknese-pork-vendors-2026-06-08",
@@ -749,7 +1048,11 @@
       "sub_industry": "street_food_safety",
       "geography": "indonesia",
       "concept_hash": "raw-pork-blood-overnight-temp-spoilage+medan-north-sumatra-indonesia+bataknese-dawn-market-saksang-sellers",
-      "apis_used": ["Open-Meteo Weather API", "ExchangeRate-API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "nat-kadaw-shrine-circuit-travel-briefer-mandalay-2026-06-09",
@@ -760,7 +1063,11 @@
       "sub_industry": "spirit_house_directories",
       "geography": "myanmar",
       "concept_hash": "nat-shrine-circuit-travel-briefing+mandalay-sagaing-upper-myanmar+nat-kadaw-spirit-medium-practitioners",
-      "apis_used": ["Open-Meteo Weather API", "USGS Earthquake Hazards", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "USGS Earthquake Hazards",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "baac-crop-insurance-trigger-tracker-surin-jasmine-rice-2026-06-11",
@@ -771,7 +1078,12 @@
       "sub_industry": "crop_insurance",
       "geography": "thailand",
       "concept_hash": "weather-index-crop-insurance-trigger-checker+surin-si-sa-ket-isan-thailand+jasmine-rice-smallholder-baac-policyholders",
-      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Hourly Soil Moisture API", "World Bank Open Data", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "Open-Meteo Hourly Soil Moisture API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "passport-hold-heat-rights-checker-sabah-bangladeshi-workers-2026-06-10",
@@ -782,7 +1094,11 @@
       "sub_industry": "migrant_worker_rights",
       "geography": "malaysia",
       "concept_hash": "passport-confiscation-heat-stress-rights+sabah-east-malaysia-palm-oil+bangladeshi-migrant-estate-workers",
-      "apis_used": ["Open-Meteo Weather API", "ExchangeRate-API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "rambu-jadwal-ceremony-planner-torajan-diaspora-jakarta-2026-06-13",
@@ -793,7 +1109,11 @@
       "sub_industry": "traditional_festival_maps",
       "geography": "indonesia",
       "concept_hash": "rambu-solo-ceremony-calendar-advance-notice+tana-toraja-sulawesi-indonesia+torajan-diaspora-jakarta-factory-workers",
-      "apis_used": ["Open-Meteo Weather API", "ExchangeRate-API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "sihanoukville-ghost-tower-debris-risk-shadow-renters-2026-06-12",
@@ -804,7 +1124,11 @@
       "sub_industry": "ghost_buildings",
       "geography": "cambodia",
       "concept_hash": "ghost-tower-storm-debris-risk+sihanoukville-cambodia+cheap-renters-near-abandoned-chinese-casino-towers",
-      "apis_used": ["Open-Meteo Weather API", "ExchangeRate-API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "mindanao-durian-truck-highway-washout-briefer-2026-06-14",
@@ -815,7 +1139,12 @@
       "sub_industry": "pothole_mapping",
       "geography": "philippines",
       "concept_hash": "road-washout-fog-risk-briefer+mindanao-highway-10-bukidnon-sayre+durian-cargo-truck-owner-operators",
-      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Flood API", "USGS Earthquake Hazards", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "Open-Meteo Flood API",
+        "USGS Earthquake Hazards",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "wildlife-trade-intercept-species-id-lang-son-border-2026-06-15",
@@ -826,7 +1155,11 @@
       "sub_industry": "wildlife_trade_monitoring",
       "geography": "vietnam",
       "concept_hash": "wildlife-trade-species-id-rescue-routing+lang-son-border-vietnam-china+env-ngo-volunteer-border-checkpoint-monitors",
-      "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "simeulue-seismic-departure-briefer-fishing-captains-2026-06-17",
@@ -837,7 +1170,11 @@
       "sub_industry": "tsunami_warning",
       "geography": "indonesia",
       "concept_hash": "seismic-tsunami-departure-briefing+simeulue-island-aceh-indonesia+small-fishing-boat-captains",
-      "apis_used": ["USGS Earthquake Hazards", "Open-Meteo Marine API", "REST Countries"]
+      "apis_used": [
+        "USGS Earthquake Hazards",
+        "Open-Meteo Marine API",
+        "REST Countries"
+      ]
     },
     {
       "id": "mun-river-rise-alert-riverside-market-vendors-ubon-2026-06-16",
@@ -848,7 +1185,10 @@
       "sub_industry": "flood_prediction_local",
       "geography": "thailand",
       "concept_hash": "mun-river-upstream-flood-rise-alert+ubon-ratchathani-mun-river-thailand+riverside-night-market-stall-vendors",
-      "apis_used": ["Open-Meteo Flood API", "Open-Meteo Weather API"]
+      "apis_used": [
+        "Open-Meteo Flood API",
+        "Open-Meteo Weather API"
+      ]
     },
     {
       "id": "tabon-karbon-palawan-carbon-credit-fire-watch-2026-06-18",
@@ -859,7 +1199,12 @@
       "sub_industry": "carbon_credits_farmers",
       "geography": "philippines",
       "concept_hash": "carbon-credit-fire-monitoring-payout-tracker+southern-palawan-philippines+tagbanua-palawano-indigenous-forest-guardians",
-      "apis_used": ["Open-Meteo Weather API", "ExchangeRate-API", "World Bank Open Data", "NASA EONET"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "ExchangeRate-API",
+        "World Bank Open Data",
+        "NASA EONET"
+      ]
     },
     {
       "id": "klang-valley-domestic-worker-rest-day-rights-tracker-2026-06-19",
@@ -870,7 +1215,11 @@
       "sub_industry": "domestic_worker_protections",
       "geography": "malaysia",
       "concept_hash": "domestic-worker-rest-day-rights-tracker+klang-valley-selangor-malaysia+indonesian-live-in-domestic-workers",
-      "apis_used": ["ExchangeRate-API", "Open-Meteo Weather API", "World Bank Open Data"]
+      "apis_used": [
+        "ExchangeRate-API",
+        "Open-Meteo Weather API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "siangnaam-nt2-resettlement-flood-evacuation-timer-khammouane-2026-06-20",
@@ -881,7 +1230,12 @@
       "sub_industry": "evacuation_route_tools",
       "geography": "laos",
       "concept_hash": "flood-evacuation-route-trigger-alert+nam-theun-2-resettlement-villages-khammouane-laos+displaced-highland-families",
-      "apis_used": ["Open-Meteo Flood API", "Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Flood API",
+        "Open-Meteo Weather API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "sahhala-cicot-halal-ingredient-checker-hatyai-food-vendors-2026-06-21",
@@ -892,7 +1246,11 @@
       "sub_industry": "halal_tracking",
       "geography": "thailand",
       "concept_hash": "halal-ingredient-certification-scanner-cicot+hat-yai-songkhla-thailand+muslim-night-market-food-stall-operators",
-      "apis_used": ["Open-Meteo Weather API", "ExchangeRate-API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "nam-son-landfill-waste-picker-fume-exposure-planner-2026-06-22",
@@ -903,7 +1261,12 @@
       "sub_industry": "air_quality_health",
       "geography": "vietnam",
       "concept_hash": "landfill-toxic-fume-shift-timing+nam-son-landfill-hanoi-vietnam+informal-waste-picker-women",
-      "apis_used": ["Open-Meteo Air Quality API", "Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Air Quality API",
+        "Open-Meteo Weather API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "palembang-ojol-post-rain-surge-window-alert-2026-06-23",
@@ -914,7 +1277,11 @@
       "sub_industry": "gig_economy_sea",
       "geography": "indonesia",
       "concept_hash": "post-rain-surge-window-alert+palembang-south-sumatra-indonesia+gojek-grab-food-delivery-riders",
-      "apis_used": ["Open-Meteo Weather API", "ExchangeRate-API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "agno-river-mine-tailings-spill-alert-pangasinan-rice-farmers-2026-06-24",
@@ -925,7 +1292,12 @@
       "sub_industry": "soil_contamination",
       "geography": "philippines",
       "concept_hash": "mine-tailings-spill-risk-alert+agno-river-benguet-pangasinan-philippines+smallholder-rice-irrigators",
-      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Flood API", "USGS Earthquake Hazards", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "Open-Meteo Flood API",
+        "USGS Earthquake Hazards",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "wan-phra-pork-demand-planner-isan-dawn-market-2026-06-25",
@@ -936,7 +1308,11 @@
       "sub_industry": "buddhist_calendar",
       "geography": "thailand",
       "concept_hash": "wan-phra-buddhist-calendar-demand-planner+roi-et-mahasarakham-isan-thailand+talat-naed-fresh-pork-stall-operators",
-      "apis_used": ["Open-Meteo Forecast API", "ExchangeRate-API", "World Bank Open Data"]
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
     },
     {
       "id": "da-lat-vietgap-pesticide-drift-risk-alerter-2026-06-26",
@@ -947,7 +1323,11 @@
       "sub_industry": "organic_certification",
       "geography": "vietnam",
       "concept_hash": "pesticide-drift-risk-window+da-lat-lam-dong-highland-vietnam+vietgap-certified-vegetable-flower-farmers",
-      "apis_used": ["Open-Meteo Weather API", "World Bank Open Data", "ExchangeRate-API"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     },
     {
       "id": "kampong-thom-melioidosis-soil-exposure-risk-briefer-2026-06-27",
@@ -958,7 +1338,27 @@
       "sub_industry": "tropical_diseases",
       "geography": "cambodia",
       "concept_hash": "melioidosis-soil-wetness-exposure-risk+kampong-thom-stung-sen-basin-cambodia+barefoot-smallholder-rice-farmers-plowing-monsoon-paddies",
-      "apis_used": ["Open-Meteo Weather API", "Open-Meteo Flood API", "World Bank Open Data", "WHO GHO"]
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "Open-Meteo Flood API",
+        "World Bank Open Data",
+        "WHO GHO"
+      ]
+    },
+    {
+      "id": "bagan-horse-cart-heat-rain-window-briefer-2026-06-28",
+      "title": "HleSaung — Heat & Rain Window Briefer for Bagan Licensed Horse Carriage Operators",
+      "file": "2026-06-28_bagan-horse-cart-heat-rain-window-briefer.md",
+      "created_at": "2026-06-28T08:00:00+06:30",
+      "industry": "transportation_mobility",
+      "sub_industry": "tuk_tuk_routing",
+      "geography": "myanmar",
+      "concept_hash": "heat-uv-rain-window-briefer+bagan-archaeological-zone-myanmar+licensed-horse-carriage-myin-hle-operators",
+      "apis_used": [
+        "Open-Meteo Weather API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -1048,31 +1448,143 @@
     "mine-tailings-spill-risk-alert+agno-river-benguet-pangasinan-philippines+smallholder-rice-irrigators",
     "wan-phra-buddhist-calendar-demand-planner+roi-et-mahasarakham-isan-thailand+talat-naed-fresh-pork-stall-operators",
     "pesticide-drift-risk-window+da-lat-lam-dong-highland-vietnam+vietgap-certified-vegetable-flower-farmers",
-    "melioidosis-soil-wetness-exposure-risk+kampong-thom-stung-sen-basin-cambodia+barefoot-smallholder-rice-farmers-plowing-monsoon-paddies"
+    "melioidosis-soil-wetness-exposure-risk+kampong-thom-stung-sen-basin-cambodia+barefoot-smallholder-rice-farmers-plowing-monsoon-paddies",
+    "heat-uv-rain-window-briefer+bagan-archaeological-zone-myanmar+licensed-horse-carriage-myin-hle-operators"
   ],
   "industries_covered": {
-    "real_estate_urban": ["air_pollution_by_block", "flood_zone_property_risk", "ghost_buildings"],
-    "agriculture_farming": ["rubber_tapping", "aquaculture", "pest_management", "livestock_disease", "rice_farming", "irrigation_optimization", "soil_health", "crop_insurance", "organic_certification"],
-    "disaster_emergency": ["wildfire_risk", "landslide_risk_zones", "drought_early_warning", "cyclone_tracking", "haze_pollution_alerts", "earthquake_prep", "chemical_spill_tracking", "flood_prediction_local", "evacuation_route_tools"],
-    "finance_economics": ["remittance_rates", "commodity_prices_farmers", "street_market_price_tracking", "currency_volatility", "microfinance_access"],
-    "health_medical": ["dengue_risk_mapping", "food_poisoning_tracking", "water_safety", "mosquito_borne_illness", "traditional_medicine", "air_quality_health", "tropical_diseases"],
-    "ocean_maritime": ["dive_site_conditions", "sea_surface_temp", "coral_bleaching", "fish_migration", "aquaculture_disease", "tsunami_warning"],
-    "labor_work": ["fishing_crew_safety", "construction_site_safety", "agricultural_wage_tracking", "factory_conditions", "migrant_worker_rights", "domestic_worker_protections", "gig_economy_sea"],
-    "environment_ecology": ["river_pollution", "mangrove_mapping", "light_pollution", "invasive_species", "plastic_pollution", "deforestation", "soil_contamination"],
-    "transportation_mobility": ["elephant_crossing_alerts", "ferry_schedules", "flood_route_avoidance", "border_crossing_times", "road_accident_blackspots", "pothole_mapping"],
-    "food_beverage": ["fermented_foods", "durian_ripeness", "fish_sauce_quality", "spice_sourcing", "street_food_safety", "halal_tracking"],
-    "wildlife_biodiversity": ["nocturnal_activity", "pollinator_health", "snake_identification", "bird_migration_alerts", "wildlife_trade_monitoring"],
-    "culture_religion": ["auspicious_date_planning", "merit_making_guides", "temple_event_tracking", "spirit_house_directories", "traditional_festival_maps", "buddhist_calendar"],
-    "defense_security": ["landmine_mapping", "uxo_thailand", "piracy_routes"],
-    "energy_utilities": ["dam_water_level", "power_outage_mapping", "solar_potential_by_region", "cooking_fuel_access", "carbon_credits_farmers"],
-    "tourism_travel": ["adventure_risk_scoring", "national_park_capacity", "off_season_tools"]
+    "real_estate_urban": [
+      "air_pollution_by_block",
+      "flood_zone_property_risk",
+      "ghost_buildings"
+    ],
+    "agriculture_farming": [
+      "rubber_tapping",
+      "aquaculture",
+      "pest_management",
+      "livestock_disease",
+      "rice_farming",
+      "irrigation_optimization",
+      "soil_health",
+      "crop_insurance",
+      "organic_certification"
+    ],
+    "disaster_emergency": [
+      "wildfire_risk",
+      "landslide_risk_zones",
+      "drought_early_warning",
+      "cyclone_tracking",
+      "haze_pollution_alerts",
+      "earthquake_prep",
+      "chemical_spill_tracking",
+      "flood_prediction_local",
+      "evacuation_route_tools"
+    ],
+    "finance_economics": [
+      "remittance_rates",
+      "commodity_prices_farmers",
+      "street_market_price_tracking",
+      "currency_volatility",
+      "microfinance_access"
+    ],
+    "health_medical": [
+      "dengue_risk_mapping",
+      "food_poisoning_tracking",
+      "water_safety",
+      "mosquito_borne_illness",
+      "traditional_medicine",
+      "air_quality_health",
+      "tropical_diseases"
+    ],
+    "ocean_maritime": [
+      "dive_site_conditions",
+      "sea_surface_temp",
+      "coral_bleaching",
+      "fish_migration",
+      "aquaculture_disease",
+      "tsunami_warning"
+    ],
+    "labor_work": [
+      "fishing_crew_safety",
+      "construction_site_safety",
+      "agricultural_wage_tracking",
+      "factory_conditions",
+      "migrant_worker_rights",
+      "domestic_worker_protections",
+      "gig_economy_sea"
+    ],
+    "environment_ecology": [
+      "river_pollution",
+      "mangrove_mapping",
+      "light_pollution",
+      "invasive_species",
+      "plastic_pollution",
+      "deforestation",
+      "soil_contamination"
+    ],
+    "transportation_mobility": [
+      "elephant_crossing_alerts",
+      "ferry_schedules",
+      "flood_route_avoidance",
+      "border_crossing_times",
+      "road_accident_blackspots",
+      "pothole_mapping",
+      "tuk_tuk_routing"
+    ],
+    "food_beverage": [
+      "fermented_foods",
+      "durian_ripeness",
+      "fish_sauce_quality",
+      "spice_sourcing",
+      "street_food_safety",
+      "halal_tracking"
+    ],
+    "wildlife_biodiversity": [
+      "nocturnal_activity",
+      "pollinator_health",
+      "snake_identification",
+      "bird_migration_alerts",
+      "wildlife_trade_monitoring"
+    ],
+    "culture_religion": [
+      "auspicious_date_planning",
+      "merit_making_guides",
+      "temple_event_tracking",
+      "spirit_house_directories",
+      "traditional_festival_maps",
+      "buddhist_calendar"
+    ],
+    "defense_security": [
+      "landmine_mapping",
+      "uxo_thailand",
+      "piracy_routes"
+    ],
+    "energy_utilities": [
+      "dam_water_level",
+      "power_outage_mapping",
+      "solar_potential_by_region",
+      "cooking_fuel_access",
+      "carbon_credits_farmers"
+    ],
+    "tourism_travel": [
+      "adventure_risk_scoring",
+      "national_park_capacity",
+      "off_season_tools"
+    ]
   },
-  "last_updated": "2026-06-27T08:03:00+07:00",
+  "last_updated": "2026-06-28T08:00:00+06:30",
   "rotation_state": {
-    "last_industry": "health_medical",
-    "last_sub_industry": "tropical_diseases",
-    "last_geography": "cambodia",
-    "last_3_industries": ["culture_religion", "agriculture_farming", "health_medical"],
-    "last_3_geographies": ["thailand", "vietnam", "cambodia"]
+    "last_industry": "transportation_mobility",
+    "last_sub_industry": "tuk_tuk_routing",
+    "last_geography": "myanmar",
+    "last_3_industries": [
+      "agriculture_farming",
+      "health_medical",
+      "transportation_mobility"
+    ],
+    "last_3_geographies": [
+      "vietnam",
+      "cambodia",
+      "myanmar"
+    ]
   }
 }
