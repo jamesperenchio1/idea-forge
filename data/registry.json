@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 94,
+  "total_ideas": 95,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -1451,6 +1451,22 @@
         "World Bank Open Data",
         "NASA EONET"
       ]
+    },
+    {
+      "id": "kham-fak-ranong-kawthaung-visa-run-briefer-2026-08-15",
+      "title": "KhamFak — Ranong–Kawthaung Border Run Go/No-Go Briefer for Thailand's Grey-Market Visa Runners",
+      "file": "2026-08-15_ranong-kawthaung-visa-run-crossing-briefer.md",
+      "created_at": "2026-08-15T08:10:00+07:00",
+      "industry": "tourism_travel",
+      "sub_industry": "visa_run_planning",
+      "geography": "thailand_myanmar_border",
+      "concept_hash": "visa-run-border-crossing-safety-and-fx-briefer+ranong-kawthaung-thailand-myanmar-pak-chan-estuary+long-term-foreign-visa-run-retirees",
+      "apis_used": [
+        "Open-Meteo Marine API",
+        "Open-Meteo Weather API",
+        "ExchangeRate-API",
+        "OpenStreetMap Overpass API"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -1547,7 +1563,8 @@
     "khmer-rouge-circuit-monsoon-road-briefer+anlong-veng-oddar-meanchey-cambodia+siem-reap-freelance-dark-history-tuk-tuk-guides",
     "land-price-speculation-fairness-checker+samal-island-davao-del-norte-philippines+bisaya-bagobo-coastal-landowners-pre-bridge",
     "border-military-checkpoint-access-briefing+ta-muen-thom-surin-thailand-cambodia+kuy-khmer-surin-smallholder-farmers-and-resin-gatherers",
-    "forest-reserve-boundary-overlap-risk-checker+kaeng-krachan-phetchaburi-thailand+karen-pgaz-knyau-swidden-farmers"
+    "forest-reserve-boundary-overlap-risk-checker+kaeng-krachan-phetchaburi-thailand+karen-pgaz-knyau-swidden-farmers",
+    "visa-run-border-crossing-safety-and-fx-briefer+ranong-kawthaung-thailand-myanmar-pak-chan-estuary+long-term-foreign-visa-run-retirees"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -1672,23 +1689,24 @@
       "adventure_risk_scoring",
       "national_park_capacity",
       "off_season_tools",
-      "dark_tourism_sites"
+      "dark_tourism_sites",
+      "visa_run_planning"
     ]
   },
-  "last_updated": "2026-08-14T08:03:08+07:00",
+  "last_updated": "2026-08-15T08:10:00+07:00",
   "rotation_state": {
-    "last_industry": "real_estate_urban",
-    "last_sub_industry": "land_title_disputes",
-    "last_geography": "thailand",
+    "last_industry": "tourism_travel",
+    "last_sub_industry": "visa_run_planning",
+    "last_geography": "thailand_myanmar_border",
     "last_3_industries": [
-      "finance_economics",
       "defense_security",
-      "real_estate_urban"
+      "real_estate_urban",
+      "tourism_travel"
     ],
     "last_3_geographies": [
-      "philippines",
       "thailand_cambodia_border",
-      "thailand"
+      "thailand",
+      "thailand_myanmar_border"
     ]
   }
 }
