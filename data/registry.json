@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 95,
+  "total_ideas": 96,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -1467,6 +1467,21 @@
         "ExchangeRate-API",
         "OpenStreetMap Overpass API"
       ]
+    },
+    {
+      "id": "solar-desa-pantar-genset-2026-08-16",
+      "title": "SolarDesa — Nightly Diesel Run-Time & Fuel-Buy Calculator for Pantar Island's Off-Grid Village Genset Operators",
+      "file": "2026-08-16_pantar-island-village-genset-fuel-ledger.md",
+      "created_at": "2026-08-16T08:02:45+07:00",
+      "industry": "energy_utilities",
+      "sub_industry": "energy_poverty_mapping",
+      "geography": "indonesia",
+      "concept_hash": "village-diesel-genset-fuel-run-optimizer+pantar-alor-ntt-indonesia+community-genset-operators-and-swadaya-electricity-collectors",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -1564,7 +1579,8 @@
     "land-price-speculation-fairness-checker+samal-island-davao-del-norte-philippines+bisaya-bagobo-coastal-landowners-pre-bridge",
     "border-military-checkpoint-access-briefing+ta-muen-thom-surin-thailand-cambodia+kuy-khmer-surin-smallholder-farmers-and-resin-gatherers",
     "forest-reserve-boundary-overlap-risk-checker+kaeng-krachan-phetchaburi-thailand+karen-pgaz-knyau-swidden-farmers",
-    "visa-run-border-crossing-safety-and-fx-briefer+ranong-kawthaung-thailand-myanmar-pak-chan-estuary+long-term-foreign-visa-run-retirees"
+    "visa-run-border-crossing-safety-and-fx-briefer+ranong-kawthaung-thailand-myanmar-pak-chan-estuary+long-term-foreign-visa-run-retirees",
+    "village-diesel-genset-fuel-run-optimizer+pantar-alor-ntt-indonesia+community-genset-operators-and-swadaya-electricity-collectors"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -1691,22 +1707,30 @@
       "off_season_tools",
       "dark_tourism_sites",
       "visa_run_planning"
+    ],
+    "energy_utilities": [
+      "dam_water_level",
+      "power_outage_mapping",
+      "solar_potential_by_region",
+      "cooking_fuel_access",
+      "carbon_credits_farmers",
+      "energy_poverty_mapping"
     ]
   },
-  "last_updated": "2026-08-15T08:10:00+07:00",
+  "last_updated": "2026-08-16T08:02:45+07:00",
   "rotation_state": {
-    "last_industry": "tourism_travel",
-    "last_sub_industry": "visa_run_planning",
-    "last_geography": "thailand_myanmar_border",
+    "last_industry": "energy_utilities",
+    "last_sub_industry": "energy_poverty_mapping",
+    "last_geography": "indonesia",
     "last_3_industries": [
-      "defense_security",
       "real_estate_urban",
-      "tourism_travel"
+      "tourism_travel",
+      "energy_utilities"
     ],
     "last_3_geographies": [
-      "thailand_cambodia_border",
       "thailand",
-      "thailand_myanmar_border"
+      "thailand_myanmar_border",
+      "indonesia"
     ]
   }
 }
