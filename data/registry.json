@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 97,
+  "total_ideas": 98,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -1498,6 +1498,21 @@
         "ExchangeRate-API",
         "World Bank Open Data"
       ]
+    },
+    {
+      "id": "dmk-flight-noise-renter-checker-2026-08-18",
+      "title": "FlightPath Sikan — Real-Time Flight Noise Exposure Checker for Don Mueang-Area Renters",
+      "file": "2026-08-18_don-mueang-flight-noise-renter-checker.md",
+      "created_at": "2026-08-18T08:02:37+07:00",
+      "industry": "real_estate_urban",
+      "sub_industry": "neighborhood_noise",
+      "geography": "thailand",
+      "concept_hash": "flight-noise-exposure-by-address+don-mueang-airport-bangkok+factory-shift-worker-renters",
+      "apis_used": [
+        "OpenSky Network API",
+        "OpenStreetMap Overpass API",
+        "Open-Meteo Forecast API"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -1597,14 +1612,16 @@
     "forest-reserve-boundary-overlap-risk-checker+kaeng-krachan-phetchaburi-thailand+karen-pgaz-knyau-swidden-farmers",
     "visa-run-border-crossing-safety-and-fx-briefer+ranong-kawthaung-thailand-myanmar-pak-chan-estuary+long-term-foreign-visa-run-retirees",
     "village-diesel-genset-fuel-run-optimizer+pantar-alor-ntt-indonesia+community-genset-operators-and-swadaya-electricity-collectors",
-    "protest-road-closure-income-loss-briefer+kuala-lumpur-dataran-merdeka-malaysia+e-hailing-riders-and-street-hawkers"
+    "protest-road-closure-income-loss-briefer+kuala-lumpur-dataran-merdeka-malaysia+e-hailing-riders-and-street-hawkers",
+    "flight-noise-exposure-by-address+don-mueang-airport-bangkok+factory-shift-worker-renters"
   ],
   "industries_covered": {
     "real_estate_urban": [
       "air_pollution_by_block",
       "flood_zone_property_risk",
       "ghost_buildings",
-      "land_title_disputes"
+      "land_title_disputes",
+      "neighborhood_noise"
     ],
     "agriculture_farming": [
       "rubber_tapping",
@@ -1717,7 +1734,8 @@
       "power_outage_mapping",
       "solar_potential_by_region",
       "cooking_fuel_access",
-      "carbon_credits_farmers"
+      "carbon_credits_farmers",
+      "energy_poverty_mapping"
     ],
     "tourism_travel": [
       "adventure_risk_scoring",
@@ -1725,30 +1743,22 @@
       "off_season_tools",
       "dark_tourism_sites",
       "visa_run_planning"
-    ],
-    "energy_utilities": [
-      "dam_water_level",
-      "power_outage_mapping",
-      "solar_potential_by_region",
-      "cooking_fuel_access",
-      "carbon_credits_farmers",
-      "energy_poverty_mapping"
     ]
   },
-  "last_updated": "2026-08-17T08:05:38+07:00",
+  "last_updated": "2026-08-18T08:02:37+07:00",
   "rotation_state": {
-    "last_industry": "defense_security",
-    "last_sub_industry": "protest_mapping",
-    "last_geography": "malaysia",
+    "last_industry": "real_estate_urban",
+    "last_sub_industry": "neighborhood_noise",
+    "last_geography": "thailand",
     "last_3_industries": [
-      "tourism_travel",
       "energy_utilities",
-      "defense_security"
+      "defense_security",
+      "real_estate_urban"
     ],
     "last_3_geographies": [
-      "thailand_myanmar_border",
       "indonesia",
-      "malaysia"
+      "malaysia",
+      "thailand"
     ]
   }
 }
