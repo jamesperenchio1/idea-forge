@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 98,
+  "total_ideas": 99,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -1513,6 +1513,22 @@
         "OpenStreetMap Overpass API",
         "Open-Meteo Forecast API"
       ]
+    },
+    {
+      "id": "setkyar-lann-hukawng-valley-tiger-conflict-briefer-2026-08-20",
+      "title": "SetKyarLann — Tiger-Zone Corral & Patrol Safety Briefer for Hukawng Valley Livestock Herders and Community Forest Rangers",
+      "file": "2026-08-20_hukawng-valley-tiger-conflict-corral-patrol-briefer.md",
+      "created_at": "2026-08-20T08:02:19+07:00",
+      "industry": "wildlife_biodiversity",
+      "sub_industry": "tiger_territory_maps",
+      "geography": "myanmar",
+      "concept_hash": "tiger-conflict-corral-patrol-safety-briefer+hukawng-valley-kachin-state-myanmar+swidden-farmers-and-livestock-herders-near-tiger-reserve",
+      "apis_used": [
+        "GBIF Occurrence API",
+        "Open-Meteo Weather API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -1613,7 +1629,8 @@
     "visa-run-border-crossing-safety-and-fx-briefer+ranong-kawthaung-thailand-myanmar-pak-chan-estuary+long-term-foreign-visa-run-retirees",
     "village-diesel-genset-fuel-run-optimizer+pantar-alor-ntt-indonesia+community-genset-operators-and-swadaya-electricity-collectors",
     "protest-road-closure-income-loss-briefer+kuala-lumpur-dataran-merdeka-malaysia+e-hailing-riders-and-street-hawkers",
-    "flight-noise-exposure-by-address+don-mueang-airport-bangkok+factory-shift-worker-renters"
+    "flight-noise-exposure-by-address+don-mueang-airport-bangkok+factory-shift-worker-renters",
+    "tiger-conflict-corral-patrol-safety-briefer+hukawng-valley-kachin-state-myanmar+swidden-farmers-and-livestock-herders-near-tiger-reserve"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -1712,7 +1729,8 @@
       "snake_identification",
       "bird_migration_alerts",
       "wildlife_trade_monitoring",
-      "poaching_hotspots"
+      "poaching_hotspots",
+      "tiger_territory_maps"
     ],
     "culture_religion": [
       "auspicious_date_planning",
@@ -1745,20 +1763,20 @@
       "visa_run_planning"
     ]
   },
-  "last_updated": "2026-08-18T08:02:37+07:00",
+  "last_updated": "2026-08-20T08:02:19+07:00",
   "rotation_state": {
-    "last_industry": "real_estate_urban",
-    "last_sub_industry": "neighborhood_noise",
-    "last_geography": "thailand",
+    "last_industry": "wildlife_biodiversity",
+    "last_sub_industry": "tiger_territory_maps",
+    "last_geography": "myanmar",
     "last_3_industries": [
-      "energy_utilities",
       "defense_security",
-      "real_estate_urban"
+      "real_estate_urban",
+      "wildlife_biodiversity"
     ],
     "last_3_geographies": [
-      "indonesia",
       "malaysia",
-      "thailand"
+      "thailand",
+      "myanmar"
     ]
   }
 }
