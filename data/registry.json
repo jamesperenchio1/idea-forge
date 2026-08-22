@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 100,
+  "total_ideas": 101,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -1545,6 +1545,21 @@
         "World Bank Open Data",
         "GBIF Occurrence API"
       ]
+    },
+    {
+      "id": "gili-matra-coral-outplant-site-timing-selector-2026-08-22",
+      "title": "TerumbuTanam — Daily Coral Outplant Site & Timing Selector for Gili Matra Community Reef Nursery Volunteers",
+      "file": "2026-08-22_gili-matra-coral-outplant-site-timing-selector.md",
+      "created_at": "2026-08-22T08:02:30+07:00",
+      "industry": "environment_ecology",
+      "sub_industry": "coral_reef",
+      "geography": "indonesia",
+      "concept_hash": "coral-outplant-site-timing-selector+gili-matra-lombok-indonesia+community-coral-nursery-dive-volunteers",
+      "apis_used": [
+        "Open-Meteo Marine API",
+        "Open-Meteo Weather API",
+        "World Bank Open Data"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -1647,7 +1662,8 @@
     "protest-road-closure-income-loss-briefer+kuala-lumpur-dataran-merdeka-malaysia+e-hailing-riders-and-street-hawkers",
     "flight-noise-exposure-by-address+don-mueang-airport-bangkok+factory-shift-worker-renters",
     "tiger-conflict-corral-patrol-safety-briefer+hukawng-valley-kachin-state-myanmar+swidden-farmers-and-livestock-herders-near-tiger-reserve",
-    "elephant-sanctuary-ethical-vetting+sayaboury-luang-prabang-laos+budget-backpacker-travelers"
+    "elephant-sanctuary-ethical-vetting+sayaboury-luang-prabang-laos+budget-backpacker-travelers",
+    "coral-outplant-site-timing-selector+gili-matra-lombok-indonesia+community-coral-nursery-dive-volunteers"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -1721,7 +1737,8 @@
       "invasive_species",
       "plastic_pollution",
       "deforestation",
-      "soil_contamination"
+      "soil_contamination",
+      "coral_reef"
     ],
     "transportation_mobility": [
       "elephant_crossing_alerts",
@@ -1781,20 +1798,20 @@
       "elephant_sanctuary_vetting"
     ]
   },
-  "last_updated": "2026-08-21T08:01:58+07:00",
+  "last_updated": "2026-08-22T08:02:30+07:00",
   "rotation_state": {
-    "last_industry": "tourism_travel",
-    "last_sub_industry": "elephant_sanctuary_vetting",
-    "last_geography": "laos",
+    "last_industry": "environment_ecology",
+    "last_sub_industry": "coral_reef",
+    "last_geography": "indonesia",
     "last_3_industries": [
-      "real_estate_urban",
       "wildlife_biodiversity",
-      "tourism_travel"
+      "tourism_travel",
+      "environment_ecology"
     ],
     "last_3_geographies": [
-      "thailand",
       "myanmar",
-      "laos"
+      "laos",
+      "indonesia"
     ]
   }
 }
