@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 102,
+  "total_ideas": 103,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -1574,6 +1574,21 @@
         "Open-Meteo Forecast API",
         "World Bank Open Data"
       ]
+    },
+    {
+      "id": "sagaing-drone-early-warning-relay-village-sentries-2026-08-24",
+      "title": "DronePyan — Drone/Aircraft Threat Identification & Village Relay for Sagaing Region Night-Watch Sentries",
+      "file": "2026-08-24_sagaing-drone-threat-id-village-sentry-relay.md",
+      "created_at": "2026-08-24T08:01:08+07:00",
+      "industry": "defense_security",
+      "sub_industry": "drone_identification",
+      "geography": "myanmar",
+      "concept_hash": "drone-threat-identification-early-warning-relay+sagaing-region-myanmar+village-night-watch-volunteers",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -1678,7 +1693,8 @@
     "tiger-conflict-corral-patrol-safety-briefer+hukawng-valley-kachin-state-myanmar+swidden-farmers-and-livestock-herders-near-tiger-reserve",
     "elephant-sanctuary-ethical-vetting+sayaboury-luang-prabang-laos+budget-backpacker-travelers",
     "coral-outplant-site-timing-selector+gili-matra-lombok-indonesia+community-coral-nursery-dive-volunteers",
-    "shared-meter-electricity-bill-fairness-splitter+khlong-toei-bangkok-thailand+subdivided-housing-sub-tenants"
+    "shared-meter-electricity-bill-fairness-splitter+khlong-toei-bangkok-thailand+subdivided-housing-sub-tenants",
+    "drone-threat-identification-early-warning-relay+sagaing-region-myanmar+village-night-watch-volunteers"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -1794,7 +1810,8 @@
       "uxo_thailand",
       "piracy_routes",
       "conflict_zone_monitoring",
-      "protest_mapping"
+      "protest_mapping",
+      "drone_identification"
     ],
     "energy_utilities": [
       "dam_water_level",
@@ -1814,20 +1831,20 @@
       "elephant_sanctuary_vetting"
     ]
   },
-  "last_updated": "2026-08-23T08:02:13+07:00",
+  "last_updated": "2026-08-24T08:01:08+07:00",
   "rotation_state": {
-    "last_industry": "energy_utilities",
-    "last_sub_industry": "electricity_theft",
-    "last_geography": "thailand",
+    "last_industry": "defense_security",
+    "last_sub_industry": "drone_identification",
+    "last_geography": "myanmar",
     "last_3_industries": [
-      "tourism_travel",
       "environment_ecology",
-      "energy_utilities"
+      "energy_utilities",
+      "defense_security"
     ],
     "last_3_geographies": [
-      "laos",
       "indonesia",
-      "thailand"
+      "thailand",
+      "myanmar"
     ]
   }
 }
