@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 103,
+  "total_ideas": 104,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -1589,6 +1589,21 @@
         "World Bank Open Data",
         "ExchangeRate-API"
       ]
+    },
+    {
+      "id": "songthaew-flood-reroute-chiang-mai-2026-08-25",
+      "title": "SaiDaeng — Flood-Reroute Status Tracker for Chiang Mai's Red Songthaew Riders Without Motorbikes",
+      "file": "2026-08-25_chiang-mai-songthaew-flood-reroute-tracker.md",
+      "created_at": "2026-08-25T08:02:11+07:00",
+      "industry": "transportation_mobility",
+      "sub_industry": "songthaew_tracking",
+      "geography": "thailand",
+      "concept_hash": "songthaew-flood-reroute-status+chiang-mai-ping-river-thailand+elderly-non-motorbike-riders",
+      "apis_used": [
+        "Open-Meteo Flood API",
+        "Open-Meteo Weather API",
+        "World Bank Open Data"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -1694,7 +1709,8 @@
     "elephant-sanctuary-ethical-vetting+sayaboury-luang-prabang-laos+budget-backpacker-travelers",
     "coral-outplant-site-timing-selector+gili-matra-lombok-indonesia+community-coral-nursery-dive-volunteers",
     "shared-meter-electricity-bill-fairness-splitter+khlong-toei-bangkok-thailand+subdivided-housing-sub-tenants",
-    "drone-threat-identification-early-warning-relay+sagaing-region-myanmar+village-night-watch-volunteers"
+    "drone-threat-identification-early-warning-relay+sagaing-region-myanmar+village-night-watch-volunteers",
+    "songthaew-flood-reroute-status+chiang-mai-ping-river-thailand+elderly-non-motorbike-riders"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -1778,7 +1794,8 @@
       "border_crossing_times",
       "road_accident_blackspots",
       "pothole_mapping",
-      "tuk_tuk_routing"
+      "tuk_tuk_routing",
+      "songthaew_tracking"
     ],
     "food_beverage": [
       "fermented_foods",
@@ -1831,20 +1848,20 @@
       "elephant_sanctuary_vetting"
     ]
   },
-  "last_updated": "2026-08-24T08:01:08+07:00",
+  "last_updated": "2026-08-25T08:02:11+07:00",
   "rotation_state": {
-    "last_industry": "defense_security",
-    "last_sub_industry": "drone_identification",
-    "last_geography": "myanmar",
+    "last_industry": "transportation_mobility",
+    "last_sub_industry": "songthaew_tracking",
+    "last_geography": "thailand",
     "last_3_industries": [
-      "environment_ecology",
       "energy_utilities",
-      "defense_security"
+      "defense_security",
+      "transportation_mobility"
     ],
     "last_3_geographies": [
-      "indonesia",
       "thailand",
-      "myanmar"
+      "myanmar",
+      "thailand"
     ]
   }
 }
