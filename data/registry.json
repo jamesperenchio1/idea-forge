@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 105,
+  "total_ideas": 106,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -1618,6 +1618,21 @@
         "Open-Meteo Forecast API",
         "World Bank Open Data"
       ]
+    },
+    {
+      "id": "metro-manila-bedspace-rental-scam-verifier-2026-08-27",
+      "title": "LigtasKwarto — Remote Bedspace Rental-Scam Verifier for Provincial BPO Jobseekers Relocating to Metro Manila",
+      "file": "2026-08-27_metro-manila-bedspace-rental-scam-verifier.md",
+      "created_at": "2026-08-27T08:02:22+07:00",
+      "industry": "real_estate_urban",
+      "sub_industry": "rental_scam_detection",
+      "geography": "philippines",
+      "concept_hash": "rental-scam-deposit-verification+metro-manila-bpo-corridor-philippines+provincial-call-center-jobseekers-relocating-remotely",
+      "apis_used": [
+        "World Bank Open Data",
+        "OpenStreetMap Overpass API",
+        "REST Countries"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -1725,7 +1740,8 @@
     "shared-meter-electricity-bill-fairness-splitter+khlong-toei-bangkok-thailand+subdivided-housing-sub-tenants",
     "drone-threat-identification-early-warning-relay+sagaing-region-myanmar+village-night-watch-volunteers",
     "songthaew-flood-reroute-status+chiang-mai-ping-river-thailand+elderly-non-motorbike-riders",
-    "swiftlet-house-noise-complaint-evidence-logger+kudus-central-java-indonesia+kampung-residents-adjacent-to-rumah-walet"
+    "swiftlet-house-noise-complaint-evidence-logger+kudus-central-java-indonesia+kampung-residents-adjacent-to-rumah-walet",
+    "rental-scam-deposit-verification+metro-manila-bpo-corridor-philippines+provincial-call-center-jobseekers-relocating-remotely"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -1733,7 +1749,8 @@
       "flood_zone_property_risk",
       "ghost_buildings",
       "land_title_disputes",
-      "neighborhood_noise"
+      "neighborhood_noise",
+      "rental_scam_detection"
     ],
     "agriculture_farming": [
       "rubber_tapping",
@@ -1864,20 +1881,20 @@
       "elephant_sanctuary_vetting"
     ]
   },
-  "last_updated": "2026-08-26T08:01:25+07:00",
+  "last_updated": "2026-08-27T08:02:22+07:00",
   "rotation_state": {
-    "last_industry": "environment_ecology",
-    "last_sub_industry": "noise_pollution",
-    "last_geography": "indonesia",
+    "last_industry": "real_estate_urban",
+    "last_sub_industry": "rental_scam_detection",
+    "last_geography": "philippines",
     "last_3_industries": [
-      "defense_security",
       "transportation_mobility",
-      "environment_ecology"
+      "environment_ecology",
+      "real_estate_urban"
     ],
     "last_3_geographies": [
-      "myanmar",
       "thailand",
-      "indonesia"
+      "indonesia",
+      "philippines"
     ]
   }
 }
