@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 107,
+  "total_ideas": 108,
   "ideas": [
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
@@ -1648,6 +1648,22 @@
         "World Bank Open Data",
         "OpenStreetMap Overpass API"
       ]
+    },
+    {
+      "id": "dong-pu-ta-spirit-forest-boundary-checker-isan-2026-08-29",
+      "title": "PuTaCheck — Sacred Spirit-Forest Boundary Checker for Isan Land-Clearing Contractors",
+      "file": "2026-08-29_isan-spirit-forest-clearing-boundary-checker.md",
+      "created_at": "2026-08-29T08:02:38+07:00",
+      "industry": "culture_religion",
+      "sub_industry": "cultural_taboo_guides",
+      "geography": "thailand",
+      "concept_hash": "sacred-spirit-forest-boundary-checker+isan-northeastern-thailand+land-clearing-plantation-contractors",
+      "apis_used": [
+        "OpenStreetMap Overpass API",
+        "World Bank Open Data",
+        "NASA EONET",
+        "Open-Meteo Forecast API"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -1757,7 +1773,8 @@
     "songthaew-flood-reroute-status+chiang-mai-ping-river-thailand+elderly-non-motorbike-riders",
     "swiftlet-house-noise-complaint-evidence-logger+kudus-central-java-indonesia+kampung-residents-adjacent-to-rumah-walet",
     "rental-scam-deposit-verification+metro-manila-bpo-corridor-philippines+provincial-call-center-jobseekers-relocating-remotely",
-    "hidden-shellfish-allergen-detection+hoi-an-da-nang-vietnam+western-retirees-with-shellfish-allergy"
+    "hidden-shellfish-allergen-detection+hoi-an-da-nang-vietnam+western-retirees-with-shellfish-allergy",
+    "sacred-spirit-forest-boundary-checker+isan-northeastern-thailand+land-clearing-plantation-contractors"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -1870,7 +1887,8 @@
       "temple_event_tracking",
       "spirit_house_directories",
       "traditional_festival_maps",
-      "buddhist_calendar"
+      "buddhist_calendar",
+      "cultural_taboo_guides"
     ],
     "defense_security": [
       "landmine_mapping",
@@ -1898,20 +1916,20 @@
       "elephant_sanctuary_vetting"
     ]
   },
-  "last_updated": "2026-08-28T08:03:08+07:00",
+  "last_updated": "2026-08-29T08:02:38+07:00",
   "rotation_state": {
-    "last_industry": "food_beverage",
-    "last_sub_industry": "food_allergen_alerts",
-    "last_geography": "vietnam",
+    "last_industry": "culture_religion",
+    "last_sub_industry": "cultural_taboo_guides",
+    "last_geography": "thailand",
     "last_3_industries": [
-      "environment_ecology",
       "real_estate_urban",
-      "food_beverage"
+      "food_beverage",
+      "culture_religion"
     ],
     "last_3_geographies": [
-      "indonesia",
       "philippines",
-      "vietnam"
+      "vietnam",
+      "thailand"
     ]
   }
 }
