@@ -1,8 +1,22 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 110,
+  "total_ideas": 111,
   "ideas": [
+    {
+      "id": "bangkok-chinese-tour-bus-sighting-tracker-freelance-guides-2026-09-01",
+      "title": "TuánDào — Zero-Dollar Tour Bus Sighting Tracker for Bangkok's Freelance Chinese-Speaking Shopping Guides",
+      "file": "2026-09-01_bangkok-chinese-tour-bus-sighting-tracker-freelance-guides.md",
+      "created_at": "2026-09-01T08:03:26+07:00",
+      "industry": "finance_economics",
+      "sub_industry": "tourism_revenue_by_region",
+      "geography": "thailand",
+      "concept_hash": "zero-dollar-tour-bus-real-time-tracker+bangkok-yaowarat-gem-district-thailand+freelance-chinese-speaking-commission-shopping-guides",
+      "apis_used": [
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
+    },
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
       "title": "Bangkok Breathe Score — Air Quality Intelligence for Renters & Buyers",
@@ -1806,7 +1820,8 @@
     "hidden-shellfish-allergen-detection+hoi-an-da-nang-vietnam+western-retirees-with-shellfish-allergy",
     "sacred-spirit-forest-boundary-checker+isan-northeastern-thailand+land-clearing-plantation-contractors",
     "palm-sugar-boiling-firewood-efficiency-weather-timing+kampong-speu-cambodia+household-scale-palm-sugar-boilers",
-    "post-quake-hospital-tier-router+north-maluku-ternate-halmahera-indonesia+village-disaster-volunteers-and-boat-captains"
+    "post-quake-hospital-tier-router+north-maluku-ternate-halmahera-indonesia+village-disaster-volunteers-and-boat-captains",
+    "zero-dollar-tour-bus-real-time-tracker+bangkok-yaowarat-gem-district-thailand+freelance-chinese-speaking-commission-shopping-guides"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -1846,7 +1861,8 @@
       "street_market_price_tracking",
       "currency_volatility",
       "microfinance_access",
-      "land_price_speculation"
+      "land_price_speculation",
+      "tourism_revenue_by_region"
     ],
     "health_medical": [
       "dengue_risk_mapping",
@@ -1950,20 +1966,20 @@
       "elephant_sanctuary_vetting"
     ]
   },
-  "last_updated": "2026-08-31T08:05:00+07:00",
+  "last_updated": "2026-09-01T08:03:26+07:00",
   "rotation_state": {
-    "last_industry": "disaster_emergency",
-    "last_sub_industry": "hospital_capacity_disaster",
-    "last_geography": "indonesia",
+    "last_industry": "finance_economics",
+    "last_sub_industry": "tourism_revenue_by_region",
+    "last_geography": "thailand",
     "last_3_industries": [
-      "culture_religion",
       "energy_utilities",
-      "disaster_emergency"
+      "disaster_emergency",
+      "finance_economics"
     ],
     "last_3_geographies": [
-      "thailand",
       "cambodia",
-      "indonesia"
+      "indonesia",
+      "thailand"
     ]
   }
 }
