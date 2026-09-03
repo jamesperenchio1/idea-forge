@@ -1,8 +1,23 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 112,
+  "total_ideas": 113,
   "ideas": [
+    {
+      "id": "bangkok-land-subsidence-disclosure-checker-2026-09-03",
+      "title": "BaanTrud — Land Subsidence Disclosure Checker for Bang Khun Thian Shophouse Buyers",
+      "file": "2026-09-03_bangkok-land-subsidence-disclosure-checker.md",
+      "created_at": "2026-09-03T08:01:55+07:00",
+      "industry": "real_estate_urban",
+      "sub_industry": "bangkok_sinking_zones",
+      "geography": "thailand",
+      "concept_hash": "bangkok-land-subsidence-disclosure-checker+bang-khun-thian-outer-south-bangkok-thailand+working-class-shophouse-buyers",
+      "apis_used": [
+        "Open-Meteo Flood API",
+        "World Bank Open Data",
+        "OpenStreetMap Overpass API"
+      ]
+    },
     {
       "id": "batu-caves-blessing-scam-geofence-alert-2026-09-02",
       "title": "JagaBerkat — Batu Caves Blessing-Scam Geofence Alert & Fair-Price Checker for Solo Foreign Tourists",
@@ -1837,7 +1852,8 @@
     "palm-sugar-boiling-firewood-efficiency-weather-timing+kampong-speu-cambodia+household-scale-palm-sugar-boilers",
     "post-quake-hospital-tier-router+north-maluku-ternate-halmahera-indonesia+village-disaster-volunteers-and-boat-captains",
     "zero-dollar-tour-bus-real-time-tracker+bangkok-yaowarat-gem-district-thailand+freelance-chinese-speaking-commission-shopping-guides",
-    "batu-caves-blessing-scam-geofence-alert+batu-caves-kuala-lumpur-selangor-malaysia+solo-independent-foreign-tourists"
+    "batu-caves-blessing-scam-geofence-alert+batu-caves-kuala-lumpur-selangor-malaysia+solo-independent-foreign-tourists",
+    "bangkok-land-subsidence-disclosure-checker+bang-khun-thian-outer-south-bangkok-thailand+working-class-shophouse-buyers"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -1846,7 +1862,8 @@
       "ghost_buildings",
       "land_title_disputes",
       "neighborhood_noise",
-      "rental_scam_detection"
+      "rental_scam_detection",
+      "bangkok_sinking_zones"
     ],
     "agriculture_farming": [
       "rubber_tapping",
@@ -1983,20 +2000,20 @@
       "tourist_scam_detection"
     ]
   },
-  "last_updated": "2026-09-02T08:03:27+07:00",
+  "last_updated": "2026-09-03T08:01:55+07:00",
   "rotation_state": {
-    "last_industry": "tourism_travel",
-    "last_sub_industry": "tourist_scam_detection",
-    "last_geography": "malaysia",
+    "last_industry": "real_estate_urban",
+    "last_sub_industry": "bangkok_sinking_zones",
+    "last_geography": "thailand",
     "last_3_industries": [
-      "disaster_emergency",
       "finance_economics",
-      "tourism_travel"
+      "tourism_travel",
+      "real_estate_urban"
     ],
     "last_3_geographies": [
-      "indonesia",
       "thailand",
-      "malaysia"
+      "malaysia",
+      "thailand"
     ]
   }
 }
