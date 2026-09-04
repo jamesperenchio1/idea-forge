@@ -1,8 +1,24 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 113,
+  "total_ideas": 114,
   "ideas": [
+    {
+      "id": "tonle-sap-water-hyacinth-boat-channel-blockage-tracker-2026-09-04",
+      "title": "PhleuvTuk — Water Hyacinth Channel-Blockage Tracker for Tonle Sap Floating Village Boat Taxi Drivers",
+      "file": "2026-09-04_tonle-sap-water-hyacinth-boat-channel-blockage-tracker.md",
+      "created_at": "2026-09-04T08:03:25+07:00",
+      "industry": "wildlife_biodiversity",
+      "sub_industry": "invasive_species_reporting",
+      "geography": "cambodia",
+      "concept_hash": "water-hyacinth-channel-blockage-tracker+tonle-sap-floating-villages-siem-reap-cambodia+floating-village-boat-taxi-drivers",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "Open-Meteo Flood API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
+    },
     {
       "id": "bangkok-land-subsidence-disclosure-checker-2026-09-03",
       "title": "BaanTrud — Land Subsidence Disclosure Checker for Bang Khun Thian Shophouse Buyers",
@@ -1741,6 +1757,7 @@
     }
   ],
   "concept_hashes_used": [
+    "water-hyacinth-channel-blockage-tracker+tonle-sap-floating-villages-siem-reap-cambodia+floating-village-boat-taxi-drivers",
     "palay-storage-humidity-vent-window+nueva-ecija-central-luzon-philippines+smallholder-palay-consolidators",
     "air-quality-by-address+bangkok-districts+renters-and-buyers",
     "rubber-tapping-optimal-time+southern-thailand+smallholder-tappers",
@@ -1961,7 +1978,8 @@
       "bird_migration_alerts",
       "wildlife_trade_monitoring",
       "poaching_hotspots",
-      "tiger_territory_maps"
+      "tiger_territory_maps",
+      "invasive_species_reporting"
     ],
     "culture_religion": [
       "auspicious_date_planning",
@@ -2000,20 +2018,20 @@
       "tourist_scam_detection"
     ]
   },
-  "last_updated": "2026-09-03T08:01:55+07:00",
+  "last_updated": "2026-09-04T08:03:25+07:00",
   "rotation_state": {
-    "last_industry": "real_estate_urban",
-    "last_sub_industry": "bangkok_sinking_zones",
-    "last_geography": "thailand",
+    "last_industry": "wildlife_biodiversity",
+    "last_sub_industry": "invasive_species_reporting",
+    "last_geography": "cambodia",
     "last_3_industries": [
-      "finance_economics",
       "tourism_travel",
-      "real_estate_urban"
+      "real_estate_urban",
+      "wildlife_biodiversity"
     ],
     "last_3_geographies": [
-      "thailand",
       "malaysia",
-      "thailand"
+      "thailand",
+      "cambodia"
     ]
   }
 }
