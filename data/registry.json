@@ -1,8 +1,23 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 114,
+  "total_ideas": 115,
   "ideas": [
+    {
+      "id": "tudong-forest-monk-pilgrimage-route-coordination-2026-09-05",
+      "title": "TudongPath — Forest Monk Walking Pilgrimage Route Coordination for Isan Merit-Making Villagers",
+      "file": "2026-09-05_tudong-forest-monk-pilgrimage-route-coordination.md",
+      "created_at": "2026-09-05T08:01:10+07:00",
+      "industry": "culture_religion",
+      "sub_industry": "monk_schedules",
+      "geography": "thailand",
+      "concept_hash": "tudong-walking-monk-pilgrimage-route-coordination+sakon-nakhon-nakhon-phanom-isan-thailand+lay-kappiya-merit-making-villagers",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "Open-Meteo Air Quality API",
+        "World Bank Open Data"
+      ]
+    },
     {
       "id": "tonle-sap-water-hyacinth-boat-channel-blockage-tracker-2026-09-04",
       "title": "PhleuvTuk — Water Hyacinth Channel-Blockage Tracker for Tonle Sap Floating Village Boat Taxi Drivers",
@@ -1870,7 +1885,8 @@
     "post-quake-hospital-tier-router+north-maluku-ternate-halmahera-indonesia+village-disaster-volunteers-and-boat-captains",
     "zero-dollar-tour-bus-real-time-tracker+bangkok-yaowarat-gem-district-thailand+freelance-chinese-speaking-commission-shopping-guides",
     "batu-caves-blessing-scam-geofence-alert+batu-caves-kuala-lumpur-selangor-malaysia+solo-independent-foreign-tourists",
-    "bangkok-land-subsidence-disclosure-checker+bang-khun-thian-outer-south-bangkok-thailand+working-class-shophouse-buyers"
+    "bangkok-land-subsidence-disclosure-checker+bang-khun-thian-outer-south-bangkok-thailand+working-class-shophouse-buyers",
+    "tudong-walking-monk-pilgrimage-route-coordination+sakon-nakhon-nakhon-phanom-isan-thailand+lay-kappiya-merit-making-villagers"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -1982,6 +1998,7 @@
       "invasive_species_reporting"
     ],
     "culture_religion": [
+      "monk_schedules",
       "auspicious_date_planning",
       "merit_making_guides",
       "temple_event_tracking",
@@ -2018,20 +2035,20 @@
       "tourist_scam_detection"
     ]
   },
-  "last_updated": "2026-09-04T08:03:25+07:00",
+  "last_updated": "2026-09-05T08:01:10+07:00",
   "rotation_state": {
-    "last_industry": "wildlife_biodiversity",
-    "last_sub_industry": "invasive_species_reporting",
-    "last_geography": "cambodia",
+    "last_industry": "culture_religion",
+    "last_sub_industry": "monk_schedules",
+    "last_geography": "thailand",
     "last_3_industries": [
-      "tourism_travel",
       "real_estate_urban",
-      "wildlife_biodiversity"
+      "wildlife_biodiversity",
+      "culture_religion"
     ],
     "last_3_geographies": [
-      "malaysia",
       "thailand",
-      "cambodia"
+      "cambodia",
+      "thailand"
     ]
   }
 }
