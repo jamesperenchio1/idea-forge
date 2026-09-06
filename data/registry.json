@@ -1,8 +1,23 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 115,
+  "total_ideas": 116,
   "ideas": [
+    {
+      "id": "jalur-tikus-entikong-border-crossing-safety-2026-09-06",
+      "title": "JalurTikus — Informal Border-Crossing Safety & Fair-Wage Checker for Entikong-Tebedu Day Laborers",
+      "file": "2026-09-06_entikong-border-crossing-safety-wage-checker.md",
+      "created_at": "2026-09-06T08:02:19+07:00",
+      "industry": "defense_security",
+      "sub_industry": "border_security",
+      "geography": "indonesia",
+      "concept_hash": "informal-border-crossing-trail-safety-and-wage-checker+entikong-tebedu-kalimantan-sarawak-border+undocumented-west-kalimantan-day-laborers",
+      "apis_used": [
+        "ExchangeRate-API",
+        "World Bank Open Data",
+        "Open-Meteo Forecast API"
+      ]
+    },
     {
       "id": "tudong-forest-monk-pilgrimage-route-coordination-2026-09-05",
       "title": "TudongPath — Forest Monk Walking Pilgrimage Route Coordination for Isan Merit-Making Villagers",
@@ -1772,6 +1787,7 @@
     }
   ],
   "concept_hashes_used": [
+    "informal-border-crossing-trail-safety-and-wage-checker+entikong-tebedu-kalimantan-sarawak-border+undocumented-west-kalimantan-day-laborers",
     "water-hyacinth-channel-blockage-tracker+tonle-sap-floating-villages-siem-reap-cambodia+floating-village-boat-taxi-drivers",
     "palay-storage-humidity-vent-window+nueva-ecija-central-luzon-philippines+smallholder-palay-consolidators",
     "air-quality-by-address+bangkok-districts+renters-and-buyers",
@@ -2013,7 +2029,8 @@
       "piracy_routes",
       "conflict_zone_monitoring",
       "protest_mapping",
-      "drone_identification"
+      "drone_identification",
+      "border_security"
     ],
     "energy_utilities": [
       "dam_water_level",
@@ -2035,20 +2052,20 @@
       "tourist_scam_detection"
     ]
   },
-  "last_updated": "2026-09-05T08:01:10+07:00",
+  "last_updated": "2026-09-06T08:02:19+07:00",
   "rotation_state": {
-    "last_industry": "culture_religion",
-    "last_sub_industry": "monk_schedules",
-    "last_geography": "thailand",
+    "last_industry": "defense_security",
+    "last_sub_industry": "border_security",
+    "last_geography": "indonesia",
     "last_3_industries": [
-      "real_estate_urban",
       "wildlife_biodiversity",
-      "culture_religion"
+      "culture_religion",
+      "defense_security"
     ],
     "last_3_geographies": [
-      "thailand",
       "cambodia",
-      "thailand"
+      "thailand",
+      "indonesia"
     ]
   }
 }
