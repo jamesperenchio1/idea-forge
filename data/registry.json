@@ -1,8 +1,23 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 116,
+  "total_ideas": 117,
   "ideas": [
+    {
+      "id": "sari-sari-store-typhoon-utang-risk-tracker-eastern-samar-2026-09-07",
+      "title": "ListahAlerto — Typhoon-Aware Utang Risk Tracker for Eastern Samar Sari-Sari Store Owners",
+      "file": "2026-09-07_typhoon-aware-utang-risk-tracker-sari-sari-stores.md",
+      "created_at": "2026-09-07T08:01:55+07:00",
+      "industry": "finance_economics",
+      "sub_industry": "informal_economy_mapping",
+      "geography": "philippines",
+      "concept_hash": "typhoon-aware-informal-utang-credit-risk-tracker+eastern-samar-coastal-barangays-philippines+sari-sari-store-owners",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
+    },
     {
       "id": "jalur-tikus-entikong-border-crossing-safety-2026-09-06",
       "title": "JalurTikus — Informal Border-Crossing Safety & Fair-Wage Checker for Entikong-Tebedu Day Laborers",
@@ -1902,7 +1917,8 @@
     "zero-dollar-tour-bus-real-time-tracker+bangkok-yaowarat-gem-district-thailand+freelance-chinese-speaking-commission-shopping-guides",
     "batu-caves-blessing-scam-geofence-alert+batu-caves-kuala-lumpur-selangor-malaysia+solo-independent-foreign-tourists",
     "bangkok-land-subsidence-disclosure-checker+bang-khun-thian-outer-south-bangkok-thailand+working-class-shophouse-buyers",
-    "tudong-walking-monk-pilgrimage-route-coordination+sakon-nakhon-nakhon-phanom-isan-thailand+lay-kappiya-merit-making-villagers"
+    "tudong-walking-monk-pilgrimage-route-coordination+sakon-nakhon-nakhon-phanom-isan-thailand+lay-kappiya-merit-making-villagers",
+    "typhoon-aware-informal-utang-credit-risk-tracker+eastern-samar-coastal-barangays-philippines+sari-sari-store-owners"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -1944,7 +1960,8 @@
       "currency_volatility",
       "microfinance_access",
       "land_price_speculation",
-      "tourism_revenue_by_region"
+      "tourism_revenue_by_region",
+      "informal_economy_mapping"
     ],
     "health_medical": [
       "dengue_risk_mapping",
@@ -2052,20 +2069,20 @@
       "tourist_scam_detection"
     ]
   },
-  "last_updated": "2026-09-06T08:02:19+07:00",
+  "last_updated": "2026-09-07T08:01:55+07:00",
   "rotation_state": {
-    "last_industry": "defense_security",
-    "last_sub_industry": "border_security",
-    "last_geography": "indonesia",
+    "last_industry": "finance_economics",
+    "last_sub_industry": "informal_economy_mapping",
+    "last_geography": "philippines",
     "last_3_industries": [
-      "wildlife_biodiversity",
       "culture_religion",
-      "defense_security"
+      "defense_security",
+      "finance_economics"
     ],
     "last_3_geographies": [
-      "cambodia",
       "thailand",
-      "indonesia"
+      "indonesia",
+      "philippines"
     ]
   }
 }
