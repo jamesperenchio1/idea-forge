@@ -1,8 +1,23 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 117,
+  "total_ideas": 118,
   "ideas": [
+    {
+      "id": "matang-mangrove-charcoal-kiln-dry-fire-window-tracker-2026-09-08",
+      "title": "PetakArang — Felling-Compartment & Dry-Fire Window Tracker for Matang Mangrove Charcoal Kiln Operators",
+      "file": "2026-09-08_matang-mangrove-charcoal-kiln-dry-fire-window-tracker.md",
+      "created_at": "2026-09-08T08:03:20+07:00",
+      "industry": "ocean_maritime",
+      "sub_industry": "mangrove_health",
+      "geography": "malaysia",
+      "concept_hash": "mangrove-charcoal-kiln-felling-compartment-and-dry-fire-window-tracker+matang-kuala-sepetang-perak-malaysia+licensed-mangrove-charcoal-kiln-operators",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
+    },
     {
       "id": "sari-sari-store-typhoon-utang-risk-tracker-eastern-samar-2026-09-07",
       "title": "ListahAlerto — Typhoon-Aware Utang Risk Tracker for Eastern Samar Sari-Sari Store Owners",
@@ -1918,7 +1933,8 @@
     "batu-caves-blessing-scam-geofence-alert+batu-caves-kuala-lumpur-selangor-malaysia+solo-independent-foreign-tourists",
     "bangkok-land-subsidence-disclosure-checker+bang-khun-thian-outer-south-bangkok-thailand+working-class-shophouse-buyers",
     "tudong-walking-monk-pilgrimage-route-coordination+sakon-nakhon-nakhon-phanom-isan-thailand+lay-kappiya-merit-making-villagers",
-    "typhoon-aware-informal-utang-credit-risk-tracker+eastern-samar-coastal-barangays-philippines+sari-sari-store-owners"
+    "typhoon-aware-informal-utang-credit-risk-tracker+eastern-samar-coastal-barangays-philippines+sari-sari-store-owners",
+    "mangrove-charcoal-kiln-felling-compartment-and-dry-fire-window-tracker+matang-kuala-sepetang-perak-malaysia+licensed-mangrove-charcoal-kiln-operators"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -1979,7 +1995,8 @@
       "fish_migration",
       "aquaculture_disease",
       "tsunami_warning",
-      "illegal_fishing_detection"
+      "illegal_fishing_detection",
+      "mangrove_health"
     ],
     "labor_work": [
       "fishing_crew_safety",
@@ -2069,20 +2086,20 @@
       "tourist_scam_detection"
     ]
   },
-  "last_updated": "2026-09-07T08:01:55+07:00",
+  "last_updated": "2026-09-08T08:03:20+07:00",
   "rotation_state": {
-    "last_industry": "finance_economics",
-    "last_sub_industry": "informal_economy_mapping",
-    "last_geography": "philippines",
+    "last_industry": "ocean_maritime",
+    "last_sub_industry": "mangrove_health",
+    "last_geography": "malaysia",
     "last_3_industries": [
-      "culture_religion",
       "defense_security",
-      "finance_economics"
+      "finance_economics",
+      "ocean_maritime"
     ],
     "last_3_geographies": [
-      "thailand",
       "indonesia",
-      "philippines"
+      "philippines",
+      "malaysia"
     ]
   }
 }
