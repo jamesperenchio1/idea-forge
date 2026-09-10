@@ -1,8 +1,22 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 119,
+  "total_ideas": 120,
   "ideas": [
+    {
+      "id": "pink-card-renewal-countdown-broker-fee-checker-2026-09-10",
+      "title": "ChomphuCheck — Pink Card Renewal Countdown & Broker Fee Checker for Samut Sakhon Migrant Seafood Workers",
+      "file": "2026-09-10_pink-card-permit-renewal-countdown-migrant-workers.md",
+      "created_at": "2026-09-10T08:01:36+07:00",
+      "industry": "labor_work",
+      "sub_industry": "work_permit_tools",
+      "geography": "thailand",
+      "concept_hash": "pink-card-renewal-countdown-broker-fee-checker+samut-sakhon-mahachai-thailand+khmer-and-burmese-mou-seafood-processing-workers",
+      "apis_used": [
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
+    },
     {
       "id": "garment-factory-mass-fainting-heat-risk-predictor-2026-09-09",
       "title": "SanlobAlert — Heat-Index Mass-Fainting Risk Predictor for Kampong Speu Garment Factory Safety Officers",
@@ -1950,7 +1964,8 @@
     "tudong-walking-monk-pilgrimage-route-coordination+sakon-nakhon-nakhon-phanom-isan-thailand+lay-kappiya-merit-making-villagers",
     "typhoon-aware-informal-utang-credit-risk-tracker+eastern-samar-coastal-barangays-philippines+sari-sari-store-owners",
     "mangrove-charcoal-kiln-felling-compartment-and-dry-fire-window-tracker+matang-kuala-sepetang-perak-malaysia+licensed-mangrove-charcoal-kiln-operators",
-    "heat-index-mass-fainting-risk-predictor+kampong-speu-svay-rieng-cambodia-garment-sez+factory-occupational-health-safety-officers"
+    "heat-index-mass-fainting-risk-predictor+kampong-speu-svay-rieng-cambodia-garment-sez+factory-occupational-health-safety-officers",
+    "pink-card-renewal-countdown-broker-fee-checker+samut-sakhon-mahachai-thailand+khmer-and-burmese-mou-seafood-processing-workers"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2022,7 +2037,8 @@
       "factory_conditions",
       "migrant_worker_rights",
       "domestic_worker_protections",
-      "gig_economy_sea"
+      "gig_economy_sea",
+      "work_permit_tools"
     ],
     "environment_ecology": [
       "river_pollution",
@@ -2103,20 +2119,20 @@
       "tourist_scam_detection"
     ]
   },
-  "last_updated": "2026-09-09T08:02:14+07:00",
+  "last_updated": "2026-09-10T08:01:36+07:00",
   "rotation_state": {
-    "last_industry": "health_medical",
-    "last_sub_industry": "mental_health_sea",
-    "last_geography": "cambodia",
+    "last_industry": "labor_work",
+    "last_sub_industry": "work_permit_tools",
+    "last_geography": "thailand",
     "last_3_industries": [
-      "finance_economics",
       "ocean_maritime",
-      "health_medical"
+      "health_medical",
+      "labor_work"
     ],
     "last_3_geographies": [
-      "philippines",
       "malaysia",
-      "cambodia"
+      "cambodia",
+      "thailand"
     ]
   }
 }
