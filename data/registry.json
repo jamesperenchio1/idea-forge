@@ -1,8 +1,22 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 123,
+  "total_ideas": 124,
   "ideas": [
+    {
+      "id": "temple-donation-qr-tampering-checker-2026-09-14",
+      "title": "BunTae — QR Donation-Box Tampering Checker for Rural Isan Temple Treasurers",
+      "file": "2026-09-14_temple-donation-qr-code-tampering-checker.md",
+      "created_at": "2026-09-14T08:02:19+07:00",
+      "industry": "defense_security",
+      "sub_industry": "cybersecurity_threats",
+      "geography": "thailand",
+      "concept_hash": "qr-donation-box-tampering-scam-checker+rural-isan-temple-thailand+lay-temple-treasurers-waiyawatchakon",
+      "apis_used": [
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
+    },
     {
       "id": "mandalay-undocumented-floor-earthquake-risk-checker-2026-09-13",
       "title": "HtatSin — Undocumented Extra-Floor & Aftershock Risk Checker for Mandalay-Sagaing Shophouse Renters and Buyers",
@@ -1892,6 +1906,7 @@
     }
   ],
   "concept_hashes_used": [
+    "qr-donation-box-tampering-scam-checker+rural-isan-temple-thailand+lay-temple-treasurers-waiyawatchakon",
     "informal-border-crossing-trail-safety-and-wage-checker+entikong-tebedu-kalimantan-sarawak-border+undocumented-west-kalimantan-day-laborers",
     "water-hyacinth-channel-blockage-tracker+tonle-sap-floating-villages-siem-reap-cambodia+floating-village-boat-taxi-drivers",
     "palay-storage-humidity-vent-window+nueva-ecija-central-luzon-philippines+smallholder-palay-consolidators",
@@ -2148,7 +2163,8 @@
       "conflict_zone_monitoring",
       "protest_mapping",
       "drone_identification",
-      "border_security"
+      "border_security",
+      "cybersecurity_threats"
     ],
     "energy_utilities": [
       "dam_water_level",
@@ -2171,20 +2187,20 @@
       "island_crowding_levels"
     ]
   },
-  "last_updated": "2026-09-13T08:02:00+07:00",
+  "last_updated": "2026-09-14T08:02:19+07:00",
   "rotation_state": {
-    "last_industry": "real_estate_urban",
-    "last_sub_industry": "illegal_construction",
-    "last_geography": "myanmar",
+    "last_industry": "defense_security",
+    "last_sub_industry": "cybersecurity_threats",
+    "last_geography": "thailand",
     "last_3_industries": [
-      "tourism_travel",
       "food_beverage",
-      "real_estate_urban"
+      "real_estate_urban",
+      "defense_security"
     ],
     "last_3_geographies": [
-      "indonesia",
       "southeast_asia",
-      "myanmar"
+      "myanmar",
+      "thailand"
     ]
   }
 }
