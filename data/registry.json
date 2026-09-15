@@ -1,8 +1,22 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 124,
+  "total_ideas": 125,
   "ideas": [
+    {
+      "id": "elephant-corridor-durian-raid-alert-2026-09-15",
+      "title": "ThangChang — Elephant-Corridor Raid Alert & Night-Patrol Coordinator for Chanthaburi-Trat Durian Orchard Watchmen",
+      "file": "2026-09-15_elephant-corridor-durian-orchard-raid-alert.md",
+      "created_at": "2026-09-15T08:01:49+07:00",
+      "industry": "wildlife_biodiversity",
+      "sub_industry": "habitat_fragmentation",
+      "geography": "thailand",
+      "concept_hash": "elephant-corridor-fragmentation-night-raid-alerts+chanthaburi-trat-durian-belt-thailand+durian-orchard-night-watchmen",
+      "apis_used": [
+        "World Bank Open Data",
+        "Open-Meteo Forecast API"
+      ]
+    },
     {
       "id": "temple-donation-qr-tampering-checker-2026-09-14",
       "title": "BunTae — QR Donation-Box Tampering Checker for Rural Isan Temple Treasurers",
@@ -2029,7 +2043,8 @@
     "pink-card-renewal-countdown-broker-fee-checker+samut-sakhon-mahachai-thailand+khmer-and-burmese-mou-seafood-processing-workers",
     "cliff-stairway-slip-and-rockfall-risk-briefer+nusa-penida-bali-indonesia+informal-ojek-tebing-motorbike-cliff-guides",
     "patrol-sighting-and-rain-window-alert+hanoi-old-quarter-vietnam+itinerant-ganh-hang-rong-street-food-cart-vendors",
-    "undocumented-extra-floor-and-aftershock-risk-checker+mandalay-sagaing-myanmar+shophouse-renters-and-buyers-post-2025-earthquake"
+    "undocumented-extra-floor-and-aftershock-risk-checker+mandalay-sagaing-myanmar+shophouse-renters-and-buyers-post-2025-earthquake",
+    "elephant-corridor-fragmentation-night-raid-alerts+chanthaburi-trat-durian-belt-thailand+durian-orchard-night-watchmen"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2144,7 +2159,8 @@
       "wildlife_trade_monitoring",
       "poaching_hotspots",
       "tiger_territory_maps",
-      "invasive_species_reporting"
+      "invasive_species_reporting",
+      "habitat_fragmentation"
     ],
     "culture_religion": [
       "monk_schedules",
@@ -2187,19 +2203,19 @@
       "island_crowding_levels"
     ]
   },
-  "last_updated": "2026-09-14T08:02:19+07:00",
+  "last_updated": "2026-09-15T08:01:49+07:00",
   "rotation_state": {
-    "last_industry": "defense_security",
-    "last_sub_industry": "cybersecurity_threats",
+    "last_industry": "wildlife_biodiversity",
+    "last_sub_industry": "habitat_fragmentation",
     "last_geography": "thailand",
     "last_3_industries": [
-      "food_beverage",
       "real_estate_urban",
-      "defense_security"
+      "defense_security",
+      "wildlife_biodiversity"
     ],
     "last_3_geographies": [
-      "southeast_asia",
       "myanmar",
+      "thailand",
       "thailand"
     ]
   }
