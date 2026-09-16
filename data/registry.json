@@ -1,8 +1,22 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 125,
+  "total_ideas": 126,
   "ideas": [
+    {
+      "id": "hongmorsai-friendship-bridge-medical-markup-2026-09-16",
+      "title": "HongMorSai — Cross-Border Hospital Price & Facilitator Markup Checker for Lao Patients Crossing the Thai-Lao Friendship Bridge",
+      "file": "2026-09-16_hospital-price-facilitator-markup-checker.md",
+      "created_at": "2026-09-16T08:02:14+07:00",
+      "industry": "health_medical",
+      "sub_industry": "medical_tourism",
+      "geography": "laos",
+      "concept_hash": "cross-border-hospital-price-and-facilitator-markup-checker+nong-khai-vientiane-friendship-bridge-laos+lao-patients-and-informal-medical-coordinators",
+      "apis_used": [
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
+    },
     {
       "id": "elephant-corridor-durian-raid-alert-2026-09-15",
       "title": "ThangChang — Elephant-Corridor Raid Alert & Night-Patrol Coordinator for Chanthaburi-Trat Durian Orchard Watchmen",
@@ -2044,7 +2058,8 @@
     "cliff-stairway-slip-and-rockfall-risk-briefer+nusa-penida-bali-indonesia+informal-ojek-tebing-motorbike-cliff-guides",
     "patrol-sighting-and-rain-window-alert+hanoi-old-quarter-vietnam+itinerant-ganh-hang-rong-street-food-cart-vendors",
     "undocumented-extra-floor-and-aftershock-risk-checker+mandalay-sagaing-myanmar+shophouse-renters-and-buyers-post-2025-earthquake",
-    "elephant-corridor-fragmentation-night-raid-alerts+chanthaburi-trat-durian-belt-thailand+durian-orchard-night-watchmen"
+    "elephant-corridor-fragmentation-night-raid-alerts+chanthaburi-trat-durian-belt-thailand+durian-orchard-night-watchmen",
+    "cross-border-hospital-price-and-facilitator-markup-checker+nong-khai-vientiane-friendship-bridge-laos+lao-patients-and-informal-medical-coordinators"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2098,7 +2113,8 @@
       "traditional_medicine",
       "air_quality_health",
       "tropical_diseases",
-      "mental_health_sea"
+      "mental_health_sea",
+      "medical_tourism"
     ],
     "ocean_maritime": [
       "dive_site_conditions",
@@ -2203,20 +2219,20 @@
       "island_crowding_levels"
     ]
   },
-  "last_updated": "2026-09-15T08:01:49+07:00",
+  "last_updated": "2026-09-16T08:02:14+07:00",
   "rotation_state": {
-    "last_industry": "wildlife_biodiversity",
-    "last_sub_industry": "habitat_fragmentation",
-    "last_geography": "thailand",
+    "last_industry": "health_medical",
+    "last_sub_industry": "medical_tourism",
+    "last_geography": "laos",
     "last_3_industries": [
-      "real_estate_urban",
       "defense_security",
-      "wildlife_biodiversity"
+      "wildlife_biodiversity",
+      "health_medical"
     ],
     "last_3_geographies": [
-      "myanmar",
       "thailand",
-      "thailand"
+      "thailand",
+      "laos"
     ]
   }
 }
