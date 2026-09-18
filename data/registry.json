@@ -1,8 +1,24 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 127,
+  "total_ideas": 128,
   "ideas": [
+    {
+      "id": "dieseljimat-kuala-kedah-2026-09-18",
+      "title": "DieselJimat — Subsidised Diesel Quota & Break-Even Trip Calculator for Kuala Kedah's Kad Nelayan Small-Boat Fishermen",
+      "file": "2026-09-18_diesel-subsidy-quota-break-even-calculator-fishermen.md",
+      "created_at": "2026-09-18T08:01:51+07:00",
+      "industry": "energy_utilities",
+      "sub_industry": "fuel_price_tracker",
+      "geography": "malaysia",
+      "concept_hash": "diesel-subsidy-quota-break-even-calculator+kuala-kedah-kedah-malaysia+kad-nelayan-small-scale-trawler-fishermen",
+      "apis_used": [
+        "World Bank Open Data",
+        "ExchangeRate-API",
+        "Open-Meteo Marine API",
+        "Open-Meteo Forecast API"
+      ]
+    },
     {
       "id": "bacan-perfume-pagoda-step-briefer-2026-09-17",
       "title": "BậcAn — Stone-Step Wetness & Crowd-Crush Briefer for Village Pilgrimage Group Leaders Climbing to Chùa Hương's Perfume Pagoda",
@@ -2075,7 +2091,8 @@
     "undocumented-extra-floor-and-aftershock-risk-checker+mandalay-sagaing-myanmar+shophouse-renters-and-buyers-post-2025-earthquake",
     "elephant-corridor-fragmentation-night-raid-alerts+chanthaburi-trat-durian-belt-thailand+durian-orchard-night-watchmen",
     "cross-border-hospital-price-and-facilitator-markup-checker+nong-khai-vientiane-friendship-bridge-laos+lao-patients-and-informal-medical-coordinators",
-    "perfume-pagoda-stone-step-accessibility-and-crowd-briefer+chua-huong-huong-son-hanoi-vietnam+elderly-village-pilgrimage-group-leaders"
+    "perfume-pagoda-stone-step-accessibility-and-crowd-briefer+chua-huong-huong-son-hanoi-vietnam+elderly-village-pilgrimage-group-leaders",
+    "diesel-subsidy-quota-break-even-calculator+kuala-kedah-kedah-malaysia+kad-nelayan-small-scale-trawler-fishermen"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2223,7 +2240,8 @@
       "carbon_credits_farmers",
       "energy_poverty_mapping",
       "electricity_theft",
-      "biomass_sources"
+      "biomass_sources",
+      "fuel_price_tracker"
     ],
     "tourism_travel": [
       "adventure_risk_scoring",
@@ -2236,20 +2254,20 @@
       "island_crowding_levels"
     ]
   },
-  "last_updated": "2026-09-17T08:02:43+07:00",
+  "last_updated": "2026-09-18T08:01:51+07:00",
   "rotation_state": {
-    "last_industry": "culture_religion",
-    "last_sub_industry": "religious_site_accessibility",
-    "last_geography": "vietnam",
+    "last_industry": "energy_utilities",
+    "last_sub_industry": "fuel_price_tracker",
+    "last_geography": "malaysia",
     "last_3_industries": [
-      "wildlife_biodiversity",
       "health_medical",
-      "culture_religion"
+      "culture_religion",
+      "energy_utilities"
     ],
     "last_3_geographies": [
-      "thailand",
       "laos",
-      "vietnam"
+      "vietnam",
+      "malaysia"
     ]
   }
 }
