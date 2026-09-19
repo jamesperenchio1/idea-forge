@@ -1,8 +1,23 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 128,
+  "total_ideas": 129,
   "ideas": [
+    {
+      "id": "napasojek-tanjung-priok-2026-09-19",
+      "title": "NapasOjek — Port-Gate PM2.5 Break-Timing Bot for Tanjung Priok's Non-App Ojek Pangkalan Motorcycle Taxi Drivers",
+      "file": "2026-09-19_port-gate-air-quality-break-timing-ojek-drivers.md",
+      "created_at": "2026-09-19T08:02:14+07:00",
+      "industry": "transportation_mobility",
+      "sub_industry": "motorbike_taxi",
+      "geography": "indonesia",
+      "concept_hash": "port-gate-pm25-occupational-exposure-break-timing+tanjung-priok-north-jakarta-indonesia+non-app-ojek-pangkalan-motorcycle-taxi-drivers",
+      "apis_used": [
+        "Open-Meteo Air Quality API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
+    },
     {
       "id": "dieseljimat-kuala-kedah-2026-09-18",
       "title": "DieselJimat — Subsidised Diesel Quota & Break-Even Trip Calculator for Kuala Kedah's Kad Nelayan Small-Boat Fishermen",
@@ -2092,7 +2107,8 @@
     "elephant-corridor-fragmentation-night-raid-alerts+chanthaburi-trat-durian-belt-thailand+durian-orchard-night-watchmen",
     "cross-border-hospital-price-and-facilitator-markup-checker+nong-khai-vientiane-friendship-bridge-laos+lao-patients-and-informal-medical-coordinators",
     "perfume-pagoda-stone-step-accessibility-and-crowd-briefer+chua-huong-huong-son-hanoi-vietnam+elderly-village-pilgrimage-group-leaders",
-    "diesel-subsidy-quota-break-even-calculator+kuala-kedah-kedah-malaysia+kad-nelayan-small-scale-trawler-fishermen"
+    "diesel-subsidy-quota-break-even-calculator+kuala-kedah-kedah-malaysia+kad-nelayan-small-scale-trawler-fishermen",
+    "port-gate-pm25-occupational-exposure-break-timing+tanjung-priok-north-jakarta-indonesia+non-app-ojek-pangkalan-motorcycle-taxi-drivers"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2188,7 +2204,8 @@
       "road_accident_blackspots",
       "pothole_mapping",
       "tuk_tuk_routing",
-      "songthaew_tracking"
+      "songthaew_tracking",
+      "motorbike_taxi"
     ],
     "food_beverage": [
       "fermented_foods",
@@ -2254,20 +2271,20 @@
       "island_crowding_levels"
     ]
   },
-  "last_updated": "2026-09-18T08:01:51+07:00",
+  "last_updated": "2026-09-19T08:02:14+07:00",
   "rotation_state": {
-    "last_industry": "energy_utilities",
-    "last_sub_industry": "fuel_price_tracker",
-    "last_geography": "malaysia",
+    "last_industry": "transportation_mobility",
+    "last_sub_industry": "motorbike_taxi",
+    "last_geography": "indonesia",
     "last_3_industries": [
-      "health_medical",
       "culture_religion",
-      "energy_utilities"
+      "energy_utilities",
+      "transportation_mobility"
     ],
     "last_3_geographies": [
-      "laos",
       "vietnam",
-      "malaysia"
+      "malaysia",
+      "indonesia"
     ]
   }
 }
