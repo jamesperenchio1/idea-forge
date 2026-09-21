@@ -1,11 +1,11 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 130,
+  "total_ideas": 131,
   "ideas": [
     {
       "id": "agosalerto-baseco-manila-2026-09-20",
-      "title": "AgosAlerto \u2014 Manila Bay Propeller-Fouling & Ghost-Net Drift Alert for Baseco Compound's Small-Boat Pump-Boat Fishermen",
+      "title": "AgosAlerto — Manila Bay Propeller-Fouling & Ghost-Net Drift Alert for Baseco Compound's Small-Boat Pump-Boat Fishermen",
       "file": "2026-09-20_manila-bay-plastic-drift-propeller-fouling-alerts.md",
       "created_at": "2026-09-20T08:03:00+07:00",
       "industry": "ocean_maritime",
@@ -21,7 +21,7 @@
     },
     {
       "id": "napasojek-tanjung-priok-2026-09-19",
-      "title": "NapasOjek \u2014 Port-Gate PM2.5 Break-Timing Bot for Tanjung Priok's Non-App Ojek Pangkalan Motorcycle Taxi Drivers",
+      "title": "NapasOjek — Port-Gate PM2.5 Break-Timing Bot for Tanjung Priok's Non-App Ojek Pangkalan Motorcycle Taxi Drivers",
       "file": "2026-09-19_port-gate-air-quality-break-timing-ojek-drivers.md",
       "created_at": "2026-09-19T08:02:14+07:00",
       "industry": "transportation_mobility",
@@ -36,7 +36,7 @@
     },
     {
       "id": "dieseljimat-kuala-kedah-2026-09-18",
-      "title": "DieselJimat \u2014 Subsidised Diesel Quota & Break-Even Trip Calculator for Kuala Kedah's Kad Nelayan Small-Boat Fishermen",
+      "title": "DieselJimat — Subsidised Diesel Quota & Break-Even Trip Calculator for Kuala Kedah's Kad Nelayan Small-Boat Fishermen",
       "file": "2026-09-18_diesel-subsidy-quota-break-even-calculator-fishermen.md",
       "created_at": "2026-09-18T08:01:51+07:00",
       "industry": "energy_utilities",
@@ -52,7 +52,7 @@
     },
     {
       "id": "bacan-perfume-pagoda-step-briefer-2026-09-17",
-      "title": "B\u1eadcAn \u2014 Stone-Step Wetness & Crowd-Crush Briefer for Village Pilgrimage Group Leaders Climbing to Ch\u00f9a H\u01b0\u01a1ng's Perfume Pagoda",
+      "title": "BậcAn — Stone-Step Wetness & Crowd-Crush Briefer for Village Pilgrimage Group Leaders Climbing to Chùa Hương's Perfume Pagoda",
       "file": "2026-09-17_perfume-pagoda-stone-step-accessibility-briefer.md",
       "created_at": "2026-09-17T08:02:43+07:00",
       "industry": "culture_religion",
@@ -67,7 +67,7 @@
     },
     {
       "id": "hongmorsai-friendship-bridge-medical-markup-2026-09-16",
-      "title": "HongMorSai \u2014 Cross-Border Hospital Price & Facilitator Markup Checker for Lao Patients Crossing the Thai-Lao Friendship Bridge",
+      "title": "HongMorSai — Cross-Border Hospital Price & Facilitator Markup Checker for Lao Patients Crossing the Thai-Lao Friendship Bridge",
       "file": "2026-09-16_hospital-price-facilitator-markup-checker.md",
       "created_at": "2026-09-16T08:02:14+07:00",
       "industry": "health_medical",
@@ -81,7 +81,7 @@
     },
     {
       "id": "elephant-corridor-durian-raid-alert-2026-09-15",
-      "title": "ThangChang \u2014 Elephant-Corridor Raid Alert & Night-Patrol Coordinator for Chanthaburi-Trat Durian Orchard Watchmen",
+      "title": "ThangChang — Elephant-Corridor Raid Alert & Night-Patrol Coordinator for Chanthaburi-Trat Durian Orchard Watchmen",
       "file": "2026-09-15_elephant-corridor-durian-orchard-raid-alert.md",
       "created_at": "2026-09-15T08:01:49+07:00",
       "industry": "wildlife_biodiversity",
@@ -95,7 +95,7 @@
     },
     {
       "id": "temple-donation-qr-tampering-checker-2026-09-14",
-      "title": "BunTae \u2014 QR Donation-Box Tampering Checker for Rural Isan Temple Treasurers",
+      "title": "BunTae — QR Donation-Box Tampering Checker for Rural Isan Temple Treasurers",
       "file": "2026-09-14_temple-donation-qr-code-tampering-checker.md",
       "created_at": "2026-09-14T08:02:19+07:00",
       "industry": "defense_security",
@@ -109,7 +109,7 @@
     },
     {
       "id": "mandalay-undocumented-floor-earthquake-risk-checker-2026-09-13",
-      "title": "HtatSin \u2014 Undocumented Extra-Floor & Aftershock Risk Checker for Mandalay-Sagaing Shophouse Renters and Buyers",
+      "title": "HtatSin — Undocumented Extra-Floor & Aftershock Risk Checker for Mandalay-Sagaing Shophouse Renters and Buyers",
       "file": "2026-09-13_mandalay-undocumented-floor-earthquake-risk-checker.md",
       "created_at": "2026-09-13T08:02:00+07:00",
       "industry": "real_estate_urban",
@@ -125,7 +125,7 @@
     },
     {
       "id": "nusa-penida-cliff-stairway-slip-rockfall-risk-briefer-2026-09-11",
-      "title": "TebingCek \u2014 Cliff-Stairway Slip & Rockfall Risk Briefer for Nusa Penida's Informal Ojek Tebing Guides",
+      "title": "TebingCek — Cliff-Stairway Slip & Rockfall Risk Briefer for Nusa Penida's Informal Ojek Tebing Guides",
       "file": "2026-09-11_nusa-penida-cliff-stairway-slip-rockfall-risk-briefer.md",
       "created_at": "2026-09-11T08:01:51+07:00",
       "industry": "tourism_travel",
@@ -141,7 +141,7 @@
     },
     {
       "id": "pink-card-renewal-countdown-broker-fee-checker-2026-09-10",
-      "title": "ChomphuCheck \u2014 Pink Card Renewal Countdown & Broker Fee Checker for Samut Sakhon Migrant Seafood Workers",
+      "title": "ChomphuCheck — Pink Card Renewal Countdown & Broker Fee Checker for Samut Sakhon Migrant Seafood Workers",
       "file": "2026-09-10_pink-card-permit-renewal-countdown-migrant-workers.md",
       "created_at": "2026-09-10T08:01:36+07:00",
       "industry": "labor_work",
@@ -155,7 +155,7 @@
     },
     {
       "id": "garment-factory-mass-fainting-heat-risk-predictor-2026-09-09",
-      "title": "SanlobAlert \u2014 Heat-Index Mass-Fainting Risk Predictor for Kampong Speu Garment Factory Safety Officers",
+      "title": "SanlobAlert — Heat-Index Mass-Fainting Risk Predictor for Kampong Speu Garment Factory Safety Officers",
       "file": "2026-09-09_garment-factory-mass-fainting-heat-risk-predictor.md",
       "created_at": "2026-09-09T08:02:14+07:00",
       "industry": "health_medical",
@@ -170,7 +170,7 @@
     },
     {
       "id": "matang-mangrove-charcoal-kiln-dry-fire-window-tracker-2026-09-08",
-      "title": "PetakArang \u2014 Felling-Compartment & Dry-Fire Window Tracker for Matang Mangrove Charcoal Kiln Operators",
+      "title": "PetakArang — Felling-Compartment & Dry-Fire Window Tracker for Matang Mangrove Charcoal Kiln Operators",
       "file": "2026-09-08_matang-mangrove-charcoal-kiln-dry-fire-window-tracker.md",
       "created_at": "2026-09-08T08:03:20+07:00",
       "industry": "ocean_maritime",
@@ -185,7 +185,7 @@
     },
     {
       "id": "sari-sari-store-typhoon-utang-risk-tracker-eastern-samar-2026-09-07",
-      "title": "ListahAlerto \u2014 Typhoon-Aware Utang Risk Tracker for Eastern Samar Sari-Sari Store Owners",
+      "title": "ListahAlerto — Typhoon-Aware Utang Risk Tracker for Eastern Samar Sari-Sari Store Owners",
       "file": "2026-09-07_typhoon-aware-utang-risk-tracker-sari-sari-stores.md",
       "created_at": "2026-09-07T08:01:55+07:00",
       "industry": "finance_economics",
@@ -200,7 +200,7 @@
     },
     {
       "id": "jalur-tikus-entikong-border-crossing-safety-2026-09-06",
-      "title": "JalurTikus \u2014 Informal Border-Crossing Safety & Fair-Wage Checker for Entikong-Tebedu Day Laborers",
+      "title": "JalurTikus — Informal Border-Crossing Safety & Fair-Wage Checker for Entikong-Tebedu Day Laborers",
       "file": "2026-09-06_entikong-border-crossing-safety-wage-checker.md",
       "created_at": "2026-09-06T08:02:19+07:00",
       "industry": "defense_security",
@@ -215,7 +215,7 @@
     },
     {
       "id": "tudong-forest-monk-pilgrimage-route-coordination-2026-09-05",
-      "title": "TudongPath \u2014 Forest Monk Walking Pilgrimage Route Coordination for Isan Merit-Making Villagers",
+      "title": "TudongPath — Forest Monk Walking Pilgrimage Route Coordination for Isan Merit-Making Villagers",
       "file": "2026-09-05_tudong-forest-monk-pilgrimage-route-coordination.md",
       "created_at": "2026-09-05T08:01:10+07:00",
       "industry": "culture_religion",
@@ -230,7 +230,7 @@
     },
     {
       "id": "tonle-sap-water-hyacinth-boat-channel-blockage-tracker-2026-09-04",
-      "title": "PhleuvTuk \u2014 Water Hyacinth Channel-Blockage Tracker for Tonle Sap Floating Village Boat Taxi Drivers",
+      "title": "PhleuvTuk — Water Hyacinth Channel-Blockage Tracker for Tonle Sap Floating Village Boat Taxi Drivers",
       "file": "2026-09-04_tonle-sap-water-hyacinth-boat-channel-blockage-tracker.md",
       "created_at": "2026-09-04T08:03:25+07:00",
       "industry": "wildlife_biodiversity",
@@ -246,7 +246,7 @@
     },
     {
       "id": "bangkok-land-subsidence-disclosure-checker-2026-09-03",
-      "title": "BaanTrud \u2014 Land Subsidence Disclosure Checker for Bang Khun Thian Shophouse Buyers",
+      "title": "BaanTrud — Land Subsidence Disclosure Checker for Bang Khun Thian Shophouse Buyers",
       "file": "2026-09-03_bangkok-land-subsidence-disclosure-checker.md",
       "created_at": "2026-09-03T08:01:55+07:00",
       "industry": "real_estate_urban",
@@ -261,7 +261,7 @@
     },
     {
       "id": "batu-caves-blessing-scam-geofence-alert-2026-09-02",
-      "title": "JagaBerkat \u2014 Batu Caves Blessing-Scam Geofence Alert & Fair-Price Checker for Solo Foreign Tourists",
+      "title": "JagaBerkat — Batu Caves Blessing-Scam Geofence Alert & Fair-Price Checker for Solo Foreign Tourists",
       "file": "2026-09-02_batu-caves-blessing-scam-geofence-alert.md",
       "created_at": "2026-09-02T08:03:27+07:00",
       "industry": "tourism_travel",
@@ -276,7 +276,7 @@
     },
     {
       "id": "bangkok-chinese-tour-bus-sighting-tracker-freelance-guides-2026-09-01",
-      "title": "Tu\u00e1nD\u00e0o \u2014 Zero-Dollar Tour Bus Sighting Tracker for Bangkok's Freelance Chinese-Speaking Shopping Guides",
+      "title": "TuánDào — Zero-Dollar Tour Bus Sighting Tracker for Bangkok's Freelance Chinese-Speaking Shopping Guides",
       "file": "2026-09-01_bangkok-chinese-tour-bus-sighting-tracker-freelance-guides.md",
       "created_at": "2026-09-01T08:03:26+07:00",
       "industry": "finance_economics",
@@ -290,7 +290,7 @@
     },
     {
       "id": "bangkok-breathe-score-rental-air-quality-2026-03-24",
-      "title": "Bangkok Breathe Score \u2014 Air Quality Intelligence for Renters & Buyers",
+      "title": "Bangkok Breathe Score — Air Quality Intelligence for Renters & Buyers",
       "file": "2026-03-24_bangkok-breathe-score-rental-air-quality.md",
       "created_at": "2026-03-24T22:15:00+07:00",
       "industry": "real_estate_urban",
@@ -305,7 +305,7 @@
     },
     {
       "id": "rubber-tapper-optimal-morning-window-surat-thani-2026-03-24",
-      "title": "TapWindow \u2014 Optimal Harvest Timing for Rubber Tappers in Southern Thailand",
+      "title": "TapWindow — Optimal Harvest Timing for Rubber Tappers in Southern Thailand",
       "file": "2026-03-24_rubber-tapper-optimal-morning-window-surat-thani.md",
       "created_at": "2026-03-24T22:27:00+07:00",
       "industry": "agriculture_farming",
@@ -319,7 +319,7 @@
     },
     {
       "id": "highland-burn-window-northern-thailand-corn-farmers-2026-03-25",
-      "title": "BurnClear \u2014 Field Burn Safety Checker for Northern Thailand Highland Corn Farmers",
+      "title": "BurnClear — Field Burn Safety Checker for Northern Thailand Highland Corn Farmers",
       "file": "2026-03-25_highland-burn-window-northern-thailand-corn-farmers.md",
       "created_at": "2026-03-25T13:19:00+07:00",
       "industry": "disaster_emergency",
@@ -333,7 +333,7 @@
     },
     {
       "id": "kyatbridge-myanmar-remittance-rate-tracker-2026-03-26",
-      "title": "KyatBridge \u2014 Parallel Market Rate Tracker for Myanmar Migrants in Mae Sot",
+      "title": "KyatBridge — Parallel Market Rate Tracker for Myanmar Migrants in Mae Sot",
       "file": "2026-03-26_kyatbridge-myanmar-remittance-rate-tracker.md",
       "created_at": "2026-03-26T08:00:00+07:00",
       "industry": "finance_economics",
@@ -347,7 +347,7 @@
     },
     {
       "id": "dengue-season-prep-tracker-cambodia-vhsg-2026-03-27",
-      "title": "PleangAlert \u2014 Dengue Season Readiness Tracker for Cambodia's Village Health Volunteers",
+      "title": "PleangAlert — Dengue Season Readiness Tracker for Cambodia's Village Health Volunteers",
       "file": "2026-03-27_dengue-season-prep-tracker-cambodia-vhsg.md",
       "created_at": "2026-03-27T08:02:26+07:00",
       "industry": "health_medical",
@@ -362,7 +362,7 @@
     },
     {
       "id": "koh-tao-dive-site-swell-morning-briefing-2026-03-28",
-      "title": "TaoSwell \u2014 Koh Tao Dive Site Morning Briefing for Freelance Instructors",
+      "title": "TaoSwell — Koh Tao Dive Site Morning Briefing for Freelance Instructors",
       "file": "2026-03-28_koh-tao-dive-site-swell-morning-briefing.md",
       "created_at": "2026-03-28T08:01:36+07:00",
       "industry": "ocean_maritime",
@@ -376,7 +376,7 @@
     },
     {
       "id": "vietnam-fisher-safe-return-window-zalo-bot-2026-03-29",
-      "title": "S\u00f3ngV\u1ec1 \u2014 Safe Return Window Bot for Squid Fishers on Vietnam's Central Coast",
+      "title": "SóngVề — Safe Return Window Bot for Squid Fishers on Vietnam's Central Coast",
       "file": "2026-03-29_vietnam-fisher-safe-return-window-zalo-bot.md",
       "created_at": "2026-03-29T08:01:30+07:00",
       "industry": "labor_work",
@@ -391,7 +391,7 @@
     },
     {
       "id": "mekong-sandbank-flood-window-luang-prabang-farmers-2026-03-30",
-      "title": "HaatWatch \u2014 Mekong Sandbank Planting Window Tracker for Luang Prabang Dry-Season Farmers",
+      "title": "HaatWatch — Mekong Sandbank Planting Window Tracker for Luang Prabang Dry-Season Farmers",
       "file": "2026-03-30_mekong-sandbank-flood-window-luang-prabang-farmers.md",
       "created_at": "2026-03-30T08:01:14+07:00",
       "industry": "environment_ecology",
@@ -406,7 +406,7 @@
     },
     {
       "id": "highway-304-elephant-crossing-alert-night-drivers-2026-04-01",
-      "title": "ChangWatch \u2014 Highway 304 Elephant Crossing Risk Alert for Night-Drive Truck Drivers",
+      "title": "ChangWatch — Highway 304 Elephant Crossing Risk Alert for Night-Drive Truck Drivers",
       "file": "2026-04-01_highway-304-elephant-crossing-alert-night-drivers.md",
       "created_at": "2026-04-01T08:03:15+07:00",
       "industry": "transportation_mobility",
@@ -421,7 +421,7 @@
     },
     {
       "id": "belacan-drying-window-tracker-penang-fermenters-2026-04-02",
-      "title": "WaktuKering \u2014 Belacan Sun-Drying Window Tracker for Penang's Coastal Fermenters",
+      "title": "WaktuKering — Belacan Sun-Drying Window Tracker for Penang's Coastal Fermenters",
       "file": "2026-04-02_belacan-drying-window-tracker-penang-fermenters.md",
       "created_at": "2026-04-02T09:02:14+08:00",
       "industry": "food_beverage",
@@ -435,7 +435,7 @@
     },
     {
       "id": "firefly-emergence-timing-abucay-bataan-2026-04-03",
-      "title": "FireflyWatch \u2014 Optimal Emergence Timing for Eco-Tourism Operators in Bataan",
+      "title": "FireflyWatch — Optimal Emergence Timing for Eco-Tourism Operators in Bataan",
       "file": "2026-04-03_firefly-emergence-timing-abucay-bataan.md",
       "created_at": "2026-04-03T13:45:00+08:00",
       "industry": "wildlife_biodiversity",
@@ -450,7 +450,7 @@
     },
     {
       "id": "auspicious-construction-ceremony-yangon-2026-04-04",
-      "title": "PyiTha \u2014 Auspicious Ceremony Date Planner for Myanmar Construction Site Managers",
+      "title": "PyiTha — Auspicious Ceremony Date Planner for Myanmar Construction Site Managers",
       "file": "2026-04-04_auspicious-construction-ceremony-date-scheduler-yangon.md",
       "created_at": "2026-04-04T16:30:00+06:30",
       "industry": "culture_religion",
@@ -465,7 +465,7 @@
     },
     {
       "id": "reservoir-oxygen-crash-alert-cage-fish-farmers-khon-kaen-2026-04-05",
-      "title": "PlaRod \u2014 Dissolved Oxygen Crash Alert for Cage Tilapia Farmers on Thailand's Ubolratana Reservoir",
+      "title": "PlaRod — Dissolved Oxygen Crash Alert for Cage Tilapia Farmers on Thailand's Ubolratana Reservoir",
       "file": "2026-04-05_reservoir-oxygen-crash-alert-cage-fish-farmers-khon-kaen.md",
       "created_at": "2026-04-05T01:00:00+07:00",
       "industry": "agriculture_farming",
@@ -480,7 +480,7 @@
     },
     {
       "id": "durian-ripeness-window-tracker-north-sumatra-2026-04-06",
-      "title": "DurianJatuh \u2014 Harvest Window Predictor for Deli Serdang Roadside Durian Sellers",
+      "title": "DurianJatuh — Harvest Window Predictor for Deli Serdang Roadside Durian Sellers",
       "file": "2026-04-06_durian-ripeness-window-tracker-north-sumatra.md",
       "created_at": "2026-04-06T08:02:05+07:00",
       "industry": "food_beverage",
@@ -494,7 +494,7 @@
     },
     {
       "id": "plot-level-mine-clearance-checker-battambang-cassava-2026-04-08",
-      "title": "ChamkarSafe \u2014 Plot-Level Mine Clearance Status Checker for Battambang Cassava Farmers",
+      "title": "ChamkarSafe — Plot-Level Mine Clearance Status Checker for Battambang Cassava Farmers",
       "file": "2026-04-08_plot-level-mine-clearance-checker-battambang-cassava.md",
       "created_at": "2026-04-08T08:00:00+07:00",
       "industry": "defense_security",
@@ -509,7 +509,7 @@
     },
     {
       "id": "angat-dam-release-alert-bulacan-rice-2026-04-09",
-      "title": "AngatAlerto \u2014 Dam Water Release Alert for Bulacan Rice Farmers Downstream of Angat Dam",
+      "title": "AngatAlerto — Dam Water Release Alert for Bulacan Rice Farmers Downstream of Angat Dam",
       "file": "2026-04-09_angat-dam-water-release-alert-bulacan-rice-farmers.md",
       "created_at": "2026-04-09T08:00:00+08:00",
       "industry": "energy_utilities",
@@ -524,7 +524,7 @@
     },
     {
       "id": "ha-giang-loop-mountain-pass-road-risk-briefing-2026-04-10",
-      "title": "\u0110\u00e8oSafe \u2014 Morning Road Risk Briefing for Ha Giang Loop Motorbike Tour Guides",
+      "title": "ĐèoSafe — Morning Road Risk Briefing for Ha Giang Loop Motorbike Tour Guides",
       "file": "2026-04-10_ha-giang-loop-mountain-pass-road-risk-briefing.md",
       "created_at": "2026-04-10T08:00:00+07:00",
       "industry": "tourism_travel",
@@ -539,7 +539,7 @@
     },
     {
       "id": "highland-landslide-early-warning-chiang-rai-coffee-farmers-2026-04-11",
-      "title": "DinLai \u2014 Monsoon Landslide Early Warning for Doi Chang Arabica Coffee Farmers",
+      "title": "DinLai — Monsoon Landslide Early Warning for Doi Chang Arabica Coffee Farmers",
       "file": "2026-04-11_highland-landslide-early-warning-chiang-rai-coffee-farmers.md",
       "created_at": "2026-04-11T08:00:00+07:00",
       "industry": "disaster_emergency",
@@ -555,7 +555,7 @@
     },
     {
       "id": "stingless-bee-forage-bloom-forecast-terengganu-2026-04-12",
-      "title": "LebahBunga \u2014 Flowering Forage Forecast for Kelulut Stingless Bee Keepers in Terengganu",
+      "title": "LebahBunga — Flowering Forage Forecast for Kelulut Stingless Bee Keepers in Terengganu",
       "file": "2026-04-12_stingless-bee-forage-bloom-forecast-terengganu.md",
       "created_at": "2026-04-12T08:00:00+07:00",
       "industry": "wildlife_biodiversity",
@@ -570,7 +570,7 @@
     },
     {
       "id": "mangrove-channel-crab-fattening-health-tracker-2026-04-13",
-      "title": "BakauCrab \u2014 Mangrove Channel Health Tracker for Mud Crab Fatteners in the Mahakam Delta",
+      "title": "BakauCrab — Mangrove Channel Health Tracker for Mud Crab Fatteners in the Mahakam Delta",
       "file": "2026-04-13_mangrove-channel-crab-fattening-health-tracker.md",
       "created_at": "2026-04-13T08:00:00+07:00",
       "industry": "environment_ecology",
@@ -585,7 +585,7 @@
     },
     {
       "id": "romblon-ferry-sailing-probability-forecast-2026-04-14",
-      "title": "BarkoRomblon \u2014 Ferry Sailing Probability Forecast for Island Commuters in Romblon Province",
+      "title": "BarkoRomblon — Ferry Sailing Probability Forecast for Island Commuters in Romblon Province",
       "file": "2026-04-14_romblon-ferry-sailing-probability-forecast.md",
       "created_at": "2026-04-14T08:00:00+08:00",
       "industry": "transportation_mobility",
@@ -601,7 +601,7 @@
     },
     {
       "id": "heat-danger-alert-bangkok-construction-day-laborers-2026-04-15",
-      "title": "RonSite \u2014 Heat Danger Hour Alert for Bangkok High-Rise Construction Day Laborers",
+      "title": "RonSite — Heat Danger Hour Alert for Bangkok High-Rise Construction Day Laborers",
       "file": "2026-04-15_heat-danger-alert-bangkok-construction-day-laborers.md",
       "created_at": "2026-04-15T08:00:00+07:00",
       "industry": "labor_work",
@@ -617,7 +617,7 @@
     },
     {
       "id": "fish-sauce-barrel-fermentation-climate-tracker-2026-04-16",
-      "title": "M\u1eafm\u0110o \u2014 Fermentation Climate Tracker for Traditional Fish Sauce Barrel Houses on Ph\u00fa Qu\u1ed1c Island",
+      "title": "MắmĐo — Fermentation Climate Tracker for Traditional Fish Sauce Barrel Houses on Phú Quốc Island",
       "file": "2026-04-16_fish-sauce-barrel-fermentation-climate-tracker-phu-quoc.md",
       "created_at": "2026-04-16T08:00:00+07:00",
       "industry": "food_beverage",
@@ -633,7 +633,7 @@
     },
     {
       "id": "wereng-waspada-brown-planthopper-outbreak-alert-2026-04-17",
-      "title": "WerengWaspada \u2014 Brown Planthopper Outbreak Early Warning for Smallholder Rice Farmers in Klaten Regency",
+      "title": "WerengWaspada — Brown Planthopper Outbreak Early Warning for Smallholder Rice Farmers in Klaten Regency",
       "file": "2026-04-17_brown-planthopper-outbreak-early-warning-central-java.md",
       "created_at": "2026-04-17T08:00:00+07:00",
       "industry": "agriculture_farming",
@@ -648,7 +648,7 @@
     },
     {
       "id": "seaweed-heat-stress-alert-zamboanga-2026-04-18",
-      "title": "GusoPula \u2014 Sea Surface Temperature Stress Alert for Carrageenan Seaweed Farmers in Zamboanga Peninsula",
+      "title": "GusoPula — Sea Surface Temperature Stress Alert for Carrageenan Seaweed Farmers in Zamboanga Peninsula",
       "file": "2026-04-18_seaweed-heat-stress-alert-zamboanga-farmers.md",
       "created_at": "2026-04-18T08:00:00+08:00",
       "industry": "ocean_maritime",
@@ -664,7 +664,7 @@
     },
     {
       "id": "raw-fish-feast-bacterial-risk-scorer-isan-2026-04-19",
-      "title": "KoiCheck \u2014 Raw Fish Dish Bacterial Risk Scorer for Isan Village Feast Preparers",
+      "title": "KoiCheck — Raw Fish Dish Bacterial Risk Scorer for Isan Village Feast Preparers",
       "file": "2026-04-19_raw-fish-feast-bacterial-risk-scorer-isan.md",
       "created_at": "2026-04-19T08:00:00+07:00",
       "industry": "health_medical",
@@ -680,7 +680,7 @@
     },
     {
       "id": "bolaven-coffee-farmgate-price-transparency-checker-2026-04-20",
-      "title": "KhaKafe \u2014 Farmgate Price Transparency Checker for Bolaven Plateau Smallholder Coffee Growers",
+      "title": "KhaKafe — Farmgate Price Transparency Checker for Bolaven Plateau Smallholder Coffee Growers",
       "file": "2026-04-20_bolaven-coffee-farmgate-price-transparency-checker.md",
       "created_at": "2026-04-20T08:00:00+07:00",
       "industry": "finance_economics",
@@ -695,7 +695,7 @@
     },
     {
       "id": "ice-factory-power-outage-predictor-kampong-cham-2026-04-21",
-      "title": "TukKork \u2014 Power Outage Risk Predictor for Small Ice Factory Operators in Kampong Cham Province",
+      "title": "TukKork — Power Outage Risk Predictor for Small Ice Factory Operators in Kampong Cham Province",
       "file": "2026-04-21_ice-factory-power-outage-predictor-kampong-cham.md",
       "created_at": "2026-04-21T08:00:00+07:00",
       "industry": "energy_utilities",
@@ -710,7 +710,7 @@
     },
     {
       "id": "cheow-lan-longtail-boat-crossing-briefing-khao-sok-2026-04-22",
-      "title": "ChiewLanGo \u2014 Morning Boat-Crossing Go/No-Go Briefing for Cheow Lan Lake Longtail Operators in Khao Sok",
+      "title": "ChiewLanGo — Morning Boat-Crossing Go/No-Go Briefing for Cheow Lan Lake Longtail Operators in Khao Sok",
       "file": "2026-04-22_cheow-lan-longtail-boat-crossing-briefing-khao-sok.md",
       "created_at": "2026-04-22T08:02:09+07:00",
       "industry": "tourism_travel",
@@ -726,7 +726,7 @@
     },
     {
       "id": "amblesjkt-north-jakarta-sinking-zone-kampung-home-buyer-checker-2026-04-23",
-      "title": "AmblesJkt \u2014 Ground Subsidence & Flood Risk Checker for North Jakarta Kampung Home Buyers",
+      "title": "AmblesJkt — Ground Subsidence & Flood Risk Checker for North Jakarta Kampung Home Buyers",
       "file": "2026-04-23_north-jakarta-sinking-zone-kampung-home-buyer-checker.md",
       "created_at": "2026-04-23T08:02:42+07:00",
       "industry": "real_estate_urban",
@@ -743,7 +743,7 @@
     },
     {
       "id": "ngudoen-pak-thong-chai-snake-bite-risk-antivenin-finder-2026-04-24",
-      "title": "Ng\u016bDoen \u2014 Dawn Snake Activity & Antivenin Hospital Finder for Pak Thong Chai Cassava Smallholders",
+      "title": "NgūDoen — Dawn Snake Activity & Antivenin Hospital Finder for Pak Thong Chai Cassava Smallholders",
       "file": "2026-04-24_pak-thong-chai-snake-bite-risk-antivenin-finder.md",
       "created_at": "2026-04-24T08:00:00+07:00",
       "industry": "wildlife_biodiversity",
@@ -760,7 +760,7 @@
     },
     {
       "id": "bonarun-phnom-penh-pre-dawn-merit-circuit-2026-04-25",
-      "title": "BonArun \u2014 Pre-Dawn Merit-Making Pagoda Circuit Briefing for Elderly Phnom Penh Buddhist Women in Heat-Smog Season",
+      "title": "BonArun — Pre-Dawn Merit-Making Pagoda Circuit Briefing for Elderly Phnom Penh Buddhist Women in Heat-Smog Season",
       "file": "2026-04-25_pre-dawn-merit-pagoda-circuit-briefing-phnom-penh.md",
       "created_at": "2026-04-25T08:00:00+07:00",
       "industry": "culture_religion",
@@ -777,7 +777,7 @@
     },
     {
       "id": "hnamyay-magway-dry-zone-sesame-drought-window-tracker-2026-04-26",
-      "title": "HnamYay \u2014 Sesame Sowing-Window & Irrigation-Trigger Tracker for Magway Dry Zone Smallholders",
+      "title": "HnamYay — Sesame Sowing-Window & Irrigation-Trigger Tracker for Magway Dry Zone Smallholders",
       "file": "2026-04-26_magway-dry-zone-sesame-drought-window-tracker.md",
       "created_at": "2026-04-26T08:00:00+06:30",
       "industry": "disaster_emergency",
@@ -793,7 +793,7 @@
     },
     {
       "id": "penyu-gelap-cherating-hatchling-light-disorientation-briefing-2026-04-27",
-      "title": "PenyuGelap \u2014 Dark-Sky & Hatchling Disorientation Risk Briefing for Cherating Beach Sea Turtle Volunteer Rangers",
+      "title": "PenyuGelap — Dark-Sky & Hatchling Disorientation Risk Briefing for Cherating Beach Sea Turtle Volunteer Rangers",
       "file": "2026-04-27_cherating-beach-turtle-hatchling-light-disorientation-briefing.md",
       "created_at": "2026-04-27T08:00:00+08:00",
       "industry": "environment_ecology",
@@ -810,7 +810,7 @@
     },
     {
       "id": "asf-sell-signal-red-river-delta-pig-keepers-2026-04-28",
-      "title": "HeoCheck \u2014 African Swine Fever Early-Sale Signal for Red River Delta Backyard Pig Keepers",
+      "title": "HeoCheck — African Swine Fever Early-Sale Signal for Red River Delta Backyard Pig Keepers",
       "file": "2026-04-28_asf-sell-signal-red-river-delta-pig-keepers.md",
       "created_at": "2026-04-28T08:02:27+07:00",
       "industry": "agriculture_farming",
@@ -825,7 +825,7 @@
     },
     {
       "id": "tubbataha-reef-bleaching-thermal-stress-liveaboard-briefer-2026-04-29",
-      "title": "TubbaTemp \u2014 Tubbataha Reef Thermal Stress & Trip-Go Briefer for Palawan Liveaboard Operators",
+      "title": "TubbaTemp — Tubbataha Reef Thermal Stress & Trip-Go Briefer for Palawan Liveaboard Operators",
       "file": "2026-04-29_tubbataha-reef-bleaching-thermal-stress-liveaboard-briefer.md",
       "created_at": "2026-04-29T09:04:29+08:00",
       "industry": "ocean_maritime",
@@ -841,7 +841,7 @@
     },
     {
       "id": "burmese-sugarcane-wage-deduction-checker-kanchanaburi-2026-04-30",
-      "title": "LupaCheck \u2014 Burmese Migrant Wage-Deduction Compliance Checker for Kanchanaburi Sugarcane Piece-Rate Cutters",
+      "title": "LupaCheck — Burmese Migrant Wage-Deduction Compliance Checker for Kanchanaburi Sugarcane Piece-Rate Cutters",
       "file": "2026-04-30_burmese-sugarcane-wage-deduction-checker-kanchanaburi.md",
       "created_at": "2026-04-30T08:02:08+07:00",
       "industry": "labor_work",
@@ -856,7 +856,7 @@
     },
     {
       "id": "kei-islands-solar-cold-storage-roi-checker-2026-05-01",
-      "title": "SuryaEs \u2014 Solar-to-Ice Break-Even Checker for Remote Maluku Fish Cooperative Cold Storage",
+      "title": "SuryaEs — Solar-to-Ice Break-Even Checker for Remote Maluku Fish Cooperative Cold Storage",
       "file": "2026-05-01_kei-islands-solar-cold-storage-roi-checker.md",
       "created_at": "2026-05-01T08:02:43+07:00",
       "industry": "energy_utilities",
@@ -872,7 +872,7 @@
     },
     {
       "id": "kandal-arsenic-well-risk-estimator-cambodia-2026-05-02",
-      "title": "TikSaat \u2014 Tube Well Arsenic Risk Estimator for Kandal Province Mekong Floodplain Families",
+      "title": "TikSaat — Tube Well Arsenic Risk Estimator for Kandal Province Mekong Floodplain Families",
       "file": "2026-05-02_kandal-arsenic-well-risk-estimator-cambodia.md",
       "created_at": "2026-05-02T08:02:56+07:00",
       "industry": "health_medical",
@@ -887,7 +887,7 @@
     },
     {
       "id": "xieng-khouang-uxo-soil-saturation-risk-briefer-2026-05-03",
-      "title": "ThongPod \u2014 Soil-Saturation & UXO Surface-Risk Briefer for Xieng Khouang Farmers Clearing Uncertified Land",
+      "title": "ThongPod — Soil-Saturation & UXO Surface-Risk Briefer for Xieng Khouang Farmers Clearing Uncertified Land",
       "file": "2026-05-03_xieng-khouang-uxo-soil-saturation-risk-briefer.md",
       "created_at": "2026-05-03T08:02:40+07:00",
       "industry": "defense_security",
@@ -903,7 +903,7 @@
     },
     {
       "id": "hue-flood-route-briefer-xe-om-riders-2026-05-04",
-      "title": "Ng\u1eadpHu\u1ebf \u2014 Flood Route Briefer for Hue City Motorbike Riders During Typhoon Season",
+      "title": "NgậpHuế — Flood Route Briefer for Hue City Motorbike Riders During Typhoon Season",
       "file": "2026-05-04_hue-flood-route-briefer-xe-om-riders.md",
       "created_at": "2026-05-04T08:00:00+07:00",
       "industry": "transportation_mobility",
@@ -920,7 +920,7 @@
     },
     {
       "id": "khao-dinsor-raptor-migration-wind-score-birding-guides-2026-05-06",
-      "title": "HiaoLom \u2014 Raptor Migration Wind-Score Briefer for Khao Dinsor Birding Guides",
+      "title": "HiaoLom — Raptor Migration Wind-Score Briefer for Khao Dinsor Birding Guides",
       "file": "2026-05-06_khao-dinsor-raptor-migration-wind-score-birding-guides.md",
       "created_at": "2026-05-06T08:03:21+07:00",
       "industry": "wildlife_biodiversity",
@@ -935,7 +935,7 @@
     },
     {
       "id": "irrawaddy-delta-cyclone-window-checker-longtail-fishers-2026-05-05",
-      "title": "NagaNet \u2014 Bay of Bengal Cyclone-Window Checker for Irrawaddy Delta Small-Boat Fishers",
+      "title": "NagaNet — Bay of Bengal Cyclone-Window Checker for Irrawaddy Delta Small-Boat Fishers",
       "file": "2026-05-05_irrawaddy-delta-cyclone-window-checker-longtail-fishers.md",
       "created_at": "2026-05-05T08:00:00+07:00",
       "industry": "disaster_emergency",
@@ -951,7 +951,7 @@
     },
     {
       "id": "kampot-pepper-drying-window-hold-vs-sell-briefer-2026-05-08",
-      "title": "BuolMrech \u2014 Kampot Pepper Drying-Window & Hold-vs-Sell Briefer for Smallholder Growers in Kampot Province",
+      "title": "BuolMrech — Kampot Pepper Drying-Window & Hold-vs-Sell Briefer for Smallholder Growers in Kampot Province",
       "file": "2026-05-08_kampot-pepper-drying-window-hold-vs-sell-briefer.md",
       "created_at": "2026-05-08T08:03:22+07:00",
       "industry": "finance_economics",
@@ -966,7 +966,7 @@
     },
     {
       "id": "nueva-ecija-palay-warehouse-vent-humidity-briefer-2026-05-07",
-      "title": "HanginCheck \u2014 Warehouse Vent Timing Briefer for Nueva Ecija Palay Consolidators",
+      "title": "HanginCheck — Warehouse Vent Timing Briefer for Nueva Ecija Palay Consolidators",
       "file": "2026-05-07_nueva-ecija-palay-warehouse-vent-humidity-briefer.md",
       "created_at": "2026-05-07T08:01:16+07:00",
       "industry": "agriculture_farming",
@@ -981,7 +981,7 @@
     },
     {
       "id": "sarawak-pepper-haze-break-drying-window-2026-05-09",
-      "title": "JerebuLada \u2014 Haze-Break Drying Window Alert for Sarawak Black Pepper Smallholders",
+      "title": "JerebuLada — Haze-Break Drying Window Alert for Sarawak Black Pepper Smallholders",
       "file": "2026-05-09_sarawak-pepper-haze-break-drying-window.md",
       "created_at": "2026-05-09T08:02:01+07:00",
       "industry": "disaster_emergency",
@@ -996,7 +996,7 @@
     },
     {
       "id": "temple-fair-circuit-weather-planner-central-thailand-2026-05-10",
-      "title": "NgaanWat \u2014 Temple Fair Circuit Weather Planner for Traveling Stall Vendors in Central Thailand",
+      "title": "NgaanWat — Temple Fair Circuit Weather Planner for Traveling Stall Vendors in Central Thailand",
       "file": "2026-05-10_temple-fair-circuit-weather-planner-central-thailand.md",
       "created_at": "2026-05-10T08:02:26+07:00",
       "industry": "culture_religion",
@@ -1012,7 +1012,7 @@
     },
     {
       "id": "mekong-delta-golden-apple-snail-transplant-window-2026-05-11",
-      "title": "\u00d3cB\u01b0\u1edbu \u2014 Golden Apple Snail Risk Window Briefer for \u0110\u1ed3ng Th\u00e1p L\u00faa-C\u00e1 Farmers",
+      "title": "ÓcBướu — Golden Apple Snail Risk Window Briefer for Đồng Tháp Lúa-Cá Farmers",
       "file": "2026-05-11_mekong-delta-golden-apple-snail-transplant-window.md",
       "created_at": "2026-05-11T08:02:47+07:00",
       "industry": "environment_ecology",
@@ -1028,7 +1028,7 @@
     },
     {
       "id": "lingayen-gulf-bangus-fry-tide-window-briefer-2026-05-13",
-      "title": "KawagSig \u2014 Tidal Fry-Window Briefer for Lingayen Gulf Bangus Sudsod Catchers",
+      "title": "KawagSig — Tidal Fry-Window Briefer for Lingayen Gulf Bangus Sudsod Catchers",
       "file": "2026-05-13_lingayen-gulf-bangus-fry-tide-window-briefer.md",
       "created_at": "2026-05-13T09:01:32+08:00",
       "industry": "ocean_maritime",
@@ -1043,7 +1043,7 @@
     },
     {
       "id": "banda-neira-nutmeg-drying-sell-window-app-2026-05-12",
-      "title": "PalaSaat \u2014 Nutmeg Drying-Window & Sell-Signal Briefer for Banda Neira Smallholder Pala Growers",
+      "title": "PalaSaat — Nutmeg Drying-Window & Sell-Signal Briefer for Banda Neira Smallholder Pala Growers",
       "file": "2026-05-12_banda-neira-nutmeg-drying-sell-window-app.md",
       "created_at": "2026-05-12T08:00:00+07:00",
       "industry": "food_beverage",
@@ -1059,7 +1059,7 @@
     },
     {
       "id": "hpakant-jade-slope-seismic-safety-briefer-2026-05-14",
-      "title": "TaungYin \u2014 Seismic & Rain-Saturation Slope Alert for Hpakant Zaw-Ga Jade Scavengers",
+      "title": "TaungYin — Seismic & Rain-Saturation Slope Alert for Hpakant Zaw-Ga Jade Scavengers",
       "file": "2026-05-14_hpakant-jade-slope-seismic-safety-briefer.md",
       "created_at": "2026-05-14T08:02:38+07:00",
       "industry": "disaster_emergency",
@@ -1075,7 +1075,7 @@
     },
     {
       "id": "temanggung-tobacco-irrigation-cutoff-timer-2026-05-16",
-      "title": "TembakauCut \u2014 Pre-Harvest Irrigation Cutoff Timer for Temanggung Virginia Tobacco Smallholders",
+      "title": "TembakauCut — Pre-Harvest Irrigation Cutoff Timer for Temanggung Virginia Tobacco Smallholders",
       "file": "2026-05-16_temanggung-tobacco-irrigation-cutoff-timer.md",
       "created_at": "2026-05-16T08:02:00+07:00",
       "industry": "agriculture_farming",
@@ -1091,7 +1091,7 @@
     },
     {
       "id": "malaria-dusk-bite-risk-alert-tak-border-karen-workers-2026-05-15",
-      "title": "KhobKhai \u2014 Dusk Malaria Bite-Risk Alert for Karen Migrant Day-Laborers on the Tak Province Border Corridor",
+      "title": "KhobKhai — Dusk Malaria Bite-Risk Alert for Karen Migrant Day-Laborers on the Tak Province Border Corridor",
       "file": "2026-05-15_malaria-dusk-bite-risk-alert-tak-border-karen-workers.md",
       "created_at": "2026-05-15T08:00:00+07:00",
       "industry": "health_medical",
@@ -1105,7 +1105,7 @@
     },
     {
       "id": "coron-plastic-debris-current-briefer-eco-boat-2026-05-17",
-      "title": "BasurAgos \u2014 Plastic Debris Current Briefer for Coron Eco-Boat Operators",
+      "title": "BasurAgos — Plastic Debris Current Briefer for Coron Eco-Boat Operators",
       "file": "2026-05-17_coron-plastic-debris-current-briefer-eco-boat.md",
       "created_at": "2026-05-17T08:03:16+07:00",
       "industry": "environment_ecology",
@@ -1121,7 +1121,7 @@
     },
     {
       "id": "moc-bai-bavet-border-crossing-briefer-traders-2026-05-18",
-      "title": "QL22Check \u2014 Daily Border-Crossing Risk Briefer for Moc Bai\u2013Bavet Informal Cross-Border Traders",
+      "title": "QL22Check — Daily Border-Crossing Risk Briefer for Moc Bai–Bavet Informal Cross-Border Traders",
       "file": "2026-05-18_moc-bai-bavet-border-crossing-briefer-traders.md",
       "created_at": "2026-05-18T08:00:00+07:00",
       "industry": "transportation_mobility",
@@ -1136,7 +1136,7 @@
     },
     {
       "id": "savannakhet-kip-baht-margin-alert-cross-border-merchants-2026-05-19",
-      "title": "KipTon \u2014 Lao Kip Daily Margin-Alert for Savannakhet Cross-Border Goods Merchants",
+      "title": "KipTon — Lao Kip Daily Margin-Alert for Savannakhet Cross-Border Goods Merchants",
       "file": "2026-05-19_savannakhet-kip-baht-margin-alert-cross-border-merchants.md",
       "created_at": "2026-05-19T08:00:00+07:00",
       "industry": "finance_economics",
@@ -1151,7 +1151,7 @@
     },
     {
       "id": "chiang-mai-highland-herb-arrival-forecast-traditional-medicine-2026-05-21",
-      "title": "YaDoi \u2014 Highland Herb Arrival Forecast for Chiang Mai Warorot Market Traditional Medicine Vendors",
+      "title": "YaDoi — Highland Herb Arrival Forecast for Chiang Mai Warorot Market Traditional Medicine Vendors",
       "file": "2026-05-21_chiang-mai-highland-herb-arrival-forecast-traditional-medicine.md",
       "created_at": "2026-05-21T08:00:00+07:00",
       "industry": "health_medical",
@@ -1167,7 +1167,7 @@
     },
     {
       "id": "garment-factory-heat-faint-risk-monitor-phnom-penh-2026-05-22",
-      "title": "RonDoul \u2014 Garment Factory Heat-Faint Risk Monitor for Phnom Penh SEZ Occupational Health Workers",
+      "title": "RonDoul — Garment Factory Heat-Faint Risk Monitor for Phnom Penh SEZ Occupational Health Workers",
       "file": "2026-05-22_garment-factory-heat-faint-risk-monitor-phnom-penh.md",
       "created_at": "2026-05-22T08:00:55+07:00",
       "industry": "labor_work",
@@ -1182,7 +1182,7 @@
     },
     {
       "id": "nias-lpg-ferry-crossing-window-tracker-warung-2026-05-20",
-      "title": "TabungTiba \u2014 LPG Ferry Crossing Window Tracker for Nias Island Warung Owners",
+      "title": "TabungTiba — LPG Ferry Crossing Window Tracker for Nias Island Warung Owners",
       "file": "2026-05-20_nias-lpg-ferry-crossing-window-tracker-warung.md",
       "created_at": "2026-05-20T08:02:24+07:00",
       "industry": "energy_utilities",
@@ -1198,7 +1198,7 @@
     },
     {
       "id": "siargao-typhoon-gap-window-briefer-surf-guesthouses-2026-05-23",
-      "title": "GintangCast \u2014 Typhoon-Season Gap Forecaster for Siargao Surf Guesthouse Owners",
+      "title": "GintangCast — Typhoon-Season Gap Forecaster for Siargao Surf Guesthouse Owners",
       "file": "2026-05-23_siargao-typhoon-gap-window-briefer-surf-guesthouses.md",
       "created_at": "2026-05-23T08:02:37+07:00",
       "industry": "tourism_travel",
@@ -1214,7 +1214,7 @@
     },
     {
       "id": "hutan-jaga-dayak-forest-fire-hotspot-alert-kalimantan-2026-05-24",
-      "title": "HutanJaga \u2014 Satellite Fire-Hotspot Boundary Alert Bot for Dayak Adat Forest Community Rangers in East Kalimantan",
+      "title": "HutanJaga — Satellite Fire-Hotspot Boundary Alert Bot for Dayak Adat Forest Community Rangers in East Kalimantan",
       "file": "2026-05-24_hutan-jaga-dayak-forest-fire-hotspot-alert-kalimantan.md",
       "created_at": "2026-05-24T08:00:00+07:00",
       "industry": "environment_ecology",
@@ -1231,7 +1231,7 @@
     },
     {
       "id": "bang-pakong-salt-front-irrigation-warning-chachoengsao-2026-06-03",
-      "title": "PakKem \u2014 Bang Pakong Tidal Salt Front Irrigation Warning for Chachoengsao Riverside Vegetable Farmers",
+      "title": "PakKem — Bang Pakong Tidal Salt Front Irrigation Warning for Chachoengsao Riverside Vegetable Farmers",
       "file": "2026-06-03_bang-pakong-salt-front-irrigation-warning-chachoengsao.md",
       "created_at": "2026-06-03T08:00:00+07:00",
       "industry": "agriculture_farming",
@@ -1247,7 +1247,7 @@
     },
     {
       "id": "vsla-kyat-inflation-guard-ayeyarwady-delta-myanmar-2026-06-04",
-      "title": "PonYin \u2014 VSLA Share-Value Inflation Guard for Ayeyarwady Delta Women's Rotating Savings Groups",
+      "title": "PonYin — VSLA Share-Value Inflation Guard for Ayeyarwady Delta Women's Rotating Savings Groups",
       "file": "2026-06-04_vsla-kyat-inflation-guard-ayeyarwady-delta-myanmar.md",
       "created_at": "2026-06-04T08:00:00+06:30",
       "industry": "finance_economics",
@@ -1262,7 +1262,7 @@
     },
     {
       "id": "dong-nai-factory-discharge-alert-cage-catfish-farmers-2026-05-27",
-      "title": "C\u00e1B\u00e1o \u2014 Pre-Monsoon Factory Discharge Risk Alerter for \u0110\u1ed3ng Nai River Cage Catfish Farmers",
+      "title": "CáBáo — Pre-Monsoon Factory Discharge Risk Alerter for Đồng Nai River Cage Catfish Farmers",
       "file": "2026-05-27_dong-nai-factory-discharge-alert-cage-catfish-farmers.md",
       "created_at": "2026-05-27T08:03:15+07:00",
       "industry": "disaster_emergency",
@@ -1279,7 +1279,7 @@
     },
     {
       "id": "sulu-sea-piracy-risk-briefer-cargo-pumpboat-operators-2026-06-05",
-      "title": "SuluVigil \u2014 Daily Maritime Robbery Risk Briefer for Tawi-Tawi Cargo Pumpboat Operators",
+      "title": "SuluVigil — Daily Maritime Robbery Risk Briefer for Tawi-Tawi Cargo Pumpboat Operators",
       "file": "2026-06-05_sulu-sea-piracy-risk-briefer-cargo-pumpboat-operators.md",
       "created_at": "2026-06-05T09:01:49+08:00",
       "industry": "defense_security",
@@ -1295,7 +1295,7 @@
     },
     {
       "id": "ca-mau-shrimp-pond-ems-disease-risk-zalo-briefer-2026-06-06",
-      "title": "T\u00f4mAn \u2014 EMS & White Spot Daily Risk Briefer for C\u00e0 Mau Vannamei Shrimp Pond Farmers",
+      "title": "TômAn — EMS & White Spot Daily Risk Briefer for Cà Mau Vannamei Shrimp Pond Farmers",
       "file": "2026-06-06_ca-mau-shrimp-pond-ems-disease-risk-zalo-briefer.md",
       "created_at": "2026-06-06T08:01:52+07:00",
       "industry": "ocean_maritime",
@@ -1311,7 +1311,7 @@
     },
     {
       "id": "doi-clear-highland-truck-dawn-fog-departure-briefer-2026-06-07",
-      "title": "DoiClear \u2014 Dawn Mountain Fog Departure Briefer for Chiang Mai Highland Produce Truck Drivers",
+      "title": "DoiClear — Dawn Mountain Fog Departure Briefer for Chiang Mai Highland Produce Truck Drivers",
       "file": "2026-06-07_doi-clear-highland-truck-dawn-fog-departure-briefer.md",
       "created_at": "2026-06-07T08:00:00+07:00",
       "industry": "transportation_mobility",
@@ -1326,7 +1326,7 @@
     },
     {
       "id": "overnight-heat-spoilage-alert-medan-bataknese-pork-vendors-2026-06-08",
-      "title": "SaksamCek \u2014 Overnight Heat Spoilage Alert for Bataknese Pork Vendors at Medan's Dawn Markets",
+      "title": "SaksamCek — Overnight Heat Spoilage Alert for Bataknese Pork Vendors at Medan's Dawn Markets",
       "file": "2026-06-08_overnight-heat-spoilage-alert-medan-bataknese-pork-vendors.md",
       "created_at": "2026-06-08T08:02:06+07:00",
       "industry": "food_beverage",
@@ -1341,7 +1341,7 @@
     },
     {
       "id": "nat-kadaw-shrine-circuit-travel-briefer-mandalay-2026-06-09",
-      "title": "NatYaung \u2014 Shrine-Circuit Travel Briefer for Mandalay Nat Kadaw Spirit Mediums",
+      "title": "NatYaung — Shrine-Circuit Travel Briefer for Mandalay Nat Kadaw Spirit Mediums",
       "file": "2026-06-09_nat-kadaw-shrine-circuit-travel-briefer-mandalay.md",
       "created_at": "2026-06-09T08:00:00+06:30",
       "industry": "culture_religion",
@@ -1356,7 +1356,7 @@
     },
     {
       "id": "baac-crop-insurance-trigger-tracker-surin-jasmine-rice-2026-06-11",
-      "title": "FonKrop \u2014 Rainfall Deficit & BAAC Insurance-Trigger Tracker for Surin Jasmine Rice Policyholders",
+      "title": "FonKrop — Rainfall Deficit & BAAC Insurance-Trigger Tracker for Surin Jasmine Rice Policyholders",
       "file": "2026-06-11_baac-crop-insurance-trigger-tracker-surin-jasmine-rice.md",
       "created_at": "2026-06-11T08:00:00+07:00",
       "industry": "agriculture_farming",
@@ -1372,7 +1372,7 @@
     },
     {
       "id": "passport-hold-heat-rights-checker-sabah-bangladeshi-workers-2026-06-10",
-      "title": "PassporKu \u2014 Passport-Hold & Heat-Stress Rights Checker for Bangladeshi Palm Oil Estate Workers in Sabah",
+      "title": "PassporKu — Passport-Hold & Heat-Stress Rights Checker for Bangladeshi Palm Oil Estate Workers in Sabah",
       "file": "2026-06-10_passport-hold-heat-rights-checker-sabah-bangladeshi-workers.md",
       "created_at": "2026-06-10T08:00:00+08:00",
       "industry": "labor_work",
@@ -1387,7 +1387,7 @@
     },
     {
       "id": "rambu-jadwal-ceremony-planner-torajan-diaspora-jakarta-2026-06-13",
-      "title": "TondokKabar \u2014 Rambu Solo Ceremony Calendar & Dry-Season Window Briefer for Torajan Diaspora Workers Planning Return",
+      "title": "TondokKabar — Rambu Solo Ceremony Calendar & Dry-Season Window Briefer for Torajan Diaspora Workers Planning Return",
       "file": "2026-06-13_rambu-jadwal-ceremony-planner-torajan-diaspora-jakarta.md",
       "created_at": "2026-06-13T08:03:00+07:00",
       "industry": "culture_religion",
@@ -1402,7 +1402,7 @@
     },
     {
       "id": "sihanoukville-ghost-tower-debris-risk-shadow-renters-2026-06-12",
-      "title": "ItThleak \u2014 Ghost Tower Storm-Debris Risk Briefer for Sihanoukville's Shadow-Zone Renters",
+      "title": "ItThleak — Ghost Tower Storm-Debris Risk Briefer for Sihanoukville's Shadow-Zone Renters",
       "file": "2026-06-12_sihanoukville-ghost-tower-debris-risk-shadow-renters.md",
       "created_at": "2026-06-12T08:02:53+07:00",
       "industry": "real_estate_urban",
@@ -1417,7 +1417,7 @@
     },
     {
       "id": "mindanao-durian-truck-highway-washout-briefer-2026-06-14",
-      "title": "DuryanDaan \u2014 Pre-Dawn Road Washout & Fog Risk Briefer for Mindanao Durian Cargo Truck Drivers on Sayre Highway",
+      "title": "DuryanDaan — Pre-Dawn Road Washout & Fog Risk Briefer for Mindanao Durian Cargo Truck Drivers on Sayre Highway",
       "file": "2026-06-14_mindanao-durian-truck-highway-washout-briefer.md",
       "created_at": "2026-06-14T08:03:14+07:00",
       "industry": "transportation_mobility",
@@ -1433,7 +1433,7 @@
     },
     {
       "id": "wildlife-trade-intercept-species-id-lang-son-border-2026-06-15",
-      "title": "NgheR\u1eebng \u2014 Wildlife Trade Tip & Species ID Bot for ENV Rapid Responders at Northern Vietnam Border Checkpoints",
+      "title": "NgheRừng — Wildlife Trade Tip & Species ID Bot for ENV Rapid Responders at Northern Vietnam Border Checkpoints",
       "file": "2026-06-15_wildlife-trade-intercept-species-id-lang-son-border.md",
       "created_at": "2026-06-15T08:00:00+07:00",
       "industry": "wildlife_biodiversity",
@@ -1448,7 +1448,7 @@
     },
     {
       "id": "simeulue-seismic-departure-briefer-fishing-captains-2026-06-17",
-      "title": "SmongWatch \u2014 Pre-Dawn Seismic & Swell Departure Briefer for Simeulue Island Fishing Boat Captains",
+      "title": "SmongWatch — Pre-Dawn Seismic & Swell Departure Briefer for Simeulue Island Fishing Boat Captains",
       "file": "2026-06-17_simeulue-seismic-departure-briefer-fishing-captains.md",
       "created_at": "2026-06-17T08:03:36+07:00",
       "industry": "ocean_maritime",
@@ -1463,7 +1463,7 @@
     },
     {
       "id": "mun-river-rise-alert-riverside-market-vendors-ubon-2026-06-16",
-      "title": "KhunMun \u2014 Upstream Flood-Rise Alert for Ubon Ratchathani Mun River Night Market Vendors",
+      "title": "KhunMun — Upstream Flood-Rise Alert for Ubon Ratchathani Mun River Night Market Vendors",
       "file": "2026-06-16_mun-river-rise-alert-riverside-market-vendors-ubon.md",
       "created_at": "2026-06-16T08:02:00+07:00",
       "industry": "disaster_emergency",
@@ -1477,7 +1477,7 @@
     },
     {
       "id": "tabon-karbon-palawan-carbon-credit-fire-watch-2026-06-18",
-      "title": "TabonKarbon \u2014 REDD+ Fire-Watch & Payout Readiness Tracker for Southern Palawan Tagbanua Forest Guardians",
+      "title": "TabonKarbon — REDD+ Fire-Watch & Payout Readiness Tracker for Southern Palawan Tagbanua Forest Guardians",
       "file": "2026-06-18_tabon-karbon-palawan-carbon-credit-fire-watch.md",
       "created_at": "2026-06-18T08:02:00+08:00",
       "industry": "energy_utilities",
@@ -1493,7 +1493,7 @@
     },
     {
       "id": "klang-valley-domestic-worker-rest-day-rights-tracker-2026-06-19",
-      "title": "LiburKu \u2014 Rest Day & Overtime Rights Tracker for Indonesian Domestic Workers in Malaysia's Klang Valley",
+      "title": "LiburKu — Rest Day & Overtime Rights Tracker for Indonesian Domestic Workers in Malaysia's Klang Valley",
       "file": "2026-06-19_klang-valley-domestic-worker-rest-day-rights-tracker.md",
       "created_at": "2026-06-19T08:02:18+07:00",
       "industry": "labor_work",
@@ -1508,7 +1508,7 @@
     },
     {
       "id": "siangnaam-nt2-resettlement-flood-evacuation-timer-khammouane-2026-06-20",
-      "title": "SiangNam \u2014 NT2 Dam-Surge Evacuation Timer for Khammouane Resettlement Village Headmen",
+      "title": "SiangNam — NT2 Dam-Surge Evacuation Timer for Khammouane Resettlement Village Headmen",
       "file": "2026-06-20_siangnaam-nt2-resettlement-flood-evacuation-timer-khammouane.md",
       "created_at": "2026-06-20T08:04:00+07:00",
       "industry": "disaster_emergency",
@@ -1524,7 +1524,7 @@
     },
     {
       "id": "sahhala-cicot-halal-ingredient-checker-hatyai-food-vendors-2026-06-21",
-      "title": "SahHalal \u2014 CICOT Ingredient Certification Validator for Hat Yai Muslim Food Stall Operators Serving Malaysian Cross-Border Tourists",
+      "title": "SahHalal — CICOT Ingredient Certification Validator for Hat Yai Muslim Food Stall Operators Serving Malaysian Cross-Border Tourists",
       "file": "2026-06-21_sahhala-cicot-halal-ingredient-checker-hatyai-food-vendors.md",
       "created_at": "2026-06-21T08:02:21+07:00",
       "industry": "food_beverage",
@@ -1539,7 +1539,7 @@
     },
     {
       "id": "nam-son-landfill-waste-picker-fume-exposure-planner-2026-06-22",
-      "title": "Nh\u1eb7tL\u00e0nh \u2014 Hourly Fume-Exposure Window Planner for Nam S\u01a1n Landfill Waste Pickers",
+      "title": "NhặtLành — Hourly Fume-Exposure Window Planner for Nam Sơn Landfill Waste Pickers",
       "file": "2026-06-22_nam-son-landfill-waste-picker-fume-exposure-planner.md",
       "created_at": "2026-06-22T08:03:47+07:00",
       "industry": "health_medical",
@@ -1555,7 +1555,7 @@
     },
     {
       "id": "palembang-ojol-post-rain-surge-window-alert-2026-06-23",
-      "title": "JedaHujan \u2014 Post-Rain Surge Window Alert for Palembang GoJek & Grab Food Delivery Riders",
+      "title": "JedaHujan — Post-Rain Surge Window Alert for Palembang GoJek & Grab Food Delivery Riders",
       "file": "2026-06-23_palembang-ojol-post-rain-surge-window-alert.md",
       "created_at": "2026-06-23T08:02:00+07:00",
       "industry": "labor_work",
@@ -1570,7 +1570,7 @@
     },
     {
       "id": "agno-river-mine-tailings-spill-alert-pangasinan-rice-farmers-2026-06-24",
-      "title": "IlogBantay \u2014 Agno River Mine-Spill Risk Alerter for Pangasinan Smallholder Rice Farmers",
+      "title": "IlogBantay — Agno River Mine-Spill Risk Alerter for Pangasinan Smallholder Rice Farmers",
       "file": "2026-06-24_agno-river-mine-tailings-spill-alert-pangasinan-rice-farmers.md",
       "created_at": "2026-06-24T08:03:01+07:00",
       "industry": "environment_ecology",
@@ -1586,7 +1586,7 @@
     },
     {
       "id": "wan-phra-pork-demand-planner-isan-dawn-market-2026-06-25",
-      "title": "WanMoo \u2014 Buddhist Holy-Day Demand Planner for Isan Talat Naed Fresh Pork Stall Operators",
+      "title": "WanMoo — Buddhist Holy-Day Demand Planner for Isan Talat Naed Fresh Pork Stall Operators",
       "file": "2026-06-25_wan-phra-pork-demand-planner-isan-dawn-market.md",
       "created_at": "2026-06-25T08:02:00+07:00",
       "industry": "culture_religion",
@@ -1601,7 +1601,7 @@
     },
     {
       "id": "da-lat-vietgap-pesticide-drift-risk-alerter-2026-06-26",
-      "title": "H\u01b0\u1edbngGi\u00f3 \u2014 Pesticide Drift-Risk Window Alerter for \u0110\u00e0 L\u1ea1t VietGAP-Certified Vegetable Farmers",
+      "title": "HướngGió — Pesticide Drift-Risk Window Alerter for Đà Lạt VietGAP-Certified Vegetable Farmers",
       "file": "2026-06-26_da-lat-vietgap-pesticide-drift-risk-alerter.md",
       "created_at": "2026-06-26T08:02:00+07:00",
       "industry": "agriculture_farming",
@@ -1616,7 +1616,7 @@
     },
     {
       "id": "kampong-thom-melioidosis-soil-exposure-risk-briefer-2026-06-27",
-      "title": "PrakDey \u2014 Monsoon Soil-Exposure Risk Briefer for Kampong Thom Barefoot Rice Farmers",
+      "title": "PrakDey — Monsoon Soil-Exposure Risk Briefer for Kampong Thom Barefoot Rice Farmers",
       "file": "2026-06-27_kampong-thom-melioidosis-soil-exposure-risk-briefer.md",
       "created_at": "2026-06-27T08:03:00+07:00",
       "industry": "health_medical",
@@ -1632,7 +1632,7 @@
     },
     {
       "id": "bagan-horse-cart-heat-rain-window-briefer-2026-06-28",
-      "title": "HleSaung \u2014 Heat & Rain Window Briefer for Bagan Licensed Horse Carriage Operators",
+      "title": "HleSaung — Heat & Rain Window Briefer for Bagan Licensed Horse Carriage Operators",
       "file": "2026-06-28_bagan-horse-cart-heat-rain-window-briefer.md",
       "created_at": "2026-06-28T08:00:00+06:30",
       "industry": "transportation_mobility",
@@ -1647,7 +1647,7 @@
     },
     {
       "id": "huai-kha-khaeng-snare-night-poaching-pressure-patrol-briefer-2026-06-29",
-      "title": "YamKhuen \u2014 Snare-Night Poaching Pressure Index for Huai Kha Khaeng Buffer Zone Volunteer Patrol Coordinators",
+      "title": "YamKhuen — Snare-Night Poaching Pressure Index for Huai Kha Khaeng Buffer Zone Volunteer Patrol Coordinators",
       "file": "2026-06-29_huai-kha-khaeng-snare-night-poaching-pressure-patrol-briefer.md",
       "created_at": "2026-06-29T08:04:30+07:00",
       "industry": "wildlife_biodiversity",
@@ -1662,7 +1662,7 @@
     },
     {
       "id": "natuna-trawler-density-fisher-departure-briefer-2026-06-30",
-      "title": "MataLaut \u2014 Industrial Trawler Activity Briefer for Natuna Islands Handline Fishermen",
+      "title": "MataLaut — Industrial Trawler Activity Briefer for Natuna Islands Handline Fishermen",
       "file": "2026-06-30_natuna-trawler-density-fisher-departure-briefer.md",
       "created_at": "2026-06-30T08:02:50+07:00",
       "industry": "ocean_maritime",
@@ -1677,7 +1677,7 @@
     },
     {
       "id": "khmer-rouge-circuit-road-briefer-siem-reap-tuktuks-2026-07-01",
-      "title": "PhlauVeng \u2014 Khmer Rouge Circuit Road & Flood Briefer for Siem Reap Dark History Tuk-Tuk Guides",
+      "title": "PhlauVeng — Khmer Rouge Circuit Road & Flood Briefer for Siem Reap Dark History Tuk-Tuk Guides",
       "file": "2026-07-01_khmer-rouge-circuit-road-briefer-siem-reap-tuktuks.md",
       "created_at": "2026-07-01T08:05:00+07:00",
       "industry": "tourism_travel",
@@ -1693,7 +1693,7 @@
     },
     {
       "id": "samal-bridge-land-offer-fairness-checker-coastal-families-2026-07-02",
-      "title": "YutaBantay \u2014 Samal Island Land-Offer Fairness Checker for Coastal Families Facing Bridge-Era Developer Pressure",
+      "title": "YutaBantay — Samal Island Land-Offer Fairness Checker for Coastal Families Facing Bridge-Era Developer Pressure",
       "file": "2026-07-02_samal-bridge-land-offer-fairness-checker-coastal-families.md",
       "created_at": "2026-07-02T08:02:13+07:00",
       "industry": "finance_economics",
@@ -1709,7 +1709,7 @@
     },
     {
       "id": "daenfao-ta-muen-thom-border-briefer-2026-08-13",
-      "title": "DaenFao \u2014 Daily Access Safety Briefer for Prasat Ta Muen Thom Border-Corridor Smallholders",
+      "title": "DaenFao — Daily Access Safety Briefer for Prasat Ta Muen Thom Border-Corridor Smallholders",
       "file": "2026-08-13_ta-muen-thom-border-access-safety-briefer.md",
       "created_at": "2026-08-13T08:02:12+07:00",
       "industry": "defense_security",
@@ -1724,7 +1724,7 @@
     },
     {
       "id": "pasanya-kaeng-krachan-boundary-checker-2026-08-14",
-      "title": "PaSanya \u2014 Forest Reserve Boundary Overlap Checker for Kaeng Krachan Karen Swidden Farmers",
+      "title": "PaSanya — Forest Reserve Boundary Overlap Checker for Kaeng Krachan Karen Swidden Farmers",
       "file": "2026-08-14_kaeng-krachan-forest-boundary-overlap-checker.md",
       "created_at": "2026-08-14T08:03:08+07:00",
       "industry": "real_estate_urban",
@@ -1739,7 +1739,7 @@
     },
     {
       "id": "kham-fak-ranong-kawthaung-visa-run-briefer-2026-08-15",
-      "title": "KhamFak \u2014 Ranong\u2013Kawthaung Border Run Go/No-Go Briefer for Thailand's Grey-Market Visa Runners",
+      "title": "KhamFak — Ranong–Kawthaung Border Run Go/No-Go Briefer for Thailand's Grey-Market Visa Runners",
       "file": "2026-08-15_ranong-kawthaung-visa-run-crossing-briefer.md",
       "created_at": "2026-08-15T08:10:00+07:00",
       "industry": "tourism_travel",
@@ -1755,7 +1755,7 @@
     },
     {
       "id": "solar-desa-pantar-genset-2026-08-16",
-      "title": "SolarDesa \u2014 Nightly Diesel Run-Time & Fuel-Buy Calculator for Pantar Island's Off-Grid Village Genset Operators",
+      "title": "SolarDesa — Nightly Diesel Run-Time & Fuel-Buy Calculator for Pantar Island's Off-Grid Village Genset Operators",
       "file": "2026-08-16_pantar-island-village-genset-fuel-ledger.md",
       "created_at": "2026-08-16T08:02:45+07:00",
       "industry": "energy_utilities",
@@ -1770,7 +1770,7 @@
     },
     {
       "id": "sekatkl-kuala-lumpur-rally-closure-briefer-2026-08-17",
-      "title": "SekatKL \u2014 Daily Rally & Road-Closure Income-Loss Briefer for Kuala Lumpur E-Hailing Riders and Dataran Merdeka Hawkers",
+      "title": "SekatKL — Daily Rally & Road-Closure Income-Loss Briefer for Kuala Lumpur E-Hailing Riders and Dataran Merdeka Hawkers",
       "file": "2026-08-17_kl-rally-road-closure-income-loss-briefer.md",
       "created_at": "2026-08-17T08:05:38+07:00",
       "industry": "defense_security",
@@ -1786,7 +1786,7 @@
     },
     {
       "id": "dmk-flight-noise-renter-checker-2026-08-18",
-      "title": "FlightPath Sikan \u2014 Real-Time Flight Noise Exposure Checker for Don Mueang-Area Renters",
+      "title": "FlightPath Sikan — Real-Time Flight Noise Exposure Checker for Don Mueang-Area Renters",
       "file": "2026-08-18_don-mueang-flight-noise-renter-checker.md",
       "created_at": "2026-08-18T08:02:37+07:00",
       "industry": "real_estate_urban",
@@ -1801,7 +1801,7 @@
     },
     {
       "id": "setkyar-lann-hukawng-valley-tiger-conflict-briefer-2026-08-20",
-      "title": "SetKyarLann \u2014 Tiger-Zone Corral & Patrol Safety Briefer for Hukawng Valley Livestock Herders and Community Forest Rangers",
+      "title": "SetKyarLann — Tiger-Zone Corral & Patrol Safety Briefer for Hukawng Valley Livestock Herders and Community Forest Rangers",
       "file": "2026-08-20_hukawng-valley-tiger-conflict-corral-patrol-briefer.md",
       "created_at": "2026-08-20T08:02:19+07:00",
       "industry": "wildlife_biodiversity",
@@ -1817,7 +1817,7 @@
     },
     {
       "id": "lanxangcheck-elephant-camp-ethics-2026-08-21",
-      "title": "LanXangCheck \u2014 Elephant Camp Ethics & Monsoon-Trek Vetting Briefer for Sayaboury\u2013Luang Prabang Backpackers",
+      "title": "LanXangCheck — Elephant Camp Ethics & Monsoon-Trek Vetting Briefer for Sayaboury–Luang Prabang Backpackers",
       "file": "2026-08-21_lanxangcheck-elephant-camp-ethics-monsoon-vetting.md",
       "created_at": "2026-08-21T08:01:58+07:00",
       "industry": "tourism_travel",
@@ -1833,7 +1833,7 @@
     },
     {
       "id": "gili-matra-coral-outplant-site-timing-selector-2026-08-22",
-      "title": "TerumbuTanam \u2014 Daily Coral Outplant Site & Timing Selector for Gili Matra Community Reef Nursery Volunteers",
+      "title": "TerumbuTanam — Daily Coral Outplant Site & Timing Selector for Gili Matra Community Reef Nursery Volunteers",
       "file": "2026-08-22_gili-matra-coral-outplant-site-timing-selector.md",
       "created_at": "2026-08-22T08:02:30+07:00",
       "industry": "environment_ecology",
@@ -1848,7 +1848,7 @@
     },
     {
       "id": "fai-ruam-khlong-toei-2026-08-23",
-      "title": "FaiRuam \u2014 Shared-Meter Electricity Bill Fairness Splitter for Khlong Toei Subdivided-Housing Sub-Tenants",
+      "title": "FaiRuam — Shared-Meter Electricity Bill Fairness Splitter for Khlong Toei Subdivided-Housing Sub-Tenants",
       "file": "2026-08-23_khlong-toei-shared-meter-bill-fairness-splitter.md",
       "created_at": "2026-08-23T08:02:13+07:00",
       "industry": "energy_utilities",
@@ -1862,7 +1862,7 @@
     },
     {
       "id": "sagaing-drone-early-warning-relay-village-sentries-2026-08-24",
-      "title": "DronePyan \u2014 Drone/Aircraft Threat Identification & Village Relay for Sagaing Region Night-Watch Sentries",
+      "title": "DronePyan — Drone/Aircraft Threat Identification & Village Relay for Sagaing Region Night-Watch Sentries",
       "file": "2026-08-24_sagaing-drone-threat-id-village-sentry-relay.md",
       "created_at": "2026-08-24T08:01:08+07:00",
       "industry": "defense_security",
@@ -1877,7 +1877,7 @@
     },
     {
       "id": "songthaew-flood-reroute-chiang-mai-2026-08-25",
-      "title": "SaiDaeng \u2014 Flood-Reroute Status Tracker for Chiang Mai's Red Songthaew Riders Without Motorbikes",
+      "title": "SaiDaeng — Flood-Reroute Status Tracker for Chiang Mai's Red Songthaew Riders Without Motorbikes",
       "file": "2026-08-25_chiang-mai-songthaew-flood-reroute-tracker.md",
       "created_at": "2026-08-25T08:02:11+07:00",
       "industry": "transportation_mobility",
@@ -1892,7 +1892,7 @@
     },
     {
       "id": "bisingwalet-kudus-swiftlet-noise-2026-08-26",
-      "title": "BisingWalet \u2014 Rumah Walet Noise Evidence Logger for Kudus Old-Town Kampung Residents",
+      "title": "BisingWalet — Rumah Walet Noise Evidence Logger for Kudus Old-Town Kampung Residents",
       "file": "2026-08-26_kudus-swiftlet-house-noise-complaint-logger.md",
       "created_at": "2026-08-26T08:01:25+07:00",
       "industry": "environment_ecology",
@@ -1906,7 +1906,7 @@
     },
     {
       "id": "metro-manila-bedspace-rental-scam-verifier-2026-08-27",
-      "title": "LigtasKwarto \u2014 Remote Bedspace Rental-Scam Verifier for Provincial BPO Jobseekers Relocating to Metro Manila",
+      "title": "LigtasKwarto — Remote Bedspace Rental-Scam Verifier for Provincial BPO Jobseekers Relocating to Metro Manila",
       "file": "2026-08-27_metro-manila-bedspace-rental-scam-verifier.md",
       "created_at": "2026-08-27T08:02:22+07:00",
       "industry": "real_estate_urban",
@@ -1921,7 +1921,7 @@
     },
     {
       "id": "hidden-shellfish-allergen-checker-hoi-an-2026-08-28",
-      "title": "M\u1eafmD\u00f2 \u2014 Hidden Shellfish-Paste Allergen Checker for Shellfish-Allergic Western Retirees in H\u1ed9i An",
+      "title": "MắmDò — Hidden Shellfish-Paste Allergen Checker for Shellfish-Allergic Western Retirees in Hội An",
       "file": "2026-08-28_hoi-an-hidden-shellfish-allergen-dish-checker.md",
       "created_at": "2026-08-28T08:03:08+07:00",
       "industry": "food_beverage",
@@ -1936,7 +1936,7 @@
     },
     {
       "id": "dong-pu-ta-spirit-forest-boundary-checker-isan-2026-08-29",
-      "title": "PuTaCheck \u2014 Sacred Spirit-Forest Boundary Checker for Isan Land-Clearing Contractors",
+      "title": "PuTaCheck — Sacred Spirit-Forest Boundary Checker for Isan Land-Clearing Contractors",
       "file": "2026-08-29_isan-spirit-forest-clearing-boundary-checker.md",
       "created_at": "2026-08-29T08:02:38+07:00",
       "industry": "culture_religion",
@@ -1952,7 +1952,7 @@
     },
     {
       "id": "tnaotos-palm-sugar-firewood-tracker-kampong-speu-2026-08-30",
-      "title": "TnaotOs \u2014 Firewood-Efficiency & Weather-Timed Boil Calculator for Kampong Speu Palm Sugar Boilers",
+      "title": "TnaotOs — Firewood-Efficiency & Weather-Timed Boil Calculator for Kampong Speu Palm Sugar Boilers",
       "file": "2026-08-30_palm-sugar-firewood-efficiency-tracker-kampong-speu.md",
       "created_at": "2026-08-30T08:02:04+07:00",
       "industry": "energy_utilities",
@@ -1967,7 +1967,7 @@
     },
     {
       "id": "post-quake-hospital-tier-router-north-maluku-2026-08-31",
-      "title": "MapDarurat \u2014 Post-Earthquake Hospital Tier Router for North Maluku's Scattered Islands",
+      "title": "MapDarurat — Post-Earthquake Hospital Tier Router for North Maluku's Scattered Islands",
       "file": "2026-08-31_post-earthquake-hospital-tier-router-north-maluku.md",
       "created_at": "2026-08-31T08:05:00+07:00",
       "industry": "disaster_emergency",
@@ -1982,13 +1982,27 @@
     },
     {
       "id": "hanoi-old-quarter-patrol-alert-rain-window-bot-2026-09-12",
-      "title": "G\u00e1nhB\u00e1o \u2014 Patrol-Sighting & Rain-Window Alert Bot for Hanoi Old Quarter Itinerant Food Cart Vendors",
+      "title": "GánhBáo — Patrol-Sighting & Rain-Window Alert Bot for Hanoi Old Quarter Itinerant Food Cart Vendors",
       "file": "2026-09-12_hanoi-street-cart-patrol-alert-rain-window-bot.md",
       "created_at": "2026-09-12T08:03:06+07:00",
       "industry": "food_beverage",
       "sub_industry": "street_vendor_maps",
       "geography": "southeast_asia",
       "concept_hash": "patrol-sighting-and-rain-window-alert+hanoi-old-quarter-vietnam+itinerant-ganh-hang-rong-street-food-cart-vendors",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "World Bank Open Data"
+      ]
+    },
+    {
+      "id": "khaengdee-khlong-toei-2026-09-21",
+      "title": "KhaengDee — Food-Grade Ice Verification & Cumulative Heat-Risk Timer for Khlong Toei Market's Live-Seafood Stallholders",
+      "file": "2026-09-21_food-grade-ice-verification-heat-risk-timer-seafood-vendors.md",
+      "created_at": "2026-09-21T08:03:38+07:00",
+      "industry": "food_beverage",
+      "sub_industry": "hygiene_scores",
+      "geography": "thailand",
+      "concept_hash": "food-grade-vs-industrial-block-ice-cumulative-temperature-danger-zone-timer+khlong-toei-market-klong-toey-bangkok-thailand+live-seafood-and-shellfish-wet-market-stallholders",
       "apis_used": [
         "Open-Meteo Forecast API",
         "World Bank Open Data"
@@ -2125,7 +2139,8 @@
     "perfume-pagoda-stone-step-accessibility-and-crowd-briefer+chua-huong-huong-son-hanoi-vietnam+elderly-village-pilgrimage-group-leaders",
     "diesel-subsidy-quota-break-even-calculator+kuala-kedah-kedah-malaysia+kad-nelayan-small-scale-trawler-fishermen",
     "port-gate-pm25-occupational-exposure-break-timing+tanjung-priok-north-jakarta-indonesia+non-app-ojek-pangkalan-motorcycle-taxi-drivers",
-    "manila-bay-debris-pulse-propeller-fouling-forecast+baseco-compound-tondo-manila-philippines+small-scale-pump-boat-fishermen"
+    "manila-bay-debris-pulse-propeller-fouling-forecast+baseco-compound-tondo-manila-philippines+small-scale-pump-boat-fishermen",
+    "food-grade-vs-industrial-block-ice-cumulative-temperature-danger-zone-timer+khlong-toei-market-klong-toey-bangkok-thailand+live-seafood-and-shellfish-wet-market-stallholders"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2233,7 +2248,8 @@
       "street_food_safety",
       "halal_tracking",
       "food_allergen_alerts",
-      "street_vendor_maps"
+      "street_vendor_maps",
+      "hygiene_scores"
     ],
     "wildlife_biodiversity": [
       "nocturnal_activity",
@@ -2289,20 +2305,20 @@
       "island_crowding_levels"
     ]
   },
-  "last_updated": "2026-09-20T08:03:00+07:00",
+  "last_updated": "2026-09-21T08:03:38+07:00",
   "rotation_state": {
-    "last_industry": "ocean_maritime",
-    "last_sub_industry": "ocean_plastic",
-    "last_geography": "philippines",
+    "last_industry": "food_beverage",
+    "last_sub_industry": "hygiene_scores",
+    "last_geography": "thailand",
     "last_3_industries": [
-      "energy_utilities",
       "transportation_mobility",
-      "ocean_maritime"
+      "ocean_maritime",
+      "food_beverage"
     ],
     "last_3_geographies": [
-      "malaysia",
       "indonesia",
-      "philippines"
+      "philippines",
+      "thailand"
     ]
   }
 }
