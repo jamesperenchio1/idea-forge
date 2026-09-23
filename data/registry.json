@@ -1,8 +1,23 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 132,
+  "total_ideas": 133,
   "ideas": [
+    {
+      "id": "setrum-siaga-jabodetabek-2026-09-23",
+      "title": "SetrumSiaga — Crowdsourced Battery-Swap Kiosk Live Status for Jabodetabek's Electric Ojek and Delivery Riders",
+      "file": "2026-09-23_ev-motorcycle-battery-swap-kiosk-status-map.md",
+      "created_at": "2026-09-23T08:02:20+07:00",
+      "industry": "energy_utilities",
+      "sub_industry": "ev_charging_sea",
+      "geography": "southeast_asia",
+      "concept_hash": "ev-motorcycle-battery-swap-kiosk-live-status-crowdsourcing+jabodetabek-greater-jakarta-indonesia+gojek-electrum-grab-electric-gig-riders",
+      "apis_used": [
+        "OpenStreetMap Overpass API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
+    },
     {
       "id": "kiptae-nong-khai-2026-09-22",
       "title": "KipTae — USDT P2P Remittance Rate & Scam-Vetting Tool for Lao Migrant Workers Sending Money Home from Thailand",
@@ -2155,7 +2170,8 @@
     "diesel-subsidy-quota-break-even-calculator+kuala-kedah-kedah-malaysia+kad-nelayan-small-scale-trawler-fishermen",
     "port-gate-pm25-occupational-exposure-break-timing+tanjung-priok-north-jakarta-indonesia+non-app-ojek-pangkalan-motorcycle-taxi-drivers",
     "manila-bay-debris-pulse-propeller-fouling-forecast+baseco-compound-tondo-manila-philippines+small-scale-pump-boat-fishermen",
-    "food-grade-vs-industrial-block-ice-cumulative-temperature-danger-zone-timer+khlong-toei-market-klong-toey-bangkok-thailand+live-seafood-and-shellfish-wet-market-stallholders"
+    "food-grade-vs-industrial-block-ice-cumulative-temperature-danger-zone-timer+khlong-toei-market-klong-toey-bangkok-thailand+live-seafood-and-shellfish-wet-market-stallholders",
+    "ev-motorcycle-battery-swap-kiosk-live-status-crowdsourcing+jabodetabek-greater-jakarta-indonesia+gojek-electrum-grab-electric-gig-riders"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2308,7 +2324,8 @@
       "energy_poverty_mapping",
       "electricity_theft",
       "biomass_sources",
-      "fuel_price_tracker"
+      "fuel_price_tracker",
+      "ev_charging_sea"
     ],
     "tourism_travel": [
       "adventure_risk_scoring",
@@ -2321,20 +2338,20 @@
       "island_crowding_levels"
     ]
   },
-  "last_updated": "2026-09-22T08:03:06+07:00",
+  "last_updated": "2026-09-23T08:02:20+07:00",
   "rotation_state": {
-    "last_industry": "finance_economics",
-    "last_sub_industry": "crypto_adoption_sea",
-    "last_geography": "laos",
+    "last_industry": "energy_utilities",
+    "last_sub_industry": "ev_charging_sea",
+    "last_geography": "southeast_asia",
     "last_3_industries": [
-      "ocean_maritime",
       "food_beverage",
-      "finance_economics"
+      "finance_economics",
+      "energy_utilities"
     ],
     "last_3_geographies": [
-      "philippines",
       "thailand",
-      "laos"
+      "laos",
+      "southeast_asia"
     ]
   }
 }
