@@ -1,8 +1,22 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 133,
+  "total_ideas": 134,
   "ideas": [
+    {
+      "id": "thlaicheck-samut-prakan-2026-09-24",
+      "title": "ThlaiCheck — Wage Complaint Case-Status Tracker for Cambodian MOU Construction Workers in Samut Prakan",
+      "file": "2026-09-24_wage-complaint-case-status-tracker-cambodian-workers.md",
+      "created_at": "2026-09-24T08:01:43+07:00",
+      "industry": "labor_work",
+      "sub_industry": "labor_dispute_tracking",
+      "geography": "thailand",
+      "concept_hash": "wage-complaint-case-status-tracker+samut-prakan-bangkok-industrial-belt-thailand+cambodian-mou-construction-day-laborers",
+      "apis_used": [
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
+    },
     {
       "id": "setrum-siaga-jabodetabek-2026-09-23",
       "title": "SetrumSiaga — Crowdsourced Battery-Swap Kiosk Live Status for Jabodetabek's Electric Ojek and Delivery Riders",
@@ -2171,7 +2185,8 @@
     "port-gate-pm25-occupational-exposure-break-timing+tanjung-priok-north-jakarta-indonesia+non-app-ojek-pangkalan-motorcycle-taxi-drivers",
     "manila-bay-debris-pulse-propeller-fouling-forecast+baseco-compound-tondo-manila-philippines+small-scale-pump-boat-fishermen",
     "food-grade-vs-industrial-block-ice-cumulative-temperature-danger-zone-timer+khlong-toei-market-klong-toey-bangkok-thailand+live-seafood-and-shellfish-wet-market-stallholders",
-    "ev-motorcycle-battery-swap-kiosk-live-status-crowdsourcing+jabodetabek-greater-jakarta-indonesia+gojek-electrum-grab-electric-gig-riders"
+    "ev-motorcycle-battery-swap-kiosk-live-status-crowdsourcing+jabodetabek-greater-jakarta-indonesia+gojek-electrum-grab-electric-gig-riders",
+    "wage-complaint-case-status-tracker+samut-prakan-bangkok-industrial-belt-thailand+cambodian-mou-construction-day-laborers"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2241,6 +2256,7 @@
       "ocean_plastic"
     ],
     "labor_work": [
+      "labor_dispute_tracking",
       "fishing_crew_safety",
       "construction_site_safety",
       "agricultural_wage_tracking",
@@ -2338,20 +2354,20 @@
       "island_crowding_levels"
     ]
   },
-  "last_updated": "2026-09-23T08:02:20+07:00",
+  "last_updated": "2026-09-24T08:01:43+07:00",
   "rotation_state": {
-    "last_industry": "energy_utilities",
-    "last_sub_industry": "ev_charging_sea",
-    "last_geography": "southeast_asia",
+    "last_industry": "labor_work",
+    "last_sub_industry": "labor_dispute_tracking",
+    "last_geography": "thailand",
     "last_3_industries": [
-      "food_beverage",
       "finance_economics",
-      "energy_utilities"
+      "energy_utilities",
+      "labor_work"
     ],
     "last_3_geographies": [
-      "thailand",
       "laos",
-      "southeast_asia"
+      "southeast_asia",
+      "thailand"
     ]
   }
 }
