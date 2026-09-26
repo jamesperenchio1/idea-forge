@@ -1,8 +1,23 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 135,
+  "total_ideas": 136,
   "ideas": [
+    {
+      "id": "mikho-karenni-kayah-state-2026-09-26",
+      "title": "MiKho — Village-Burning Thermal Alert & Evacuation-Route Briefer for Karenni IDP Camp Coordinators",
+      "file": "2026-09-26_village-burning-thermal-alert-evacuation-briefer.md",
+      "created_at": "2026-09-26T08:02:35+07:00",
+      "industry": "defense_security",
+      "sub_industry": "satellite_surveillance",
+      "geography": "myanmar",
+      "concept_hash": "village-burning-thermal-hotspot-detection-and-evacuation-route-briefer+karenni-kayah-state-myanmar-thai-border+idp-camp-coordinators-and-exiled-citizen-journalists",
+      "apis_used": [
+        "NASA FIRMS VIIRS Active Fire API",
+        "Open-Meteo Forecast API",
+        "World Bank Open Data"
+      ]
+    },
     {
       "id": "changjam-eastern-forest-complex-2026-09-25",
       "title": "ChangJam — Individual Elephant ID-Matching & Population Census Tool for Eastern Forest Complex Ranger Networks",
@@ -2202,7 +2217,8 @@
     "food-grade-vs-industrial-block-ice-cumulative-temperature-danger-zone-timer+khlong-toei-market-klong-toey-bangkok-thailand+live-seafood-and-shellfish-wet-market-stallholders",
     "ev-motorcycle-battery-swap-kiosk-live-status-crowdsourcing+jabodetabek-greater-jakarta-indonesia+gojek-electrum-grab-electric-gig-riders",
     "wage-complaint-case-status-tracker+samut-prakan-bangkok-industrial-belt-thailand+cambodian-mou-construction-day-laborers",
-    "individual-elephant-id-matching-and-corridor-pressure-tracker+eastern-forest-complex-chachoengsao-sa-kaeo-thailand+dnp-wwf-community-patrol-ranger-informants"
+    "individual-elephant-id-matching-and-corridor-pressure-tracker+eastern-forest-complex-chachoengsao-sa-kaeo-thailand+dnp-wwf-community-patrol-ranger-informants",
+    "village-burning-thermal-hotspot-detection-and-evacuation-route-briefer+karenni-kayah-state-myanmar-thai-border+idp-camp-coordinators-and-exiled-citizen-journalists"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2346,7 +2362,8 @@
       "protest_mapping",
       "drone_identification",
       "border_security",
-      "cybersecurity_threats"
+      "cybersecurity_threats",
+      "satellite_surveillance"
     ],
     "energy_utilities": [
       "dam_water_level",
@@ -2371,20 +2388,20 @@
       "island_crowding_levels"
     ]
   },
-  "last_updated": "2026-09-25T08:09:43+07:00",
+  "last_updated": "2026-09-26T08:02:35+07:00",
   "rotation_state": {
-    "last_industry": "wildlife_biodiversity",
-    "last_sub_industry": "elephant_population_tracking",
-    "last_geography": "thailand",
+    "last_industry": "defense_security",
+    "last_sub_industry": "satellite_surveillance",
+    "last_geography": "myanmar",
     "last_3_industries": [
-      "energy_utilities",
       "labor_work",
-      "wildlife_biodiversity"
+      "wildlife_biodiversity",
+      "defense_security"
     ],
     "last_3_geographies": [
-      "southeast_asia",
       "thailand",
-      "thailand"
+      "thailand",
+      "myanmar"
     ]
   }
 }
