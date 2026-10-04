@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 143,
+  "total_ideas": 144,
   "ideas": [
     {
       "id": "tuekmun-check-bangkok-soft-soil-2026-09-27",
@@ -2189,6 +2189,23 @@
         "Open Exchange Rates",
         "Open-Meteo Forecast"
       ]
+    },
+    {
+      "id": "kiewoi-mill-gate-queue-heatmap-isaan-2026-10-04",
+      "title": "KiewOi — Sugarcane Truck Mill-Gate Queue Heatmap & Cut-Time Planner for Isaan Cane Haulers",
+      "file": "2026-10-04_sugarcane-truck-mill-gate-queue-heatmap-isaan.md",
+      "created_at": "2026-10-04T08:00:00+07:00",
+      "industry": "transportation_mobility",
+      "sub_industry": "traffic_heatmaps",
+      "geography": "thailand",
+      "concept_hash": "mill-gate-truck-queue-length-crowdsourced-heatmap-and-cut-time-planner+kumphawapi-udon-thani-phu-khiao-chaiyaphum-isaan-thailand+cane-truck-owner-drivers-and-quota-smallholders",
+      "apis_used": [
+        "OpenStreetMap Overpass API",
+        "Open-Meteo Forecast",
+        "World Bank Indicators",
+        "WHO GHO",
+        "Open Exchange Rates"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -2333,7 +2350,8 @@
     "faluwa-crossing-window-go-no-go-and-amihan-closure-forecaster+itbayat-basco-batanes-philippines+ivatan-islanders-and-faluwa-captains",
     "mushroom-shed-misting-pinning-forecast+sakon-nakhon-isaan-thailand+tiered-bag-oyster-mushroom-growers",
     "weekly-tamu-produce-presence-preannouncement+kota-belud-sabah-borneo-malaysia+dusun-bajau-smallholder-tamu-vendors-and-kk-buyers",
-    "rabies-pep-vaccine-and-rig-dose-day-stock-continuity+champasak-salavan-southern-laos-chong-mek-border+dog-bite-victim-families-and-district-hospital-pharmacists"
+    "rabies-pep-vaccine-and-rig-dose-day-stock-continuity+champasak-salavan-southern-laos-chong-mek-border+dog-bite-victim-families-and-district-hospital-pharmacists",
+    "mill-gate-truck-queue-length-crowdsourced-heatmap-and-cut-time-planner+kumphawapi-udon-thani-phu-khiao-chaiyaphum-isaan-thailand+cane-truck-owner-drivers-and-quota-smallholders"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2437,7 +2455,8 @@
       "pothole_mapping",
       "tuk_tuk_routing",
       "songthaew_tracking",
-      "motorbike_taxi"
+      "motorbike_taxi",
+      "traffic_heatmaps"
     ],
     "food_beverage": [
       "fermented_foods",
@@ -2510,20 +2529,20 @@
       "wellness_retreat_verification"
     ]
   },
-  "last_updated": "2026-10-03T08:00:00+07:00",
+  "last_updated": "2026-10-04T08:00:00+07:00",
   "rotation_state": {
-    "last_industry": "health_medical",
-    "last_sub_industry": "pharmacy_inventory",
-    "last_geography": "laos",
+    "last_industry": "transportation_mobility",
+    "last_sub_industry": "traffic_heatmaps",
+    "last_geography": "thailand",
     "last_3_industries": [
-      "agriculture_farming",
       "food_beverage",
-      "health_medical"
+      "health_medical",
+      "transportation_mobility"
     ],
     "last_3_geographies": [
-      "thailand",
       "malaysia",
-      "laos"
+      "laos",
+      "thailand"
     ]
   }
 }
