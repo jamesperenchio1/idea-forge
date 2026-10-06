@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 145,
+  "total_ideas": 146,
   "ideas": [
     {
       "id": "tuekmun-check-bangkok-soft-soil-2026-09-27",
@@ -2223,6 +2223,21 @@
         "Open-Meteo Forecast",
         "Open-Meteo Marine"
       ]
+    },
+    {
+      "id": "hoi-an-tailor-multi-currency-tax-self-declaration-ledger-2026-10-06",
+      "title": "SổMay — Multi-Currency Daily Takings Ledger & Self-Declaration Tax Prep for Hội An Tailor-Shop Households After the End of Lump-Sum Tax",
+      "file": "2026-10-06_hoi-an-tailor-multi-currency-tax-self-declaration-ledger.md",
+      "created_at": "2026-10-06T08:00:40+07:00",
+      "industry": "finance_economics",
+      "sub_industry": "tax_compliance",
+      "geography": "vietnam",
+      "concept_hash": "multi-currency-revenue-self-declaration-ledger+hoi-an-old-town-vietnam+tailor-shop-household-businesses",
+      "apis_used": [
+        "Open Exchange Rates",
+        "World Bank Indicators",
+        "Open-Meteo Forecast"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -2369,7 +2384,8 @@
     "weekly-tamu-produce-presence-preannouncement+kota-belud-sabah-borneo-malaysia+dusun-bajau-smallholder-tamu-vendors-and-kk-buyers",
     "rabies-pep-vaccine-and-rig-dose-day-stock-continuity+champasak-salavan-southern-laos-chong-mek-border+dog-bite-victim-families-and-district-hospital-pharmacists",
     "mill-gate-truck-queue-length-crowdsourced-heatmap-and-cut-time-planner+kumphawapi-udon-thani-phu-khiao-chaiyaphum-isaan-thailand+cane-truck-owner-drivers-and-quota-smallholders",
-    "gold-price-and-dry-spell-triggered-school-absence-early-warning-for-child-compressor-mining+paracale-jose-panganiban-camarines-norte-philippines+deped-class-advisers-and-municipal-child-labor-focal-persons"
+    "gold-price-and-dry-spell-triggered-school-absence-early-warning-for-child-compressor-mining+paracale-jose-panganiban-camarines-norte-philippines+deped-class-advisers-and-municipal-child-labor-focal-persons",
+    "multi-currency-revenue-self-declaration-ledger+hoi-an-old-town-vietnam+tailor-shop-household-businesses"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2416,7 +2432,8 @@
       "land_price_speculation",
       "tourism_revenue_by_region",
       "informal_economy_mapping",
-      "crypto_adoption_sea"
+      "crypto_adoption_sea",
+      "tax_compliance"
     ],
     "health_medical": [
       "dengue_risk_mapping",
@@ -2548,20 +2565,20 @@
       "wellness_retreat_verification"
     ]
   },
-  "last_updated": "2026-10-05T08:02:28+07:00",
+  "last_updated": "2026-10-06T08:00:40+07:00",
   "rotation_state": {
-    "last_industry": "labor_work",
-    "last_sub_industry": "child_labor_reporting",
-    "last_geography": "philippines",
+    "last_industry": "finance_economics",
+    "last_sub_industry": "tax_compliance",
+    "last_geography": "vietnam",
     "last_3_industries": [
-      "health_medical",
       "transportation_mobility",
-      "labor_work"
+      "labor_work",
+      "finance_economics"
     ],
     "last_3_geographies": [
-      "laos",
       "thailand",
-      "philippines"
+      "philippines",
+      "vietnam"
     ]
   }
 }
