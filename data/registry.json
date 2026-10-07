@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 146,
+  "total_ideas": 147,
   "ideas": [
     {
       "id": "tuekmun-check-bangkok-soft-soil-2026-09-27",
@@ -2238,6 +2238,22 @@
         "World Bank Indicators",
         "Open-Meteo Forecast"
       ]
+    },
+    {
+      "id": "sapujerat-merapoh-2026-10-07",
+      "title": "SapuJerat — Rain-Window Snare-Sweep Route Planner for Citizen Tiger-Corridor Walkers in Sungai Yu, Merapoh, Pahang",
+      "file": "2026-10-07_snare-sweep-route-planner-tiger-corridor-merapoh.md",
+      "created_at": "2026-10-07T08:00:00+07:00",
+      "industry": "environment_ecology",
+      "sub_industry": "wildlife_poaching",
+      "geography": "malaysia",
+      "concept_hash": "snare-sweep-rain-window-route-planner+sungai-yu-corridor-merapoh-pahang-malaysia+citizen-volunteer-tiger-corridor-snare-walkers",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "GBIF Occurrence API",
+        "World Bank Indicators API",
+        "Open Exchange Rates"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -2385,7 +2401,8 @@
     "rabies-pep-vaccine-and-rig-dose-day-stock-continuity+champasak-salavan-southern-laos-chong-mek-border+dog-bite-victim-families-and-district-hospital-pharmacists",
     "mill-gate-truck-queue-length-crowdsourced-heatmap-and-cut-time-planner+kumphawapi-udon-thani-phu-khiao-chaiyaphum-isaan-thailand+cane-truck-owner-drivers-and-quota-smallholders",
     "gold-price-and-dry-spell-triggered-school-absence-early-warning-for-child-compressor-mining+paracale-jose-panganiban-camarines-norte-philippines+deped-class-advisers-and-municipal-child-labor-focal-persons",
-    "multi-currency-revenue-self-declaration-ledger+hoi-an-old-town-vietnam+tailor-shop-household-businesses"
+    "multi-currency-revenue-self-declaration-ledger+hoi-an-old-town-vietnam+tailor-shop-household-businesses",
+    "snare-sweep-rain-window-route-planner+sungai-yu-corridor-merapoh-pahang-malaysia+citizen-volunteer-tiger-corridor-snare-walkers"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2480,7 +2497,8 @@
       "deforestation",
       "soil_contamination",
       "coral_reef",
-      "noise_pollution"
+      "noise_pollution",
+      "wildlife_poaching"
     ],
     "transportation_mobility": [
       "elephant_crossing_alerts",
@@ -2565,20 +2583,20 @@
       "wellness_retreat_verification"
     ]
   },
-  "last_updated": "2026-10-06T08:00:40+07:00",
+  "last_updated": "2026-10-07T08:00:00+07:00",
   "rotation_state": {
-    "last_industry": "finance_economics",
-    "last_sub_industry": "tax_compliance",
-    "last_geography": "vietnam",
+    "last_industry": "environment_ecology",
+    "last_sub_industry": "wildlife_poaching",
+    "last_geography": "malaysia",
     "last_3_industries": [
-      "transportation_mobility",
       "labor_work",
-      "finance_economics"
+      "finance_economics",
+      "environment_ecology"
     ],
     "last_3_geographies": [
-      "thailand",
       "philippines",
-      "vietnam"
+      "vietnam",
+      "malaysia"
     ]
   }
 }
