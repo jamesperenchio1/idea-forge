@@ -1,8 +1,23 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 148,
+  "total_ideas": 149,
   "ideas": [
+    {
+      "id": "bulubandara-bali-pet-relocation-2026-10-09",
+      "title": "BuluBandara — Pet Cargo Heat-Embargo & Transit-Window Checker for Expats Flying Dogs and Cats Into Bali",
+      "file": "2026-10-09_pet-flight-heat-embargo-checker-bali-expat-relocation.md",
+      "created_at": "2026-10-09T08:03:00+07:00",
+      "industry": "tourism_travel",
+      "sub_industry": "expat_relocation",
+      "geography": "indonesia",
+      "concept_hash": "pet-cargo-heat-embargo-and-transit-window-checker+bali-ngurah-rai-canggu-ubud-indonesia+expat-families-relocating-with-pets",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
+    },
     {
       "id": "naibaan-udon-thani-village-scorecard-2026-10-08",
       "title": "NaiBaan — Village-Level Livability & Emergency-Distance Scorecard for Western Pensioners Settling in Udon Thani's Rice Villages",
@@ -2419,7 +2434,8 @@
     "gold-price-and-dry-spell-triggered-school-absence-early-warning-for-child-compressor-mining+paracale-jose-panganiban-camarines-norte-philippines+deped-class-advisers-and-municipal-child-labor-focal-persons",
     "multi-currency-revenue-self-declaration-ledger+hoi-an-old-town-vietnam+tailor-shop-household-businesses",
     "snare-sweep-rain-window-route-planner+sungai-yu-corridor-merapoh-pahang-malaysia+citizen-volunteer-tiger-corridor-snare-walkers",
-    "expat-retiree-village-livability-scorecard-emergency-distance-flood-burn-exposure+udon-thani-nong-han-ban-dung-kumphawapi-isaan-thailand+western-pensioners-on-non-o-retirement-extensions"
+    "expat-retiree-village-livability-scorecard-emergency-distance-flood-burn-exposure+udon-thani-nong-han-ban-dung-kumphawapi-isaan-thailand+western-pensioners-on-non-o-retirement-extensions",
+    "pet-cargo-heat-embargo-and-transit-window-checker+bali-ngurah-rai-canggu-ubud-indonesia+expat-families-relocating-with-pets"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2598,23 +2614,24 @@
       "elephant_sanctuary_vetting",
       "tourist_scam_detection",
       "island_crowding_levels",
-      "wellness_retreat_verification"
+      "wellness_retreat_verification",
+      "expat_relocation"
     ]
   },
-  "last_updated": "2026-10-08T08:00:50+07:00",
+  "last_updated": "2026-10-09T08:03:00+07:00",
   "rotation_state": {
-    "last_industry": "real_estate_urban",
-    "last_sub_industry": "expat_neighborhood_guides",
-    "last_geography": "thailand",
+    "last_industry": "tourism_travel",
+    "last_sub_industry": "expat_relocation",
+    "last_geography": "indonesia",
     "last_3_industries": [
-      "finance_economics",
       "environment_ecology",
-      "real_estate_urban"
+      "real_estate_urban",
+      "tourism_travel"
     ],
     "last_3_geographies": [
-      "vietnam",
       "malaysia",
-      "thailand"
+      "thailand",
+      "indonesia"
     ]
   }
 }
