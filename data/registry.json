@@ -1,8 +1,23 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 149,
+  "total_ideas": 150,
   "ideas": [
+    {
+      "id": "balabantay-cebu-sport-shooters-2026-10-10",
+      "title": "BalaBantay — Firearm License, Registration & Transport-Permit Deadline Tracker for Licensed Sport Shooters and Gun-Shop Staff in Cebu",
+      "file": "2026-10-10_firearm-license-transport-permit-deadline-tracker-cebu-sport-shooters.md",
+      "created_at": "2026-10-10T08:05:00+07:00",
+      "industry": "defense_security",
+      "sub_industry": "arms_trade_tracking",
+      "geography": "philippines",
+      "concept_hash": "licensed-firearm-license-registration-and-transport-permit-deadline-tracker+metro-cebu-danao-central-visayas-philippines+licensed-sport-shooters-and-gun-shop-counter-staff",
+      "apis_used": [
+        "ExchangeRate-API",
+        "World Bank Open Data",
+        "Open-Meteo Forecast API"
+      ]
+    },
     {
       "id": "bulubandara-bali-pet-relocation-2026-10-09",
       "title": "BuluBandara — Pet Cargo Heat-Embargo & Transit-Window Checker for Expats Flying Dogs and Cats Into Bali",
@@ -2435,7 +2450,8 @@
     "multi-currency-revenue-self-declaration-ledger+hoi-an-old-town-vietnam+tailor-shop-household-businesses",
     "snare-sweep-rain-window-route-planner+sungai-yu-corridor-merapoh-pahang-malaysia+citizen-volunteer-tiger-corridor-snare-walkers",
     "expat-retiree-village-livability-scorecard-emergency-distance-flood-burn-exposure+udon-thani-nong-han-ban-dung-kumphawapi-isaan-thailand+western-pensioners-on-non-o-retirement-extensions",
-    "pet-cargo-heat-embargo-and-transit-window-checker+bali-ngurah-rai-canggu-ubud-indonesia+expat-families-relocating-with-pets"
+    "pet-cargo-heat-embargo-and-transit-window-checker+bali-ngurah-rai-canggu-ubud-indonesia+expat-families-relocating-with-pets",
+    "licensed-firearm-license-registration-and-transport-permit-deadline-tracker+metro-cebu-danao-central-visayas-philippines+licensed-sport-shooters-and-gun-shop-counter-staff"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2591,7 +2607,8 @@
       "drone_identification",
       "border_security",
       "cybersecurity_threats",
-      "satellite_surveillance"
+      "satellite_surveillance",
+      "arms_trade_tracking"
     ],
     "energy_utilities": [
       "dam_water_level",
@@ -2618,20 +2635,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-10-09T08:03:00+07:00",
+  "last_updated": "2026-10-10T08:05:00+07:00",
   "rotation_state": {
-    "last_industry": "tourism_travel",
-    "last_sub_industry": "expat_relocation",
-    "last_geography": "indonesia",
+    "last_industry": "defense_security",
+    "last_sub_industry": "arms_trade_tracking",
+    "last_geography": "philippines",
     "last_3_industries": [
-      "environment_ecology",
       "real_estate_urban",
-      "tourism_travel"
+      "tourism_travel",
+      "defense_security"
     ],
     "last_3_geographies": [
-      "malaysia",
       "thailand",
-      "indonesia"
+      "indonesia",
+      "philippines"
     ]
   }
 }
