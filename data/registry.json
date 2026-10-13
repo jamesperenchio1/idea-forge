@@ -1,8 +1,24 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 152,
+  "total_ideas": 153,
   "ideas": [
+    {
+      "id": "kosang-krobey-takeo-prey-veng-cattle-traders-2026-10-13",
+      "title": "KoSang — Biting-Fly Pressure & Cattle-Movement Hold Checker for Itinerant Cattle Traders in the Takeo–Prey Veng–Svay Rieng Belt",
+      "file": "2026-10-13_lumpy-skin-disease-fly-pressure-cattle-trader-movement-checker-cambodia.md",
+      "created_at": "2026-10-13T08:06:00+07:00",
+      "industry": "agriculture_farming",
+      "sub_industry": "livestock_disease",
+      "geography": "cambodia",
+      "concept_hash": "lumpy-skin-disease-biting-fly-pressure-and-cattle-movement-hold-checker+takeo-prey-veng-svay-rieng-cambodia-vietnam-border-cattle-belt+itinerant-cattle-traders-and-village-animal-health-workers",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "Open-Meteo Flood API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
+    },
     {
       "id": "trieu-chim-xuan-thuy-2026-10-12",
       "title": "TriềuChim — High-Tide Roost Window & Sandflat Crossing Planner for Freelance Bird Guides at Xuân Thủy Ramsar Park",
@@ -2485,7 +2501,8 @@
     "pet-cargo-heat-embargo-and-transit-window-checker+bali-ngurah-rai-canggu-ubud-indonesia+expat-families-relocating-with-pets",
     "licensed-firearm-license-registration-and-transport-permit-deadline-tracker+metro-cebu-danao-central-visayas-philippines+licensed-sport-shooters-and-gun-shop-counter-staff",
     "off-grid-solar-battery-autonomy-forecast-for-guest-bookings+sop-moei-mae-sariang-mae-hong-son-thailand+karen-village-homestay-hosts",
-    "shorebird-high-tide-roost-window-and-sandflat-crossing-planner+xuan-thuy-ramsar-giao-thuy-nam-dinh-vietnam+freelance-bird-guides-and-boatmen-serving-foreign-birders"
+    "shorebird-high-tide-roost-window-and-sandflat-crossing-planner+xuan-thuy-ramsar-giao-thuy-nam-dinh-vietnam+freelance-bird-guides-and-boatmen-serving-foreign-birders",
+    "lumpy-skin-disease-biting-fly-pressure-and-cattle-movement-hold-checker+takeo-prey-veng-svay-rieng-cambodia-vietnam-border-cattle-belt+itinerant-cattle-traders-and-village-animal-health-workers"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2669,20 +2686,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-10-12T08:05:00+07:00",
+  "last_updated": "2026-10-13T08:06:00+07:00",
   "rotation_state": {
-    "last_industry": "wildlife_biodiversity",
-    "last_sub_industry": "bird_migration_alerts",
-    "last_geography": "vietnam",
+    "last_industry": "agriculture_farming",
+    "last_sub_industry": "livestock_disease",
+    "last_geography": "cambodia",
     "last_3_industries": [
-      "defense_security",
       "energy_utilities",
-      "wildlife_biodiversity"
+      "wildlife_biodiversity",
+      "agriculture_farming"
     ],
     "last_3_geographies": [
-      "philippines",
       "thailand",
-      "vietnam"
+      "vietnam",
+      "cambodia"
     ]
   }
 }
