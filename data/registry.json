@@ -1,8 +1,23 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 154,
+  "total_ideas": 155,
   "ideas": [
+    {
+      "id": "khaosong-luang-prabang-vegetable-growers-2026-10-15",
+      "title": "KhaoSong — Shared-Songthaew Fill Status & Fair-Fare Checker for Khmu and Hmong Vegetable Growers Riding Into Luang Prabang's Dawn Markets",
+      "file": "2026-10-15_songthaew-fill-status-fare-checker-luang-prabang-growers.md",
+      "created_at": "2026-10-15T08:05:00+07:00",
+      "industry": "transportation_mobility",
+      "sub_industry": "songthaew_tracking",
+      "geography": "laos",
+      "concept_hash": "shared-songthaew-fill-status-and-fair-fare-checker+luang-prabang-route-13-north-nam-khan-valley-laos+khmu-and-hmong-market-vegetable-growers",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
+    },
     {
       "id": "khlaep-mussel-rayong-map-ta-phut-2026-10-14",
       "title": "KlapHoi — Oil-Sheen Drift & Harvest-Hold Alert for Green Mussel Raft Farmers Downcurrent of Map Ta Phut, Rayong",
@@ -2520,7 +2535,8 @@
     "off-grid-solar-battery-autonomy-forecast-for-guest-bookings+sop-moei-mae-sariang-mae-hong-son-thailand+karen-village-homestay-hosts",
     "shorebird-high-tide-roost-window-and-sandflat-crossing-planner+xuan-thuy-ramsar-giao-thuy-nam-dinh-vietnam+freelance-bird-guides-and-boatmen-serving-foreign-birders",
     "lumpy-skin-disease-biting-fly-pressure-and-cattle-movement-hold-checker+takeo-prey-veng-svay-rieng-cambodia-vietnam-border-cattle-belt+itinerant-cattle-traders-and-village-animal-health-workers",
-    "oil-sheen-drift-and-mussel-harvest-hold-alert+map-ta-phut-ban-phe-mae-ramphueng-rayong-thailand+family-green-mussel-raft-farmers"
+    "oil-sheen-drift-and-mussel-harvest-hold-alert+map-ta-phut-ban-phe-mae-ramphueng-rayong-thailand+family-green-mussel-raft-farmers",
+    "shared-songthaew-fill-status-and-fair-fare-checker+luang-prabang-route-13-north-nam-khan-valley-laos+khmu-and-hmong-market-vegetable-growers"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2704,20 +2720,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-10-14T08:04:00+07:00",
+  "last_updated": "2026-10-15T08:05:00+07:00",
   "rotation_state": {
-    "last_industry": "disaster_emergency",
-    "last_sub_industry": "chemical_spill_tracking",
-    "last_geography": "thailand",
+    "last_industry": "transportation_mobility",
+    "last_sub_industry": "songthaew_tracking",
+    "last_geography": "laos",
     "last_3_industries": [
-      "wildlife_biodiversity",
       "agriculture_farming",
-      "disaster_emergency"
+      "disaster_emergency",
+      "transportation_mobility"
     ],
     "last_3_geographies": [
-      "vietnam",
       "cambodia",
-      "thailand"
+      "thailand",
+      "laos"
     ]
   }
 }
