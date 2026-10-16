@@ -1,8 +1,24 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 155,
+  "total_ideas": 156,
   "ideas": [
+    {
+      "id": "songsan-bangkok-condo-spirit-house-2026-10-16",
+      "title": "SongSan — Retired Spirit-House Drop-off Directory & Rain-Window Planner for Bangkok Condo Maintenance Supervisors",
+      "file": "2026-10-16_retired-spirit-house-dropoff-rain-window-bangkok-condo-maintenance.md",
+      "created_at": "2026-10-16T08:05:00+07:00",
+      "industry": "culture_religion",
+      "sub_industry": "spirit_house_directories",
+      "geography": "thailand",
+      "concept_hash": "retired-spirit-house-disposal-drop-off-and-ceremony-rain-window+bangkok-inner-districts-thailand+condo-juristic-person-maintenance-supervisors",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "OpenStreetMap Overpass API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
+    },
     {
       "id": "khaosong-luang-prabang-vegetable-growers-2026-10-15",
       "title": "KhaoSong — Shared-Songthaew Fill Status & Fair-Fare Checker for Khmu and Hmong Vegetable Growers Riding Into Luang Prabang's Dawn Markets",
@@ -2536,7 +2552,8 @@
     "shorebird-high-tide-roost-window-and-sandflat-crossing-planner+xuan-thuy-ramsar-giao-thuy-nam-dinh-vietnam+freelance-bird-guides-and-boatmen-serving-foreign-birders",
     "lumpy-skin-disease-biting-fly-pressure-and-cattle-movement-hold-checker+takeo-prey-veng-svay-rieng-cambodia-vietnam-border-cattle-belt+itinerant-cattle-traders-and-village-animal-health-workers",
     "oil-sheen-drift-and-mussel-harvest-hold-alert+map-ta-phut-ban-phe-mae-ramphueng-rayong-thailand+family-green-mussel-raft-farmers",
-    "shared-songthaew-fill-status-and-fair-fare-checker+luang-prabang-route-13-north-nam-khan-valley-laos+khmu-and-hmong-market-vegetable-growers"
+    "shared-songthaew-fill-status-and-fair-fare-checker+luang-prabang-route-13-north-nam-khan-valley-laos+khmu-and-hmong-market-vegetable-growers",
+    "retired-spirit-house-disposal-drop-off-and-ceremony-rain-window+bangkok-inner-districts-thailand+condo-juristic-person-maintenance-supervisors"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2720,20 +2737,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-10-15T08:05:00+07:00",
+  "last_updated": "2026-10-16T08:05:00+07:00",
   "rotation_state": {
-    "last_industry": "transportation_mobility",
-    "last_sub_industry": "songthaew_tracking",
-    "last_geography": "laos",
+    "last_industry": "culture_religion",
+    "last_sub_industry": "spirit_house_directories",
+    "last_geography": "thailand",
     "last_3_industries": [
-      "agriculture_farming",
       "disaster_emergency",
-      "transportation_mobility"
+      "transportation_mobility",
+      "culture_religion"
     ],
     "last_3_geographies": [
-      "cambodia",
       "thailand",
-      "laos"
+      "laos",
+      "thailand"
     ]
   }
 }
