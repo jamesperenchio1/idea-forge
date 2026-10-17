@@ -1,8 +1,23 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 156,
+  "total_ideas": 157,
   "ideas": [
+    {
+      "id": "neakhalal-phnom-penh-cham-butchers-2026-10-17",
+      "title": "SlabHalal — Slaughter-to-Stall Heat Clock & Halal Source Ledger for Cham Muslim Beef Butchers Supplying Phnom Penh's Wet Markets",
+      "file": "2026-10-17_halal-beef-slaughter-to-stall-heat-clock-phnom-penh-cham-butchers.md",
+      "created_at": "2026-10-17T08:05:00+07:00",
+      "industry": "food_beverage",
+      "sub_industry": "halal_tracking",
+      "geography": "cambodia",
+      "concept_hash": "halal-beef-slaughter-to-stall-heat-clock-and-source-ledger+chroy-changvar-prek-pra-orussey-phnom-penh-cambodia+cham-muslim-beef-butchers-and-halal-restaurant-buyers",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
+    },
     {
       "id": "songsan-bangkok-condo-spirit-house-2026-10-16",
       "title": "SongSan — Retired Spirit-House Drop-off Directory & Rain-Window Planner for Bangkok Condo Maintenance Supervisors",
@@ -2553,7 +2568,8 @@
     "lumpy-skin-disease-biting-fly-pressure-and-cattle-movement-hold-checker+takeo-prey-veng-svay-rieng-cambodia-vietnam-border-cattle-belt+itinerant-cattle-traders-and-village-animal-health-workers",
     "oil-sheen-drift-and-mussel-harvest-hold-alert+map-ta-phut-ban-phe-mae-ramphueng-rayong-thailand+family-green-mussel-raft-farmers",
     "shared-songthaew-fill-status-and-fair-fare-checker+luang-prabang-route-13-north-nam-khan-valley-laos+khmu-and-hmong-market-vegetable-growers",
-    "retired-spirit-house-disposal-drop-off-and-ceremony-rain-window+bangkok-inner-districts-thailand+condo-juristic-person-maintenance-supervisors"
+    "retired-spirit-house-disposal-drop-off-and-ceremony-rain-window+bangkok-inner-districts-thailand+condo-juristic-person-maintenance-supervisors",
+    "halal-beef-slaughter-to-stall-heat-clock-and-source-ledger+chroy-changvar-prek-pra-orussey-phnom-penh-cambodia+cham-muslim-beef-butchers-and-halal-restaurant-buyers"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2737,20 +2753,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-10-16T08:05:00+07:00",
+  "last_updated": "2026-10-17T08:05:00+07:00",
   "rotation_state": {
-    "last_industry": "culture_religion",
-    "last_sub_industry": "spirit_house_directories",
-    "last_geography": "thailand",
+    "last_industry": "food_beverage",
+    "last_sub_industry": "halal_tracking",
+    "last_geography": "cambodia",
     "last_3_industries": [
-      "disaster_emergency",
       "transportation_mobility",
-      "culture_religion"
+      "culture_religion",
+      "food_beverage"
     ],
     "last_3_geographies": [
-      "thailand",
       "laos",
-      "thailand"
+      "thailand",
+      "cambodia"
     ]
   }
 }
