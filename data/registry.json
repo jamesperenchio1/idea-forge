@@ -1,8 +1,24 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 157,
+  "total_ideas": 158,
   "ideas": [
+    {
+      "id": "mae-tao-cadmium-paddy-tenant-checker-2026-10-18",
+      "title": "KhaoKham — Cadmium Paddy-Plot Harvest-Hold & Irrigation-Source Checker for Burmese Tenant Rice Farmers Around Mae Sot's Mae Tao Creek",
+      "file": "2026-10-18_cadmium-paddy-harvest-hold-tenant-rice-mae-sot-migrant-farmers.md",
+      "created_at": "2026-10-18T08:04:00+07:00",
+      "industry": "environment_ecology",
+      "sub_industry": "soil_contamination",
+      "geography": "thailand_myanmar_border",
+      "concept_hash": "cadmium-paddy-plot-harvest-hold-and-irrigation-source-checker+mae-tao-creek-mae-sot-phop-phra-tak-thailand+burmese-migrant-tenant-rice-farmers",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "Open-Meteo Flood API",
+        "World Bank Open Data",
+        "ExchangeRate-API"
+      ]
+    },
     {
       "id": "neakhalal-phnom-penh-cham-butchers-2026-10-17",
       "title": "SlabHalal — Slaughter-to-Stall Heat Clock & Halal Source Ledger for Cham Muslim Beef Butchers Supplying Phnom Penh's Wet Markets",
@@ -2569,7 +2585,8 @@
     "oil-sheen-drift-and-mussel-harvest-hold-alert+map-ta-phut-ban-phe-mae-ramphueng-rayong-thailand+family-green-mussel-raft-farmers",
     "shared-songthaew-fill-status-and-fair-fare-checker+luang-prabang-route-13-north-nam-khan-valley-laos+khmu-and-hmong-market-vegetable-growers",
     "retired-spirit-house-disposal-drop-off-and-ceremony-rain-window+bangkok-inner-districts-thailand+condo-juristic-person-maintenance-supervisors",
-    "halal-beef-slaughter-to-stall-heat-clock-and-source-ledger+chroy-changvar-prek-pra-orussey-phnom-penh-cambodia+cham-muslim-beef-butchers-and-halal-restaurant-buyers"
+    "halal-beef-slaughter-to-stall-heat-clock-and-source-ledger+chroy-changvar-prek-pra-orussey-phnom-penh-cambodia+cham-muslim-beef-butchers-and-halal-restaurant-buyers",
+    "cadmium-paddy-plot-harvest-hold-and-irrigation-source-checker+mae-tao-creek-mae-sot-phop-phra-tak-thailand+burmese-migrant-tenant-rice-farmers"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2753,20 +2770,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-10-17T08:05:00+07:00",
+  "last_updated": "2026-10-18T08:04:00+07:00",
   "rotation_state": {
-    "last_industry": "food_beverage",
-    "last_sub_industry": "halal_tracking",
-    "last_geography": "cambodia",
+    "last_industry": "environment_ecology",
+    "last_sub_industry": "soil_contamination",
+    "last_geography": "thailand_myanmar_border",
     "last_3_industries": [
-      "transportation_mobility",
       "culture_religion",
-      "food_beverage"
+      "food_beverage",
+      "environment_ecology"
     ],
     "last_3_geographies": [
-      "laos",
       "thailand",
-      "cambodia"
+      "cambodia",
+      "thailand_myanmar_border"
     ]
   }
 }
