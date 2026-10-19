@@ -1,8 +1,23 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 158,
+  "total_ideas": 159,
   "ideas": [
+    {
+      "id": "tebuhan-negros-sacada-rain-day-ledger-2026-10-19",
+      "title": "TonLista — Rain-Lost-Day & Tonnage Ledger for Sacada Sugarcane Cutters on Negros Occidental Haciendas",
+      "file": "2026-10-19_sugarcane-sacada-rain-lost-day-tonnage-ledger-negros-occidental.md",
+      "created_at": "2026-10-19T08:10:00+07:00",
+      "industry": "labor_work",
+      "sub_industry": "agricultural_wage_tracking",
+      "geography": "philippines",
+      "concept_hash": "sacada-rain-lost-day-and-tonnage-ledger+silay-talisay-murcia-negros-occidental-philippines+seasonal-sacada-cane-cutter-crews-and-their-cabos",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
+    },
     {
       "id": "mae-tao-cadmium-paddy-tenant-checker-2026-10-18",
       "title": "KhaoKham — Cadmium Paddy-Plot Harvest-Hold & Irrigation-Source Checker for Burmese Tenant Rice Farmers Around Mae Sot's Mae Tao Creek",
@@ -2586,7 +2601,8 @@
     "shared-songthaew-fill-status-and-fair-fare-checker+luang-prabang-route-13-north-nam-khan-valley-laos+khmu-and-hmong-market-vegetable-growers",
     "retired-spirit-house-disposal-drop-off-and-ceremony-rain-window+bangkok-inner-districts-thailand+condo-juristic-person-maintenance-supervisors",
     "halal-beef-slaughter-to-stall-heat-clock-and-source-ledger+chroy-changvar-prek-pra-orussey-phnom-penh-cambodia+cham-muslim-beef-butchers-and-halal-restaurant-buyers",
-    "cadmium-paddy-plot-harvest-hold-and-irrigation-source-checker+mae-tao-creek-mae-sot-phop-phra-tak-thailand+burmese-migrant-tenant-rice-farmers"
+    "cadmium-paddy-plot-harvest-hold-and-irrigation-source-checker+mae-tao-creek-mae-sot-phop-phra-tak-thailand+burmese-migrant-tenant-rice-farmers",
+    "sacada-rain-lost-day-and-tonnage-ledger+silay-talisay-murcia-negros-occidental-philippines+seasonal-sacada-cane-cutter-crews-and-their-cabos"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2770,20 +2786,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-10-18T08:04:00+07:00",
+  "last_updated": "2026-10-19T08:10:00+07:00",
   "rotation_state": {
-    "last_industry": "environment_ecology",
-    "last_sub_industry": "soil_contamination",
-    "last_geography": "thailand_myanmar_border",
+    "last_industry": "labor_work",
+    "last_sub_industry": "agricultural_wage_tracking",
+    "last_geography": "philippines",
     "last_3_industries": [
-      "culture_religion",
       "food_beverage",
-      "environment_ecology"
+      "environment_ecology",
+      "labor_work"
     ],
     "last_3_geographies": [
-      "thailand",
       "cambodia",
-      "thailand_myanmar_border"
+      "thailand_myanmar_border",
+      "philippines"
     ]
   }
 }
