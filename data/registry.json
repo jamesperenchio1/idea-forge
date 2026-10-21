@@ -1,8 +1,24 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 160,
+  "total_ideas": 161,
   "ideas": [
+    {
+      "id": "benakjam-batang-lupar-tidal-bore-2026-10-21",
+      "title": "BenakJam — Tidal-Bore Arrival Window & Longboat Crossing Planner for Iban Boatmen and Fishing-Village Operators on the Batang Lupar",
+      "file": "2026-10-21_tidal-bore-benak-arrival-window-longboat-crossing-batang-lupar-sarawak.md",
+      "created_at": "2026-10-21T08:05:00+07:00",
+      "industry": "ocean_maritime",
+      "sub_industry": "maritime_routing",
+      "geography": "malaysia",
+      "concept_hash": "tidal-bore-benak-arrival-window-and-longboat-crossing-planner+batang-lupar-sri-aman-lingga-triso-sarawak-malaysia+iban-and-malay-longboat-operators-and-riverside-fishing-village-boatmen",
+      "apis_used": [
+        "Open-Meteo Marine API",
+        "Open-Meteo Forecast API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
+    },
     {
       "id": "namluek-andaman-compressor-divers-2026-10-20",
       "title": "NamLuek — Recompression Chamber Status & Dive-Day Bends Log for Urak Lawoi' Compressor Divers of the Andaman Coast",
@@ -2619,7 +2635,8 @@
     "halal-beef-slaughter-to-stall-heat-clock-and-source-ledger+chroy-changvar-prek-pra-orussey-phnom-penh-cambodia+cham-muslim-beef-butchers-and-halal-restaurant-buyers",
     "cadmium-paddy-plot-harvest-hold-and-irrigation-source-checker+mae-tao-creek-mae-sot-phop-phra-tak-thailand+burmese-migrant-tenant-rice-farmers",
     "sacada-rain-lost-day-and-tonnage-ledger+silay-talisay-murcia-negros-occidental-philippines+seasonal-sacada-cane-cutter-crews-and-their-cabos",
-    "compressor-diver-bends-recompression-chamber-status-and-dive-log+rawai-koh-lanta-koh-lipe-andaman-coast-thailand+urak-lawoi-and-thai-muslim-hookah-free-divers"
+    "compressor-diver-bends-recompression-chamber-status-and-dive-log+rawai-koh-lanta-koh-lipe-andaman-coast-thailand+urak-lawoi-and-thai-muslim-hookah-free-divers",
+    "tidal-bore-benak-arrival-window-and-longboat-crossing-planner+batang-lupar-sri-aman-lingga-triso-sarawak-malaysia+iban-and-malay-longboat-operators-and-riverside-fishing-village-boatmen"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2803,20 +2820,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-10-20T08:06:00+07:00",
+  "last_updated": "2026-10-21T08:05:00+07:00",
   "rotation_state": {
-    "last_industry": "health_medical",
-    "last_sub_industry": "pharmacy_inventory",
-    "last_geography": "thailand",
+    "last_industry": "ocean_maritime",
+    "last_sub_industry": "maritime_routing",
+    "last_geography": "malaysia",
     "last_3_industries": [
-      "environment_ecology",
       "labor_work",
-      "health_medical"
+      "health_medical",
+      "ocean_maritime"
     ],
     "last_3_geographies": [
-      "thailand_myanmar_border",
       "philippines",
-      "thailand"
+      "thailand",
+      "malaysia"
     ]
   }
 }
