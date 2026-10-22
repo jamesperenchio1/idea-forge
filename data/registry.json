@@ -1,8 +1,24 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 161,
+  "total_ideas": 162,
   "ideas": [
+    {
+      "id": "nammanlongtail-koh-lanta-fuel-gap-2026-10-22",
+      "title": "NamMan Longtail — Island Jerrycan Fuel Price-Gap & Resupply Run Planner for Koh Lanta and Krabi Longtail Boat Drivers",
+      "file": "2026-10-22_island-longtail-boat-diesel-jerrycan-price-gap-resupply-koh-lanta-krabi.md",
+      "created_at": "2026-10-22T08:05:00+07:00",
+      "industry": "energy_utilities",
+      "sub_industry": "fuel_price_tracker",
+      "geography": "thailand",
+      "concept_hash": "island-longtail-boat-jerrycan-fuel-price-gap-and-resupply-run-planner+koh-lanta-saladan-krabi-andaman-thailand+longtail-boat-drivers-and-island-roadside-fuel-shop-buyers",
+      "apis_used": [
+        "Open-Meteo Marine API",
+        "Open-Meteo Forecast API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
+    },
     {
       "id": "benakjam-batang-lupar-tidal-bore-2026-10-21",
       "title": "BenakJam — Tidal-Bore Arrival Window & Longboat Crossing Planner for Iban Boatmen and Fishing-Village Operators on the Batang Lupar",
@@ -2636,7 +2652,8 @@
     "cadmium-paddy-plot-harvest-hold-and-irrigation-source-checker+mae-tao-creek-mae-sot-phop-phra-tak-thailand+burmese-migrant-tenant-rice-farmers",
     "sacada-rain-lost-day-and-tonnage-ledger+silay-talisay-murcia-negros-occidental-philippines+seasonal-sacada-cane-cutter-crews-and-their-cabos",
     "compressor-diver-bends-recompression-chamber-status-and-dive-log+rawai-koh-lanta-koh-lipe-andaman-coast-thailand+urak-lawoi-and-thai-muslim-hookah-free-divers",
-    "tidal-bore-benak-arrival-window-and-longboat-crossing-planner+batang-lupar-sri-aman-lingga-triso-sarawak-malaysia+iban-and-malay-longboat-operators-and-riverside-fishing-village-boatmen"
+    "tidal-bore-benak-arrival-window-and-longboat-crossing-planner+batang-lupar-sri-aman-lingga-triso-sarawak-malaysia+iban-and-malay-longboat-operators-and-riverside-fishing-village-boatmen",
+    "island-longtail-boat-jerrycan-fuel-price-gap-and-resupply-run-planner+koh-lanta-saladan-krabi-andaman-thailand+longtail-boat-drivers-and-island-roadside-fuel-shop-buyers"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2820,20 +2837,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-10-21T08:05:00+07:00",
+  "last_updated": "2026-10-22T08:05:00+07:00",
   "rotation_state": {
-    "last_industry": "ocean_maritime",
-    "last_sub_industry": "maritime_routing",
-    "last_geography": "malaysia",
+    "last_industry": "energy_utilities",
+    "last_sub_industry": "fuel_price_tracker",
+    "last_geography": "thailand",
     "last_3_industries": [
-      "labor_work",
       "health_medical",
-      "ocean_maritime"
+      "ocean_maritime",
+      "energy_utilities"
     ],
     "last_3_geographies": [
-      "philippines",
       "thailand",
-      "malaysia"
+      "malaysia",
+      "thailand"
     ]
   }
 }
