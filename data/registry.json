@@ -1,8 +1,24 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 162,
+  "total_ideas": 163,
   "ideas": [
+    {
+      "id": "autp-bukti-indramayu-2026-10-23",
+      "title": "BuktiAUTP — Dry-Spell & Flood Claim-Evidence Logger with 7-Day Reporting Clock for Indramayu Smallholder Rice Farmers Insured Under AUTP",
+      "file": "2026-10-23_rice-crop-insurance-claim-evidence-logger-indramayu-smallholders.md",
+      "created_at": "2026-10-23T08:05:00+07:00",
+      "industry": "agriculture_farming",
+      "sub_industry": "crop_insurance",
+      "geography": "indonesia",
+      "concept_hash": "rice-insurance-claim-evidence-logger-with-reporting-deadline-clock+indramayu-pantura-west-java-indonesia+kelompok-tani-smallholder-and-sharecropper-rice-farmers-insured-under-autp",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "Open-Meteo Flood API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
+    },
     {
       "id": "nammanlongtail-koh-lanta-fuel-gap-2026-10-22",
       "title": "NamMan Longtail — Island Jerrycan Fuel Price-Gap & Resupply Run Planner for Koh Lanta and Krabi Longtail Boat Drivers",
@@ -2653,7 +2669,8 @@
     "sacada-rain-lost-day-and-tonnage-ledger+silay-talisay-murcia-negros-occidental-philippines+seasonal-sacada-cane-cutter-crews-and-their-cabos",
     "compressor-diver-bends-recompression-chamber-status-and-dive-log+rawai-koh-lanta-koh-lipe-andaman-coast-thailand+urak-lawoi-and-thai-muslim-hookah-free-divers",
     "tidal-bore-benak-arrival-window-and-longboat-crossing-planner+batang-lupar-sri-aman-lingga-triso-sarawak-malaysia+iban-and-malay-longboat-operators-and-riverside-fishing-village-boatmen",
-    "island-longtail-boat-jerrycan-fuel-price-gap-and-resupply-run-planner+koh-lanta-saladan-krabi-andaman-thailand+longtail-boat-drivers-and-island-roadside-fuel-shop-buyers"
+    "island-longtail-boat-jerrycan-fuel-price-gap-and-resupply-run-planner+koh-lanta-saladan-krabi-andaman-thailand+longtail-boat-drivers-and-island-roadside-fuel-shop-buyers",
+    "rice-insurance-claim-evidence-logger-with-reporting-deadline-clock+indramayu-pantura-west-java-indonesia+kelompok-tani-smallholder-and-sharecropper-rice-farmers-insured-under-autp"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2837,20 +2854,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-10-22T08:05:00+07:00",
+  "last_updated": "2026-10-23T08:05:00+07:00",
   "rotation_state": {
-    "last_industry": "energy_utilities",
-    "last_sub_industry": "fuel_price_tracker",
-    "last_geography": "thailand",
+    "last_industry": "agriculture_farming",
+    "last_sub_industry": "crop_insurance",
+    "last_geography": "indonesia",
     "last_3_industries": [
-      "health_medical",
       "ocean_maritime",
-      "energy_utilities"
+      "energy_utilities",
+      "agriculture_farming"
     ],
     "last_3_geographies": [
-      "thailand",
       "malaysia",
-      "thailand"
+      "thailand",
+      "indonesia"
     ]
   }
 }
