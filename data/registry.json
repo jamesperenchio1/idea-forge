@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 164,
+  "total_ideas": 165,
   "ideas": [
     {
       "id": "kiln-advance-true-cost-kandal-2026-10-24",
@@ -2521,6 +2521,22 @@
         "World Bank Indicators API",
         "Open Exchange Rates"
       ]
+    },
+    {
+      "id": "namkhang-pattaya-2026-10-25",
+      "title": "NamKhang — Stalled-Condo-Shell Standing-Water & Dengue Sweep Planner for Village Health Volunteers and Juristic Managers in Pattaya",
+      "file": "2026-10-25_stalled-condo-shell-standing-water-dengue-sweep-pattaya.md",
+      "created_at": "2026-10-25T08:10:00+07:00",
+      "industry": "real_estate_urban",
+      "sub_industry": "ghost_buildings",
+      "geography": "thailand",
+      "concept_hash": "stalled-condo-shell-standing-water-dengue-sweep-planner+naklua-jomtien-pratumnak-pattaya-chonburi-thailand+village-health-volunteers-and-neighbouring-condo-juristic-managers",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "OpenStreetMap Overpass API",
+        "World Bank Indicators API",
+        "WHO GHO API"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -2686,7 +2702,8 @@
     "tidal-bore-benak-arrival-window-and-longboat-crossing-planner+batang-lupar-sri-aman-lingga-triso-sarawak-malaysia+iban-and-malay-longboat-operators-and-riverside-fishing-village-boatmen",
     "island-longtail-boat-jerrycan-fuel-price-gap-and-resupply-run-planner+koh-lanta-saladan-krabi-andaman-thailand+longtail-boat-drivers-and-island-roadside-fuel-shop-buyers",
     "rice-insurance-claim-evidence-logger-with-reporting-deadline-clock+indramayu-pantura-west-java-indonesia+kelompok-tani-smallholder-and-sharecropper-rice-farmers-insured-under-autp",
-    "kiln-advance-vs-mfi-true-cost-and-dry-spell-repayment-planner+kien-svay-lvea-em-ksach-kandal-kandal-cambodia+brick-moulding-families-with-owner-advances-and-mfi-loans"
+    "kiln-advance-vs-mfi-true-cost-and-dry-spell-repayment-planner+kien-svay-lvea-em-ksach-kandal-kandal-cambodia+brick-moulding-families-with-owner-advances-and-mfi-loans",
+    "stalled-condo-shell-standing-water-dengue-sweep-planner+naklua-jomtien-pratumnak-pattaya-chonburi-thailand+village-health-volunteers-and-neighbouring-condo-juristic-managers"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2870,20 +2887,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-10-24T08:05:00+07:00",
+  "last_updated": "2026-10-25T08:10:00+07:00",
   "rotation_state": {
-    "last_industry": "finance_economics",
-    "last_sub_industry": "microfinance_access",
-    "last_geography": "cambodia",
+    "last_industry": "real_estate_urban",
+    "last_sub_industry": "ghost_buildings",
+    "last_geography": "thailand",
     "last_3_industries": [
-      "energy_utilities",
       "agriculture_farming",
-      "finance_economics"
+      "finance_economics",
+      "real_estate_urban"
     ],
     "last_3_geographies": [
-      "thailand",
       "indonesia",
-      "cambodia"
+      "cambodia",
+      "thailand"
     ]
   }
 }
