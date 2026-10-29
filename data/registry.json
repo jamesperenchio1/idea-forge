@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 168,
+  "total_ideas": 169,
   "ideas": [
     {
       "id": "bornam-ko-phayam-2026-10-28",
@@ -2582,6 +2582,21 @@
         "World Bank Indicators API",
         "WHO GHO API"
       ]
+    },
+    {
+      "id": "madu-gelap-sumbawa-2026-10-29",
+      "title": "MaduGelap — Dark-Night Wild-Honey Hunt Planner (Moon, Gust, Rain & Smoke) for Apis dorsata Honey Hunters in Sumbawa",
+      "file": "2026-10-29_apis-dorsata-honey-hunt-dark-night-wind-rain-planner-sumbawa.md",
+      "created_at": "2026-10-29T09:30:00+07:00",
+      "industry": "wildlife_biodiversity",
+      "sub_industry": "pollinator_health",
+      "geography": "southeast_asia",
+      "concept_hash": "apis-dorsata-dark-night-harvest-go-no-go-and-colony-recovery-ledger+batu-lanteh-ropang-lunyuk-sumbawa-ntb-indonesia+forest-honey-hunter-teams-and-village-cooperative-collectors",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "Open-Meteo Air Quality API",
+        "GBIF Occurrence API"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -2751,7 +2766,8 @@
     "stalled-condo-shell-standing-water-dengue-sweep-planner+naklua-jomtien-pratumnak-pattaya-chonburi-thailand+village-health-volunteers-and-neighbouring-condo-juristic-managers",
     "similan-daily-quota-oversell-ledger-and-sea-state-go-no-go-call+tap-lamu-pier-khao-lak-phang-nga-thailand+khao-lak-speedboat-day-trip-agency-back-office-coordinators",
     "fake-buyer-payment-slip-and-deposit-scam-checker+cai-lay-cai-be-tien-giang-mekong-delta-vietnam+durian-and-dragon-fruit-smallholder-growers-selling-via-zalo",
-    "heavy-rain-shallow-well-chlorination-clock-and-guest-water-advisory+ko-phayam-kampuan-ranong-andaman-thailand+island-bungalow-owners-and-village-health-volunteers-on-well-and-rain-tank-water"
+    "heavy-rain-shallow-well-chlorination-clock-and-guest-water-advisory+ko-phayam-kampuan-ranong-andaman-thailand+island-bungalow-owners-and-village-health-volunteers-on-well-and-rain-tank-water",
+    "apis-dorsata-dark-night-harvest-go-no-go-and-colony-recovery-ledger+batu-lanteh-ropang-lunyuk-sumbawa-ntb-indonesia+forest-honey-hunter-teams-and-village-cooperative-collectors"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2935,20 +2951,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-10-28T15:05:00+07:00",
+  "last_updated": "2026-10-29T09:30:00+07:00",
   "rotation_state": {
-    "last_industry": "health_medical",
-    "last_sub_industry": "water_safety",
-    "last_geography": "thailand",
+    "last_industry": "wildlife_biodiversity",
+    "last_sub_industry": "pollinator_health",
+    "last_geography": "southeast_asia",
     "last_3_industries": [
-      "tourism_travel",
       "defense_security",
-      "health_medical"
+      "health_medical",
+      "wildlife_biodiversity"
     ],
     "last_3_geographies": [
-      "thailand",
       "vietnam",
-      "thailand"
+      "thailand",
+      "southeast_asia"
     ]
   }
 }
