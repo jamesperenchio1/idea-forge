@@ -1,8 +1,24 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 169,
+  "total_ideas": 170,
   "ideas": [
+    {
+      "id": "giant-lantern-rain-window-build-planner-san-fernando-2026-10-30",
+      "title": "ParolPanahon — Rain-Window & Crate-Cover Build Planner for Giant Lantern (Parol) Barangay Crews Preparing for San Fernando's Ligligan Parul",
+      "file": "2026-10-30_giant-lantern-rain-window-build-planner-san-fernando-pampanga.md",
+      "created_at": "2026-10-30T08:10:00+07:00",
+      "industry": "culture_religion",
+      "sub_industry": "traditional_festival_maps",
+      "geography": "philippines",
+      "concept_hash": "giant-lantern-rain-window-and-crate-cover-build-planner+san-fernando-pampanga-central-luzon-philippines+barangay-parol-crew-foremen-and-lantern-artisans",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "Open-Meteo Archive API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
+    },
     {
       "id": "bornam-ko-phayam-2026-10-28",
       "title": "BorNam Phayam — Heavy-Rain Shallow-Well Chlorination Clock & Guest Water Advisory for Ko Phayam Bungalow Owners and Village Health Volunteers",
@@ -2767,7 +2783,8 @@
     "similan-daily-quota-oversell-ledger-and-sea-state-go-no-go-call+tap-lamu-pier-khao-lak-phang-nga-thailand+khao-lak-speedboat-day-trip-agency-back-office-coordinators",
     "fake-buyer-payment-slip-and-deposit-scam-checker+cai-lay-cai-be-tien-giang-mekong-delta-vietnam+durian-and-dragon-fruit-smallholder-growers-selling-via-zalo",
     "heavy-rain-shallow-well-chlorination-clock-and-guest-water-advisory+ko-phayam-kampuan-ranong-andaman-thailand+island-bungalow-owners-and-village-health-volunteers-on-well-and-rain-tank-water",
-    "apis-dorsata-dark-night-harvest-go-no-go-and-colony-recovery-ledger+batu-lanteh-ropang-lunyuk-sumbawa-ntb-indonesia+forest-honey-hunter-teams-and-village-cooperative-collectors"
+    "apis-dorsata-dark-night-harvest-go-no-go-and-colony-recovery-ledger+batu-lanteh-ropang-lunyuk-sumbawa-ntb-indonesia+forest-honey-hunter-teams-and-village-cooperative-collectors",
+    "giant-lantern-rain-window-and-crate-cover-build-planner+san-fernando-pampanga-central-luzon-philippines+barangay-parol-crew-foremen-and-lantern-artisans"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2951,20 +2968,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-10-29T09:30:00+07:00",
+  "last_updated": "2026-10-30T08:10:00+07:00",
   "rotation_state": {
-    "last_industry": "wildlife_biodiversity",
-    "last_sub_industry": "pollinator_health",
-    "last_geography": "southeast_asia",
+    "last_industry": "culture_religion",
+    "last_sub_industry": "traditional_festival_maps",
+    "last_geography": "philippines",
     "last_3_industries": [
-      "defense_security",
       "health_medical",
-      "wildlife_biodiversity"
+      "wildlife_biodiversity",
+      "culture_religion"
     ],
     "last_3_geographies": [
-      "vietnam",
       "thailand",
-      "southeast_asia"
+      "southeast_asia",
+      "philippines"
     ]
   }
 }
