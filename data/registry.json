@@ -1,8 +1,24 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 170,
+  "total_ideas": 171,
   "ideas": [
+    {
+      "id": "paicurve-route-1095-pai-2026-10-31",
+      "title": "PaiCurve — Wet-Curve Pre-Ride Briefing & Rain-Day Rental Go/Caution Sheet for Motorbike Rental Shop Owners on Pai's Route 1095",
+      "file": "2026-10-31_wet-curve-motorbike-rental-prebriefing-route-1095-pai.md",
+      "created_at": "2026-10-31T15:00:00+07:00",
+      "industry": "transportation_mobility",
+      "sub_industry": "road_accident_blackspots",
+      "geography": "thailand",
+      "concept_hash": "motorbike-rental-wet-curve-pre-ride-briefing-and-rain-day-caution-sheet+pai-route-1095-mae-hong-son-chiang-mai-thailand+motorbike-rental-shop-owners-and-counter-staff",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "Open-Meteo Archive API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
+    },
     {
       "id": "giant-lantern-rain-window-build-planner-san-fernando-2026-10-30",
       "title": "ParolPanahon — Rain-Window & Crate-Cover Build Planner for Giant Lantern (Parol) Barangay Crews Preparing for San Fernando's Ligligan Parul",
@@ -2784,7 +2800,8 @@
     "fake-buyer-payment-slip-and-deposit-scam-checker+cai-lay-cai-be-tien-giang-mekong-delta-vietnam+durian-and-dragon-fruit-smallholder-growers-selling-via-zalo",
     "heavy-rain-shallow-well-chlorination-clock-and-guest-water-advisory+ko-phayam-kampuan-ranong-andaman-thailand+island-bungalow-owners-and-village-health-volunteers-on-well-and-rain-tank-water",
     "apis-dorsata-dark-night-harvest-go-no-go-and-colony-recovery-ledger+batu-lanteh-ropang-lunyuk-sumbawa-ntb-indonesia+forest-honey-hunter-teams-and-village-cooperative-collectors",
-    "giant-lantern-rain-window-and-crate-cover-build-planner+san-fernando-pampanga-central-luzon-philippines+barangay-parol-crew-foremen-and-lantern-artisans"
+    "giant-lantern-rain-window-and-crate-cover-build-planner+san-fernando-pampanga-central-luzon-philippines+barangay-parol-crew-foremen-and-lantern-artisans",
+    "motorbike-rental-wet-curve-pre-ride-briefing-and-rain-day-caution-sheet+pai-route-1095-mae-hong-son-chiang-mai-thailand+motorbike-rental-shop-owners-and-counter-staff"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -2968,20 +2985,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-10-30T08:10:00+07:00",
+  "last_updated": "2026-10-31T15:00:00+07:00",
   "rotation_state": {
-    "last_industry": "culture_religion",
-    "last_sub_industry": "traditional_festival_maps",
-    "last_geography": "philippines",
+    "last_industry": "transportation_mobility",
+    "last_sub_industry": "road_accident_blackspots",
+    "last_geography": "thailand",
     "last_3_industries": [
-      "health_medical",
       "wildlife_biodiversity",
-      "culture_religion"
+      "culture_religion",
+      "transportation_mobility"
     ],
     "last_3_geographies": [
-      "thailand",
       "southeast_asia",
-      "philippines"
+      "philippines",
+      "thailand"
     ]
   }
 }
