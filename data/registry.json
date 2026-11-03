@@ -1,8 +1,25 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 173,
+  "total_ideas": 174,
   "ideas": [
+    {
+      "id": "kampi-dolphin-boat-noise-approach-log-kratie-2026-11-03",
+      "title": "TrohTrai Kampi — Engine-Noise & Approach-Distance Turn Log for Irrawaddy Dolphin Boat Drivers at Kampi Pool, Kratie",
+      "file": "2026-11-03_dolphin-boat-engine-noise-approach-log-kampi-pool-kratie-boat-drivers.md",
+      "created_at": "2026-11-03T08:10:00+07:00",
+      "industry": "environment_ecology",
+      "sub_industry": "noise_pollution",
+      "geography": "cambodia",
+      "concept_hash": "dolphin-watching-boat-engine-noise-and-approach-distance-turn-log+kampi-pool-kratie-mekong-cambodia+community-ecotourism-boat-drivers-and-committee-rota-keepers",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "Open-Meteo Flood API",
+        "Open-Meteo Archive API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
+    },
     {
       "id": "yokkhong-hat-yai-stock-lift-clock-2026-11-02",
       "title": "YokKhong — Flash-Flood Stock-Lift Clock & Vertical-Evacuation Checklist for Ground-Floor Shophouse Traders in Hat Yai's Kim Yong and Klong Hae Markets",
@@ -2836,7 +2853,8 @@
     "giant-lantern-rain-window-and-crate-cover-build-planner+san-fernando-pampanga-central-luzon-philippines+barangay-parol-crew-foremen-and-lantern-artisans",
     "motorbike-rental-wet-curve-pre-ride-briefing-and-rain-day-caution-sheet+pai-route-1095-mae-hong-son-chiang-mai-thailand+motorbike-rental-shop-owners-and-counter-staff",
     "salt-pan-rain-cover-and-harvest-window-planner+sa-huynh-pho-thanh-duc-pho-quang-ngai-vietnam+family-hand-raked-salt-field-farmers-and-village-salt-traders",
-    "flash-flood-stock-lift-clock-and-vertical-evacuation-checklist+hat-yai-kim-yong-klong-hae-songkhla-southern-thailand+ground-floor-shophouse-stall-owners-living-above-shop"
+    "flash-flood-stock-lift-clock-and-vertical-evacuation-checklist+hat-yai-kim-yong-klong-hae-songkhla-southern-thailand+ground-floor-shophouse-stall-owners-living-above-shop",
+    "dolphin-watching-boat-engine-noise-and-approach-distance-turn-log+kampi-pool-kratie-mekong-cambodia+community-ecotourism-boat-drivers-and-committee-rota-keepers"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -3020,20 +3038,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-11-02T08:10:00+07:00",
+  "last_updated": "2026-11-03T08:10:00+07:00",
   "rotation_state": {
-    "last_industry": "disaster_emergency",
-    "last_sub_industry": "evacuation_route_tools",
-    "last_geography": "thailand",
+    "last_industry": "environment_ecology",
+    "last_sub_industry": "noise_pollution",
+    "last_geography": "cambodia",
     "last_3_industries": [
-      "transportation_mobility",
       "food_beverage",
-      "disaster_emergency"
+      "disaster_emergency",
+      "environment_ecology"
     ],
     "last_3_geographies": [
-      "thailand",
       "vietnam",
-      "thailand"
+      "thailand",
+      "cambodia"
     ]
   }
 }
