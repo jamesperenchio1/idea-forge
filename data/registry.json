@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 174,
+  "total_ideas": 175,
   "ideas": [
     {
       "id": "kampi-dolphin-boat-noise-approach-log-kratie-2026-11-03",
@@ -2679,6 +2679,21 @@
         "Open-Meteo Air Quality API",
         "GBIF Occurrence API"
       ]
+    },
+    {
+      "id": "raberd-kao-bangkok-2026-11-04",
+      "title": "RaberdKao — WWII Bomb-Strike-Zone Pre-Dig Check & Found-Object Stop-Work Card for Backhoe Operators and Pile Crews Near Bangkok's Bombed Rail Yards, Port and Bridges",
+      "file": "2026-11-04_wwii-bomb-strike-zone-pre-dig-check-bangkok-excavation-crews.md",
+      "created_at": "2026-11-04T08:02:36+07:00",
+      "industry": "defense_security",
+      "sub_industry": "uxo_thailand",
+      "geography": "thailand",
+      "concept_hash": "wwii-allied-bomb-strike-zone-pre-dig-check-and-found-object-stop-work-card+bang-sue-khlong-toei-rama-vi-bangkok-thailand+backhoe-operators-pile-crews-site-foremen-and-jor-por-safety-officers",
+      "apis_used": [
+        "Wikipedia MediaWiki API",
+        "OpenStreetMap Overpass API",
+        "Open-Meteo Forecast API"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -2854,7 +2869,8 @@
     "motorbike-rental-wet-curve-pre-ride-briefing-and-rain-day-caution-sheet+pai-route-1095-mae-hong-son-chiang-mai-thailand+motorbike-rental-shop-owners-and-counter-staff",
     "salt-pan-rain-cover-and-harvest-window-planner+sa-huynh-pho-thanh-duc-pho-quang-ngai-vietnam+family-hand-raked-salt-field-farmers-and-village-salt-traders",
     "flash-flood-stock-lift-clock-and-vertical-evacuation-checklist+hat-yai-kim-yong-klong-hae-songkhla-southern-thailand+ground-floor-shophouse-stall-owners-living-above-shop",
-    "dolphin-watching-boat-engine-noise-and-approach-distance-turn-log+kampi-pool-kratie-mekong-cambodia+community-ecotourism-boat-drivers-and-committee-rota-keepers"
+    "dolphin-watching-boat-engine-noise-and-approach-distance-turn-log+kampi-pool-kratie-mekong-cambodia+community-ecotourism-boat-drivers-and-committee-rota-keepers",
+    "wwii-allied-bomb-strike-zone-pre-dig-check-and-found-object-stop-work-card+bang-sue-khlong-toei-rama-vi-bangkok-thailand+backhoe-operators-pile-crews-site-foremen-and-jor-por-safety-officers"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -3038,20 +3054,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-11-03T08:10:00+07:00",
+  "last_updated": "2026-11-04T08:02:36+07:00",
   "rotation_state": {
-    "last_industry": "environment_ecology",
-    "last_sub_industry": "noise_pollution",
-    "last_geography": "cambodia",
+    "last_industry": "defense_security",
+    "last_sub_industry": "uxo_thailand",
+    "last_geography": "thailand",
     "last_3_industries": [
-      "food_beverage",
       "disaster_emergency",
-      "environment_ecology"
+      "environment_ecology",
+      "defense_security"
     ],
     "last_3_geographies": [
-      "vietnam",
       "thailand",
-      "cambodia"
+      "cambodia",
+      "thailand"
     ]
   }
 }
