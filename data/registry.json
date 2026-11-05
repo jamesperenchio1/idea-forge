@@ -1,8 +1,24 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 175,
+  "total_ideas": 176,
   "ideas": [
+    {
+      "id": "khone-li-trap-dark-moon-run-don-khon-2026-11-05",
+      "title": "LiMuet — Dark-Moon Fish-Run & Falling-River Trap-Setting Planner for Li-Trap Fishing Families at Khone Falls, Si Phan Don",
+      "file": "2026-11-05_khone-falls-li-trap-dark-moon-run-water-drop-planner-don-khon-fishers.md",
+      "created_at": "2026-11-05T08:10:00+07:00",
+      "industry": "ocean_maritime",
+      "sub_industry": "fish_migration",
+      "geography": "laos",
+      "concept_hash": "li-trap-dark-moon-fish-run-and-falling-river-trap-setting-planner+khone-falls-don-khon-don-det-si-phan-don-champasak-laos+li-trap-fishing-families-and-village-fishery-co-management-committee-keepers",
+      "apis_used": [
+        "Open-Meteo Flood API",
+        "Open-Meteo Forecast API",
+        "ExchangeRate-API",
+        "World Bank Open Data"
+      ]
+    },
     {
       "id": "kampi-dolphin-boat-noise-approach-log-kratie-2026-11-03",
       "title": "TrohTrai Kampi — Engine-Noise & Approach-Distance Turn Log for Irrawaddy Dolphin Boat Drivers at Kampi Pool, Kratie",
@@ -2870,7 +2886,8 @@
     "salt-pan-rain-cover-and-harvest-window-planner+sa-huynh-pho-thanh-duc-pho-quang-ngai-vietnam+family-hand-raked-salt-field-farmers-and-village-salt-traders",
     "flash-flood-stock-lift-clock-and-vertical-evacuation-checklist+hat-yai-kim-yong-klong-hae-songkhla-southern-thailand+ground-floor-shophouse-stall-owners-living-above-shop",
     "dolphin-watching-boat-engine-noise-and-approach-distance-turn-log+kampi-pool-kratie-mekong-cambodia+community-ecotourism-boat-drivers-and-committee-rota-keepers",
-    "wwii-allied-bomb-strike-zone-pre-dig-check-and-found-object-stop-work-card+bang-sue-khlong-toei-rama-vi-bangkok-thailand+backhoe-operators-pile-crews-site-foremen-and-jor-por-safety-officers"
+    "wwii-allied-bomb-strike-zone-pre-dig-check-and-found-object-stop-work-card+bang-sue-khlong-toei-rama-vi-bangkok-thailand+backhoe-operators-pile-crews-site-foremen-and-jor-por-safety-officers",
+    "li-trap-dark-moon-fish-run-and-falling-river-trap-setting-planner+khone-falls-don-khon-don-det-si-phan-don-champasak-laos+li-trap-fishing-families-and-village-fishery-co-management-committee-keepers"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -3054,20 +3071,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-11-04T08:02:36+07:00",
+  "last_updated": "2026-11-05T08:10:00+07:00",
   "rotation_state": {
-    "last_industry": "defense_security",
-    "last_sub_industry": "uxo_thailand",
-    "last_geography": "thailand",
+    "last_industry": "ocean_maritime",
+    "last_sub_industry": "fish_migration",
+    "last_geography": "laos",
     "last_3_industries": [
-      "disaster_emergency",
       "environment_ecology",
-      "defense_security"
+      "defense_security",
+      "ocean_maritime"
     ],
     "last_3_geographies": [
-      "thailand",
       "cambodia",
-      "thailand"
+      "thailand",
+      "laos"
     ]
   }
 }
