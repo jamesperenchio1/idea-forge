@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 176,
+  "total_ideas": 177,
   "ideas": [
     {
       "id": "khone-li-trap-dark-moon-run-don-khon-2026-11-05",
@@ -2710,6 +2710,21 @@
         "OpenStreetMap Overpass API",
         "Open-Meteo Forecast API"
       ]
+    },
+    {
+      "id": "kathin-ruang-nan-2026-11-08",
+      "title": "KathinWang — Unbooked-Wat Kathin Matcher & Rain-Window Convoy Planner for Pha Pa Merit Groups and Hill-Temple Abbots' Secretaries in Nan Province",
+      "file": "2026-11-08_kathin-unbooked-temple-matcher-nan-hill-wats.md",
+      "created_at": "2026-11-08T08:05:00+07:00",
+      "industry": "culture_religion",
+      "sub_industry": "merit_making_guides",
+      "geography": "thailand",
+      "concept_hash": "kathin-unbooked-wat-matcher-and-rain-window-convoy-planner+nan-bo-kluea-pua-song-khwae-northern-thailand+pha-pa-merit-group-organisers-and-hill-wat-lay-secretaries",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "Open-Meteo Flood API",
+        "Thai Wikipedia REST API"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -2887,7 +2902,8 @@
     "flash-flood-stock-lift-clock-and-vertical-evacuation-checklist+hat-yai-kim-yong-klong-hae-songkhla-southern-thailand+ground-floor-shophouse-stall-owners-living-above-shop",
     "dolphin-watching-boat-engine-noise-and-approach-distance-turn-log+kampi-pool-kratie-mekong-cambodia+community-ecotourism-boat-drivers-and-committee-rota-keepers",
     "wwii-allied-bomb-strike-zone-pre-dig-check-and-found-object-stop-work-card+bang-sue-khlong-toei-rama-vi-bangkok-thailand+backhoe-operators-pile-crews-site-foremen-and-jor-por-safety-officers",
-    "li-trap-dark-moon-fish-run-and-falling-river-trap-setting-planner+khone-falls-don-khon-don-det-si-phan-don-champasak-laos+li-trap-fishing-families-and-village-fishery-co-management-committee-keepers"
+    "li-trap-dark-moon-fish-run-and-falling-river-trap-setting-planner+khone-falls-don-khon-don-det-si-phan-don-champasak-laos+li-trap-fishing-families-and-village-fishery-co-management-committee-keepers",
+    "kathin-unbooked-wat-matcher-and-rain-window-convoy-planner+nan-bo-kluea-pua-song-khwae-northern-thailand+pha-pa-merit-group-organisers-and-hill-wat-lay-secretaries"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -3071,20 +3087,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-11-05T08:10:00+07:00",
+  "last_updated": "2026-11-08T08:05:00+07:00",
   "rotation_state": {
-    "last_industry": "ocean_maritime",
-    "last_sub_industry": "fish_migration",
-    "last_geography": "laos",
+    "last_industry": "culture_religion",
+    "last_sub_industry": "merit_making_guides",
+    "last_geography": "thailand",
     "last_3_industries": [
-      "environment_ecology",
       "defense_security",
-      "ocean_maritime"
+      "ocean_maritime",
+      "culture_religion"
     ],
     "last_3_geographies": [
-      "cambodia",
       "thailand",
-      "laos"
+      "laos",
+      "thailand"
     ]
   }
 }
