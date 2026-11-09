@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 177,
+  "total_ideas": 178,
   "ideas": [
     {
       "id": "khone-li-trap-dark-moon-run-don-khon-2026-11-05",
@@ -2725,6 +2725,21 @@
         "Open-Meteo Flood API",
         "Thai Wikipedia REST API"
       ]
+    },
+    {
+      "id": "tuoi-ca-phe-dak-lak-2026-11-09",
+      "title": "TướiCàPhê — Robusta Flowering-Irrigation Round Counter & Well-Drawdown Pacer for Ê Đê and Kinh Smallholders in Cư M'gar, Dak Lak",
+      "file": "2026-11-09_robusta-flowering-irrigation-round-counter-dak-lak.md",
+      "created_at": "2026-11-09T09:10:00+07:00",
+      "industry": "agriculture_farming",
+      "sub_industry": "irrigation_optimization",
+      "geography": "vietnam",
+      "concept_hash": "robusta-flowering-irrigation-round-counter-and-well-drawdown-pacer+cu-mgar-buon-ma-thuot-dak-lak-central-highlands-vietnam+ede-and-kinh-smallholder-robusta-growers-with-private-boreholes",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "Open-Meteo Archive API",
+        "World Bank Open Data API"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -2903,7 +2918,8 @@
     "dolphin-watching-boat-engine-noise-and-approach-distance-turn-log+kampi-pool-kratie-mekong-cambodia+community-ecotourism-boat-drivers-and-committee-rota-keepers",
     "wwii-allied-bomb-strike-zone-pre-dig-check-and-found-object-stop-work-card+bang-sue-khlong-toei-rama-vi-bangkok-thailand+backhoe-operators-pile-crews-site-foremen-and-jor-por-safety-officers",
     "li-trap-dark-moon-fish-run-and-falling-river-trap-setting-planner+khone-falls-don-khon-don-det-si-phan-don-champasak-laos+li-trap-fishing-families-and-village-fishery-co-management-committee-keepers",
-    "kathin-unbooked-wat-matcher-and-rain-window-convoy-planner+nan-bo-kluea-pua-song-khwae-northern-thailand+pha-pa-merit-group-organisers-and-hill-wat-lay-secretaries"
+    "kathin-unbooked-wat-matcher-and-rain-window-convoy-planner+nan-bo-kluea-pua-song-khwae-northern-thailand+pha-pa-merit-group-organisers-and-hill-wat-lay-secretaries",
+    "robusta-flowering-irrigation-round-counter-and-well-drawdown-pacer+cu-mgar-buon-ma-thuot-dak-lak-central-highlands-vietnam+ede-and-kinh-smallholder-robusta-growers-with-private-boreholes"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -3087,20 +3103,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-11-08T08:05:00+07:00",
+  "last_updated": "2026-11-09T09:10:00+07:00",
   "rotation_state": {
-    "last_industry": "culture_religion",
-    "last_sub_industry": "merit_making_guides",
-    "last_geography": "thailand",
+    "last_industry": "agriculture_farming",
+    "last_sub_industry": "irrigation_optimization",
+    "last_geography": "vietnam",
     "last_3_industries": [
-      "defense_security",
       "ocean_maritime",
-      "culture_religion"
+      "culture_religion",
+      "agriculture_farming"
     ],
     "last_3_geographies": [
-      "thailand",
       "laos",
-      "thailand"
+      "thailand",
+      "vietnam"
     ]
   }
 }
