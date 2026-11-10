@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 178,
+  "total_ideas": 179,
   "ideas": [
     {
       "id": "khone-li-trap-dark-moon-run-don-khon-2026-11-05",
@@ -2740,6 +2740,23 @@
         "Open-Meteo Archive API",
         "World Bank Open Data API"
       ]
+    },
+    {
+      "id": "kadar-kolok-sungai-kolok-2026-11-10",
+      "title": "KadarKolok — Ringgit Board-Rate Setter & Flood-Day Shopper-Drop Planner for Baht-Pricing Market Stall Vendors in Sungai Kolok, Narathiwat",
+      "file": "2026-11-10_ringgit-board-rate-setter-sungai-kolok-vendors.md",
+      "created_at": "2026-11-10T08:05:00+07:00",
+      "industry": "finance_economics",
+      "sub_industry": "currency_volatility",
+      "geography": "thailand",
+      "concept_hash": "ringgit-cash-board-rate-setter-and-flood-day-shopper-drop-planner+sungai-kolok-golok-bridge-rantau-panjang-narathiwat-thailand+baht-pricing-market-stall-vendors-taking-ringgit-cash",
+      "apis_used": [
+        "Open Exchange Rates API",
+        "Frankfurter API",
+        "World Bank Open Data API",
+        "Open-Meteo Forecast API",
+        "Open-Meteo Flood API"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -2919,7 +2936,8 @@
     "wwii-allied-bomb-strike-zone-pre-dig-check-and-found-object-stop-work-card+bang-sue-khlong-toei-rama-vi-bangkok-thailand+backhoe-operators-pile-crews-site-foremen-and-jor-por-safety-officers",
     "li-trap-dark-moon-fish-run-and-falling-river-trap-setting-planner+khone-falls-don-khon-don-det-si-phan-don-champasak-laos+li-trap-fishing-families-and-village-fishery-co-management-committee-keepers",
     "kathin-unbooked-wat-matcher-and-rain-window-convoy-planner+nan-bo-kluea-pua-song-khwae-northern-thailand+pha-pa-merit-group-organisers-and-hill-wat-lay-secretaries",
-    "robusta-flowering-irrigation-round-counter-and-well-drawdown-pacer+cu-mgar-buon-ma-thuot-dak-lak-central-highlands-vietnam+ede-and-kinh-smallholder-robusta-growers-with-private-boreholes"
+    "robusta-flowering-irrigation-round-counter-and-well-drawdown-pacer+cu-mgar-buon-ma-thuot-dak-lak-central-highlands-vietnam+ede-and-kinh-smallholder-robusta-growers-with-private-boreholes",
+    "ringgit-cash-board-rate-setter-and-flood-day-shopper-drop-planner+sungai-kolok-golok-bridge-rantau-panjang-narathiwat-thailand+baht-pricing-market-stall-vendors-taking-ringgit-cash"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -3103,20 +3121,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-11-09T09:10:00+07:00",
+  "last_updated": "2026-11-10T08:05:00+07:00",
   "rotation_state": {
-    "last_industry": "agriculture_farming",
-    "last_sub_industry": "irrigation_optimization",
-    "last_geography": "vietnam",
+    "last_industry": "finance_economics",
+    "last_sub_industry": "currency_volatility",
+    "last_geography": "thailand",
     "last_3_industries": [
-      "ocean_maritime",
       "culture_religion",
-      "agriculture_farming"
+      "agriculture_farming",
+      "finance_economics"
     ],
     "last_3_geographies": [
-      "laos",
       "thailand",
-      "vietnam"
+      "vietnam",
+      "thailand"
     ]
   }
 }
