@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 179,
+  "total_ideas": 180,
   "ideas": [
     {
       "id": "khone-li-trap-dark-moon-run-don-khon-2026-11-05",
@@ -2757,6 +2757,22 @@
         "Open-Meteo Forecast API",
         "Open-Meteo Flood API"
       ]
+    },
+    {
+      "id": "selang-spermonde-barrang-lompo-2026-11-12",
+      "title": "SelangAman — Compressor-Hose Dive Tally & Bends Warning Card for Sea-Cucumber and Lobster Hookah Divers on Barrang Lompo, Spermonde Archipelago",
+      "file": "2026-11-12_hookah-diver-depth-tally-bends-warning-spermonde.md",
+      "created_at": "2026-11-12T08:00:00+07:00",
+      "industry": "labor_work",
+      "sub_industry": "fishing_crew_safety",
+      "geography": "indonesia",
+      "concept_hash": "hookah-compressor-diver-depth-time-tally-and-bends-symptom-escalation-card+barrang-lompo-kodingareng-spermonde-makassar-south-sulawesi-indonesia+teripang-and-lobster-compressor-divers-and-punggawa-boat-captains",
+      "apis_used": [
+        "Open-Meteo Marine API",
+        "Open-Meteo Forecast API",
+        "World Bank Open Data API",
+        "OBIS Occurrence API"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -2937,7 +2953,8 @@
     "li-trap-dark-moon-fish-run-and-falling-river-trap-setting-planner+khone-falls-don-khon-don-det-si-phan-don-champasak-laos+li-trap-fishing-families-and-village-fishery-co-management-committee-keepers",
     "kathin-unbooked-wat-matcher-and-rain-window-convoy-planner+nan-bo-kluea-pua-song-khwae-northern-thailand+pha-pa-merit-group-organisers-and-hill-wat-lay-secretaries",
     "robusta-flowering-irrigation-round-counter-and-well-drawdown-pacer+cu-mgar-buon-ma-thuot-dak-lak-central-highlands-vietnam+ede-and-kinh-smallholder-robusta-growers-with-private-boreholes",
-    "ringgit-cash-board-rate-setter-and-flood-day-shopper-drop-planner+sungai-kolok-golok-bridge-rantau-panjang-narathiwat-thailand+baht-pricing-market-stall-vendors-taking-ringgit-cash"
+    "ringgit-cash-board-rate-setter-and-flood-day-shopper-drop-planner+sungai-kolok-golok-bridge-rantau-panjang-narathiwat-thailand+baht-pricing-market-stall-vendors-taking-ringgit-cash",
+    "hookah-compressor-diver-depth-time-tally-and-bends-symptom-escalation-card+barrang-lompo-kodingareng-spermonde-makassar-south-sulawesi-indonesia+teripang-and-lobster-compressor-divers-and-punggawa-boat-captains"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -3121,20 +3138,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-11-10T08:05:00+07:00",
+  "last_updated": "2026-11-12T08:00:00+07:00",
   "rotation_state": {
-    "last_industry": "finance_economics",
-    "last_sub_industry": "currency_volatility",
-    "last_geography": "thailand",
+    "last_industry": "labor_work",
+    "last_sub_industry": "fishing_crew_safety",
+    "last_geography": "indonesia",
     "last_3_industries": [
-      "culture_religion",
       "agriculture_farming",
-      "finance_economics"
+      "finance_economics",
+      "labor_work"
     ],
     "last_3_geographies": [
-      "thailand",
       "vietnam",
-      "thailand"
+      "thailand",
+      "indonesia"
     ]
   }
 }
