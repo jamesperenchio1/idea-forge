@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 180,
+  "total_ideas": 181,
   "ideas": [
     {
       "id": "khone-li-trap-dark-moon-run-don-khon-2026-11-05",
@@ -2773,6 +2773,22 @@
         "World Bank Open Data API",
         "OBIS Occurrence API"
       ]
+    },
+    {
+      "id": "bantaydanum-ifugao-kalinga-2026-11-13",
+      "title": "BantayDanum — Micro-Hydro Intake Clean-Out Clock & Evening Load-Rota Planner for Barangay Power Association Operators in Ifugao and Kalinga, Cordillera",
+      "file": "2026-11-13_micro-hydro-intake-clean-out-evening-load-rota-ifugao.md",
+      "created_at": "2026-11-13T08:00:00+07:00",
+      "industry": "energy_utilities",
+      "sub_industry": "community_micro_hydro",
+      "geography": "philippines",
+      "concept_hash": "micro-hydro-intake-debris-clean-out-clock-and-evening-load-shedding-rota+kiangan-hungduan-asipulo-ifugao-balbalan-kalinga-cordillera-philippines+barangay-micro-hydro-power-association-operators-and-treasurers",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "Open-Meteo Flood API",
+        "World Bank Open Data API",
+        "Open Exchange Rates API"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -2954,7 +2970,8 @@
     "kathin-unbooked-wat-matcher-and-rain-window-convoy-planner+nan-bo-kluea-pua-song-khwae-northern-thailand+pha-pa-merit-group-organisers-and-hill-wat-lay-secretaries",
     "robusta-flowering-irrigation-round-counter-and-well-drawdown-pacer+cu-mgar-buon-ma-thuot-dak-lak-central-highlands-vietnam+ede-and-kinh-smallholder-robusta-growers-with-private-boreholes",
     "ringgit-cash-board-rate-setter-and-flood-day-shopper-drop-planner+sungai-kolok-golok-bridge-rantau-panjang-narathiwat-thailand+baht-pricing-market-stall-vendors-taking-ringgit-cash",
-    "hookah-compressor-diver-depth-time-tally-and-bends-symptom-escalation-card+barrang-lompo-kodingareng-spermonde-makassar-south-sulawesi-indonesia+teripang-and-lobster-compressor-divers-and-punggawa-boat-captains"
+    "hookah-compressor-diver-depth-time-tally-and-bends-symptom-escalation-card+barrang-lompo-kodingareng-spermonde-makassar-south-sulawesi-indonesia+teripang-and-lobster-compressor-divers-and-punggawa-boat-captains",
+    "micro-hydro-intake-debris-clean-out-clock-and-evening-load-shedding-rota+kiangan-hungduan-asipulo-ifugao-balbalan-kalinga-cordillera-philippines+barangay-micro-hydro-power-association-operators-and-treasurers"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -3123,7 +3140,8 @@
       "electricity_theft",
       "biomass_sources",
       "fuel_price_tracker",
-      "ev_charging_sea"
+      "ev_charging_sea",
+      "community_micro_hydro"
     ],
     "tourism_travel": [
       "adventure_risk_scoring",
@@ -3138,20 +3156,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-11-12T08:00:00+07:00",
+  "last_updated": "2026-11-13T08:00:00+07:00",
   "rotation_state": {
-    "last_industry": "labor_work",
-    "last_sub_industry": "fishing_crew_safety",
-    "last_geography": "indonesia",
+    "last_industry": "energy_utilities",
+    "last_sub_industry": "community_micro_hydro",
+    "last_geography": "philippines",
     "last_3_industries": [
-      "agriculture_farming",
       "finance_economics",
-      "labor_work"
+      "labor_work",
+      "energy_utilities"
     ],
     "last_3_geographies": [
-      "vietnam",
       "thailand",
-      "indonesia"
+      "indonesia",
+      "philippines"
     ]
   }
 }
