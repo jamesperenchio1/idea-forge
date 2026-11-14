@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 181,
+  "total_ideas": 182,
   "ideas": [
     {
       "id": "khone-li-trap-dark-moon-run-don-khon-2026-11-05",
@@ -2789,6 +2789,23 @@
         "World Bank Open Data API",
         "Open Exchange Rates API"
       ]
+    },
+    {
+      "id": "hai-padaek-savannakhet-2026-11-14",
+      "title": "HaiPadaek — Jar-Age Fluke-Safe Clock & Salt-Ratio Ledger for Village Padaek Makers in Champhone and Xaibouly, Savannakhet",
+      "file": "ideas/2026-11-14_padaek-jar-age-fluke-safe-clock-savannakhet.md",
+      "created_at": "2026-11-14T08:05:00+07:00",
+      "industry": "food_beverage",
+      "sub_industry": "fermented_foods",
+      "geography": "southeast_asia",
+      "concept_hash": "padaek-jar-age-salt-ratio-fluke-safe-sell-date-ledger+champhone-xaibouly-xe-champhone-wetlands-savannakhet-laos+village-padaek-jar-makers-and-district-liver-fluke-health-officers",
+      "apis_used": [
+        "Open-Meteo Forecast",
+        "Open-Meteo Historical Archive",
+        "World Bank Open Data",
+        "ExchangeRate-API",
+        "USDA FoodData Central"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -2971,7 +2988,8 @@
     "robusta-flowering-irrigation-round-counter-and-well-drawdown-pacer+cu-mgar-buon-ma-thuot-dak-lak-central-highlands-vietnam+ede-and-kinh-smallholder-robusta-growers-with-private-boreholes",
     "ringgit-cash-board-rate-setter-and-flood-day-shopper-drop-planner+sungai-kolok-golok-bridge-rantau-panjang-narathiwat-thailand+baht-pricing-market-stall-vendors-taking-ringgit-cash",
     "hookah-compressor-diver-depth-time-tally-and-bends-symptom-escalation-card+barrang-lompo-kodingareng-spermonde-makassar-south-sulawesi-indonesia+teripang-and-lobster-compressor-divers-and-punggawa-boat-captains",
-    "micro-hydro-intake-debris-clean-out-clock-and-evening-load-shedding-rota+kiangan-hungduan-asipulo-ifugao-balbalan-kalinga-cordillera-philippines+barangay-micro-hydro-power-association-operators-and-treasurers"
+    "micro-hydro-intake-debris-clean-out-clock-and-evening-load-shedding-rota+kiangan-hungduan-asipulo-ifugao-balbalan-kalinga-cordillera-philippines+barangay-micro-hydro-power-association-operators-and-treasurers",
+    "padaek-jar-age-salt-ratio-fluke-safe-sell-date-ledger+champhone-xaibouly-xe-champhone-wetlands-savannakhet-laos+village-padaek-jar-makers-and-district-liver-fluke-health-officers"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -3156,20 +3174,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-11-13T08:00:00+07:00",
+  "last_updated": "2026-11-14T08:05:00+07:00",
   "rotation_state": {
-    "last_industry": "energy_utilities",
-    "last_sub_industry": "community_micro_hydro",
-    "last_geography": "philippines",
+    "last_industry": "food_beverage",
+    "last_sub_industry": "fermented_foods",
+    "last_geography": "laos",
     "last_3_industries": [
-      "finance_economics",
       "labor_work",
-      "energy_utilities"
+      "energy_utilities",
+      "food_beverage"
     ],
     "last_3_geographies": [
-      "thailand",
       "indonesia",
-      "philippines"
+      "philippines",
+      "laos"
     ]
   }
 }
