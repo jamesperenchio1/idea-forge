@@ -4,7 +4,7 @@ title: HaiPadaek — Jar-Age Fluke-Safe Clock & Salt-Ratio Ledger for Village Pa
 created: 2026-11-14T08:05:00+07:00
 industry: food_beverage
 sub_industry: fermented_foods
-geography: southeast_asia
+geography: laos
 apis_used: Open-Meteo Forecast, Open-Meteo Historical Archive, World Bank Open Data, ExchangeRate-API (open.er-api.com), USDA FoodData Central
 monetization_model: grant-funded
 target_user: Lao Loum women aged 35-65 in the Xe Champhone wetland villages of Champhone and Xaibouly districts, Savannakhet Province, who salt 20-150 kg of small floodplain fish (pa soi, pa khao) into 10-40 clay or plastic jars each October-December when the paddies drain, then sell padaek by the ladle or 1.5-litre bottle at Savannakhet's Talat Yai, Champhone district market and to Thai traders from Mukdahan across the bridge. They earn roughly 15,000-40,000 LAK per bottle, keep batch dates in their head ("the jar I started after Boun Ok Phansa"), and sell the jars that "smell ready" first — often 3-6 weeks old in the hot season, when buyers want it cheap and fast.
@@ -179,5 +179,5 @@ Public, anonymised season pages per district: jars logged, % in the green salt b
 **Biggest execution risk:** Getting the health office to own the thresholds publicly. Without their name on the rules, the badge has no authority and the app becomes a liability.
 
 ---
-*Generated: 2026-11-14 | Industry: food_beverage | Sub-industry: fermented_foods | Geography: southeast_asia*
+*Generated: 2026-11-14 | Industry: food_beverage | Sub-industry: fermented_foods | Geography: laos*
 *APIs queried for real data: Open-Meteo Forecast, Open-Meteo Historical Archive, World Bank Open Data, ExchangeRate-API, USDA FoodData Central*

@@ -2793,11 +2793,11 @@
     {
       "id": "hai-padaek-savannakhet-2026-11-14",
       "title": "HaiPadaek — Jar-Age Fluke-Safe Clock & Salt-Ratio Ledger for Village Padaek Makers in Champhone and Xaibouly, Savannakhet",
-      "file": "ideas/2026-11-14_padaek-jar-age-fluke-safe-clock-savannakhet.md",
+      "file": "2026-11-14_padaek-jar-age-fluke-safe-clock-savannakhet.md",
       "created_at": "2026-11-14T08:05:00+07:00",
       "industry": "food_beverage",
       "sub_industry": "fermented_foods",
-      "geography": "southeast_asia",
+      "geography": "laos",
       "concept_hash": "padaek-jar-age-salt-ratio-fluke-safe-sell-date-ledger+champhone-xaibouly-xe-champhone-wetlands-savannakhet-laos+village-padaek-jar-makers-and-district-liver-fluke-health-officers",
       "apis_used": [
         "Open-Meteo Forecast",
