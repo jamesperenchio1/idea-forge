@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 182,
+  "total_ideas": 183,
   "ideas": [
     {
       "id": "khone-li-trap-dark-moon-run-don-khon-2026-11-05",
@@ -2806,6 +2806,23 @@
         "ExchangeRate-API",
         "USDA FoodData Central"
       ]
+    },
+    {
+      "id": "khon-haap-phu-kradueng-2026-11-15",
+      "title": "KhonHaap — Porter Load-Board, Weigh-Slip & Cold-Weekend Rush Planner for Phu Kradueng's Bag Porters at Si Than Trailhead, Loei",
+      "file": "2026-11-15_phu-kradueng-porter-load-board-cold-rush-planner.md",
+      "created_at": "2026-11-15T08:05:00+07:00",
+      "industry": "tourism_travel",
+      "sub_industry": "national_park_capacity",
+      "geography": "thailand",
+      "concept_hash": "summit-bag-porter-per-kilo-load-board-weigh-slip-and-cold-weekend-rush-planner+si-than-trailhead-wang-kwang-plateau-phu-kradueng-loei-thailand+registered-khon-haap-bag-porters-and-park-porter-desk-staff",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "Open-Meteo Historical Archive API",
+        "World Bank Open Data API",
+        "ExchangeRate-API",
+        "Wikipedia REST API"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -2989,7 +3006,8 @@
     "ringgit-cash-board-rate-setter-and-flood-day-shopper-drop-planner+sungai-kolok-golok-bridge-rantau-panjang-narathiwat-thailand+baht-pricing-market-stall-vendors-taking-ringgit-cash",
     "hookah-compressor-diver-depth-time-tally-and-bends-symptom-escalation-card+barrang-lompo-kodingareng-spermonde-makassar-south-sulawesi-indonesia+teripang-and-lobster-compressor-divers-and-punggawa-boat-captains",
     "micro-hydro-intake-debris-clean-out-clock-and-evening-load-shedding-rota+kiangan-hungduan-asipulo-ifugao-balbalan-kalinga-cordillera-philippines+barangay-micro-hydro-power-association-operators-and-treasurers",
-    "padaek-jar-age-salt-ratio-fluke-safe-sell-date-ledger+champhone-xaibouly-xe-champhone-wetlands-savannakhet-laos+village-padaek-jar-makers-and-district-liver-fluke-health-officers"
+    "padaek-jar-age-salt-ratio-fluke-safe-sell-date-ledger+champhone-xaibouly-xe-champhone-wetlands-savannakhet-laos+village-padaek-jar-makers-and-district-liver-fluke-health-officers",
+    "summit-bag-porter-per-kilo-load-board-weigh-slip-and-cold-weekend-rush-planner+si-than-trailhead-wang-kwang-plateau-phu-kradueng-loei-thailand+registered-khon-haap-bag-porters-and-park-porter-desk-staff"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -3174,20 +3192,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-11-14T08:05:00+07:00",
+  "last_updated": "2026-11-15T08:05:00+07:00",
   "rotation_state": {
-    "last_industry": "food_beverage",
-    "last_sub_industry": "fermented_foods",
-    "last_geography": "laos",
+    "last_industry": "tourism_travel",
+    "last_sub_industry": "national_park_capacity",
+    "last_geography": "thailand",
     "last_3_industries": [
-      "labor_work",
       "energy_utilities",
-      "food_beverage"
+      "food_beverage",
+      "tourism_travel"
     ],
     "last_3_geographies": [
-      "indonesia",
       "philippines",
-      "laos"
+      "laos",
+      "thailand"
     ]
   }
 }
