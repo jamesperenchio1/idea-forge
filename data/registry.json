@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 183,
+  "total_ideas": 184,
   "ideas": [
     {
       "id": "khone-li-trap-dark-moon-run-don-khon-2026-11-05",
@@ -2823,6 +2823,24 @@
         "ExchangeRate-API",
         "Wikipedia REST API"
       ]
+    },
+    {
+      "id": "tiang-laut-clan-jetties-2026-11-16",
+      "title": "TiangLaut — Spring-Low Pile Inspection Clock & Shared Plank-and-Pile Repair Ledger for Penang's Clan Jetty Households, Weld Quay, George Town",
+      "file": "2026-11-16_clan-jetty-pile-inspection-tide-window-ledger.md",
+      "created_at": "2026-11-16T08:00:00+07:00",
+      "industry": "real_estate_urban",
+      "sub_industry": "stilt_house_pile_maintenance",
+      "geography": "malaysia",
+      "concept_hash": "tidal-stilt-house-pile-rot-spring-low-inspection-clock-and-shared-plank-repair-ledger+weld-quay-clan-jetties-chew-lim-tan-lee-yeoh-george-town-penang-malaysia+jetty-homeowner-families-clan-association-walkway-committees-and-tukang-kayu-carpenters",
+      "apis_used": [
+        "Open-Meteo Marine API",
+        "Open-Meteo Forecast API",
+        "Open-Meteo Historical Archive API",
+        "ExchangeRate-API",
+        "World Bank Open Data API",
+        "Wikipedia REST API"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -3007,7 +3025,8 @@
     "hookah-compressor-diver-depth-time-tally-and-bends-symptom-escalation-card+barrang-lompo-kodingareng-spermonde-makassar-south-sulawesi-indonesia+teripang-and-lobster-compressor-divers-and-punggawa-boat-captains",
     "micro-hydro-intake-debris-clean-out-clock-and-evening-load-shedding-rota+kiangan-hungduan-asipulo-ifugao-balbalan-kalinga-cordillera-philippines+barangay-micro-hydro-power-association-operators-and-treasurers",
     "padaek-jar-age-salt-ratio-fluke-safe-sell-date-ledger+champhone-xaibouly-xe-champhone-wetlands-savannakhet-laos+village-padaek-jar-makers-and-district-liver-fluke-health-officers",
-    "summit-bag-porter-per-kilo-load-board-weigh-slip-and-cold-weekend-rush-planner+si-than-trailhead-wang-kwang-plateau-phu-kradueng-loei-thailand+registered-khon-haap-bag-porters-and-park-porter-desk-staff"
+    "summit-bag-porter-per-kilo-load-board-weigh-slip-and-cold-weekend-rush-planner+si-than-trailhead-wang-kwang-plateau-phu-kradueng-loei-thailand+registered-khon-haap-bag-porters-and-park-porter-desk-staff",
+    "tidal-stilt-house-pile-rot-spring-low-inspection-clock-and-shared-plank-repair-ledger+weld-quay-clan-jetties-chew-lim-tan-lee-yeoh-george-town-penang-malaysia+jetty-homeowner-families-clan-association-walkway-committees-and-tukang-kayu-carpenters"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -3020,7 +3039,8 @@
       "bangkok_sinking_zones",
       "illegal_construction",
       "condo_inspection",
-      "expat_neighborhood_guides"
+      "expat_neighborhood_guides",
+      "stilt_house_pile_maintenance"
     ],
     "agriculture_farming": [
       "rubber_tapping",
@@ -3192,20 +3212,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-11-15T08:05:00+07:00",
+  "last_updated": "2026-11-16T08:00:00+07:00",
   "rotation_state": {
-    "last_industry": "tourism_travel",
-    "last_sub_industry": "national_park_capacity",
-    "last_geography": "thailand",
+    "last_industry": "real_estate_urban",
+    "last_sub_industry": "stilt_house_pile_maintenance",
+    "last_geography": "malaysia",
     "last_3_industries": [
-      "energy_utilities",
       "food_beverage",
-      "tourism_travel"
+      "tourism_travel",
+      "real_estate_urban"
     ],
     "last_3_geographies": [
-      "philippines",
       "laos",
-      "thailand"
+      "thailand",
+      "malaysia"
     ]
   }
 }
