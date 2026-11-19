@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 184,
+  "total_ideas": 185,
   "ideas": [
     {
       "id": "khone-li-trap-dark-moon-run-don-khon-2026-11-05",
@@ -2841,6 +2841,23 @@
         "World Bank Open Data API",
         "Wikipedia REST API"
       ]
+    },
+    {
+      "id": "prachiev-kandal-bat-houses-2026-11-19",
+      "title": "Prachiev — Dusk-Emergence Roost Counter, Rain-Cover Guano Drying Clock & Fair-Weight Buyer Ledger for Cambodia's Palm-Leaf Bat-House Farmers, Kandal Province",
+      "file": "2026-11-19_kandal-bat-house-guano-harvest-roost-count-log.md",
+      "created_at": "2026-11-19T08:00:00+07:00",
+      "industry": "wildlife_biodiversity",
+      "sub_industry": "bat_guano_roost_farming",
+      "geography": "cambodia",
+      "concept_hash": "palm-leaf-bat-house-dusk-emergence-roost-count-and-rain-cover-guano-drying-ledger+kien-svay-lvea-aem-ponhea-leu-kandal-prey-veng-takeo-cambodia+smallholder-bat-house-guano-farming-families-and-village-guano-buyers",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "Open-Meteo Historical Archive API",
+        "GBIF Occurrence API",
+        "ExchangeRate-API",
+        "World Bank Open Data API"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -3026,7 +3043,8 @@
     "micro-hydro-intake-debris-clean-out-clock-and-evening-load-shedding-rota+kiangan-hungduan-asipulo-ifugao-balbalan-kalinga-cordillera-philippines+barangay-micro-hydro-power-association-operators-and-treasurers",
     "padaek-jar-age-salt-ratio-fluke-safe-sell-date-ledger+champhone-xaibouly-xe-champhone-wetlands-savannakhet-laos+village-padaek-jar-makers-and-district-liver-fluke-health-officers",
     "summit-bag-porter-per-kilo-load-board-weigh-slip-and-cold-weekend-rush-planner+si-than-trailhead-wang-kwang-plateau-phu-kradueng-loei-thailand+registered-khon-haap-bag-porters-and-park-porter-desk-staff",
-    "tidal-stilt-house-pile-rot-spring-low-inspection-clock-and-shared-plank-repair-ledger+weld-quay-clan-jetties-chew-lim-tan-lee-yeoh-george-town-penang-malaysia+jetty-homeowner-families-clan-association-walkway-committees-and-tukang-kayu-carpenters"
+    "tidal-stilt-house-pile-rot-spring-low-inspection-clock-and-shared-plank-repair-ledger+weld-quay-clan-jetties-chew-lim-tan-lee-yeoh-george-town-penang-malaysia+jetty-homeowner-families-clan-association-walkway-committees-and-tukang-kayu-carpenters",
+    "palm-leaf-bat-house-dusk-emergence-roost-count-and-rain-cover-guano-drying-ledger+kien-svay-lvea-aem-ponhea-leu-kandal-prey-veng-takeo-cambodia+smallholder-bat-house-guano-farming-families-and-village-guano-buyers"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -3160,7 +3178,8 @@
       "tiger_territory_maps",
       "invasive_species_reporting",
       "habitat_fragmentation",
-      "elephant_population_tracking"
+      "elephant_population_tracking",
+      "bat_guano_roost_farming"
     ],
     "culture_religion": [
       "monk_schedules",
@@ -3212,20 +3231,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-11-16T08:00:00+07:00",
+  "last_updated": "2026-11-19T08:00:00+07:00",
   "rotation_state": {
-    "last_industry": "real_estate_urban",
-    "last_sub_industry": "stilt_house_pile_maintenance",
-    "last_geography": "malaysia",
+    "last_industry": "wildlife_biodiversity",
+    "last_sub_industry": "bat_guano_roost_farming",
+    "last_geography": "cambodia",
     "last_3_industries": [
-      "food_beverage",
       "tourism_travel",
-      "real_estate_urban"
+      "real_estate_urban",
+      "wildlife_biodiversity"
     ],
     "last_3_geographies": [
-      "laos",
       "thailand",
-      "malaysia"
+      "malaysia",
+      "cambodia"
     ]
   }
 }
