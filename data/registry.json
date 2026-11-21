@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 185,
+  "total_ideas": 186,
   "ideas": [
     {
       "id": "khone-li-trap-dark-moon-run-don-khon-2026-11-05",
@@ -2858,6 +2858,23 @@
         "ExchangeRate-API",
         "World Bank Open Data API"
       ]
+    },
+    {
+      "id": "lusonglog-camanava-flood-wade-2026-11-21",
+      "title": "LusongLog — Flood-Wade Exposure Logger, Health-Center Doxy-PEP Referral Card & Fever-Day Countdown for Malabon–Navotas Pedicab Drivers, Scavengers and Fish-Port Porters",
+      "file": "2026-11-21_camanava-flood-wade-leptospirosis-exposure-doxy-referral-log.md",
+      "created_at": "2026-11-21T08:00:00+07:00",
+      "industry": "health_medical",
+      "sub_industry": "leptospirosis_flood_wading_exposure",
+      "geography": "philippines",
+      "concept_hash": "flood-wade-leptospirosis-exposure-tally-and-doxy-pep-health-center-referral-card+malabon-navotas-valenzuela-camanava-metro-manila-philippines+pedicab-drivers-kariton-scavengers-fish-port-porters-and-barangay-health-workers",
+      "apis_used": [
+        "Open-Meteo Marine API",
+        "Open-Meteo Forecast API",
+        "Open-Meteo Historical Archive API",
+        "World Bank Open Data API",
+        "ExchangeRate-API"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -3044,7 +3061,8 @@
     "padaek-jar-age-salt-ratio-fluke-safe-sell-date-ledger+champhone-xaibouly-xe-champhone-wetlands-savannakhet-laos+village-padaek-jar-makers-and-district-liver-fluke-health-officers",
     "summit-bag-porter-per-kilo-load-board-weigh-slip-and-cold-weekend-rush-planner+si-than-trailhead-wang-kwang-plateau-phu-kradueng-loei-thailand+registered-khon-haap-bag-porters-and-park-porter-desk-staff",
     "tidal-stilt-house-pile-rot-spring-low-inspection-clock-and-shared-plank-repair-ledger+weld-quay-clan-jetties-chew-lim-tan-lee-yeoh-george-town-penang-malaysia+jetty-homeowner-families-clan-association-walkway-committees-and-tukang-kayu-carpenters",
-    "palm-leaf-bat-house-dusk-emergence-roost-count-and-rain-cover-guano-drying-ledger+kien-svay-lvea-aem-ponhea-leu-kandal-prey-veng-takeo-cambodia+smallholder-bat-house-guano-farming-families-and-village-guano-buyers"
+    "palm-leaf-bat-house-dusk-emergence-roost-count-and-rain-cover-guano-drying-ledger+kien-svay-lvea-aem-ponhea-leu-kandal-prey-veng-takeo-cambodia+smallholder-bat-house-guano-farming-families-and-village-guano-buyers",
+    "flood-wade-leptospirosis-exposure-tally-and-doxy-pep-health-center-referral-card+malabon-navotas-valenzuela-camanava-metro-manila-philippines+pedicab-drivers-kariton-scavengers-fish-port-porters-and-barangay-health-workers"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -3106,7 +3124,8 @@
       "tropical_diseases",
       "mental_health_sea",
       "medical_tourism",
-      "pharmacy_inventory"
+      "pharmacy_inventory",
+      "leptospirosis_flood_wading_exposure"
     ],
     "ocean_maritime": [
       "dive_site_conditions",
@@ -3231,20 +3250,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-11-19T08:00:00+07:00",
+  "last_updated": "2026-11-21T08:00:00+07:00",
   "rotation_state": {
-    "last_industry": "wildlife_biodiversity",
-    "last_sub_industry": "bat_guano_roost_farming",
-    "last_geography": "cambodia",
+    "last_industry": "health_medical",
+    "last_sub_industry": "leptospirosis_flood_wading_exposure",
+    "last_geography": "philippines",
     "last_3_industries": [
-      "tourism_travel",
       "real_estate_urban",
-      "wildlife_biodiversity"
+      "wildlife_biodiversity",
+      "health_medical"
     ],
     "last_3_geographies": [
-      "thailand",
       "malaysia",
-      "cambodia"
+      "cambodia",
+      "philippines"
     ]
   }
 }
