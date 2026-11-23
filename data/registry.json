@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 186,
+  "total_ideas": 187,
   "ideas": [
     {
       "id": "khone-li-trap-dark-moon-run-don-khon-2026-11-05",
@@ -2875,6 +2875,23 @@
         "World Bank Open Data API",
         "ExchangeRate-API"
       ]
+    },
+    {
+      "id": "turunlaut-pattani-kolae-beach-launch-2026-11-23",
+      "title": "TurunLaut — Kolae Beach-Launch Surf Go/No-Go Board, Monsoon Haul-Up Rota & Lost-Sea-Day Ledger for Pattani's Painted-Boat Fishermen",
+      "file": "2026-11-23_kolae-boat-beach-launch-surf-go-no-go-monsoon-board.md",
+      "created_at": "2026-11-23T08:00:00+07:00",
+      "industry": "ocean_maritime",
+      "sub_industry": "beach_launch_surf_window_small_boats",
+      "geography": "thailand",
+      "concept_hash": "kolae-beach-launch-surf-go-no-go-and-monsoon-haul-up-rota+sai-buri-panare-yaring-pattani-deep-south-thailand+pattani-malay-small-boat-fishermen-and-village-boat-group-heads",
+      "apis_used": [
+        "Open-Meteo Marine API",
+        "Open-Meteo Forecast API",
+        "Open-Meteo Historical Archive API",
+        "World Bank Open Data API",
+        "ExchangeRate-API"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -3062,7 +3079,8 @@
     "summit-bag-porter-per-kilo-load-board-weigh-slip-and-cold-weekend-rush-planner+si-than-trailhead-wang-kwang-plateau-phu-kradueng-loei-thailand+registered-khon-haap-bag-porters-and-park-porter-desk-staff",
     "tidal-stilt-house-pile-rot-spring-low-inspection-clock-and-shared-plank-repair-ledger+weld-quay-clan-jetties-chew-lim-tan-lee-yeoh-george-town-penang-malaysia+jetty-homeowner-families-clan-association-walkway-committees-and-tukang-kayu-carpenters",
     "palm-leaf-bat-house-dusk-emergence-roost-count-and-rain-cover-guano-drying-ledger+kien-svay-lvea-aem-ponhea-leu-kandal-prey-veng-takeo-cambodia+smallholder-bat-house-guano-farming-families-and-village-guano-buyers",
-    "flood-wade-leptospirosis-exposure-tally-and-doxy-pep-health-center-referral-card+malabon-navotas-valenzuela-camanava-metro-manila-philippines+pedicab-drivers-kariton-scavengers-fish-port-porters-and-barangay-health-workers"
+    "flood-wade-leptospirosis-exposure-tally-and-doxy-pep-health-center-referral-card+malabon-navotas-valenzuela-camanava-metro-manila-philippines+pedicab-drivers-kariton-scavengers-fish-port-porters-and-barangay-health-workers",
+    "kolae-beach-launch-surf-go-no-go-and-monsoon-haul-up-rota+sai-buri-panare-yaring-pattani-deep-south-thailand+pattani-malay-small-boat-fishermen-and-village-boat-group-heads"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -3137,7 +3155,8 @@
       "illegal_fishing_detection",
       "mangrove_health",
       "ocean_plastic",
-      "maritime_routing"
+      "maritime_routing",
+      "beach_launch_surf_window_small_boats"
     ],
     "labor_work": [
       "labor_dispute_tracking",
@@ -3250,20 +3269,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-11-21T08:00:00+07:00",
+  "last_updated": "2026-11-23T08:00:00+07:00",
   "rotation_state": {
-    "last_industry": "health_medical",
-    "last_sub_industry": "leptospirosis_flood_wading_exposure",
-    "last_geography": "philippines",
+    "last_industry": "ocean_maritime",
+    "last_sub_industry": "beach_launch_surf_window_small_boats",
+    "last_geography": "thailand",
     "last_3_industries": [
-      "real_estate_urban",
       "wildlife_biodiversity",
-      "health_medical"
+      "health_medical",
+      "ocean_maritime"
     ],
     "last_3_geographies": [
-      "malaysia",
       "cambodia",
-      "philippines"
+      "philippines",
+      "thailand"
     ]
   }
 }
