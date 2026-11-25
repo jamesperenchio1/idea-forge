@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 187,
+  "total_ideas": 188,
   "ideas": [
     {
       "id": "khone-li-trap-dark-moon-run-don-khon-2026-11-05",
@@ -2892,6 +2892,24 @@
         "World Bank Open Data API",
         "ExchangeRate-API"
       ]
+    },
+    {
+      "id": "semeru-summit-rain-lahar-clock-sand-miner-headcount-2026-11-25",
+      "title": "SirineKali — Summit-Rain Lahar Clock, Riverbed Head-Count Board & Lost-Haul-Day Ledger for Semeru's Besuk Kobokan Sand Miners, Lumajang",
+      "file": "ideas/2026-11-25_semeru-summit-rain-lahar-clock-sand-miner-headcount.md",
+      "created_at": "2026-11-25T08:01:25+07:00",
+      "industry": "disaster_emergency",
+      "sub_industry": "volcanic_cold_lahar_riverbed_sand_mining",
+      "geography": "indonesia",
+      "concept_hash": "summit-rain-cold-lahar-arrival-clock-and-riverbed-crew-headcount-board+besuk-kobokan-candipuro-pronojiwo-semeru-lumajang-east-java-indonesia+penambang-pasir-sand-miner-crews-mandor-heads-and-desa-tangguh-bencana-volunteers",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "Open-Meteo Flood API (GloFAS)",
+        "Open-Meteo Elevation API",
+        "USGS Earthquake Hazards API",
+        "Open Exchange Rates",
+        "World Bank Indicators API"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -3080,7 +3098,8 @@
     "tidal-stilt-house-pile-rot-spring-low-inspection-clock-and-shared-plank-repair-ledger+weld-quay-clan-jetties-chew-lim-tan-lee-yeoh-george-town-penang-malaysia+jetty-homeowner-families-clan-association-walkway-committees-and-tukang-kayu-carpenters",
     "palm-leaf-bat-house-dusk-emergence-roost-count-and-rain-cover-guano-drying-ledger+kien-svay-lvea-aem-ponhea-leu-kandal-prey-veng-takeo-cambodia+smallholder-bat-house-guano-farming-families-and-village-guano-buyers",
     "flood-wade-leptospirosis-exposure-tally-and-doxy-pep-health-center-referral-card+malabon-navotas-valenzuela-camanava-metro-manila-philippines+pedicab-drivers-kariton-scavengers-fish-port-porters-and-barangay-health-workers",
-    "kolae-beach-launch-surf-go-no-go-and-monsoon-haul-up-rota+sai-buri-panare-yaring-pattani-deep-south-thailand+pattani-malay-small-boat-fishermen-and-village-boat-group-heads"
+    "kolae-beach-launch-surf-go-no-go-and-monsoon-haul-up-rota+sai-buri-panare-yaring-pattani-deep-south-thailand+pattani-malay-small-boat-fishermen-and-village-boat-group-heads",
+    "summit-rain-cold-lahar-arrival-clock-and-riverbed-crew-headcount-board+besuk-kobokan-candipuro-pronojiwo-semeru-lumajang-east-java-indonesia+penambang-pasir-sand-miner-crews-mandor-heads-and-desa-tangguh-bencana-volunteers"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -3118,7 +3137,8 @@
       "chemical_spill_tracking",
       "flood_prediction_local",
       "evacuation_route_tools",
-      "hospital_capacity_disaster"
+      "hospital_capacity_disaster",
+      "volcanic_cold_lahar_riverbed_sand_mining"
     ],
     "finance_economics": [
       "remittance_rates",
@@ -3269,20 +3289,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-11-23T08:00:00+07:00",
+  "last_updated": "2026-11-25T08:01:25+07:00",
   "rotation_state": {
-    "last_industry": "ocean_maritime",
-    "last_sub_industry": "beach_launch_surf_window_small_boats",
-    "last_geography": "thailand",
+    "last_industry": "disaster_emergency",
+    "last_sub_industry": "volcanic_cold_lahar_riverbed_sand_mining",
+    "last_geography": "indonesia",
     "last_3_industries": [
-      "wildlife_biodiversity",
       "health_medical",
-      "ocean_maritime"
+      "ocean_maritime",
+      "disaster_emergency"
     ],
     "last_3_geographies": [
-      "cambodia",
       "philippines",
-      "thailand"
+      "thailand",
+      "indonesia"
     ]
   }
 }
