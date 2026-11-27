@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 188,
+  "total_ideas": 189,
   "ideas": [
     {
       "id": "khone-li-trap-dark-moon-run-don-khon-2026-11-05",
@@ -2910,6 +2910,22 @@
         "Open Exchange Rates",
         "World Bank Indicators API"
       ]
+    },
+    {
+      "id": "bun-bang-fai-rocket-launch-wind-go-no-go-fallout-board-2026-11-27",
+      "title": "FaiLek — Bun Bang Fai Rocket Launch Wind Go/No-Go, Fallout-Zone Crowd-Line Board & Misfire Ledger for Isan Village Rocket Makers, Yasothon",
+      "file": "2026-11-27_bun-bang-fai-rocket-launch-wind-go-no-go-fallout-board.md",
+      "created_at": "2026-11-27T08:02:00+07:00",
+      "industry": "culture_religion",
+      "sub_industry": "bun_bang_fai_rocket_launch_safety",
+      "geography": "thailand",
+      "concept_hash": "bun-bang-fai-rocket-launch-wind-gust-go-no-go-and-fallout-zone-crowd-line-board+yasothon-phanom-phrai-roi-et-isan-thailand+village-rocket-makers-launch-captains-and-festival-safety-marshals",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "Open-Meteo Historical Archive API",
+        "Open Exchange Rates",
+        "World Bank Indicators API"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -3099,7 +3115,8 @@
     "palm-leaf-bat-house-dusk-emergence-roost-count-and-rain-cover-guano-drying-ledger+kien-svay-lvea-aem-ponhea-leu-kandal-prey-veng-takeo-cambodia+smallholder-bat-house-guano-farming-families-and-village-guano-buyers",
     "flood-wade-leptospirosis-exposure-tally-and-doxy-pep-health-center-referral-card+malabon-navotas-valenzuela-camanava-metro-manila-philippines+pedicab-drivers-kariton-scavengers-fish-port-porters-and-barangay-health-workers",
     "kolae-beach-launch-surf-go-no-go-and-monsoon-haul-up-rota+sai-buri-panare-yaring-pattani-deep-south-thailand+pattani-malay-small-boat-fishermen-and-village-boat-group-heads",
-    "summit-rain-cold-lahar-arrival-clock-and-riverbed-crew-headcount-board+besuk-kobokan-candipuro-pronojiwo-semeru-lumajang-east-java-indonesia+penambang-pasir-sand-miner-crews-mandor-heads-and-desa-tangguh-bencana-volunteers"
+    "summit-rain-cold-lahar-arrival-clock-and-riverbed-crew-headcount-board+besuk-kobokan-candipuro-pronojiwo-semeru-lumajang-east-java-indonesia+penambang-pasir-sand-miner-crews-mandor-heads-and-desa-tangguh-bencana-volunteers",
+    "bun-bang-fai-rocket-launch-wind-gust-go-no-go-and-fallout-zone-crowd-line-board+yasothon-phanom-phrai-roi-et-isan-thailand+village-rocket-makers-launch-captains-and-festival-safety-marshals"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -3249,7 +3266,8 @@
       "buddhist_calendar",
       "cultural_taboo_guides",
       "religious_site_accessibility",
-      "astrology_tools"
+      "astrology_tools",
+      "bun_bang_fai_rocket_launch_safety"
     ],
     "defense_security": [
       "landmine_mapping",
@@ -3289,20 +3307,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-11-25T08:01:25+07:00",
+  "last_updated": "2026-11-27T08:02:00+07:00",
   "rotation_state": {
-    "last_industry": "disaster_emergency",
-    "last_sub_industry": "volcanic_cold_lahar_riverbed_sand_mining",
-    "last_geography": "indonesia",
+    "last_industry": "culture_religion",
+    "last_sub_industry": "bun_bang_fai_rocket_launch_safety",
+    "last_geography": "thailand",
     "last_3_industries": [
-      "health_medical",
       "ocean_maritime",
-      "disaster_emergency"
+      "disaster_emergency",
+      "culture_religion"
     ],
     "last_3_geographies": [
-      "philippines",
       "thailand",
-      "indonesia"
+      "indonesia",
+      "thailand"
     ]
   }
 }
