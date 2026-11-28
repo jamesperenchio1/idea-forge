@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Master index of all generated app ideas. Prevents duplicates across runs.",
-  "total_ideas": 189,
+  "total_ideas": 190,
   "ideas": [
     {
       "id": "khone-li-trap-dark-moon-run-don-khon-2026-11-05",
@@ -2926,6 +2926,21 @@
         "Open Exchange Rates",
         "World Bank Indicators API"
       ]
+    },
+    {
+      "id": "spray-drone-border-belt-wind-drift-no-fly-check-2026-11-28",
+      "title": "PhunDrone — Border-Belt Spray-Drone Dawn Wind-Drift Window, No-Fly Pre-Check & Job Ledger for Rice-Field Drone Pilots, An Giang",
+      "file": "ideas/2026-11-28_spray-drone-border-belt-wind-drift-no-fly-check-ledger.md",
+      "created_at": "2026-11-28T08:05:00+07:00",
+      "industry": "defense_security",
+      "sub_industry": "agri_spray_drone_border_airspace_precheck",
+      "geography": "southeast_asia",
+      "concept_hash": "agri-spray-drone-dawn-wind-drift-and-border-airspace-precheck-ledger+tri-ton-tinh-bien-thoai-son-an-giang-mekong-delta-vietnam+hired-rice-spray-drone-pilots-and-their-farmer-clients",
+      "apis_used": [
+        "Open-Meteo Forecast API",
+        "Open Exchange Rates",
+        "World Bank Indicators API"
+      ]
     }
   ],
   "concept_hashes_used": [
@@ -3116,7 +3131,8 @@
     "flood-wade-leptospirosis-exposure-tally-and-doxy-pep-health-center-referral-card+malabon-navotas-valenzuela-camanava-metro-manila-philippines+pedicab-drivers-kariton-scavengers-fish-port-porters-and-barangay-health-workers",
     "kolae-beach-launch-surf-go-no-go-and-monsoon-haul-up-rota+sai-buri-panare-yaring-pattani-deep-south-thailand+pattani-malay-small-boat-fishermen-and-village-boat-group-heads",
     "summit-rain-cold-lahar-arrival-clock-and-riverbed-crew-headcount-board+besuk-kobokan-candipuro-pronojiwo-semeru-lumajang-east-java-indonesia+penambang-pasir-sand-miner-crews-mandor-heads-and-desa-tangguh-bencana-volunteers",
-    "bun-bang-fai-rocket-launch-wind-gust-go-no-go-and-fallout-zone-crowd-line-board+yasothon-phanom-phrai-roi-et-isan-thailand+village-rocket-makers-launch-captains-and-festival-safety-marshals"
+    "bun-bang-fai-rocket-launch-wind-gust-go-no-go-and-fallout-zone-crowd-line-board+yasothon-phanom-phrai-roi-et-isan-thailand+village-rocket-makers-launch-captains-and-festival-safety-marshals",
+    "agri-spray-drone-dawn-wind-drift-and-border-airspace-precheck-ledger+tri-ton-tinh-bien-thoai-son-an-giang-mekong-delta-vietnam+hired-rice-spray-drone-pilots-and-their-farmer-clients"
   ],
   "industries_covered": {
     "real_estate_urban": [
@@ -3279,7 +3295,8 @@
       "border_security",
       "cybersecurity_threats",
       "satellite_surveillance",
-      "arms_trade_tracking"
+      "arms_trade_tracking",
+      "agri_spray_drone_border_airspace_precheck"
     ],
     "energy_utilities": [
       "dam_water_level",
@@ -3307,20 +3324,20 @@
       "expat_relocation"
     ]
   },
-  "last_updated": "2026-11-27T08:02:00+07:00",
+  "last_updated": "2026-11-28T08:05:00+07:00",
   "rotation_state": {
-    "last_industry": "culture_religion",
-    "last_sub_industry": "bun_bang_fai_rocket_launch_safety",
-    "last_geography": "thailand",
+    "last_industry": "defense_security",
+    "last_sub_industry": "agri_spray_drone_border_airspace_precheck",
+    "last_geography": "southeast_asia",
     "last_3_industries": [
-      "ocean_maritime",
       "disaster_emergency",
-      "culture_religion"
+      "culture_religion",
+      "defense_security"
     ],
     "last_3_geographies": [
-      "thailand",
       "indonesia",
-      "thailand"
+      "thailand",
+      "southeast_asia"
     ]
   }
 }
